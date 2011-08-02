@@ -1,0 +1,28 @@
+11
+name prp.c1 type C3  charge -.459
+name prp.c2 type C3  charge -.306
+name prp.c3 type C3  charge -.459
+name prp.h11 type H 
+name prp.h12 type H  
+name prp.h13 type H  
+name prp.h21 type H  
+name prp.h22 type H  
+name prp.h31 type H  
+name prp.h32 type H  
+name prp.h33 type H  
+10
+PRP.c1 prp.c2 1
+prp.c2 Prp.c3 1
+prp.c1 Prp.h11 1
+prp.c1 Prp.h12 1
+prp.c1 Prp.h13 1
+prp.c2 Prp.h21 1
+prp.c2 prp.h22 1
+prp.c3 prp.h31 1
+prp.c3 prp.h32 1
+prp.c3 prp.h33 1
+0
+0
+0
+0
+0

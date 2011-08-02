@@ -1,0 +1,38 @@
+16
+name gll.n type np charge -0.463
+name gll.hn type hd charge 0.252
+name gll.hn1 type hd charge 0.252
+name gll.hn2 type hd charge 0.252
+name gll.ca type c3 charge 0.035
+name gll.ha type h charge 0.048
+name gll.c type c2 charge 0.616
+name gll.o type o2 charge -0.504
+name gll.cb type c3 charge -0.184
+name gll.hb1 type h charge 0.092
+name gll.hb2 type h charge 0.092
+name gll.cg type c3 charge -0.398
+name gll.hg1 type h charge 0.071
+name gll.hg2 type h charge 0.071
+name gll.cd type c2 charge 0.714
+name gll.oe1 type o2 charge -0.721
+15
+gll.n gll.hn 1
+gll.n gll.hn1 1
+gll.n gll.hn2 1
+gll.n gll.ca 1
+gll.ca gll.c 1
+gll.ca gll.cb 1
+gll.ca gll.ha 1
+gll.c gll.o 1.75
+gll.cb gll.cg 1
+gll.cb gll.hb1 1
+gll.cb gll.hb2 1
+gll.cg gll.cd 1
+gll.cg gll.hg1 1
+gll.cg gll.hg2 1
+gll.cd gll.oe1 1.75
+0
+2
+gll.n gll.cb gll.c gll.ca  4 .494427
+gll.n gll.cb gll.c gll.ha  4  1.606971
+0

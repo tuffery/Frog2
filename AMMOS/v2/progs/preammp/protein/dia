@@ -1,0 +1,155 @@
+72
+name dia.o1 type o2
+name dia.o2 type o2
+name dia.o3 type o3
+name dia.o4 type o3
+name dia.n1 type n3
+name dia.n2 type np
+name dia.n3 type np
+name dia.n4 type n3
+name dia.n5 type n3
+name dia.c1 type ca
+name dia.c2 type ca
+name dia.c3 type ca
+name dia.c4 type ca
+name dia.c5 type ca
+name dia.c6 type ca
+name dia.c7 type c2
+name dia.c8 type ca
+name dia.c9 type ca
+name dia.c10 type ca
+name dia.c11 type ca
+name dia.c12 type ca
+name dia.c13 type ca
+name dia.c14 type c2
+name dia.c15 type c3
+name dia.c16 type c3
+name dia.c17 type c3
+name dia.c18 type c3
+name dia.c19 type c3
+name dia.c20 type c3
+name dia.c21 type c3
+name dia.c22 type c3
+name dia.c23 type c3
+name dia.c24 type c3
+name dia.c25 type c3
+name dia.c26 type c3
+name dia.hn1 type h
+name dia.hc3 type h
+name dia.hc4 type h
+name dia.hc5 type h
+name dia.hc6 type h
+name dia.hc10 type h
+name dia.hc11 type h
+name dia.hc12 type h
+name dia.hc13 type h
+name dia.hn2 type hd
+name dia.hn3 type hd
+name dia.h15a type h
+name dia.h15b type h
+name dia.h16a type h
+name dia.h16b type h
+name dia.h17a type h
+name dia.h17b type h
+name dia.h18a type h
+name dia.h18b type h
+name dia.h19a type h
+name dia.h19b type h
+name dia.h20a type h
+name dia.h20b type h
+name dia.h21a type h
+name dia.h21b type h
+name dia.h22a type h
+name dia.h22b type h
+name dia.h23a type h
+name dia.h23b type h
+name dia.h24a type h
+name dia.h24b type h
+name dia.h25a type h
+name dia.h25b type h
+name dia.h26a type h
+name dia.h26b type h
+name dia.hn4 type hd
+name dia.hn5 type hd
+75
+dia.o1 dia.c7  1.75
+dia.n2 dia.c7 1.25
+dia.c7 dia.c1 1
+dia.c1 dia.c2 1.5
+dia.c2 dia.c3 1.5
+dia.c3 dia.c4 1.5
+dia.c4 dia.c5 1.5
+dia.c5 dia.c6 1.5
+dia.c6 dia.c1 1.5
+dia.c2 dia.n1 1
+dia.c3 dia.hc3 1
+dia.c4 dia.hc4 1
+dia.c5 dia.hc5 1
+dia.c6 dia.hc6 1
+dia.n1 dia.c9 1
+dia.c9 dia.c8 1.5
+dia.c9 dia.c10 1.5
+dia.c10 dia.c11 1.5
+dia.c11 dia.c12 1.5
+dia.c12 dia.c13 1.5
+dia.c13 dia.c8 1.5
+dia.c8 dia.c14 1
+dia.c14 dia.n3 1.25
+dia.c14 dia.o2 1.75
+dia.c10 dia.hc10 1
+dia.c11 dia.hc11 1
+dia.c12 dia.hc12 1
+dia.c13 dia.hc13 1
+dia.n1  dia.hn1 1
+dia.n2 dia.hn2 1
+dia.n3 dia.hn3 1
+dia.n2 dia.c15 1
+dia.c15 dia.h15a 1
+dia.c15 dia.h15b 1
+dia.c15 dia.c16 1
+dia.c16 dia.h16a 1
+dia.c16 dia.h16b 1
+dia.c16 dia.n4 1
+dia.n4 dia.c17 1
+dia.n4 dia.c20 1
+dia.n4 dia.hn4 1
+dia.c17 dia.h17a 1
+dia.c17 dia.h17b a
+dia.c17 dia.c18 1
+dia.c18 dia.h18a 1
+dia.c18 dia.h18b 1
+dia.c18 dia.o3 1
+dia.o3 dia.c19 1
+dia.c19 dia.h19a 1
+dia.c19 dia.h19b 1
+dia.c19 dia.c20 1
+dia.c20 dia.h20a 1
+dia.c20 dia.h20b 1
+dia.n3 dia.c21 1
+dia.c21 dia.h21a 1
+dia.c21 dia.h21b 1
+dia.c21 dia.c22 1
+dia.c22 dia.h22a 1
+dia.c22 dia.h22b 1
+dia.c22 dia.n5 1
+dia.n5 dia.c23 1
+dia.n5 dia.c26 1
+dia.n5 dia.hn5 1
+dia.c23 dia.h23a 1
+dia.c23 dia.h23b 1
+dia.c23 dia.c24 1
+dia.c24 dia.h24a 1
+dia.c24 dia.h24b 1
+dia.c24 dia.o4 1
+dia.o4 dia.c25 1
+dia.c25 dia.h25a 1
+dia.c25 dia.h25b 1
+dia.c25 dia.c26 1
+dia.c26 dia.h26a 1
+dia.c26 dia.h26b 1
+0
+0
+0
+
+
+2,2' diimino benzoic acid

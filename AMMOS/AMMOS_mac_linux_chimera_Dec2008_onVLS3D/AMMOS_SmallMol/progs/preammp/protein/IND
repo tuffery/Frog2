@@ -1,0 +1,212 @@
+94
+name ind.o1 type o2
+name ind.o2 type o3
+name ind.ho2 type hd
+name ind.o3 type o2
+name ind.o4 type o3
+name ind.ho4 type hd
+name ind.n1 type n3
+name ind.n2 type np
+name ind.hn2 type hd
+name ind.n3 type n3
+name ind.hn3 type hd
+name ind.n4 type np
+name ind.hn4 type hd
+name ind.n5 type nr
+name ind.hn5 type hd
+name ind.c1 type c2
+name ind.hc1a type h
+name ind.hc1b type h
+name ind.c2 type c2
+name ind.hc2 type h
+name ind.c3 type c2
+name ind.c4 type c3
+name ind.c5 type c3
+name ind.hc5a type h
+name ind.hc5b type h
+name ind.hc5c type h
+name ind.c6 type c3
+name ind.hc6a type h
+name ind.hc6b type h
+name ind.hc6c type h
+name ind.c7 type c3
+name ind.hc7a type h
+name ind.hc7b type h
+name ind.hc7c type h
+name ind.c8 type c3
+name ind.hc8a type h
+name ind.hc8b type h
+name ind.c9 type c3
+name ind.hc9a type h
+name ind.hc9b type h
+name ind.c10 type c3
+name ind.h10a type h
+name ind.h10b type h
+name ind.c11 type c3
+name ind.h11 type h
+name ind.c12 type c3
+name ind.h12a type h
+name ind.h12b type h
+name ind.c13 type c3
+name ind.h13 type h
+name ind.c14 type c3
+name ind.h14a type h
+name ind.h14b type h
+name ind.c15 type ca
+name ind.c16 type ca
+name ind.h16 type h
+name ind.c17 type ca
+name ind.h17 type h
+name ind.c18 type ca
+name ind.h18 type h
+name ind.c19 type ca
+name ind.h19 type h
+name ind.c20 type ca
+name ind.h20 type h
+name ind.c21 type c2
+name ind.c22 type c3
+name ind.h22 type h
+name ind.c23 type c3
+name ind.h23 type h
+name ind.c24 type c3
+name ind.h24a type h
+name ind.h24b type h
+name ind.c25 type ca
+name ind.c26 type ca
+name ind.h26 type h
+name ind.c27 type ca
+name ind.h27 type h
+name ind.c28 type ca
+name ind.h28 type h
+name ind.c29 type ca
+name ind.h29 type h
+name ind.c30 type ca
+name ind.c31 type c3
+name ind.h31b type h
+name ind.h31a type h
+name ind.c32 type ca
+name ind.c33 type ca
+name ind.h33 type h
+name ind.c34 type ca
+name ind.h34 type h
+name ind.c35 type ca
+name ind.h35 type h
+name ind.c36 type ca
+name ind.h36 type h
+98
+ind.o1 ind.c3  1.75
+ind.c3 ind.n2 1.25
+ind.n2 ind.hn2 1
+ind.n2 ind.c4 1
+ind.c4 ind.c5 1
+ind.c4 ind.c6 1
+ind.c4 ind.c7 1
+ind.c5 ind.hc5a 1
+ind.c5 ind.hc5b 1
+ind.c5 ind.hc5c 1
+ind.c6 ind.hc6a 1
+ind.c6 ind.hc6b 1
+ind.c6 ind.hc6c 1
+ind.c7 ind.hc7a 1
+ind.c7 ind.hc7b 1
+ind.c7 ind.hc7c 1
+ind.c3 ind.c2 1
+ind.c2 ind.hc2 1
+ind.c2 ind.c1 1
+ind.c2 ind.n3 1
+ind.n3 ind.hn3 1
+ind.n3 ind.c10 1
+ind.c1 ind.hc1a 1
+ind.c1 ind.hc1b 1
+ind.c1 ind.n1 1
+ind.n1 ind.c31 1
+ind.n1 ind.c9 1
+ind.c9 ind.hc9a 1
+ind.c9 ind.hc9b 1
+ind.c9 ind.c8 1
+ind.c8 ind.hc8a 1
+ind.c8 ind.hc8b 1
+ind.c8 ind.n3 1
+ind.c31 ind.c32 1
+ind.c31 ind.h31a 1
+ind.c31 ind.h31b 1
+ind.c32 ind.c33 1.5
+ind.c33 ind.n5 1.5
+ind.n5 ind.hn5 1
+ind.c33 ind.h33 1
+ind.n5 ind.c34 1.5
+ind.c34 ind.c35 1.5
+ind.c34 ind.h34 1
+ind.c35 ind.c36 1.5
+ind.c35 ind.h35 1
+ind.c36 ind.c32 1.5
+ind.c36 ind.h36 1
+ind.c10 ind.h10a 1
+ind.c10 ind.h10b 1
+ind.c10 ind.c11 1
+ind.c11 ind.o2 1
+ind.o2 ind.ho2 1
+ind.c11 ind.c12 1
+ind.c11 ind.h11 1
+ind.c12 ind.c13 1
+ind.c12 ind.h12a 1
+ind.c12 ind.h12b 1
+ind.c13 ind.h13 1
+ind.c13 ind.c14 1
+ind.c13 ind.c21 1
+ind.c14 ind.h14a 1
+ind.c14 ind.h14b 1
+ind.c14 ind.c15 1
+ind.c15 ind.c16 1.5
+ind.c16 ind.c17 1.5
+ind.c17 ind.c18 1.5
+ind.c18 ind.c19 1.5
+ind.c19 ind.c20 1.5
+ind.c20 ind.c15 1.5
+ind.c16 ind.h16 1
+ind.c17 ind.h17 1
+ind.c18 ind.h18 1
+ind.c19 ind.h19 1
+ind.c20 ind.h20 1
+ind.c21 ind.o3 1.75
+ind.c21 ind.n4 1.25
+ind.n4 ind.hn4 1
+ind.n4 ind.c22 1
+ind.c22 ind.h22 1
+ind.c22 ind.c23 1
+ind.c23 ind.o4 1
+ind.o4 ind.ho4 1
+ind.c23 ind.h23 1
+ind.c23 ind.c24 1
+ind.c24 ind.h24a 1
+ind.c24 ind.h24b 1
+ind.c24 ind.c25 1
+ind.c25 ind.c26 1.5
+ind.c26 ind.c27 1.5
+ind.c27 ind.c28 1.5
+ind.c28 ind.c29 1.5
+ind.c29 ind.c30 1.5
+ind.c30 ind.c25 1.5
+ind.c30 ind.c22 1
+ind.c29 ind.h29 1
+ind.c28 ind.h28 1
+ind.c27 ind.h27 1
+ind.c26 ind.h26 1
+0
+11 nhybrid
+ind.c22 ind.c24 ind.o4 ind.c23 4 .49
+ind.c22 ind.c24 ind.o4 ind.h23 4 1.59
+ind.c12 ind.c14 ind.c21 ind.c13 4 .49
+ind.c12 ind.c14 ind.c21 ind.h13 4 1.59
+ind.c12 ind.c10 ind.o2 ind.c11 4 .49
+ind.c12 ind.c10 ind.o2 ind.h11 4 1.59
+ind.n3 ind.c1 ind.c3 ind.c2 4 .54
+ind.n3 ind.c1 ind.c3 ind.hc2 4 1.64
+ind.c10 ind.c2 ind.c8 ind.n3 4 .329
+ind.c10 ind.c2 ind.c8 ind.hn3 4 1.429
+ind.c1 ind.c9 ind.c31 ind.n1 4 0.329
+0
+0
+0
+
+indanovir (pdb1hsg) without chirals

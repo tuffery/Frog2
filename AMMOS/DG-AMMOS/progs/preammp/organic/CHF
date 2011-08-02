@@ -1,0 +1,16 @@
+5
+name chf.c type C3  charge 0.019568
+name chf.f type F charge -.254349
+name chf.h1 type H  charge .078165
+name chf.h2 type H  charge .078308
+name chf.h3 type H  charge .078308
+4
+chf.c chf.f 1
+chf.c chf.h1 1 
+chf.c chf.h2 1 
+chf.c chf.h3 1 
+0
+0
+0
+0
+0

@@ -1,0 +1,173 @@
+78 28 + 26 + 26 -2
+name diy.o2 type o2
+name diy.o3 type o2
+name diy.n1 type n3
+name diy.c1 type ca
+name diy.c2 type ca
+name diy.c3 type ca
+name diy.c4 type ca
+name diy.c5 type ca
+name diy.c6 type ca
+name diy.c7 type c2
+name diy.c8 type ca
+name diy.c9 type ca
+name diy.c10 type ca
+name diy.c11 type ca
+name diy.c12 type ca
+name diy.c13 type ca
+name diy.c14 type c2
+name diy.hn1 type h
+name diy.hc3 type h
+name diy.hc4 type h
+name diy.hc5 type h
+name diy.hc6 type h
+name diy.hc10 type h
+name diy.hc11 type h
+name diy.hc12 type h
+name diy.hc13 type h
+name diy.n type np charge -0.463
+name diy.hn type hd charge 0.252
+name diy.ca type c3 charge 0.035
+name diy.ha type h charge 0.048
+name diy.c type c2 charge 0.616
+name diy.o type o2 charge -0.504
+name diy.o1 type o2 
+name diy.cm type c3
+name diy.hm1 type h
+name diy.hm2 type h
+name diy.hm3 type h
+name diy.cb type c3 charge -0.098
+name diy.hb1 type h charge 0.038
+name diy.hb2 type h charge 0.038
+name diy.cg type ca charge -0.030
+name diy.cd1 type ca charge -0.002
+name diy.cd2 type ca charge -0.002
+name diy.hd1 type h charge 0.064
+name diy.hd2 type h charge 0.064
+name diy.ce1 type ca charge -0.264
+name diy.ce2 type ca charge -0.264
+name diy.he1 type h charge 0.102
+name diy.he2 type h charge 0.102
+name diy.cz type ca charge 0.462
+name diy.oh type o2 charge -0.528
+name diy.hh type hd charge 0.334
+name diy.1n type np charge -0.463
+name diy.1hn type hd charge 0.252
+name diy.1ca type c3 charge 0.035
+name diy.1ha type h charge 0.048
+name diy.1c type c2 charge 0.616
+name diy.1o type o2 charge -0.504
+name diy.1o1 type o2 
+name diy.1cm type c3
+name diy.1hm1 type h
+name diy.1hm2 type h
+name diy.1hm3 type h
+name diy.1cb type c3 charge -0.098
+name diy.1hb1 type h charge 0.038
+name diy.1hb2 type h charge 0.038
+name diy.1cg type ca charge -0.030
+name diy.1cd1 type ca charge -0.002
+name diy.1cd2 type ca charge -0.002
+name diy.1hd1 type h charge 0.064
+name diy.1hd2 type h charge 0.064
+name diy.1ce1 type ca charge -0.264
+name diy.1ce2 type ca charge -0.264
+name diy.1he1 type h charge 0.102
+name diy.1he2 type h charge 0.102
+name diy.1cz type ca charge 0.462
+name diy.1oh type o2 charge -0.528
+name diy.1hh type hd charge 0.334
+81 29 + 26 + 26 -2
+diy.o2 diy.c7  1.75
+diy.n diy.c7 1.25
+diy.c7 diy.c1 1
+diy.c1 diy.c2 1.5
+diy.c2 diy.c3 1.5
+diy.c3 diy.c4 1.5
+diy.c4 diy.c5 1.5
+diy.c5 diy.c6 1.5
+diy.c6 diy.c1 1.5
+diy.c2 diy.n1 1
+diy.c3 diy.hc3 1
+diy.c4 diy.hc4 1
+diy.c5 diy.hc5 1
+diy.c6 diy.hc6 1
+diy.n1 diy.c9 1
+diy.c9 diy.c8 1.5
+diy.c9 diy.c10 1.5
+diy.c10 diy.c11 1.5
+diy.c11 diy.c12 1.5
+diy.c12 diy.c13 1.5
+diy.c13 diy.c8 1.5
+diy.c8 diy.c14 1
+diy.c14 diy.o3 1.75
+diy.c14 diy.1n 1.25
+diy.c10 diy.hc10 1
+diy.c11 diy.hc11 1
+diy.c12 diy.hc12 1
+diy.c13 diy.hc13 1
+diy.n1  diy.hn1 1
+diy.n diy.hn 1
+diy.n diy.ca 1
+diy.ca diy.c 1
+diy.ca diy.cb 1
+diy.ca diy.ha 1
+diy.c diy.o 1.75
+diy.c diy.o1 1.25
+diy.o1 diy.cm 1
+diy.cm diy.hm1 1
+diy.cm diy.hm2 1
+diy.cm diy.hm3 1
+diy.cb diy.cg 1
+diy.cb diy.hb1 1
+diy.cb diy.hb2 1
+diy.cg diy.cd1 1.5
+diy.cg diy.cd2 1.5
+diy.cd1 diy.ce1 1.5
+diy.cd2 diy.ce2 1.5
+diy.ce1 diy.cz 1.5
+diy.ce2 diy.cz 1.5
+diy.cd1 diy.hd1 1
+diy.cd2 diy.hd2 1
+diy.ce1 diy.he1 1
+diy.ce2 diy.he2 1
+diy.cz diy.oh 1
+diy.oh diy.hh 1
+diy.1n diy.1hn 1
+diy.1n diy.1ca 1
+diy.1ca diy.1c 1
+diy.1ca diy.1cb 1
+diy.1ca diy.1ha 1
+diy.1c diy.1o 1.75
+diy.1c diy.1o1 1.25
+diy.1o1 diy.1cm 1
+diy.1cm diy.1hm1 1
+diy.1cm diy.1hm2 1
+diy.1cm diy.1hm3 1
+diy.1cb diy.1cg 1
+diy.1cb diy.1hb1 1
+diy.1cb diy.1hb2 1
+diy.1cg diy.1cd1 1.5
+diy.1cg diy.1cd2 1.5
+diy.1cd1 diy.1ce1 1.5
+diy.1cd2 diy.1ce2 1.5
+diy.1ce1 diy.1cz 1.5
+diy.1ce2 diy.1cz 1.5
+diy.1cd1 diy.1hd1 1
+diy.1cd2 diy.1hd2 1
+diy.1ce1 diy.1he1 1
+diy.1ce2 diy.1he2 1
+diy.1cz diy.1oh 1
+diy.1oh diy.1hh 1
+0
+4
+diy.n diy.cb diy.c diy.ca  4 .494427
+diy.n diy.cb diy.c diy.ha  4  1.606971
+diy.1n diy.1cb diy.1c diy.1ca  4 .494427
+diy.1n diy.1cb diy.1c diy.1ha  4  1.606971
+0
+
+
+2,2' diimino benzoic acid
+tyrosine methyl ester
+

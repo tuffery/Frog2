@@ -1,0 +1,35 @@
+14
+name pro.n type np charge -0.229
+name pro.ca type c3 charge 0.035
+name pro.ha type h charge 0.048
+name pro.c type c2 charge 0.526
+name pro.o type o2 charge -0.500
+name pro.cb type c3 charge -0.115 
+name pro.hb2 type h charge 0.061
+name pro.hb3 type h charge 0.061
+name pro.cg type c3 charge -0.121
+name pro.hg2 type h charge 0.063
+name pro.hg3 type h charge 0.063
+name pro.cd type c3 charge -0.012
+name pro.hd2 type h charge 0.060
+name pro.hd3 type h charge 0.060
+14
+pro.n pro.ca 1
+pro.n pro.cd 1
+pro.ca pro.c 1
+pro.ca pro.cb 1
+pro.ca pro.ha 1
+pro.c pro.o 1.75
+pro.cb pro.cg 1
+pro.cb pro.hb2 1
+pro.cb pro.hb3 1
+pro.cg pro.cd 1
+pro.cg pro.hg2 1
+pro.cg pro.hg3 1
+pro.cd pro.hd2 1
+pro.cd pro.hd3 1
+0
+2
+pro.n pro.cb pro.c pro.ca  4 .494427
+pro.n pro.cb pro.c pro.ha  4  1.606971
+0

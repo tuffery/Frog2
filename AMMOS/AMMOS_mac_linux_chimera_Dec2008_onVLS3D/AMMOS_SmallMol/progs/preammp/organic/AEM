@@ -1,0 +1,56 @@
+24
+name aem.o1 type o3  charge -.153
+name aem.c2 type C3  charge -.153
+name aem.c3 type C3  charge -.153
+name aem.n4 type n3  charge -.153
+name aem.c5 type C3  charge -.153
+name aem.c6 type C3  charge -.153
+name aem.cp  type c3 charge -.306
+name aem.hp1 type h
+name aem.hp2 type h
+name aem.cq  type c3 charge -.306
+name aem.hq1 type h
+name aem.hq2 type h
+name aem.n1   type n3 charge .22
+name aem.hn11 type h charge .311
+name aem.hn12 type h charge .311
+name aem.hn13 type h charge .311
+name aem.h21  type H  charge .153
+name aem.h22 type H  charge .153
+name aem.h31  type H 
+name aem.h32 type H 
+name aem.h51  type H 
+name aem.h52 type H 
+name aem.h61  type H 
+name aem.h62 type H 
+24
+aem.o1 aem.c2 1
+aem.c2 aem.c3 1
+aem.c3 aem.n4 1
+aem.n4 aem.c5 1
+aem.c5 aem.c6 1
+aem.c6 aem.o1 1
+aem.c2 aem.h21 1
+aem.c2 aem.h22 1
+aem.c3 aem.h31 1
+aem.c3 aem.h32 1
+aem.n4 aem.cp 1
+aem.c5 aem.h51 1
+aem.c5 aem.h52 1
+aem.c6 aem.h61 1
+aem.c6 aem.h62 1
+aem.cp aem.cq 1
+aem.cp aem.hp1 1
+aem.cp aem.hp2 1
+aem.cq aem.hq1 1
+aem.cq aem.hq2 1
+aem.cq aem.n1 1
+aem.n1 aem.hn11 1
+aem.n1 aem.hn12 1
+aem.n1 aem.hn13 1
+0
+0
+0
+0
+0
+4-(2 amino ethyl)morpholine

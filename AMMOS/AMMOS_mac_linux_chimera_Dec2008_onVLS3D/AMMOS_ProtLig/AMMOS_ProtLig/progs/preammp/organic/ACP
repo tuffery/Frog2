@@ -1,0 +1,26 @@
+10
+name acp.op1 type o2 
+name acp.op2 type o2
+name acp.op3 type o2
+name acp.p1 type  p35 
+name acp.c2 type  c3 
+name acp.h21 type h
+name acp.h22 type h
+name acp.c3 type  c2 
+name acp.o1 type  O2 
+name acp.o2 type  O2 
+9
+acp.p1 acp.op1 1
+acp.p1 acp.op2 1
+acp.p1 acp.op3 1
+acp.p1 acp.c2 1
+acp.c2 acp.c3 1
+acp.c2 acp.h21
+acp.c2 acp.h22
+acp.c3 acp.o1 1.5
+acp.c3 acp.o2 1.5
+0
+0
+0
+0
+0

@@ -1,0 +1,4 @@
+This directoty contains some c tools called from python routines.
+(usually not using SWIG, but using command lines and pipes).
+
+

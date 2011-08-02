@@ -1,0 +1,10 @@
+# Test with the openbabel of the distribution
+
+../../www_iMolecule.py -v -multi 50 -ismi JP.smi -osdf JPtest_output.sdf -logFile JPtest_out.log -wrkPath .
+
+# Test with the openbabel 2.3.0
+# Edited ../iMolecule/Config.py
+
+../../www_iMolecule.py -v -multi 50 -ismi JP.smi -osdf JPtest_output-2-3.sdf -logFile JPtest_out-2-3.log -wrkPath .
+
+

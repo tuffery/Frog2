@@ -1,0 +1,56 @@
+24
+name dpx.c1 type C2  charge -.153
+name dpx.c2 type C2  charge -.153
+name dpx.c3 type C2  charge -.153
+name dpx.c4 type C2  charge -.153
+name dpx.c5 type C2  charge -.153
+name dpx.c6 type C2  charge -.153
+name dpx.c11 type c3
+name dpx.h111 type h
+name dpx.h112 type h
+name dpx.n12 type n3
+name dpx.h121 type h
+name dpx.h122 type h
+name dpx.h123 type h
+name dpx.h2  type H  charge .153
+name dpx.h3  type H  charge .153
+name dpx.c41 type c3
+name dpx.h411 type h
+name dpx.h412 type h
+name dpx.n42 type n3
+name dpx.h421 type h
+name dpx.h422 type h
+name dpx.h423 type h
+name dpx.h5  type H  charge .153
+name dpx.h6  type H  charge .153
+24
+dpx.c1 dpx.c2 1.5
+dpx.c2 dpx.c3 1.5
+dpx.c3 dpx.c4 1.5
+dpx.c4 dpx.c5 1.5
+dpx.c5 dpx.c6 1.5
+dpx.c6 dpx.c1 1.5
+dpx.c1 dpx.c11 1
+dpx.c11 dpx.h111 1
+dpx.c11 dpx.h112 1
+dpx.c11 dpx.n12 1
+dpx.n12 dpx.h121 1
+dpx.n12 dpx.h122 1
+dpx.n12 dpx.h123 1
+dpx.c2 dpx.h2 1
+dpx.c3 dpx.h3 1
+dpx.c4 dpx.c41 1
+dpx.c41 dpx.h411 1
+dpx.c41 dpx.h412 1
+dpx.c41 dpx.n42 1
+dpx.n42 dpx.h421 1
+dpx.n42 dpx.h422 1
+dpx.n42 dpx.h423 1
+dpx.c5 dpx.h5 1
+dpx.c6 dpx.h6 1
+0
+0
+0
+0
+0
+para diamino xylene +2

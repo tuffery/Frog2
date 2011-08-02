@@ -1,0 +1,76 @@
+32
+name gu3.o3* type o3 charge -0.509
+name gu3.h3* type hd charge 0.509
+name gu3.o5* type o3 charge -0.509
+name gu3.h5t type hd charge 0.509
+name gu3.c5* type c3 charge 0.118
+name gu3.1h5* type h charge 0.021
+name gu3.2h5* type h charge 0.021
+name gu3.c4* type c3 charge 0.036
+name gu3.h4* type h charge 0.056
+name gu3.c3* type c3 charge 0.233
+name gu3.h3* type h charge 0.025
+name gu3.c2* type c3 charge -0.307
+name gu3.1h2* type h charge 0.081
+name gu3.2h2* type h charge 0.081
+name gu3.c1* type c3 charge 0.376
+name gu3.h1* type h charge 0.009
+name gu3.o4* type o3 charge -0.368
+name gu3.n9 type nr charge -0.042
+name gu3.c4 type c2 charge 0.391
+name gu3.c8 type c2 charge 0.266
+name gu3.h8 type h charge 0.046
+name gu3.n3 type nr charge -0.728
+name gu3.c2 type c2 charge 0.871
+name gu3.n2 type np charge -0.778
+name gu3.1h2 type hd charge 0.325
+name gu3.2h2 type hd charge 0.325
+name gu3.n1 type nr charge -0.729
+name gu3.h1 type hd charge 0.336
+name gu3.c6 type c2 charge 0.690
+name gu3.o6 type o2 charge -0.458
+name gu3.c5 type c2 charge -0.060
+name gu3.n7 type nb charge -0.543
+33
+gu3.h5t gu3.o5* 1
+gu3.o5* gu3.c5* 1
+gu3.c5* gu3.c4* 1
+gu3.c5* gu3.1h5* 1
+gu3.c5* gu3.2h5* 1
+gu3.c4* gu3.c3* 1
+gu3.c4* gu3.o4* 1
+gu3.c4* gu3.h4* 1
+gu3.c3* gu3.c2* 1
+gu3.c3* gu3.o3* 1
+gu3.c3* gu3.h3* 1
+gu3.c2* gu3.c1* 1
+gu3.c2* gu3.1h2* 1
+gu3.c2* gu3.2h2* 1
+gu3.c1* gu3.o4* 1
+gu3.c1* gu3.n9 1
+gu3.c1* gu3.h1* 1
+gu3.n9 gu3.c4 1
+gu3.n9 gu3.c8 1
+gu3.c4 gu3.n3 1.5
+gu3.n3 gu3.c2 1.5
+gu3.c2 gu3.n2 1
+gu3.n2 gu3.1h2 1
+gu3.n2 gu3.2h2 1
+gu3.c2 gu3.n1 1.5
+gu3.n1 gu3.h1 1
+gu3.n1 gu3.c6 1.5
+gu3.c6 gu3.c5 1.5
+gu3.c6 gu3.o6 1.5
+gu3.c5 gu3.c4 1.5
+gu3.c5 gu3.n7 1
+gu3.n7 gu3.c8 2
+gu3.c8 gu3.h8 1
+0
+6
+gu3.o4* gu3.c2* gu3.h1* gu3.n9  6 1.925983
+gu3.o4* gu3.c2* gu3.h1* gu3.c1* 6 .468722
+gu3.c2* gu3.c4* gu3.o3* gu3.c3* 6 .554654
+gu3.c2* gu3.c4* gu3.o3* gu3.H3* 6 1.669313
+gu3.c3* gu3.c5* gu3.o4* gu3.c4* 6 .554654
+gu3.c3* gu3.c5* gu3.o4* gu3.H4* 6 1.669313
+0

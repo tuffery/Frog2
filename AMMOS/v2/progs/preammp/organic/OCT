@@ -1,0 +1,52 @@
+23
+name oct.n type n3
+name oct.hn1 type h
+name oct.hn2 type h
+name oct.hn3 type h
+name oct.ca type c3 charge 0.035
+name oct.ha1 type h charge 0.048
+name oct.ha2 type h charge 0.048
+name oct.cb type c3 charge -0.098
+name oct.ob1 type o3 charge 0.038
+name oct.hob1 type h charge 0.038
+name oct.hb2 type h charge 0.038
+name oct.cg type c2 charge -0.030
+name oct.cd1 type c2 charge -0.002
+name oct.cd2 type c2 charge -0.002
+name oct.hd1 type h charge 0.064
+name oct.hd2 type h charge 0.064
+name oct.ce1 type c2 charge -0.264
+name oct.ce2 type c2 charge -0.264
+name oct.he1 type h charge 0.102
+name oct.he2 type h charge 0.102
+name oct.cz type c2 charge 0.462
+name oct.oh type o2 charge -0.528
+name oct.hh type hd charge 0.334
+23
+oct.n oct.hn1 1
+oct.n oct.hn2 1
+oct.n oct.hn3 1
+oct.n oct.ca 1
+oct.ca oct.cb 1
+oct.ca oct.ha1 1
+oct.ca oct.ha2 1
+oct.cb oct.cg 1
+oct.cb oct.ob1 1
+oct.ob1 oct.hob1 1
+oct.cb oct.hb2 1
+oct.cg oct.cd1 1.5
+oct.cg oct.cd2 1.5
+oct.cd1 oct.ce1 1.5
+oct.cd2 oct.ce2 1.5
+oct.ce1 oct.cz 1.5
+oct.ce2 oct.cz 1.5
+oct.cd1 oct.hd1 1
+oct.cd2 oct.hd2 1
+oct.ce1 oct.he1 1
+oct.ce2 oct.he2 1
+oct.cz oct.oh 1
+oct.oh oct.hh 1
+0
+0
+0
+# octopamine

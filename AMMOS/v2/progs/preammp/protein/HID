@@ -1,0 +1,36 @@
+17
+name hid.n type np charge -0.463
+name hid.hn type hd charge 0.252
+name hid.ca type c3 charge 0.035
+name hid.ha type h charge 0.048
+name hid.c type c2 charge 0.616
+name hid.o type o2 charge -0.504
+name hid.cb type c3 charge -0.098
+name hid.hb1 type h charge 0.038
+name hid.hb2 type h charge 0.038
+name hid.cg type c2 charge -0.032
+name hid.nd1 type n2 charge -0.146
+name hid.cd2 type c2 charge 0.195
+name hid.ce1 type c2 charge 0.241
+name hid.ne2 type n1 charge -0.502
+name hid.hd1 type hd charge 0.228
+name hid.hd2 type h charge 0.018
+name hid.he1 type h charge 0.036
+17
+hid.n hid.hn 1
+hid.n hid.ca 1
+hid.ca hid.c 1
+hid.ca hid.cb 1
+hid.ca hid.ha 1
+hid.c hid.o 1.75
+hid.cb hid.cg 1
+hid.cb hid.hb1 1
+hid.cb hid.hb2 1
+hid.cg hid.nd1 1
+hid.cg hid.cd2 2
+hid.nd1 hid.ce1 2
+hid.cd2 hid.ne2 1
+hid.ce1 hid.ne2 1
+hid.nd1 hid.hd1 1
+hid.cd2 hid.hd2 1
+hid.ce1 hid.he1 1

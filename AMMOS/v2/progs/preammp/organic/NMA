@@ -1,0 +1,55 @@
+24
+name nma.c1 type c2 
+name nma.c2 type c2 
+name nma.c3 type c2 
+name nma.c4 type c2 
+name nma.c5 type c2 
+name nma.c6 type c2 
+name nma.c7 type c2 
+name nma.c8 type c2 
+name nma.c9 type c2 
+name nma.c10  type c2 
+name nma.cm type c3
+name nma.n type n3 
+name nma.h2 type h
+name nma.h3 type h
+name nma.h4 type h
+name nma.h7 type h
+name nma.h8 type h
+name nma.h9 type h
+name nma.h10 type h
+name nma.hm1 type h
+name nma.hm2 type h
+name nma.hn1 type h
+name nma.hn2 type h
+name nma.hn3 type h
+25
+nma.c1 nma.c2 1.5
+nma.c1 nma.c6 1.5
+nma.c1 nma.cm 1
+nma.c2 nma.c3 1.5
+nma.c2 nma.h2 1
+nma.c3 nma.c4 1.5
+nma.c3 nma.h3 1
+nma.c4 nma.c5 1.5
+nma.c4 nma.h4 1
+nma.c5 nma.c6 1.5
+nma.c5 nma.c10 1
+nma.c6 nma.c7 1.5
+nma.c7 nma.c8 1.5
+nma.c7 nma.h7 1
+nma.c8 nma.c9 1.5
+nma.c8 nma.h8 1
+nma.c9 nma.c10 1.5
+nma.c9 nma.h9 1
+nma.c10 nma.h10 1
+nma.cm nma.hm1 1
+nma.cm nma.hm2 1
+nma.cm nma.n 1
+nma.n nma.hn1 1
+nma.n nma.hn2 1
+nma.n nma.hn3 1
+0
+0 
+0
+# 1-napthyl methyl amine + 1

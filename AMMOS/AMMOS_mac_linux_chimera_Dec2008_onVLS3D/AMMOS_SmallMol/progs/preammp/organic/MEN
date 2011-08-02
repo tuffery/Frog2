@@ -1,0 +1,20 @@
+7
+name men.c type C3  charge -.331505
+name men.n type n3
+name men.o1 type o2 charge -.183484
+name men.o2 type o2 charge -.183484
+name men.h1 type H  charge .172295
+name men.h2 type H  charge .171347
+name men.h3 type H  charge .171347
+6
+men.c men.n 1
+men.n men.o1 2
+men.n men.o2 2
+men.c men.h1 1 
+men.c men.h2 1 
+men.c men.h3 1 
+0
+0
+0
+0
+0

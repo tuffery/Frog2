@@ -1,0 +1,49 @@
+21
+name hxo.c1 type c3
+name hxo.c2 type c3
+name hxo.c3 type c3
+name hxo.c4 type c3
+name hxo.c5 type c3
+name hxo.c6 type c3
+name hxo.o1 type o3
+name hxo.h11 type h
+name hxo.h12 type h
+name hxo.h21 type h
+name hxo.h22 type h
+name hxo.h31 type h
+name hxo.h32 type h
+name hxo.h41 type h
+name hxo.h42 type h
+name hxo.h51 type h
+name hxo.h52 type h
+name hxo.h61 type h
+name hxo.h62 type h
+name hxo.h63 type h
+name hxo.ho type hd
+20
+hxo.ho hxo.o1 1
+hxo.o1 hxo.c1 1
+hxo.c1 hxo.h11 1
+hxo.c1 hxo.h12 1
+hxo.c1 hxo.c2 1
+hxo.c2 hxo.h21 1
+hxo.c2 hxo.h22 1
+hxo.c2 hxo.c3 1
+hxo.c3 hxo.h31 1
+hxo.c3 hxo.h32 1
+hxo.c3 hxo.c4 1
+hxo.c4 hxo.h41 1
+hxo.c4 hxo.h42 1
+hxo.c4 hxo.c5 1
+hxo.c5 hxo.h51 1
+hxo.c5 hxo.h52 1
+hxo.c5 hxo.c6 1
+hxo.c6 hxo.h61 1
+hxo.c6 hxo.h62 1
+hxo.c6 hxo.h63 1
+0
+0
+0
+
+
+n hexanol

@@ -1,0 +1,44 @@
+19
+name dlu.n type np charge -0.463
+name dlu.hn type hd charge 0.252
+name dlu.ca type c3 charge 0.035
+name dlu.ha type h charge 0.048
+name dlu.c type c2 charge 0.616
+name dlu.o type o1 charge -0.504
+name dlu.cb type c3 charge -0.061
+name dlu.hb1 type h charge 0.033
+name dlu.hb2 type h charge 0.033
+name dlu.cg type c3 charge -0.010
+name dlu.cd1 type c3 charge -0.107
+name dlu.cd2 type c3 charge -0.107
+name dlu.hg type h charge 0.031
+name dlu.hd11 type h charge 0.034
+name dlu.hd12 type h charge 0.034
+name dlu.hd13 type h charge 0.034
+name dlu.hd21 type h charge 0.034
+name dlu.hd22 type h charge 0.034
+name dlu.hd23 type h charge 0.034
+18
+dlu.n dlu.hn 1
+dlu.n dlu.ca 1
+dlu.ca dlu.c 1
+dlu.ca dlu.cb 1
+dlu.ca dlu.ha 1
+dlu.c dlu.o 2
+dlu.cb dlu.cg 1
+dlu.cb dlu.hb1 1
+dlu.cb dlu.hb2 1
+dlu.cg dlu.cd1 1
+dlu.cg dlu.cd2 1
+dlu.cg dlu.hg 1
+dlu.cd1 dlu.hd11 1
+dlu.cd1 dlu.hd12 1
+dlu.cd1 dlu.hd13 1
+dlu.cd2 dlu.hd21 1 
+dlu.cd2 dlu.hd22 1
+dlu.cd2 dlu.hd23 1
+0
+2
+dlu.n dlu.cb dlu.c dlu.ca  4 -.494427
+dlu.n dlu.cb dlu.c dlu.ha  4  -1.606971
+0

@@ -1,0 +1,53 @@
+22
+name nba.c1 type C3  charge -.376
+name nba.c2 type C3  charge -.306
+name nba.c3 type C3  charge -.306
+name nba.c4 type C3  charge -.306
+name nba.c5 type C3  charge -.376
+name nba.c6 type C3  charge -.466
+name nba.c7 type c3
+name nba.h71 type h
+name nba.h72 type h
+name nba.h11 type H 
+name nba.h12 type H 
+name nba.h21 type H 
+name nba.h31 type H 
+name nba.h32 type H 
+name nba.h41 type H 
+name nba.h42 type H 
+name nba.h51 type H 
+name nba.h6 type h
+name nba.n6 type  n3  charge .3
+name nba.hn61 type h
+name nba.hn62 type h
+name nba.hn63 type h
+23
+nba.c1 nba.c2 1
+nba.c2 nba.c3 1
+nba.c3 nba.c4 1
+nba.c4 nba.c5 1
+nba.c5 nba.c6 1.
+nba.c6 nba.c1 1.
+nba.c7 nba.h71 1
+nba.c7 nba.h72 1
+nba.c1 nba.h11 1
+nba.c1 nba.h12 1
+nba.c2 nba.h21 1
+nba.c2 nba.c7 1
+nba.c3 nba.h31 1
+nba.c3 nba.h32 1
+nba.c4 nba.h41 1
+nba.c4 nba.h42 1
+nba.c5 nba.h51 1
+nba.c5 nba.c7 1
+nba.c6 nba.h6    1
+nba.c6 nba.n6    1
+nba.n6 nba.hn61 1
+nba.n6 nba.hn62 1
+nba.n6 nba.hn63 1
+0
+0
+0
+0
+0
+cyclohexylamine + 1

@@ -1,0 +1,40 @@
+17
+name etr.n type np charge -0.463
+name etr.h1 type hd charge 0.252
+name etr.h2 type hd charge 0.252
+name etr.h3 type hd charge 0.252
+name etr.ca type c3 charge 0.035
+name etr.ha type h charge 0.048
+name etr.c type c2 charge 0.616
+name etr.o type o2 charge -0.504
+name etr.cb type c3 charge -0.184
+name etr.hb2 type h charge 0.092
+name etr.hb3 type h charge 0.092
+name etr.cg type c3 charge -0.398
+name etr.hg2 type h charge 0.071
+name etr.hg3 type h charge 0.071
+name etr.cd type c2 charge 0.714
+name etr.oe1 type o2 charge -0.721
+name etr.oe2 type o2 charge -0.721
+16
+etr.n etr.h1 1
+etr.n etr.h2 1
+etr.n etr.h3 1
+etr.n etr.ca 1
+etr.ca etr.c 1
+etr.ca etr.cb 1
+etr.ca etr.ha 1
+etr.c etr.o 1.75
+etr.cb etr.cg 1
+etr.cb etr.hb2 1
+etr.cb etr.hb3 1
+etr.cg etr.cd 1
+etr.cg etr.hg2 1
+etr.cg etr.hg3 1
+etr.cd etr.oe1 1.5
+etr.cd etr.oe2 1.5
+0
+2
+etr.n etr.cb etr.c etr.ca  4 .494427
+etr.n etr.cb etr.c etr.ha  4  1.606971
+0

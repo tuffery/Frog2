@@ -1,0 +1,40 @@
+16
+name alo.n type np charge -0.463
+name alo.hn type hd charge 0.252
+name alo.ca type c3 charge 0.035
+name alo.ha type h charge 0.048
+name alo.c type c2 charge 0.616
+name alo.o type o2 charge -0.504
+name alo.cb type c3 charge -0.092
+name alo.hb1 type h charge 0.036
+name alo.hb2 type h charge 0.036
+name alo.hb3 type h charge 0.036
+name alo.nm type np 
+name alo.cm type c3
+name alo.hm1 type h
+name alo.hm2 type h
+name alo.hm3 type h
+name alo.hm type hd
+15
+alo.nm alo.hm 1
+alo.n alo.hn 1
+alo.n alo.ca 1
+alo.ca alo.c 1
+alo.ca alo.cb 1
+alo.ca alo.ha 1
+alo.c alo.o 1.75
+alo.c alo.nm 1.25
+alo.cb alo.hb1 1
+alo.cb alo.hb2 1
+alo.cb alo.hb3 1
+alo.nm alo.cm 1
+alo.cm alo.hm1 1
+alo.cm alo.hm2 1
+alo.cm alo.hm3 1
+0
+2
+alo.n alo.cb alo.c alo.ca  4 .494427
+alo.n alo.cb alo.c alo.ha  4  1.606971
+0
+
+alanine methyl amide

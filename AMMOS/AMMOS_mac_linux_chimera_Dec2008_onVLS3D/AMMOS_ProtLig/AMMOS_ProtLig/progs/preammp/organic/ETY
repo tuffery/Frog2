@@ -1,0 +1,16 @@
+6
+name ety.c1 type c2
+name ety.h11 type h
+name ety.h12 type h
+name ety.c2 type c2
+name ety.h21 type h
+name ety.h22 type h
+5
+ety.c1 ety.c2 2
+ety.c1 ety.h11 1
+ety.c2 ety.h21 1
+ety.c1 ety.h12 1
+ety.c2 ety.h22 1
+0
+0
+0

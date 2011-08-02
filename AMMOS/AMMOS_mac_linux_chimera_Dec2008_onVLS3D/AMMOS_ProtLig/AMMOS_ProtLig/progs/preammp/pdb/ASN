@@ -1,0 +1,34 @@
+14
+name asn.n type np charge -0.463
+name asn.h type hd charge 0.252
+name asn.ca type c3 charge 0.035
+name asn.ha type h charge 0.048
+name asn.c type c2 charge 0.616
+name asn.o type o2 charge -0.504
+name asn.cb type c3 charge -0.086
+name asn.hb2 type h charge 0.038
+name asn.hb3 type h charge 0.038
+name asn.cg type c2 charge 0.675
+name asn.od1 type o2 charge -0.470
+name asn.nd2 type np charge -0.867
+name asn.hd21 type hd charge 0.344
+name asn.hd22 type hd charge 0.344
+13
+asn.n asn.h 1
+asn.n asn.ca 1
+asn.ca asn.c 1
+asn.ca asn.cb 1
+asn.ca asn.ha 1
+asn.c asn.o 1.75
+asn.cb asn.cg 1
+asn.cb asn.hb2 1
+asn.cb asn.hb3 1
+asn.cg asn.od1 1.75
+asn.cg asn.nd2 1.25
+asn.nd2 asn.hd21 1
+asn.nd2 asn.hd22 1
+0
+2
+asn.n asn.cb asn.c asn.ca  4 .494427
+asn.n asn.cb asn.c asn.ha  4  1.606971
+0

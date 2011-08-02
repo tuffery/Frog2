@@ -1,0 +1,67 @@
+28
+name chg.cr1 type c3
+name chg.cr2 type c3
+name chg.hr21 type h
+name chg.hr22 type h
+name chg.cr3 type c3
+name chg.hr31 type h
+name chg.hr32 type h
+name chg.cr4 type c3
+name chg.hr41 type h
+name chg.hr42 type h
+name chg.cr5 type c3
+name chg.hr51 type h
+name chg.hr52 type h
+name chg.cr6 type c3
+name chg.hr61 type h
+name chg.hr62 type h
+name chg.o1 type o3
+name chg.o2 type o3
+name chg.cx type c3
+name chg.hx1 type h
+name chg.hx2 type h
+name  chg.c1 type c3
+name  chg.h1 type h
+name  chg.c2 type c3
+name  chg.h21 type h
+name  chg.h22 type h
+name chg.o3 type o3
+name chg.ho3 type h
+29
+chg.cr1 chg.cr2 1
+chg.cr1 chg.o1 1
+chg.cr1 chg.o2 1
+chg.o2 chg.cx 1
+chg.cx chg.hx1 1
+chg.cx chg.hx2 1
+chg.cx chg.c1 1
+chg.cr2 chg.cr3 1
+chg.cr2 chg.hr21 1
+chg.cr2 chg.hr22 1
+chg.cr3 chg.cr4 1
+chg.cr3 chg.hr31 1
+chg.cr3 chg.hr32 1
+chg.cr4 chg.cr5 1
+chg.cr4 chg.hr41 1
+chg.cr4 chg.hr42 1
+chg.cr5 chg.cr6 1
+chg.cr5 chg.hr51 1
+chg.cr5 chg.hr52 1
+chg.cr6 chg.cr1 1
+chg.cr6 chg.hr61 1
+chg.cr6 chg.hr62 1
+chg.o1 chg.c1 1
+chg.c1 chg.h1 1
+chg.c1 chg.c2 1
+chg.c2 chg.h21 1
+chg.c2 chg.h22 1
+chg.c2 chg.o3 1
+chg.o3 chg.ho3 1
+0
+1
+chg.o1 chg.cx chg.c1 chg.c2 4  1.17856
+0
+0
+0
+ D-a,b cyclohexylideneglycerol
+  almost guanadrel 

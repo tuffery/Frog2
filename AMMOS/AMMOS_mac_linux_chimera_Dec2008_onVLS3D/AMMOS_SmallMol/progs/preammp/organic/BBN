@@ -1,0 +1,52 @@
+22
+name bnn.c1 type C2  charge -.153
+name bnn.c2 type C2  charge -.153
+name bnn.c3 type C2  charge -.153
+name bnn.c4 type C2  charge -.153
+name bnn.c5 type C2  charge -.153
+name bnn.c6 type C2  charge -.153
+name bnn.h1  type H  charge .153
+name bnn.h2  type H  charge .153
+name bnn.h3  type H  charge .153
+name bnn.h4  type H  charge .153
+name bnn.h5  type H  charge .153
+name bnn.c11 type C2  charge -.153
+name bnn.c21 type C2  charge -.153
+name bnn.c31 type C2  charge -.153
+name bnn.c41 type C2  charge -.153
+name bnn.c51 type C2  charge -.153
+name bnn.c61 type C2  charge -.153
+name bnn.h11  type H  charge .153
+name bnn.h21  type H  charge .153
+name bnn.h31  type H  charge .153
+name bnn.h41  type H  charge .153
+name bnn.h51  type H  charge .153
+23
+bnn.c1 bnn.c2 1.5
+bnn.c2 bnn.c3 1.5
+bnn.c3 bnn.c4 1.5
+bnn.c4 bnn.c5 1.5
+bnn.c5 bnn.c6 1.5
+bnn.c6 bnn.c1 1.5
+bnn.c1 bnn.h1 1
+bnn.c2 bnn.h2 1
+bnn.c3 bnn.h3 1
+bnn.c4 bnn.h4 1
+bnn.c5 bnn.h5 1
+bnn.c6 bnn.c61 1
+bnn.c11 bnn.c21 1.5
+bnn.c21 bnn.c31 1.5
+bnn.c31 bnn.c41 1.5
+bnn.c41 bnn.c51 1.5
+bnn.c51 bnn.c61 1.5
+bnn.c61 bnn.c11 1.5
+bnn.c11 bnn.h11 1
+bnn.c21 bnn.h21 1
+bnn.c31 bnn.h31 1
+bnn.c41 bnn.h41 1
+bnn.c51 bnn.h51 1
+0
+0
+0
+0
+0

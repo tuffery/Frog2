@@ -1,0 +1,28 @@
+echo off;
+
+read input_ligand.ammp;	 
+
+setf mxdq 0.75;			
+setf mmbox 10;			
+
+output before_opt.txt;
+#use none nonbon;
+use none bond angle hybrid torsion nonbon;
+#analyze 1000000 1000200;
+analyze 0 1000200;
+close before_opt.txt;			
+
+active 0 10000000;	
+use none nonbon;
+
+output after_opt.txt;
+#use none nonbon;
+# use none nonbon;
+use none nonbon;
+#analyze 1000000 1000200;
+analyze 0 1000200;
+close after_opt.txt;		
+
+output output.ammp;
+# dump atom bond angle hybrid torsion;						
+close output.ammp;

@@ -1,0 +1,10 @@
+2
+name ohm.h1 type H charge .5
+name ohm.o type  O2  charge -1.5 
+1
+ohm.o ohm.h1 2
+0
+0
+0
+0
+0

@@ -1,0 +1,86 @@
+HEADER    UNK                                     11-01-28    1UNK
+COMPND    C11H18N5O6P                                                 
+REMARK   1 corina 3.44 0000  14.05.2008                               
+HETATM    1  N1  UNK     1       0.005   1.367   0.022  1.00 20.00
+HETATM    2  C2  UNK     1       0.019  -0.004   0.011  1.00 20.00
+HETATM    3  N3  UNK     1       1.171  -0.638  -0.011  1.00 20.00
+HETATM    4  C4  UNK     1       1.223  -1.978  -0.022  1.00 20.00
+HETATM    5  O5  UNK     1       2.303  -2.552  -0.042  1.00 20.00
+HETATM    6  C6  UNK     1       0.024  -2.724  -0.009  1.00 20.00
+HETATM    7  N7  UNK     1       0.055  -4.133  -0.019  1.00 20.00
+HETATM    8  C8  UNK     1       0.645  -4.787  -1.039  1.00 20.00
+HETATM    9  O9  UNK     1       1.225  -4.164  -1.904  1.00 20.00
+HETATM   10  C10 UNK     1      -1.169  -2.053   0.015  1.00 20.00
+HETATM   11  N11 UNK     1      -2.361  -2.746   0.028  1.00 20.00
+HETATM   12  C12 UNK     1      -3.632  -2.016   0.053  1.00 20.00
+HETATM   13  C13 UNK     1      -4.085  -1.655  -1.383  1.00 20.00
+HETATM   14  C14 UNK     1      -5.614  -1.480  -1.264  1.00 20.00
+HETATM   15  O15 UNK     1      -6.257  -1.983  -2.437  1.00 20.00
+HETATM   16  C16 UNK     1      -6.054  -2.290  -0.033  1.00 20.00
+HETATM   17  C17 UNK     1      -7.043  -3.381  -0.449  1.00 20.00
+HETATM   18  O18 UNK     1      -8.252  -2.776  -0.912  1.00 20.00
+HETATM   19  P19 UNK     1      -9.516  -3.628  -1.431  1.00 20.00
+HETATM   20  O20 UNK     1     -10.813  -2.677  -1.498  1.00 20.00
+HETATM   21  O21 UNK     1      -9.228  -4.166  -2.779  1.00 20.00
+HETATM   22  C22 UNK     1      -4.779  -2.929   0.554  1.00 20.00
+HETATM   23  N23 UNK     1      -1.161  -0.682   0.030  1.00 20.00
+HETATM   24  H24 UNK     1      -1.998  -0.194   0.050  1.00 20.00
+HETATM   25  H25 UNK     1       0.841   1.860   0.013  1.00 20.00
+HETATM   26  H26 UNK     1      -0.839   1.844   0.034  1.00 20.00
+HETATM   27  H27 UNK     1      -0.349  -4.632   0.708  1.00 20.00
+HETATM   28  H28 UNK     1       0.603  -5.865  -1.086  1.00 20.00
+HETATM   29  H29 UNK     1      -2.359  -3.715   0.021  1.00 20.00
+HETATM   30  H30 UNK     1      -3.549  -1.121   0.669  1.00 20.00
+HETATM   31  H31 UNK     1      -3.619  -0.725  -1.708  1.00 20.00
+HETATM   32  H32 UNK     1      -3.847  -2.464  -2.074  1.00 20.00
+HETATM   33  H33 UNK     1      -5.859  -0.427  -1.127  1.00 20.00
+HETATM   34  H34 UNK     1      -6.003  -1.527  -3.251  1.00 20.00
+HETATM   35  H35 UNK     1      -6.515  -1.630   0.703  1.00 20.00
+HETATM   36  H36 UNK     1      -6.607  -3.980  -1.248  1.00 20.00
+HETATM   37  H37 UNK     1      -7.261  -4.019   0.407  1.00 20.00
+HETATM   38  H38 UNK     1      -9.762  -4.703  -0.536  1.00 20.00
+HETATM   39  H39 UNK     1     -11.614  -3.126  -1.803  1.00 20.00
+HETATM   40  H40 UNK     1      -4.652  -3.943   0.177  1.00 20.00
+HETATM   41  H41 UNK     1      -4.818  -2.928   1.644  1.00 20.00
+CONECT    1    2   25   26
+CONECT    2    1    3   23
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    5    4
+CONECT    6    4    7   10
+CONECT    7    6    8   27
+CONECT    8    7    9   28
+CONECT    9    8
+CONECT   10    6   11   23
+CONECT   11   10   12   29
+CONECT   12   11   13   22   30
+CONECT   13   12   14   31   32
+CONECT   14   13   15   16   33
+CONECT   15   14   34
+CONECT   16   14   17   22   35
+CONECT   17   16   18   36   37
+CONECT   18   17   19
+CONECT   19   18   20   21   38
+CONECT   20   19   39
+CONECT   21   19
+CONECT   22   12   16   40   41
+CONECT   23    2   10   24
+CONECT   24   23
+CONECT   25    1
+CONECT   26    1
+CONECT   27    7
+CONECT   28    8
+CONECT   29   11
+CONECT   30   12
+CONECT   31   13
+CONECT   32   13
+CONECT   33   14
+CONECT   34   15
+CONECT   35   16
+CONECT   36   17
+CONECT   37   17
+CONECT   38   19
+CONECT   39   20
+CONECT   40   22
+CONECT   41   22
+END

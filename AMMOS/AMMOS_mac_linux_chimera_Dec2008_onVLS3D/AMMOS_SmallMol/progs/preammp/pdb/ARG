@@ -1,0 +1,54 @@
+24
+name arg.n type np charge -0.463
+name arg.h type hd charge 0.252
+name arg.ca type c3 charge 0.035
+name arg.ha type h charge 0.048
+name arg.c type c2 charge 0.616
+name arg.o type o2 charge -0.504
+name arg.cb type c3 charge -0.080
+name arg.hb2 type h charge 0.056
+name arg.hb3 type h charge 0.056
+name arg.cg type c3 charge -0.103
+name arg.hg2 type h charge 0.074
+name arg.hg3 type h charge 0.074
+name arg.cd type c3 charge -0.228
+name arg.hd2 type h charge 0.133
+name arg.hd3 type h charge 0.133
+name arg.ne type np charge -0.324
+name arg.he type hd charge 0.269
+name arg.cz type c2 charge 0.760
+name arg.nh1 type np charge -0.624
+name arg.nh2 type np charge -0.624
+name arg.hh11 type hd charge 0.361
+name arg.hh12 type hd charge 0.361
+name arg.hh21 type hd charge 0.361
+name arg.hh22 type hd charge 0.361
+23
+arg.n arg.h 1
+arg.n arg.ca 1
+arg.ca arg.c 1
+arg.ca arg.cb 1
+arg.ca arg.ha 1
+arg.c arg.o 1.75
+arg.cb arg.cg 1
+arg.cb arg.hb2 1
+arg.cb arg.hb3 1
+arg.cg arg.cd 1
+arg.cg arg.hg2 1
+arg.cg arg.hg3 1
+arg.cd arg.ne 1
+arg.cd arg.hd2 1
+arg.cd arg.hd3 1
+arg.ne arg.cz 1
+arg.ne arg.he 1
+arg.cz arg.nh1 1.5 
+arg.cz arg.nh2 1.5
+arg.nh1 arg.hh11 1
+arg.nh1 arg.hh12 1
+arg.nh2 arg.hh21 1
+arg.nh2 arg.hh22 1
+0
+2
+arg.n arg.cb arg.c arg.ca  4 .494427
+arg.n arg.cb arg.c arg.ha  4  1.606971
+0 

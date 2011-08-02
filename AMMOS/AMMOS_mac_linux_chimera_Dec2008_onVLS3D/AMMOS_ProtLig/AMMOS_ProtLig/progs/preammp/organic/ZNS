@@ -1,0 +1,26 @@
+11
+name zns.cb type c3 charge -0.098
+name zns.hb1 type h charge 0.0495
+name zns.hb2 type h charge 0.0495
+name zns.hb3 type h charge 0.0495
+name zns.sg type s32 charge 0.015
+name zns.cb1 type c3 charge -0.098
+name zns.hb11 type h charge 0.0495
+name zns.hb12 type h charge 0.0495
+name zns.hb13 type h charge 0.0495
+name zns.sg1 type s32 charge 0.015
+name zns.zn  type zn  charge 2
+10
+zns.cb zns.sg 1
+zns.cb zns.hb1 1
+zns.cb zns.hb2 1
+zns.cb zns.hb3 1
+zns.cb1 zns.sg1 1
+zns.cb1 zns.hb11 1
+zns.cb1 zns.hb12 1
+zns.cb1 zns.hb13 1
+zns.zn zns.sg1 1
+zns.zn zns.sg  1
+0
+0
+0

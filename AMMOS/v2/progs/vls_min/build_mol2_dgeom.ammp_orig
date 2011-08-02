@@ -1,0 +1,38 @@
+echo off;
+read input_ligand.ammp;	# Small molecule after PREAMMP;
+
+# build atoms with zero coordinates;
+# based on tsearch.ammp - some changes are made in order to be faster;
+# build the ideal bond angle geometry;
+
+
+
+# use distance geometry;
+nzinactive 0 10000000; 	# Inactivate all atoms from ( I-J ) which  are not  located at the origin (0,0,0);
+use none bond angle;
+cngdel 100;
+
+
+v_maxwell 300;		# Set the velocity distribution to be Maxwell-Boltzmann with a temperature equal to (T);
+			# Use optional systematic drift velocity of (Vx,Vy,Vz); 
+pac 100 .00001;		# Pac nstep dtime; Predict and correct dynamics;
+			# Nstep is the number of steps, Dtime = .00001 for 1 fs steps;
+cngdel 100;
+
+use none bond angle hybrid torsion nonbon;
+bell 100;		# Iterative distance geometry optimizer using the Bellman-Ford-Fulkerson algorithm;
+gsdg 20;		# Gauss-Siedal Distance Geometry on atoms (I-J) with (Niter) iterations;
+			# GSDG is most useful for building simple small molecules, and adding moderate sized chucks to a partial structure;
+setf mxdq 0.75; 
+cngdel 300;
+cngdel 300;
+
+# monitor;
+active 0 1000000;
+
+
+output output.ammp;	
+
+dump atom bond angle hybrid torsion tether;	
+
+close output.ammp;	# Small molecule after building - ready for minimization;

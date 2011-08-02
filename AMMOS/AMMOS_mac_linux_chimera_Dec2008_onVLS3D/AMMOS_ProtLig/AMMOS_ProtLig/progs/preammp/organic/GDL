@@ -1,0 +1,80 @@
+35
+name gdl.cr1 type c3
+name gdl.cr2 type c3
+name gdl.hr21 type h
+name gdl.hr22 type h
+name gdl.cr3 type c3
+name gdl.hr31 type h
+name gdl.hr32 type h
+name gdl.cr4 type c3
+name gdl.hr41 type h
+name gdl.hr42 type h
+name gdl.cr5 type c3
+name gdl.hr51 type h
+name gdl.hr52 type h
+name gdl.cr6 type c3
+name gdl.hr61 type h
+name gdl.hr62 type h
+name gdl.o1 type o3
+name gdl.o2 type o3
+name gdl.cx type c3
+name gdl.hx1 type h
+name gdl.hx2 type h
+name  gdl.c1 type c3
+name  gdl.h1 type h
+name  gdl.c2 type c3
+name  gdl.h21 type h
+name  gdl.h22 type h
+name gdl.n3 type n2
+name gdl.h3 type h
+name gdl.c4 type c2
+name gdl.n5 type n3
+name gdl.h51  type h
+name gdl.h52  type h
+name gdl.n6 type n3
+name gdl.h61 type h
+name gdl.h62 type h
+36
+gdl.cr1 gdl.cr2 1
+gdl.cr1 gdl.o1 1
+gdl.cr1 gdl.o2 1
+gdl.o2 gdl.cx 1
+gdl.cx gdl.hx1 1
+gdl.cx gdl.hx2 1
+gdl.cx gdl.c1 1
+gdl.cr2 gdl.cr3 1
+gdl.cr2 gdl.hr21 1
+gdl.cr2 gdl.hr22 1
+gdl.cr3 gdl.cr4 1
+gdl.cr3 gdl.hr31 1
+gdl.cr3 gdl.hr32 1
+gdl.cr4 gdl.cr5 1
+gdl.cr4 gdl.hr41 1
+gdl.cr4 gdl.hr42 1
+gdl.cr5 gdl.cr6 1
+gdl.cr5 gdl.hr51 1
+gdl.cr5 gdl.hr52 1
+gdl.cr6 gdl.cr1 1
+gdl.cr6 gdl.hr61 1
+gdl.cr6 gdl.hr62 1
+gdl.o1 gdl.c1 1
+gdl.c1 gdl.h1 1
+gdl.c1 gdl.c2 1
+gdl.c2 gdl.h21 1
+gdl.c2 gdl.h22 1
+gdl.c2 gdl.n3 1
+gdl.n3 gdl.h3 1
+gdl.n3 gdl.c4 1.5
+gdl.c4 gdl.n5 1.5
+gdl.c4 gdl.n6 1.5
+gdl.n5 gdl.h51 1
+gdl.n5 gdl.h52 1
+gdl.n6 gdl.h61 1
+gdl.n6 gdl.h62 1
+0
+0
+0
+0
+0
+guanadrel - a noephinepherine blocker
++1 charged version

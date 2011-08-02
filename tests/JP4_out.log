@@ -1,0 +1,7 @@
+disambiguation         : False
+energetic treshold     :   100,  bad energy threshold   :   300,  stage 2 Monte Carlo    : False
+minimize               : False
+
+Id 1: mol1
+      Nc1nc(=O)c(NC=O)c(NC2CC(O)C(COP(O)=O)C2)[nH]1
+  [ERROR] no geometry parameters for atom P

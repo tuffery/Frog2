@@ -1,0 +1,12 @@
+3
+name wat.h1 type Hd charge .41
+name wat.h2 type Hd charge .41
+name wat.o type  Ow  charge -.82 
+2
+wat.o wat.h1 1
+wat.o wat.h2 1
+0
+0
+0
+0
+0

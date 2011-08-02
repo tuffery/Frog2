@@ -1,0 +1,18 @@
+6
+name meo.c type C3  charge -.331505
+name meo.s type s36 charge -.183484
+name meo.hs type h charge -.183484
+name meo.h1 type H  charge .172295
+name meo.h2 type H  charge .171347
+name meo.h3 type H  charge .171347
+5
+meo.c meo.s 1
+meo.s meo.hs 1
+meo.c meo.h1 1 
+meo.c meo.h2 1 
+meo.c meo.h3 1 
+0
+0
+0
+0
+0

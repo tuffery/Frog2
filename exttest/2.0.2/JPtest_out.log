@@ -1,0 +1,8 @@
+energetic treshold = 100
+nb Monte Carlo steps = 100
+nb max of conformations = 50
+
+Id 1: jp
+      C(=O)(O)C(C)(C)Oc1ccc(cc1)CC(=O)Nc1cc(cc(c1)C)C
+   50 conformation(s) calculated
+

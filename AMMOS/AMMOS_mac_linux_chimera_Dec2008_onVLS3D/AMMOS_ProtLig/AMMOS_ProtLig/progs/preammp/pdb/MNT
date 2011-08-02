@@ -1,0 +1,44 @@
+19
+name mnt.n type np charge -0.463
+name mnt.h1 type hd charge 0.252
+name mnt.h2 type hd charge 0.252
+name mnt.h3 type hd charge 0.252
+name mnt.ca type c3 charge 0.035
+name mnt.ha type h charge 0.048
+name mnt.c type c2 charge 0.616
+name mnt.o type o2 charge -0.504
+name mnt.cb type c3 charge -0.151
+name mnt.hb2 type h charge 0.027
+name mnt.hb3 type h charge 0.027
+name mnt.cg type c3 charge -0.054
+name mnt.hg2 type h charge 0.0652
+name mnt.hg3 type h charge 0.0652
+name mnt.sd type s34 charge -0.025
+name mnt.ce type c3 charge -0.134
+name mnt.he1 type h charge 0.0652
+name mnt.he2 type h charge 0.0652
+name mnt.he3 type h charge 0.0652
+18
+mnt.n mnt.h1 1
+mnt.n mnt.h2 1
+mnt.n mnt.h3 1
+mnt.n mnt.ca 1
+mnt.ca mnt.c 1
+mnt.ca mnt.cb 1
+mnt.ca mnt.ha 1
+mnt.c mnt.o 1.75
+mnt.cb mnt.cg 1
+mnt.cb mnt.hb2 1
+mnt.cb mnt.hb3 1
+mnt.cg mnt.sd 1
+mnt.cg mnt.hg2 1
+mnt.cg mnt.hg3 1
+mnt.sd mnt.ce 1
+mnt.ce mnt.he1 1
+mnt.ce mnt.he2 1
+mnt.ce mnt.he3 1
+0
+2
+mnt.n mnt.cb mnt.c mnt.ca  4 .494427
+mnt.n mnt.cb mnt.c mnt.ha  4  1.606971
+0

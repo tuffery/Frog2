@@ -1,0 +1,12 @@
+3
+name hoh.h1 type Hd charge .41
+name hoh.h2 type Hd charge .41
+name hoh.o type  Ow  charge -.82 
+2
+hoh.o hoh.h1 1
+hoh.o hoh.h2 1
+0
+0
+0
+0
+0

@@ -1,0 +1,26 @@
+10
+name ala.n type np charge -0.463
+name ala.h type hd charge 0.252
+name ala.ca type c3 charge 0.035
+name ala.ha type h charge 0.048
+name ala.c type c2 charge 0.616
+name ala.o type o2 charge -0.504
+name ala.cb type c3 charge -0.092
+name ala.1hb type h charge 0.036
+name ala.2hb type h charge 0.036
+name ala.3hb type h charge 0.036
+9
+ala.n ala.h 1
+ala.n ala.ca 1
+ala.ca ala.c 1
+ala.ca ala.cb 1
+ala.ca ala.ha 1
+ala.c ala.o 1.75
+ala.cb ala.1hb 1
+ala.cb ala.2hb 1
+ala.cb ala.3hb 1
+0
+2
+ala.n ala.cb ala.c ala.ca  4 .494427
+ala.n ala.cb ala.c ala.ha  4  1.606971
+0

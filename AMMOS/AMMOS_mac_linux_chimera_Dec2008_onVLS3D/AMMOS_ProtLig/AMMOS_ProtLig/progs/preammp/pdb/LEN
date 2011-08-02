@@ -1,0 +1,48 @@
+21
+name len.n type np charge -0.463
+name len.h1 type hd charge 0.252
+name len.h2 type hd charge 0.252
+name len.h3 type hd charge 0.252
+name len.ca type c3 charge 0.035
+name len.ha type h charge 0.048
+name len.c type c2 charge 0.616
+name len.o type o2 charge -0.504
+name len.cb type c3 charge -0.061
+name len.hb2 type h charge 0.033
+name len.hb3 type h charge 0.033
+name len.cg type c3 charge -0.010
+name len.cd1 type c3 charge -0.107
+name len.cd2 type c3 charge -0.107
+name len.hg type h charge 0.031
+name len.hd11 type h charge 0.034
+name len.hd12 type h charge 0.034
+name len.hd13 type h charge 0.034
+name len.hd21 type h charge 0.034
+name len.hd22 type h charge 0.034
+name len.hd23 type h charge 0.034
+20
+len.n len.h1 1
+len.n len.h2 1
+len.n len.h3 1
+len.n len.ca 1
+len.ca len.c 1
+len.ca len.cb 1
+len.ca len.ha 1
+len.c len.o 1.75
+len.cb len.cg 1
+len.cb len.hb2 1
+len.cb len.hb3 1
+len.cg len.cd1 1
+len.cg len.cd2 1
+len.cg len.hg 1
+len.cd1 len.hd11 1
+len.cd1 len.hd12 1
+len.cd1 len.hd13 1
+len.cd2 len.hd21 1 
+len.cd2 len.hd22 1
+len.cd2 len.hd23 1
+0
+2
+len.n len.cb len.c len.ca  4 .494427
+len.n len.cb len.c len.ha  4  1.606971
+0

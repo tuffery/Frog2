@@ -1,0 +1,212 @@
+
+
+ The atoms that are already defined. 
+
+
+
+
+H 
+
+Aliphatic Hydrogen 
+
+CH3OH 
+
+
+
+Hd 
+
+Hydrogen bonding H 
+
+CH3OH 
+
+
+
+C3 
+
+Sp3 Carbon 
+
+CH3OH 
+
+
+
+Ca 
+
+Aromatic Carbon 
+
+C6H6 
+
+
+
+C2 
+
+Sp2 isolated carbon 
+
+CH3COOH 
+
+
+
+C1 
+
+Sp1 carbon 
+
+HCCH 
+
+
+
+N3 
+
+Sp3 nitrogen 
+
+NH3 
+
+
+
+N2 
+
+Sp3 amide 
+
+? 
+
+
+
+Nm 
+
+Methyl nitrogen 
+
+CH3NH2 
+
+
+
+Nr 
+
+Ring Nitrogen 
+
+C5H5N 
+
+
+
+Np 
+
+Sp2 Amide (peptide) nitrogen 
+
+CH3CONHCH3 
+
+
+
+Nb 
+
+Strained ring nitrogen 
+
+C4H4N 
+
+
+
+N1 
+
+Sp1 nitrogen 
+
+HCN 
+
+
+
+Ow 
+
+Water oxygen 
+
+H2O 
+
+
+
+O3 
+
+Sp3 oxygen 
+
+CH3OH 
+
+
+
+O2 
+
+Sp2 oxygen 
+
+CH3CONHCH3 
+
+
+
+O1 
+
+Sp1 oxygen 
+
+CO 
+
+
+
+P35 
+
+Phosphate 
+
+H3PO4 
+
+
+
+S32 
+
+Reduced Sulfur 
+
+Disulfide Bonds 
+
+
+
+S34 
+
+Intermediate Sulfur 
+
+CH3SCH3 
+
+
+
+S36 
+
+Sulfate 
+
+SO4 
+
+
+
+Cl,Br,F 
+
+Halogens 
+
+CH3F 
+
+
+
+Mg 
+
+Mg ion 
+
+
+
+
+
+Fe2s 
+
+Iron Sulfur Cluster 
+
+Iron Sulfur proteins 
+
+
+
+Fe2 
+
+Iron +2 
+
+Heme 
+
+
+
+Fe3 
+
+Iron +3 
+
+Heme 

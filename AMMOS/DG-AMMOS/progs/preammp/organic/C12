@@ -1,0 +1,73 @@
+32
+name c12.c1 type C3  charge -.376
+name c12.c2 type C3  charge -.306
+name c12.c3 type C3  charge -.306
+name c12.c4 type C3  charge -.306
+name c12.c5 type C3  charge -.376
+name c12.c6 type C2  charge -.466
+name c12.h11 type H 
+name c12.h12 type H 
+name c12.h21 type H 
+name c12.h22 type H 
+name c12.h3 type H 
+name c12.h41 type H 
+name c12.h42 type H 
+name c12.n9 type np
+name c12.h9 type h
+name c12.co type c2
+name c12.oo type o2
+name c12.ca1 type c3
+name c12.ha1 type h
+name c12.ca2 type c3
+name c12.ha21 type h
+name c12.ha22 type h
+name c12.ca3 type c3
+name c12.ha31 type h
+name c12.ha32 type h
+name c12.h51 type H 
+name c12.h52 type H 
+name c12.h6 type h
+name c12.n6 type  n3  charge .3
+name c12.hn61 type h
+name c12.hn62 type h
+name c12.hn63 type h
+33
+c12.c1 c12.c2 1
+c12.c2 c12.c3 1
+c12.c3 c12.c4 1
+c12.c4 c12.c5 1
+c12.c5 c12.c6 1.
+c12.c6 c12.c1 1.
+c12.c1 c12.h11 1
+c12.c1 c12.h12 1
+c12.c2 c12.h21 1
+c12.c2 c12.h22 1
+c12.c3 c12.h3 1
+c12.c4 c12.h41 1
+c12.c4 c12.h42 1
+c12.c3 c12.n9 1
+c12.n9 c12.h9 1
+c12.n9 c12.co 1
+c12.co c12.oo 2
+c12.co c12.ca1 1
+c12.ca1 c12.ca3 1
+c12.ca1 c12.ha1 1
+c12.ca1 c12.ca2 1
+c12.ca2 c12.ca3 1
+c12.ca2 c12.ha21 1
+c12.ca2 c12.ha22 1
+c12.ca3 c12.ha31 1
+c12.ca3 c12.ha32 1
+c12.c5 c12.h51 1
+c12.c5 c12.h52 1
+c12.c6 c12.h6    1
+c12.c6 c12.n6 1
+c12.n6 c12.hn61 1
+c12.n6 c12.hn62 1
+c12.n6 c12.hn63 1
+0
+0
+0
+0
+0
+1,4 amino cyclohexane cyclopropyl peptide  +1

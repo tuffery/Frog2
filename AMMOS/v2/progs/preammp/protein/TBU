@@ -1,0 +1,37 @@
+15
+name tbu.o1 type o3 charge -.642607
+name tbu.ho1 type hd charge .258519
+name tbu.c2 type c3 charge .040715
+name tbu.c3 type c3 charge -.147083
+name tbu.h31 type h charge .088987
+name tbu.h32 type h charge .084847
+name tbu.h33 type h charge .085857
+name tbu.c4 type c3 charge -.144925
+name tbu.h41 type h charge .084720
+name tbu.h42 type h charge .089040
+name tbu.h43 type h charge .088977
+name tbu.c5 type c3 charge -.146971
+name tbu.h51 type h charge .089042
+name tbu.h52 type h charge .085813
+name tbu.h53 type h charge .085070
+14
+tbu.ho1 tbu.o1 1
+tbu.o1 tbu.c2 1
+tbu.c2 tbu.c3 1
+tbu.c2 tbu.c4 1
+tbu.c2 tbu.c5 1
+tbu.c3 tbu.h31 1
+tbu.c3 tbu.h32 1
+tbu.c3 tbu.h33 1
+tbu.c4 tbu.h41 1
+tbu.c4 tbu.h42 1
+tbu.c4 tbu.h43 1
+tbu.c5 tbu.h51 1
+tbu.c5 tbu.h52 1
+tbu.c5 tbu.h53 1
+0
+0
+0
+0
+
+tert-butanol

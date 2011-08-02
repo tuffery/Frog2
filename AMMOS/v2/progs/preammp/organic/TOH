@@ -1,0 +1,38 @@
+15
+name toh.c1 type C3  charge -.459
+name toh.c2 type C3  charge -.306
+name toh.c3 type C3  charge -.306
+name toh.c4 type C3  charge -.459
+name toh.o5 type o3 
+name toh.h11 type H 
+name toh.h12 type H 
+name toh.h13 type H 
+name toh.h21 type H 
+name toh.h22 type H 
+name toh.h23 type H 
+name toh.h31 type H 
+name toh.h32 type H 
+name toh.h33 type H 
+name toh.h5 type  hd
+14
+toh.c1 toh.c4 1
+toh.c2 toh.c4 1
+toh.c3 toh.c4 1
+toh.c1 toh.h11 1
+toh.c1 toh.h12 1
+toh.c1 toh.h13 1
+toh.c2 toh.h21 1
+toh.c2 toh.h22 1
+toh.c2 toh.h23 1
+toh.c3 toh.h31 1
+toh.c3 toh.h32 1
+toh.c3 toh.h33 1
+toh.c4 toh.o5 1
+toh.o5 toh.h5 1
+0
+0
+0
+0
+0
+
+tert-butanol

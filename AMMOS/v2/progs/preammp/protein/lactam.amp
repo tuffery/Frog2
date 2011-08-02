@@ -1,0 +1,64 @@
+#
+# lactam from gll to lyl
+#
+
+# 7/31/97  sp4 potential set ;
+# 7/12/95 sp3 potential set
+# 7 7 95  sp2 potential set 
+# peplink.ammp ;
+# generate a peptide link between ires and jres ;
+# assumes ires and jres defined as first and second residue;
+# generates a whole mess of variables;
+# equivalences  
+#  gly.ha2 cb gly.ha1 ha ; 
+#  pro.cd hn ;
+;
+serial ic ires cd ;
+jl ic 0 notdef: ;
+serial ica ires cg ;
+jl ica 0 notdef: ;
+serial io ires oe1 ;
+jl io 0 notdef: ;
+serial iha ires hg1 ;
+serial icb ires hg2 ; 
+serial in ires cb ;
+jl in 0 notdef: ;
+jl icb 0 notdef: ;
+jl iha 0 notdef: ;
+
+serial jn jres nz ;
+jl jn 0 notdef: ;
+serial jc jres ce  ;
+jl jc 0 notdef: ;
+serial jca jres cg ;
+jl jca 0 notdef: ;
+serial jhn jres hnz ;
+serial jha jres he1 ;
+serial jcb jres he2 ;
+
+jl jha 0 notdef: ;
+jl jhn 0 notdef: ;
+jl jcb 0 notdef: ;
+
+# sp3 9/17/95  c=o bond order 1.75, c-N bond order 1.25;
+bond ic jn 1.327525 390.377502;
+angle ica ic jn  62.043457 120.;
+angle io ic jn 125.932732 120.;
+angle ic jn jhn 57.246033 118.;
+angle ic jn jca 67.805611 118.;
+hybrid ica io jn ic 150.000000 0.000000 ;
+# the following was added by hand (n hybrid) ;
+hybrid ic jhn jca jn 6.000000 0.000000 ;
+torsion in ica ic jn 0.166667 6 180.000000 ;
+torsion icb ica ic jn 0.166667 6 180.000000 ;
+torsion iha ica ic jn 0.166667 6 180.000000 ;
+torsion ica ic jn jhn 3.819912 2 180.000000 ;
+torsion ica ic jn jca 3.819912 2 180.000000 ;
+torsion io ic jn jhn 3.819912 2 180.000000 ;
+torsion io ic jn jca 3.819912 2 180.000000 ;
+torsion ic jn jca jc 0.166667 6 180.000000 ;
+torsion ic jn jca jcb 0.166667 6 180.000000 ;
+torsion ic jn jca jha 0.166667 6 180.000000 ;
+# is this the problem ? ;
+#torsion io ic jn jhn 2 1 0; # force trans peptide !! ;
+nop ; notdef: ;

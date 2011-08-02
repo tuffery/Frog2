@@ -1,0 +1,54 @@
+24
+name nep.n type n3
+name nep.hn1 type h
+name nep.hn2 type h
+name nep.hn3 type h
+name nep.ca type c3 charge 0.035
+name nep.ha1 type h charge 0.048
+name nep.ha2 type h charge 0.048
+name nep.cb type c3 charge -0.098
+name nep.ob1 type o3 charge 0.038
+name nep.hob1 type h charge 0.038
+name nep.hb2 type h charge 0.038
+name nep.cg type c2 charge -0.030
+name nep.cd1 type c2 charge -0.002
+name nep.cd2 type c2 charge -0.002
+name nep.hd1 type h charge 0.064
+name nep.hd2 type h charge 0.064
+name nep.ce1 type c2 charge -0.264
+name nep.oe1 type o3 
+name nep.hoe1 type h charge 0.102
+name nep.ce2 type c2 charge -0.264
+name nep.he2 type h charge 0.102
+name nep.cz type c2 charge 0.462
+name nep.oh type o2 charge -0.528
+name nep.hh type hd charge 0.334
+24
+nep.n nep.hn1 1
+nep.n nep.hn2 1
+nep.n nep.hn3 1
+nep.n nep.ca 1
+nep.ca nep.cb 1
+nep.ca nep.ha1 1
+nep.ca nep.ha2 1
+nep.cb nep.cg 1
+nep.cb nep.ob1 1
+nep.ob1 nep.hob1 1
+nep.cb nep.hb2 1
+nep.cg nep.cd1 1.5
+nep.cg nep.cd2 1.5
+nep.cd1 nep.ce1 1.5
+nep.cd2 nep.ce2 1.5
+nep.ce1 nep.cz 1.5
+nep.ce2 nep.cz 1.5
+nep.cd1 nep.hd1 1
+nep.cd2 nep.hd2 1
+nep.ce1 nep.oe1 1
+nep.oe1 nep.hoe1 1
+nep.ce2 nep.he2 1
+nep.cz nep.oh 1
+nep.oh nep.hh 1
+0
+0
+0
+# norepinepherine

@@ -1,0 +1,221 @@
+90
+name cha.n type np charge -0.463
+name cha.hn1 type hd charge 0.252
+name cha.ca type c3 charge 0.035
+name cha.ha1 type h charge 0.048
+name cha.ha2 type h charge 0.048
+name cha.cb type c3 charge -0.080
+name cha.hb1 type h charge 0.056
+name cha.hb2 type h charge 0.056
+name cha.cg type c3 charge -0.103
+name cha.hg1 type h charge 0.074
+name cha.hg2 type h charge 0.074
+name cha.cd type c3 charge -0.228
+name cha.hd1 type h charge 0.133
+name cha.hd2 type h charge 0.133
+name cha.ne type n2 charge -0.324
+name cha.he type hd charge 0.269
+name cha.cz type c2 charge 0.760
+name cha.nh1 type n2 charge -0.624
+name cha.nh2 type n2 charge -0.624
+name cha.hh11 type hd charge 0.361
+name cha.hh12 type hd charge 0.361
+name cha.hh21 type hd charge 0.361
+name cha.hh22 type hd charge 0.361
+name cha.c1 type c3
+name cha.o1 type o3
+name cha.ho1 type h
+name cha.h1 type h
+name cha.c2 type c3
+name cha.h21 type h
+name cha.h22 type h
+name cha.c3 type c3
+name cha.h3 type h
+name cha.c4 type c3
+name cha.h41 type h
+name cha.h42 type h
+name cha.c5 type c3
+name cha.h5 type h
+name cha.o5 type o3
+name cha.ho5 type h
+name cha.c6 type c3
+name cha.h6 type h
+name cha.c7 type c3
+name cha.h7 type h
+name cha.c8 type c3
+name cha.h81 type h
+name cha.h82 type h
+name cha.c9 type c3
+name cha.h91 type h
+name cha.h92 type h
+name cha.c10 type c3
+name cha.h10 type h
+name cha.c11 type c3
+name cha.cm11 type c3
+name cha.hm11 type h
+name cha.hm12 type h
+name cha.hm13 type h
+name cha.c12 type c3
+name cha.h12 type h
+name cha.o12 type o3 
+name cha.ho12 type h
+name cha.c13 type c3
+name cha.h131 type h
+name cha.h132 type h
+name cha.c14 type c3
+name cha.h14 type h
+name cha.c15 type c3
+name cha.cn15 type c3
+name cha.hn11 type h
+name cha.hn12 type h
+name cha.hn13 type h
+name cha.c16 type c3
+name cha.h161 type h
+name cha.h162 type h
+name cha.c17 type c3
+name cha.h171 type h
+name cha.h172 type h
+name cha.cr1 type c3 
+name cha.hr1 type h
+name cha.crm1 type c3 
+name cha.hrm1 type h
+name cha.hrm2 type h
+name cha.hrm3 type h
+name cha.cr2 type c3 
+name cha.hr21 type h
+name cha.hr22 type h
+name cha.cr3 type c3
+name cha.hr31 type h
+name cha.hr32 type h
+name cha.cr4 type c2
+name cha.or41 type o2
+93
+cha.n cha.hn1 1
+cha.n cha.ca 1
+cha.ca cha.cb 1
+cha.ca cha.ha2 1
+cha.ca cha.ha1 1
+cha.cb cha.cg 1
+cha.cb cha.hb1 1
+cha.cb cha.hb2 1
+cha.cg cha.cd 1
+cha.cg cha.hg1 1
+cha.cg cha.hg2 1
+cha.cd cha.ne 1
+cha.cd cha.hd1 1
+cha.cd cha.hd2 1
+cha.ne cha.cz 1
+cha.ne cha.he 1
+cha.cz cha.nh1 1.5 
+cha.cz cha.nh2 1.5
+cha.nh1 cha.hh11 1
+cha.nh1 cha.hh12 1
+cha.nh2 cha.hh21 1
+cha.nh2 cha.hh22 1
+cha.c1 cha.h1 1
+cha.c1 cha.o1 1
+cha.o1 cha.ho1 1
+cha.c1 cha.c2 1
+cha.c2 cha.h21 1
+cha.c2 cha.h22 1
+cha.c2 cha.c3 1
+cha.c3 cha.h3 1
+cha.c3 cha.c15 1
+cha.c3 cha.c4 1
+cha.c4 cha.h41 1
+cha.c4 cha.h42 1
+cha.c4 cha.c5 1 
+cha.c5 cha.o5 1
+cha.o5 cha.ho5 1
+cha.c5 cha.h5 1
+cha.c5 cha.c6 1
+cha.c6 cha.c14 1
+cha.c6 cha.h6 1
+cha.c6 cha.c7 1
+cha.c7 cha.h7 1
+cha.c7 cha.c11 1 
+cha.c7 cha.c8 1
+cha.c8 cha.h81 1
+cha.c8 cha.h82 1
+cha.c8 cha.c9 1
+cha.c9 cha.h91 1
+cha.c9 cha.h92 1
+cha.c9 cha.c10 1
+cha.c10 cha.cr1 1
+cha.c10 cha.h10 1
+cha.c10 cha.c11 1
+cha.c11 cha.cm11 1
+cha.cm11 cha.hm11 1
+cha.cm11 cha.hm12 1
+cha.cm11 cha.hm13 1
+cha.c11 cha.c12 1
+cha.c12 cha.h12 1
+cha.c12 cha.o12 1
+cha.o12 cha.ho12 1
+cha.c12 cha.c13 1
+cha.c13 cha.h131 1
+cha.c13 cha.h132 1
+cha.c13 cha.c14 1
+cha.c14 cha.h14 1
+cha.c14 cha.c15 1
+cha.c15 cha.cn15
+cha.cn15 cha.hn11 1
+cha.cn15 cha.hn12 1
+cha.cn15 cha.hn13 1
+cha.c15 cha.c16 1
+cha.c16 cha.h161 1
+cha.c16 cha.h162 1
+cha.c16 cha.c17 1
+cha.c17 cha.h171 1
+cha.c17 cha.h172 1
+cha.c17 cha.c1 1
+cha.cr1 cha.crm1 1
+cha.crm1 cha.hrm1 1
+cha.crm1 cha.hrm2 1
+cha.crm1 cha.hrm3 1
+cha.cr1 cha.hr1 1
+cha.cr1 cha.cr2 1
+cha.cr2 cha.hr21 1
+cha.cr2 cha.hr22 1
+cha.cr2 cha.cr3 1
+cha.cr3 cha.hr31 1
+cha.cr3 cha.hr32 1
+cha.cr3 cha.cr4 1
+cha.cr4 cha.or41 1.5
+cha.cr4 cha.n 1.5
+0
+22
+cha.c9 cha.cr1 cha.c11 cha.c10  4 -.454948
+cha.c9 cha.cr1 cha.c11 cha.h10 4 -1.569965
+cha.c10 cha.crm1 cha.cr2 cha.cr1  4 -.428325
+cha.c10 cha.crm1 cha.cr2 cha.hr1  4 -1.542680
+cha.c7 cha.c10 cha.c12 cha.c11 4 .528651
+cha.c7 cha.c10 cha.c12 cha.cm11 4 2.088650
+cha.c6 cha.c8 cha.c11 cha.c7 4 -.419231
+cha.c6 cha.c8 cha.c11 cha.h7 4 -1.538937
+cha.c5 cha.c7 cha.c14 cha.c6 4  .432270
+cha.c5 cha.c7 cha.c14 cha.h6 4  1.535753
+cha.c6 cha.c13 cha.c15 cha.c14 4 -.369301
+cha.c6 cha.c13 cha.c15 cha.h14 4 -1.488753
+cha.c2 cha.c4 cha.c15 cha.c3 4 .446440
+cha.c2 cha.c4 cha.c15 cha.h3 4 1.562769
+cha.c3 cha.c14 cha.c16 cha.c15 4 .517579
+cha.c3 cha.c14 cha.c16 cha.cn15 4 2.069005
+cha.c1 cha.c2 cha.c17 cha.o1 4 -1.179919
+cha.c1 cha.c2 cha.c17 cha.h1 4 .923556
+cha.c5 cha.c6 cha.c4 cha.o5 4 -1.165854
+cha.c5 cha.c6 cha.c4 cha.h5 4 .913380
+cha.c12 cha.c14 cha.c11 cha.o12 4 -1.165854
+cha.c12 cha.c14 cha.c11 cha.h12 4 .913380
+0
+0
+
+
+# choleic acid -1 version
+# coordinated with cha 
+cha.c9 cha.c10 cha.c11 cha.h10  4 -.992142
+cha.c9 cha.c10 cha.c11 cha.cr1  4 1.03409
+
+0
+0
+0 

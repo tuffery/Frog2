@@ -1,0 +1,29 @@
+11
+name pyr.n1 type nr  charge -.153
+name pyr.c2 type C2  charge -.153
+name pyr.c3 type C2  charge -.153
+name pyr.c4 type C2  charge -.153
+name pyr.c5 type C2  charge -.153
+name pyr.c6 type C2  charge -.153
+name pyr.h2  type H  charge .153
+name pyr.h3  type H  charge .153
+name pyr.h4  type H  charge .153
+name pyr.h5  type H  charge .153
+name pyr.h6  type H  charge .153
+11
+pyr.n1 pyr.c2 1.5
+pyr.c2 pyr.c3 1.5
+pyr.c3 pyr.c4 1.5
+pyr.c4 pyr.c5 1.5
+pyr.c5 pyr.c6 1.5
+pyr.c6 pyr.n1 1.5
+pyr.c2 pyr.h2 1
+pyr.c3 pyr.h3 1
+pyr.c4 pyr.h4 1
+pyr.c5 pyr.h5 1
+pyr.c6 pyr.h6 1
+0
+0
+0
+0
+0

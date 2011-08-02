@@ -1,0 +1,5 @@
+path_of_AMMOS_ProtLig= /home/user/AMMOS_ProtLig/
+protein= protein_3ert_chimera13_NRT.pdb
+bank= ligands_databank_singleconf.mol2
+case_choice= 4 
+radius= 6

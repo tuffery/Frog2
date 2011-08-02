@@ -1,0 +1,34 @@
+13
+name bnz.c1 type C2  
+name bnz.c2 type C2 
+name bnz.c3 type C2  
+name bnz.c4 type C2  
+name bnz.c5 type C2  
+name bnz.c6 type C2  
+name bnz.h1  type H  
+name bnz.h2  type H  
+name bnz.h3  type H  
+name bnz.h4  type H  
+name bnz.h5  type H  
+name bnz.o6  type o3  
+name bnz.ho6 type hd 
+13
+bnz.c1 bnz.c2  1.5
+bnz.c2 bnz.c3  1.5
+bnz.c3 bnz.c4  1.5
+bnz.c4 bnz.c5  1.5
+bnz.c5 bnz.c6  1.5
+bnz.c6 bnz.c1  1.5
+bnz.c1 bnz.h1 1
+bnz.c2 bnz.h2 1
+bnz.c3 bnz.h3 1
+bnz.c4 bnz.h4 1
+bnz.c5 bnz.h5 1
+bnz.c6 bnz.o6 1
+bnz.o6 bnz.ho6 1
+0
+0
+0
+0
+0
+Toluene

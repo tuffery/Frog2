@@ -1,0 +1,115 @@
+54 14 -2 -2 22 22
+name tct.n type np
+name tct.hn type h
+name tct.ca type c3 charge 0.035
+name tct.ha1 type h charge 0.048
+name tct.ha2 type h charge 0.048
+name tct.cb type c3 charge -0.098
+name tct.hb1 type h charge 0.038
+name tct.hb2 type h charge 0.038
+name tct.cg type c2 charge -0.030
+name tct.cd1 type c2 charge -0.002
+name tct.cd2 type c2 charge -0.002
+name tct.hd1 type h charge 0.064
+name tct.hd2 type h charge 0.064
+name tct.ce1 type c2 charge -0.264
+name tct.ce2 type c2 charge -0.264
+name tct.he1 type h charge 0.102
+name tct.he2 type h charge 0.102
+name tct.cz type c2 charge 0.462
+name tct.oh type o2 charge -0.528
+name tct.hh type hd charge 0.334
+name tct.1n type np
+name tct.1hn type h
+name tct.1ca type c3 charge 0.035
+name tct.1ha1 type h charge 0.048
+name tct.1ha2 type h charge 0.048
+name tct.1cb type c3 charge -0.098
+name tct.1hb1 type h charge 0.038
+name tct.1hb2 type h charge 0.038
+name tct.1cg type c2 charge -0.030
+name tct.1cd1 type c2 charge -0.002
+name tct.1cd2 type c2 charge -0.002
+name tct.1hd1 type h charge 0.064
+name tct.1hd2 type h charge 0.064
+name tct.1ce1 type c2 charge -0.264
+name tct.1ce2 type c2 charge -0.264
+name tct.1he1 type h charge 0.102
+name tct.1he2 type h charge 0.102
+name tct.1cz type c2 charge 0.462
+name tct.1oh type o2 charge -0.528
+name tct.1hh type hd charge 0.334
+name tct.n1 type n2
+name tct.hn1 type hd
+name tct.c2 type c2
+name tct.c3 type c2
+name tct.h3 type h
+name tct.c4 type c2
+name tct.o4 type o2
+name tct.c5 type c2
+name tct.h5 type h
+name tct.c6 type c2
+name tct.c12 type c2
+name tct.o12 type o2
+name tct.c62 type c2
+name tct.o62 type o2
+56 16  -2 -2 22 22
+tct.n1 tct.hn1 1
+tct.n1 tct.c2 1
+tct.c2 tct.c12 1
+tct.c2 tct.c3 2
+tct.c3 tct.h3 1
+tct.c3 tct.c4 1
+tct.c4 tct.o4 2
+tct.c4 tct.c5 1
+tct.c5 tct.c6 2
+tct.c5 tct.h5 1
+tct.c6 tct.n1 1
+tct.c6 tct.c62 1
+tct.c62 tct.o62 1.75 
+tct.c62 tct.1n 1.25
+tct.c12 tct.o12 1.75 
+tct.c12 tct.n 1.25
+tct.n tct.hn 1
+tct.n tct.ca 1.
+tct.ca tct.cb 1
+tct.ca tct.ha1 1
+tct.ca tct.ha2 1
+tct.cb tct.cg 1
+tct.cb tct.hb1 1
+tct.cb tct.hb2 1
+tct.cg tct.cd1 1.5
+tct.cg tct.cd2 1.5
+tct.cd1 tct.ce1 1.5
+tct.cd2 tct.ce2 1.5
+tct.ce1 tct.cz 1.5
+tct.ce2 tct.cz 1.5
+tct.cd1 tct.hd1 1
+tct.cd2 tct.hd2 1
+tct.ce1 tct.he1 1
+tct.ce2 tct.he2 1
+tct.cz tct.oh 1
+tct.oh tct.hh 1
+tct.1n tct.1hn 1
+tct.1n tct.1ca 1.
+tct.1ca tct.1cb 1
+tct.1ca tct.1ha1 1
+tct.1ca tct.1ha2 1
+tct.1cb tct.1cg 1
+tct.1cb tct.1hb1 1
+tct.1cb tct.1hb2 1
+tct.1cg tct.1cd1 1.5
+tct.1cg tct.1cd2 1.5
+tct.1cd1 tct.1ce1 1.5
+tct.1cd2 tct.1ce2 1.5
+tct.1ce1 tct.1cz 1.5
+tct.1ce2 tct.1cz 1.5
+tct.1cd1 tct.1hd1 1
+tct.1cd2 tct.1hd2 1
+tct.1ce1 tct.1he1 1
+tct.1ce2 tct.1he2 1
+tct.1cz tct.1oh 1
+tct.1oh tct.1hh 1
+0
+0
+0

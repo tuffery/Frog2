@@ -1,0 +1,67 @@
+25
+name gau.o1 type o3  charge -.604339
+name gau.c1 type C3  charge .170176
+name gau.c2 type C3  charge .078505
+name gau.c3 type C3  charge .081127
+name gau.c4 type C3 charge .078156
+name gau.c5 type C3  charge .077649
+name gau.c6 type C3  charge .032754
+name gau.n2 type n3  charge -.600273
+name gau.o3 type o3  charge -.601438
+name gau.o4 type o3  charge -.601623
+name gau.o5 type o3  charge -.495988
+name gau.o6 type o3  charge -.595672
+name gau.h11 type H   charge .158625
+name gau.ho1 type Hd  charge .366934
+name gau.h21 type H   charge .159266
+name gau.h31 type H   charge .167601
+name gau.hn21 type Hd  charge .358154
+name gau.hn22 type Hd  charge .358154
+name gau.ho3 type Hd  charge .369702
+name gau.h41 type H   charge .164746
+name gau.ho4 type Hd  charge .367830
+name gau.h51 type H   charge .168722
+name gau.h61 type H   charge .172017
+name gau.h62 type H   charge .161368
+name gau.ho6 type Hd  charge .366001
+25
+gau.o5 gau.c1 1
+gau.c1 gau.c2 1
+gau.c2 gau.c3 1
+gau.c3 gau.c4 1
+gau.c4 gau.c5 1
+gau.c5 gau.o5 1
+gau.c5 gau.c6 1
+gau.c1 gau.o1 1
+gau.c1 gau.h11 1
+gau.o1 gau.ho1 1
+gau.c2 gau.h21 1
+gau.c2 gau.n2 1
+gau.n2 gau.hn21 1
+gau.n2 gau.hn22 1
+gau.c3 gau.h31 1
+gau.c3 gau.o3 1
+gau.o3 gau.ho3 1
+gau.c4 gau.h41 1
+gau.c4 gau.o4 1
+gau.o4 gau.ho4 1
+gau.c5 gau.h51 1
+gau.c6 gau.o6 1
+gau.c6 gau.h61 1
+gau.c6 gau.h62 1
+gau.o6 gau.ho6 1
+0
+10
+gau.c2 gau.c1 gau.c3 gau.n2 4 -1.094596
+gau.c2 gau.c1 gau.c3 gau.h21 4  .957949
+gau.c3 gau.c2 gau.c4 gau.o3  4 1.174142
+gau.c3 gau.c2 gau.c4 gau.h31 4 -.932578 
+gau.c4 gau.c3 gau.c5 gau.o4 4 -1.158380
+gau.c4 gau.c3 gau.c5 gau.h41 4 .940345
+gau.c5 gau.c4 gau.o5 gau.c6 4 1.220105
+gau.c5 gau.c4 gau.o5 gau.h51 4 -.895929
+gau.c1 gau.o5 gau.c2 gau.o1 4 -1.141856
+gau.c1 gau.o5 gau.c2 gau.h11 4 .940104
+0
+0
+:%s/

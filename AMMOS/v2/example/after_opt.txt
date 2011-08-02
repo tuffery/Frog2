@@ -1,0 +1,264 @@
+Bond mol.c2 2 mol.c1 0 E 0.324262 value 1.519606 error 0.030606
+Bond mol.c3 4 mol.c1 0 E 0.390869 value 1.414178 error 0.029246
+Bond mol.c6 8 mol.c1 0 E 0.341927 value 1.412286 error 0.027354
+Bond mol.n1 1 mol.c2 2 E 0.860490 value 1.516989 error 0.048359
+Bond mol.c4 6 mol.n1 1 E 0.678424 value 1.511569 error 0.042940
+Bond mol.c5 7 mol.n1 1 E 0.663269 value 1.511087 error 0.042457
+Bond mol.n1 1 mol.h1 15 E 0.026273 value 1.076295 error 0.007807
+Bond mol.c2 2 mol.h2 16 E 0.008221 value 1.117429 error 0.004830
+Bond mol.c2 2 mol.h3 17 E 0.001037 value 1.114314 error 0.001715
+Bond mol.n2 3 mol.c7 9 E 0.341531 value 1.499096 error 0.030466
+Bond mol.n2 3 mol.c8 10 E 0.312922 value 1.497792 error 0.029163
+Bond mol.n2 3 mol.h4 18 E 0.021951 value 1.075624 error 0.007136
+Bond mol.n2 3 mol.h5 19 E 0.025606 value 1.076196 error 0.007708
+Bond mol.o1 5 mol.c3 4 E 0.057668 value 1.421580 error 0.010841
+Bond mol.c9 11 mol.c3 4 E 0.229126 value 1.407324 error 0.022392
+Bond mol.c10 12 mol.o1 5 E 0.165508 value 1.455597 error 0.019442
+Bond mol.c8 10 mol.c4 6 E 0.304450 value 1.545338 error 0.031338
+Bond mol.c4 6 mol.h6 20 E 0.006174 value 1.116785 error 0.004186
+Bond mol.c4 6 mol.h7 21 E 0.012354 value 1.118520 error 0.005921
+Bond mol.c7 9 mol.c5 7 E 0.438600 value 1.551613 error 0.037613
+Bond mol.c5 7 mol.h8 22 E 0.014276 value 1.118964 error 0.006365
+Bond mol.c5 7 mol.h9 23 E 0.014770 value 1.119073 error 0.006474
+Bond mol.c11 13 mol.c6 8 E 0.140467 value 1.402464 error 0.017532
+Bond mol.c6 8 mol.h10 24 E 0.001045 value 1.089199 error 0.001615
+Bond mol.c7 9 mol.h11 25 E 0.008172 value 1.117415 error 0.004816
+Bond mol.c7 9 mol.h12 26 E 0.013691 value 1.118832 error 0.006233
+Bond mol.c8 10 mol.h13 27 E 0.013149 value 1.118708 error 0.006109
+Bond mol.c8 10 mol.h14 28 E 0.010260 value 1.117995 error 0.005396
+Bond mol.c12 14 mol.c9 11 E 0.120603 value 1.401177 error 0.016245
+Bond mol.c9 11 mol.h15 29 E 0.000545 value 1.088750 error 0.001166
+Bond mol.c10 12 mol.h16 30 E 0.000344 value 1.113588 error 0.000989
+Bond mol.c10 12 mol.h17 31 E 0.003664 value 1.115824 error 0.003225
+Bond mol.c10 12 mol.h18 32 E 0.003892 value 1.115922 error 0.003323
+Bond mol.c12 14 mol.c11 13 E 0.112996 value 1.400657 error 0.015725
+Bond mol.c11 13 mol.h19 33 E 0.001533 value 1.089540 error 0.001956
+Bond mol.c12 14 mol.h20 34 E 0.001483 value 1.089507 error 0.001923
+ 5.671552 bond energy
+Angle mol.c2 2 mol.c1 0 mol.c3 4 E 0.014278 value 120.856263 error 0.856260
+Angle mol.c2 2 mol.c1 0 mol.c6 8 E 0.000108 value 120.074425 error 0.074422
+Angle mol.c3 4 mol.c1 0 mol.c6 8 E 0.022417 value 119.030936 error -0.969067
+Angle mol.c2 2 mol.n1 1 mol.c4 6 E 1.458180 value 115.323673 error 8.623674
+Angle mol.c2 2 mol.n1 1 mol.c5 7 E 0.537995 value 111.938126 error 5.238127
+Angle mol.c2 2 mol.n1 1 mol.h1 15 E 0.001469 value 107.001259 error 0.301259
+Angle mol.c4 6 mol.n1 1 mol.c5 7 E 0.174762 value 109.685455 error 2.985455
+Angle mol.c4 6 mol.n1 1 mol.h1 15 E 0.000580 value 106.889360 error 0.189360
+Angle mol.c5 7 mol.n1 1 mol.h1 15 E 0.029297 value 105.354712 error -1.345288
+Angle mol.c1 0 mol.c2 2 mol.n1 1 E 0.829016 value 115.727638 error 6.257635
+Angle mol.c1 0 mol.c2 2 mol.h2 16 E 0.153271 value 106.253141 error -3.216862
+Angle mol.c1 0 mol.c2 2 mol.h3 17 E 0.003437 value 108.988318 error -0.481685
+Angle mol.n1 1 mol.c2 2 mol.h2 16 E 0.001565 value 109.153772 error -0.316231
+Angle mol.n1 1 mol.c2 2 mol.h3 17 E 0.010836 value 110.302016 error 0.832013
+Angle mol.h2 16 mol.c2 2 mol.h3 17 E 0.161741 value 105.899966 error -3.570037
+Angle mol.c7 9 mol.n2 3 mol.c8 10 E 0.476412 value 111.629217 error 4.929218
+Angle mol.c7 9 mol.n2 3 mol.h4 18 E 0.176405 value 110.001105 error 3.301106
+Angle mol.c7 9 mol.n2 3 mol.h5 19 E 0.117576 value 109.395028 error 2.695029
+Angle mol.c8 10 mol.n2 3 mol.h4 18 E 0.172670 value 109.965977 error 3.265978
+Angle mol.c8 10 mol.n2 3 mol.h5 19 E 0.109340 value 109.298928 error 2.598928
+Angle mol.h4 18 mol.n2 3 mol.h5 19 E 0.001377 value 106.408364 error -0.291635
+Angle mol.c1 0 mol.c3 4 mol.o1 5 E 0.006030 value 119.519650 error -0.480354
+Angle mol.c1 0 mol.c3 4 mol.c9 11 E 0.000003 value 120.011465 error 0.011461
+Angle mol.o1 5 mol.c3 4 mol.c9 11 E 0.000605 value 120.152166 error 0.152163
+Angle mol.c3 4 mol.o1 5 mol.c10 12 E 0.720778 value 109.925898 error 5.415896
+Angle mol.n1 1 mol.c4 6 mol.c8 10 E 0.321760 value 113.559162 error 4.089159
+Angle mol.n1 1 mol.c4 6 mol.h6 20 E 0.058152 value 111.397408 error 1.927404
+Angle mol.n1 1 mol.c4 6 mol.h7 21 E 0.003252 value 109.014191 error -0.455813
+Angle mol.c8 10 mol.c4 6 mol.h6 20 E 0.002056 value 109.077636 error -0.392367
+Angle mol.c8 10 mol.c4 6 mol.h7 21 E 0.015628 value 108.388101 error -1.081902
+Angle mol.h6 20 mol.c4 6 mol.h7 21 E 0.252196 value 105.012089 error -4.457914
+Angle mol.n1 1 mol.c5 7 mol.c7 9 E 0.457923 value 114.348254 error 4.878251
+Angle mol.n1 1 mol.c5 7 mol.h8 22 E 0.013450 value 110.396935 error 0.926932
+Angle mol.n1 1 mol.c5 7 mol.h9 23 E 0.002246 value 109.091194 error -0.378809
+Angle mol.c7 9 mol.c5 7 mol.h8 22 E 0.004406 value 108.895550 error -0.574453
+Angle mol.c7 9 mol.c5 7 mol.h9 23 E 0.028719 value 108.003391 error -1.466612
+Angle mol.h8 22 mol.c5 7 mol.h9 23 E 0.177931 value 105.725550 error -3.744453
+Angle mol.c1 0 mol.c6 8 mol.c11 13 E 0.005926 value 120.498252 error 0.498249
+Angle mol.c1 0 mol.c6 8 mol.h10 24 E 0.015742 value 121.001446 error 1.001442
+Angle mol.c11 13 mol.c6 8 mol.h10 24 E 0.035315 value 118.500039 error -1.499964
+Angle mol.n2 3 mol.c7 9 mol.c5 7 E 0.252488 value 113.092339 error 3.622336
+Angle mol.n2 3 mol.c7 9 mol.h11 25 E 0.000390 value 109.627794 error 0.157791
+Angle mol.n2 3 mol.c7 9 mol.h12 26 E 0.000431 value 109.304098 error -0.165905
+Angle mol.c5 7 mol.c7 9 mol.h11 25 E 0.000684 value 109.696335 error 0.226332
+Angle mol.c5 7 mol.c7 9 mol.h12 26 E 0.009076 value 108.645524 error -0.824479
+Angle mol.h11 25 mol.c7 9 mol.h12 26 E 0.132481 value 106.238989 error -3.231014
+Angle mol.n2 3 mol.c8 10 mol.c4 6 E 0.144595 value 112.211225 error 2.741221
+Angle mol.n2 3 mol.c8 10 mol.h13 27 E 0.000002 value 109.480180 error 0.010177
+Angle mol.n2 3 mol.c8 10 mol.h14 28 E 0.005713 value 110.074140 error 0.604137
+Angle mol.c4 6 mol.c8 10 mol.h13 27 E 0.006462 value 108.774301 error -0.695703
+Angle mol.c4 6 mol.c8 10 mol.h14 28 E 0.000072 value 109.396743 error -0.073261
+Angle mol.h13 27 mol.c8 10 mol.h14 28 E 0.094256 value 106.744683 error -2.725321
+Angle mol.c3 4 mol.c9 11 mol.c12 14 E 0.001865 value 120.279522 error 0.279519
+Angle mol.c3 4 mol.c9 11 mol.h15 29 E 0.000064 value 120.063661 error 0.063657
+Angle mol.c12 14 mol.c9 11 mol.h15 29 E 0.001856 value 119.656172 error -0.343832
+Angle mol.o1 5 mol.c10 12 mol.h16 30 E 0.006132 value 108.893460 error -0.576543
+Angle mol.o1 5 mol.c10 12 mol.h17 31 E 0.046545 value 111.058377 error 1.588374
+Angle mol.o1 5 mol.c10 12 mol.h18 32 E 0.096316 value 111.754893 error 2.284890
+Angle mol.h16 30 mol.c10 12 mol.h17 31 E 0.049510 value 107.494815 error -1.975188
+Angle mol.h16 30 mol.c10 12 mol.h18 32 E 0.024115 value 108.091514 error -1.378489
+Angle mol.h17 31 mol.c10 12 mol.h18 32 E 0.000050 value 109.407452 error -0.062551
+Angle mol.c6 8 mol.c11 13 mol.c12 14 E 0.000339 value 120.119095 error 0.119091
+Angle mol.c6 8 mol.c11 13 mol.h19 33 E 0.000242 value 120.124176 error 0.124173
+Angle mol.c12 14 mol.c11 13 mol.h19 33 E 0.000943 value 119.754950 error -0.245054
+Angle mol.c9 11 mol.c12 14 mol.c11 13 E 0.000022 value 119.969623 error -0.030381
+Angle mol.c9 11 mol.c12 14 mol.h20 34 E 0.000001 value 120.007298 error 0.007295
+Angle mol.c11 13 mol.c12 14 mol.h20 34 E 0.000008 value 120.022953 error 0.022949
+ 7.449506 angle energy
+Hybrid mol.c2 2 mol.c3 4 mol.c6 8 mol.c1 0 E 0.013497 value -0.016430 error -0.016430
+Hybrid mol.c1 0 mol.o1 5 mol.c9 11 mol.c3 4 E 0.106451 value -0.046141 error -0.046141
+Hybrid mol.c1 0 mol.c11 13 mol.h10 24 mol.c6 8 E 0.000072 value -0.001204 error -0.001204
+Hybrid mol.c3 4 mol.c12 14 mol.h15 29 mol.c9 11 E 0.000184 value -0.001916 error -0.001916
+Hybrid mol.c6 8 mol.c12 14 mol.h19 33 mol.c11 13 E 0.000486 value -0.003118 error -0.003118
+Hybrid mol.c9 11 mol.c11 13 mol.h20 34 mol.c12 14 E 0.000036 value 0.000854 error 0.000854
+ 0.120727 hybrid energy
+Torsion mol.n1 1 mol.c2 2 mol.c1 0 mol.c3 4 E 1.623006 Angle 53.790359 error 161.371069
+Torsion mol.n1 1 mol.c2 2 mol.c1 0 mol.c6 8 E 0.017624 Angle -123.934889 error 11.804699
+Torsion mol.h2 16 mol.c2 2 mol.c1 0 mol.c3 4 E 1.602701 Angle -67.531815 error 157.404550
+Torsion mol.h2 16 mol.c2 2 mol.c1 0 mol.c6 8 E 0.031371 Angle 114.742943 error 15.771175
+Torsion mol.h3 17 mol.c2 2 mol.c1 0 mol.c3 4 E 1.664907 Angle 178.758564 error 176.275672
+Torsion mol.h3 17 mol.c2 2 mol.c1 0 mol.c6 8 E 0.001219 Angle 1.033251 error 3.099753
+Torsion mol.o1 5 mol.c3 4 mol.c1 0 mol.c2 2 E 0.001470 Angle -0.846267 error 1.692540
+Torsion mol.o1 5 mol.c3 4 mol.c1 0 mol.c6 8 E 0.019676 Angle 176.902118 error 6.195769
+Torsion mol.c9 11 mol.c3 4 mol.c1 0 mol.c2 2 E 0.064274 Angle -174.394715 error 11.210579
+Torsion mol.c9 11 mol.c3 4 mol.c1 0 mol.c6 8 E 0.023059 Angle 3.353921 error 6.707842
+Torsion mol.c11 13 mol.c6 8 mol.c1 0 mol.c2 2 E 0.025235 Angle 176.491173 error 7.017659
+Torsion mol.c11 13 mol.c6 8 mol.c1 0 mol.c3 4 E 0.003338 Angle -1.275489 error 2.550985
+Torsion mol.h10 24 mol.c6 8 mol.c1 0 mol.c2 2 E 0.022591 Angle -3.319656 error 6.639318
+Torsion mol.h10 24 mol.c6 8 mol.c1 0 mol.c3 4 E 0.002421 Angle 178.913759 error 2.172487
+Torsion mol.c4 6 mol.n1 1 mol.c2 2 mol.c1 0 E 0.013797 Angle 46.072184 error 41.783445
+Torsion mol.c4 6 mol.n1 1 mol.c2 2 mol.h2 16 E 0.014269 Angle 165.824617 error 42.526177
+Torsion mol.c4 6 mol.n1 1 mol.c2 2 mol.h3 17 E 0.022863 Angle -78.216936 error 54.650821
+Torsion mol.c5 7 mol.n1 1 mol.c2 2 mol.c1 0 E 0.004243 Angle 172.396256 error 22.811246
+Torsion mol.c5 7 mol.n1 1 mol.c2 2 mol.h2 16 E 0.004520 Angle -67.851311 error 23.553926
+Torsion mol.c5 7 mol.n1 1 mol.c2 2 mol.h3 17 E 0.010183 Angle 48.107157 error 35.678526
+Torsion mol.h1 15 mol.n1 1 mol.c2 2 mol.c1 0 E 0.011496 Angle -72.664320 error 37.992960
+Torsion mol.h1 15 mol.n1 1 mol.c2 2 mol.h2 16 E 0.011933 Angle 47.088089 error 38.735733
+Torsion mol.h1 15 mol.n1 1 mol.c2 2 mol.h3 17 E 0.020007 Angle 163.046574 error 50.860265
+Torsion mol.c8 10 mol.c4 6 mol.n1 1 mol.c2 2 E 0.016169 Angle 75.138679 error 45.416037
+Torsion mol.c8 10 mol.c4 6 mol.n1 1 mol.c5 7 E 0.004321 Angle -52.326148 error 23.021557
+Torsion mol.c8 10 mol.c4 6 mol.n1 1 mol.h1 15 E 0.013815 Angle -166.062745 error 41.811794
+Torsion mol.h6 20 mol.c4 6 mol.n1 1 mol.c2 2 E 0.009555 Angle -48.491256 error 34.526232
+Torsion mol.h6 20 mol.c4 6 mol.n1 1 mol.c5 7 E 0.001212 Angle -175.956110 error 12.131671
+Torsion mol.h6 20 mol.c4 6 mol.n1 1 mol.h1 15 E 0.007711 Angle 70.307345 error 30.922034
+Torsion mol.h7 21 mol.c4 6 mol.n1 1 mol.c2 2 E 0.018133 Angle -163.913434 error 48.259711
+Torsion mol.h7 21 mol.c4 6 mol.n1 1 mol.c5 7 E 0.005435 Angle 68.621750 error 25.865248
+Torsion mol.h7 21 mol.c4 6 mol.n1 1 mol.h1 15 E 0.015660 Angle -45.114800 error 44.655594
+Torsion mol.c7 9 mol.c5 7 mol.n1 1 mol.c2 2 E 0.025309 Angle -79.253096 error 57.759295
+Torsion mol.c7 9 mol.c5 7 mol.n1 1 mol.c4 6 E 0.007153 Angle 50.081064 error 29.756807
+Torsion mol.c7 9 mol.c5 7 mol.n1 1 mol.h1 15 E 0.016286 Angle 164.803367 error 45.589927
+Torsion mol.h8 22 mol.c5 7 mol.n1 1 mol.c2 2 E 0.018070 Angle 43.942937 error 48.171188
+Torsion mol.h8 22 mol.c5 7 mol.n1 1 mol.c4 6 E 0.003327 Angle 173.277077 error 20.168782
+Torsion mol.h8 22 mol.c5 7 mol.n1 1 mol.h1 15 E 0.010362 Angle -72.000630 error 36.001891
+Torsion mol.h9 23 mol.c5 7 mol.n1 1 mol.c2 2 E 0.027846 Angle 159.708183 error 60.875453
+Torsion mol.h9 23 mol.c5 7 mol.n1 1 mol.c4 6 E 0.008687 Angle -70.957647 error 32.872941
+Torsion mol.h9 23 mol.c5 7 mol.n1 1 mol.h1 15 E 0.018449 Angle 43.764639 error 48.706088
+Torsion mol.c8 10 mol.n2 3 mol.c7 9 mol.c5 7 E 0.006427 Angle 50.609308 error 28.172080
+Torsion mol.c8 10 mol.n2 3 mol.c7 9 mol.h11 25 E 0.010606 Angle -72.146182 error 36.438545
+Torsion mol.c8 10 mol.n2 3 mol.c7 9 mol.h12 26 E 0.004946 Angle 171.781717 error 24.654851
+Torsion mol.h4 18 mol.n2 3 mol.c7 9 mol.c5 7 E 0.009948 Angle -71.750359 error 35.251076
+Torsion mol.h4 18 mol.n2 3 mol.c7 9 mol.h11 25 E 0.014910 Angle 165.494145 error 43.517593
+Torsion mol.h4 18 mol.n2 3 mol.c7 9 mol.h12 26 E 0.008110 Angle 49.422088 error 31.733737
+Torsion mol.h5 19 mol.n2 3 mol.c7 9 mol.c5 7 E 0.005033 Angle 171.708265 error 24.875220
+Torsion mol.h5 19 mol.n2 3 mol.c7 9 mol.h11 25 E 0.008825 Angle 48.952741 error 33.141780
+Torsion mol.h5 19 mol.n2 3 mol.c7 9 mol.h12 26 E 0.003726 Angle -67.119333 error 21.357993
+Torsion mol.c7 9 mol.n2 3 mol.c8 10 mol.c4 6 E 0.003838 Angle -52.772934 error 21.681201
+Torsion mol.c7 9 mol.n2 3 mol.c8 10 mol.h13 27 E 0.002972 Angle -173.648804 error 19.053604
+Torsion mol.c7 9 mol.n2 3 mol.c8 10 mol.h14 28 E 0.006319 Angle 69.309864 error 27.929591
+Torsion mol.h4 18 mol.n2 3 mol.c8 10 mol.c4 6 E 0.006720 Angle 69.606895 error 28.820685
+Torsion mol.h4 18 mol.n2 3 mol.c8 10 mol.h13 27 E 0.005571 Angle -51.268998 error 26.193006
+Torsion mol.h4 18 mol.n2 3 mol.c8 10 mol.h14 28 E 0.009849 Angle -168.310300 error 35.069086
+Torsion mol.h5 19 mol.n2 3 mol.c8 10 mol.c4 6 E 0.002719 Angle -173.927680 error 18.216933
+Torsion mol.h5 19 mol.n2 3 mol.c8 10 mol.h13 27 E 0.001996 Angle 65.196389 error 15.589160
+Torsion mol.h5 19 mol.n2 3 mol.c8 10 mol.h14 28 E 0.004871 Angle -51.844927 error 24.465227
+Torsion mol.c10 12 mol.o1 5 mol.c3 4 mol.c1 0 E 0.194175 Angle 110.103169 error 29.690499
+Torsion mol.c10 12 mol.o1 5 mol.c3 4 mol.c9 11 E 2.447917 Angle -76.357752 error 130.926748
+Torsion mol.c12 14 mol.c9 11 mol.c3 4 mol.c1 0 E 0.023687 Angle -3.399321 error 6.798652
+Torsion mol.c12 14 mol.c9 11 mol.c3 4 mol.o1 5 E 0.019620 Angle -176.906490 error 6.187003
+Torsion mol.h15 29 mol.c9 11 mol.c3 4 mol.c1 0 E 0.019721 Angle 176.898580 error 6.202845
+Torsion mol.h15 29 mol.c9 11 mol.c3 4 mol.o1 5 E 0.023580 Angle 3.391652 error 6.783302
+Torsion mol.h16 30 mol.c10 12 mol.o1 5 mol.c3 4 E 0.001024 Angle -174.681159 error 15.956523
+Torsion mol.h17 31 mol.c10 12 mol.o1 5 mol.c3 4 E 0.001835 Angle 67.138034 error 21.414110
+Torsion mol.h18 32 mol.c10 12 mol.o1 5 mol.c3 4 E 0.000786 Angle -55.342888 error 13.971338
+Torsion mol.n2 3 mol.c8 10 mol.c4 6 mol.n1 1 E 0.003904 Angle 55.067492 error 14.797532
+Torsion mol.n2 3 mol.c8 10 mol.c4 6 mol.h6 20 E 0.000000 Angle 179.951538 error 0.145400
+Torsion mol.n2 3 mol.c8 10 mol.c4 6 mol.h7 21 E 0.006211 Angle -66.231416 error 18.694246
+Torsion mol.h13 27 mol.c8 10 mol.c4 6 mol.n1 1 E 0.002144 Angle 176.349556 error 10.951360
+Torsion mol.h13 27 mol.c8 10 mol.c4 6 mol.h6 20 E 0.000246 Angle -58.764687 error 3.705933
+Torsion mol.h13 27 mol.c8 10 mol.c4 6 mol.h7 21 E 0.003931 Angle 55.050642 error 14.848075
+Torsion mol.h14 28 mol.c8 10 mol.c4 6 mol.n1 1 E 0.008727 Angle -67.400075 error 22.200224
+Torsion mol.h14 28 mol.c8 10 mol.c4 6 mol.h6 20 E 0.001019 Angle 57.485686 error 7.542942
+Torsion mol.h14 28 mol.c8 10 mol.c4 6 mol.h7 21 E 0.012002 Angle 171.301035 error 26.096895
+Torsion mol.n2 3 mol.c7 9 mol.c5 7 mol.n1 1 E 0.014050 Angle -50.573729 error 28.278809
+Torsion mol.n2 3 mol.c7 9 mol.c5 7 mol.h8 22 E 0.004715 Angle -174.576603 error 16.270165
+Torsion mol.n2 3 mol.c7 9 mol.c5 7 mol.h9 23 E 0.019209 Angle 71.064362 error 33.193085
+Torsion mol.h11 25 mol.c7 9 mol.c5 7 mol.n1 1 E 0.023006 Angle 72.143661 error 36.430991
+Torsion mol.h11 25 mol.c7 9 mol.c5 7 mol.h8 22 E 0.010534 Angle -51.859133 error 24.422607
+Torsion mol.h11 25 mol.c7 9 mol.c5 7 mol.h9 23 E 0.029343 Angle -166.218254 error 41.345265
+Torsion mol.h12 26 mol.c7 9 mol.c5 7 mol.n1 1 E 0.009884 Angle -172.117776 error 23.646660
+Torsion mol.h12 26 mol.c7 9 mol.c5 7 mol.h8 22 E 0.002420 Angle 63.879454 error 11.638361
+Torsion mol.h12 26 mol.c7 9 mol.c5 7 mol.h9 23 E 0.014326 Angle -50.479664 error 28.561005
+Torsion mol.c12 14 mol.c11 13 mol.c6 8 mol.c1 0 E 0.001287 Angle -0.791794 error 1.583598
+Torsion mol.c12 14 mol.c11 13 mol.c6 8 mol.h10 24 E 0.001956 Angle 179.023616 error 1.952773
+Torsion mol.h19 33 mol.c11 13 mol.c6 8 mol.c1 0 E 0.000194 Angle 179.692893 error 0.614220
+Torsion mol.h19 33 mol.c11 13 mol.c6 8 mol.h10 24 E 0.000496 Angle -0.491385 error 0.982774
+Torsion mol.c11 13 mol.c12 14 mol.c9 11 mol.c3 4 E 0.003535 Angle 1.312539 error 2.625069
+Torsion mol.c11 13 mol.c12 14 mol.c9 11 mol.h15 29 E 0.002117 Angle -178.984329 error 2.031352
+Torsion mol.h20 34 mol.c12 14 mol.c9 11 mol.c3 4 E 0.002857 Angle -178.819981 error 2.360020
+Torsion mol.h20 34 mol.c12 14 mol.c9 11 mol.h15 29 E 0.001601 Angle 0.883152 error 1.766296
+Torsion mol.c9 11 mol.c12 14 mol.c11 13 mol.c6 8 E 0.001263 Angle 0.784595 error 1.569190
+Torsion mol.c9 11 mol.c12 14 mol.c11 13 mol.h19 33 E 0.000187 Angle -179.698029 error 0.603951
+Torsion mol.h20 34 mol.c12 14 mol.c11 13 mol.c6 8 E 0.001725 Angle -179.083148 error 1.833713
+Torsion mol.h20 34 mol.c12 14 mol.c11 13 mol.h19 33 E 0.000387 Angle 0.434312 error 0.868617
+ 8.476707 torsion energy
+Vnonbon internal mol.c1 0 Eq 6.294570 E6 -4.982198 E12 8.989545
+Vnonbon external mol.c1 0 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c1 0 Eq 6.294570 E6 -4.982198 E12 8.989545
+Vnonbon internal mol.n1 1 Eq 19.740288 E6 -2.572458 E12 2.810070
+Vnonbon external mol.n1 1 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.n1 1 Eq 19.740288 E6 -2.572458 E12 2.810070
+Vnonbon internal mol.c2 2 Eq -0.193325 E6 -5.063307 E12 6.249461
+Vnonbon external mol.c2 2 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c2 2 Eq -0.193325 E6 -5.063307 E12 6.249461
+Vnonbon internal mol.n2 3 Eq 21.750566 E6 -1.462364 E12 1.432125
+Vnonbon external mol.n2 3 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.n2 3 Eq 21.750566 E6 -1.462364 E12 1.432125
+Vnonbon internal mol.c3 4 Eq 24.160757 E6 -5.186116 E12 9.347954
+Vnonbon external mol.c3 4 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c3 4 Eq 24.160757 E6 -5.186116 E12 9.347954
+Vnonbon internal mol.o1 5 Eq -82.956337 E6 -3.156922 E12 5.352598
+Vnonbon external mol.o1 5 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.o1 5 Eq -82.956337 E6 -3.156922 E12 5.352598
+Vnonbon internal mol.c4 6 Eq 0.861372 E6 -4.672926 E12 7.018564
+Vnonbon external mol.c4 6 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c4 6 Eq 0.861372 E6 -4.672926 E12 7.018564
+Vnonbon internal mol.c5 7 Eq 0.928828 E6 -3.601697 E12 5.615369
+Vnonbon external mol.c5 7 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c5 7 Eq 0.928828 E6 -3.601697 E12 5.615369
+Vnonbon internal mol.c6 8 Eq -6.689969 E6 -3.657514 E12 6.760506
+Vnonbon external mol.c6 8 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c6 8 Eq -6.689969 E6 -3.657514 E12 6.760506
+Vnonbon internal mol.c7 9 Eq 0.557189 E6 -3.043812 E12 4.789155
+Vnonbon external mol.c7 9 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c7 9 Eq 0.557189 E6 -3.043812 E12 4.789155
+Vnonbon internal mol.c8 10 Eq 0.535432 E6 -3.282206 E12 4.666526
+Vnonbon external mol.c8 10 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c8 10 Eq 0.535432 E6 -3.282206 E12 4.666526
+Vnonbon internal mol.c9 11 Eq -3.078099 E6 -3.501414 E12 6.980196
+Vnonbon external mol.c9 11 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c9 11 Eq -3.078099 E6 -3.501414 E12 6.980196
+Vnonbon internal mol.c10 12 Eq 10.536594 E6 -2.540860 E12 2.623098
+Vnonbon external mol.c10 12 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c10 12 Eq 10.536594 E6 -2.540860 E12 2.623098
+Vnonbon internal mol.c11 13 Eq -7.238152 E6 -2.204838 E12 4.817955
+Vnonbon external mol.c11 13 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c11 13 Eq -7.238152 E6 -2.204838 E12 4.817955
+Vnonbon internal mol.c12 14 Eq -5.580886 E6 -2.097383 E12 4.566280
+Vnonbon external mol.c12 14 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.c12 14 Eq -5.580886 E6 -2.097383 E12 4.566280
+Vnonbon internal mol.h1 15 Eq 25.579279 E6 -3.354776 E12 5.515055
+Vnonbon external mol.h1 15 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.h1 15 Eq 25.579279 E6 -3.354776 E12 5.515055
+Vnonbon internal mol.h2 16 Eq 10.595886 E6 -2.202382 E12 2.101423
+Vnonbon external mol.h2 16 Eq 0.000000 E6 0.000000 E12 0.000000
+Vnonbon total    mol.h2 16 Eq 10.595886 E6 -2.202382 E12 2.101423
+Vnonbon internal mol.h3 17 Eq 12.595659 E6 -3.247650 E12 4.401559
+Vnonbon external mol.h3 17 Eq 0.000000 

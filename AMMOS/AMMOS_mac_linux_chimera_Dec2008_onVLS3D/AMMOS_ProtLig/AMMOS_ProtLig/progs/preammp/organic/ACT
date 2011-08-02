@@ -1,0 +1,26 @@
+10
+name act.h11 type H 
+name act.h12 type H 
+name act.h13 type H
+name act.h31 type H 
+name act.h32 type H 
+name act.h33 type H
+name act.c1 type  c3 
+name act.c2 type  c2 
+name act.c3 type  c3 
+name act.o2 type  O2 
+9
+act.c1 act.h11 1
+act.c1 act.h12 1
+act.c1 act.h13 1
+act.c3 act.h31 1
+act.c3 act.h32 1
+act.c3 act.h33 1
+act.c1 act.c2 1.5
+act.c2 act.o2 2
+act.c2 act.c3 1.5
+0
+0
+0
+0
+0

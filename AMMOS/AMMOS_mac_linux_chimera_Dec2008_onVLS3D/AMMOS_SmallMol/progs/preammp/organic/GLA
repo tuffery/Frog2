@@ -1,0 +1,67 @@
+30
+name gla.o1 type o2  charge -.306
+name gla.c1 type C3  charge -.306
+name gla.c2 type C3  charge -.306
+name gla.c3 type C3  charge -.306
+name gla.c4 type C3  charge -.306
+name gla.c5 type C3  charge -.306
+name gla.c6 type C3  charge -.306
+name gla.n2 type np
+name gla.o3 type o2
+name gla.o4 type o2
+name gla.o5 type o2
+name gla.o6 type o2
+name gla.h11 type H 
+name gla.ho1 type Hd
+name gla.hn2 type Hd
+name gla.h21 type H 
+name gla.h31 type H 
+name gla.ho3 type Hd
+name gla.h41 type H 
+name gla.ho4 type Hd
+name gla.h51 type H 
+name gla.h61 type H 
+name gla.h62 type H 
+name gla.ho6 type Hd
+name gla.co type c2
+name gla.oo type o2
+name gla.cp type c3
+name gla.hp1 type h
+name gla.hp2 type h
+name gla.hp3 type h
+30
+gla.o5 gla.c1 1
+gla.c1 gla.c2 1
+gla.c2 gla.c3 1
+gla.c3 gla.c4 1
+gla.c4 gla.c5 1
+gla.c5 gla.o5 1
+gla.c5 gla.c6 1
+gla.c1 gla.o1 1
+gla.c1 gla.h11 1
+gla.o1 gla.ho1 1
+gla.c2 gla.h21 1
+gla.c2 gla.n2 1
+gla.c2 gla.hn2 1
+gla.n2 gla.co 2
+gla.co gla.oo 2
+gla.co gla.cp 1
+gla.cp gla.hp1 1
+gla.cp gla.hp2 1
+gla.cp gla.hp3 1
+gla.c3 gla.h31 1
+gla.c3 gla.o3 1
+gla.o3 gla.ho3 1
+gla.c4 gla.h41 1
+gla.c4 gla.o4 1
+gla.o4 gla.ho4 1
+gla.c5 gla.h51 1
+gla.c6 gla.o6 1
+gla.c6 gla.h61 1
+gla.c6 gla.h62 1
+gla.o6 gla.ho6 1
+0
+0
+0
+0
+0

@@ -1,0 +1,44 @@
+18
+name hip.n type np charge -0.463
+name hip.hn type hd charge 0.252
+name hip.ca type c3 charge 0.035
+name hip.ha type h charge 0.048
+name hip.c type c2 charge 0.616
+name hip.o type o2 charge -0.504
+name hip.cb type c3 charge -0.098
+name hip.hb2 type h charge 0.086
+name hip.hb3 type h charge 0.086
+name hip.cg type c2 charge 0.058
+name hip.nd1 type nr charge -0.058
+name hip.cd2 type c2 charge -0.037
+name hip.ce1 type c2 charge 0.114
+name hip.ne2 type nr charge -0.058
+name hip.hd1 type hd charge 0.306
+name hip.hd2 type h charge 0.153
+name hip.he1 type h charge 0.158
+name hip.he2 type hd charge 0.306
+18
+hip.n hip.hn 1
+hip.n hip.ca 1
+hip.ca hip.c 1
+hip.ca hip.cb 1
+hip.ca hip.ha 1
+hip.c hip.o 1.75
+hip.cb hip.cg 1
+hip.cb hip.hb2 1
+hip.cb hip.hb3 1
+hip.cg hip.nd1 1.5
+hip.cg hip.cd2 1.5
+hip.nd1 hip.ce1 1.5
+hip.cd2 hip.ne2 1.5
+hip.ce1 hip.ne2 1.5
+hip.nd1 hip.hd1 1
+hip.cd2 hip.hd2 1
+hip.ce1 hip.he1 1
+hip.ne2 hip.he2 1
+0
+2
+his.n his.cb his.c his.ca  4 .494427
+his.n his.cb his.c his.ha  4  1.606971
+0
+

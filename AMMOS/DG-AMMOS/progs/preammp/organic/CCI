@@ -1,0 +1,16 @@
+5
+name cci.c type C3  charge -.459
+name cci.i type I
+name cci.h1 type H 
+name cci.h2 type H  
+name cci.h3 type H  
+4
+cci.c cci.i 1
+cci.c cci.h1 1 
+cci.c cci.h2 1 
+cci.c cci.h3 1 
+0
+0
+0
+0
+0

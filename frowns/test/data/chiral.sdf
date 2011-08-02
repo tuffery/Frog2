@@ -1,0 +1,110 @@
+
+  -ISIS-  05260006032D
+
+ 10 10  0  0  0  0  0  0  0  0999 V2000
+    0.3541   -0.2083    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3541   -1.0333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3583    0.2083    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.3583    1.0333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3583   -1.4416    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0708    1.4458    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0666   -0.2083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0666   -1.0333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3583    1.4458    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0708   -1.4458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2 10  1  0  0  0  0
+  3  4  1  1  0  0  0
+  3  7  1  0  0  0  0
+  4  6  2  0  0  0  0
+  4  9  1  0  0  0  0
+  5  8  1  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+>  <96CONC> (97)
+4
+
+>  <96CONC_UNIT> (97)
+mg/mL
+
+>  <96INIT_VOL> (97)
+150
+
+>  <96VOL_UNIT> (97)
+ul
+
+>  <ALIAS> (97)
+ASDI-1-C-16
+
+>  <BARCODE96> (97)
+103012A002
+
+>  <CATNO> (97)
+E2271
+
+>  <COMP_REG_DATE> (97)
+01/29/2002
+
+>  <DATE_RECEIVED_96> (97)
+10/30/2001
+
+>  <DESCRIPTION> (97)
+An osmoprotectant in a wide variety of microorganisms including heterotrophic, halophilic bacteria and non-halophilic bacteria such as Streptomyces species and E. coli. It also exerts protective effects in E. coli during drying and storage.
+
+>  <FDA> (97)
+no
+
+>  <FUNDING> (97)
+WHITEHEAD
+
+>  <MGWEIGHED> (97)
+0.002
+
+>  <MGWEIGHED_UNIT> (97)
+mg
+
+>  <NAME> (97)
+Ectoine
+
+>  <ORIGINATOR> (97)
+KELLEY
+
+>  <PLATEID96> (97)
+ASDI_source-002
+
+>  <PLATE_REG_DATE> (97)
+01/29/2002
+
+>  <PLATE_STATUS> (97)
+UNLIMITED
+
+>  <PLATE_SUPPLIER> (97)
+ASDI
+
+>  <PRIMARYDESC> (97)
+osmoprotectant
+
+>  <SECNAME> (97)
+N/A
+
+>  <SECONDARYDESC> (97)
+N/A
+
+>  <Supplier> (97)
+ASDI
+
+>  <WELL96> (97)
+B008
+
+>  <384PLATE> (97)
+ACL001
+
+>  <384ROW> (97)
+C
+
+>  <384COL> (97)
+16
+
+$$$$

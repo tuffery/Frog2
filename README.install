@@ -1,0 +1,41 @@
+1. Fasta install (linux)
+2. Mac OSX additional notes
+3. Tests
+4. Basic information about command line arguments
+
+1. ==> Fast install (linux):
+Go to the project root directory ROOTDIR (the directory of this file), then:
+
+make all
+vi iMolecule/Config.py # Edit the FROGHOME path to correspond to ROOTDIR.
+
+Dependencies:
+Frog2 depends on openbabel for ring hydrogen coordinates calculation and format interconversion (mol2, sdf, smiles, pdb). A valid binary must be installed
+in ROOTDIR/bin. The distribution comes with openbabel-2.0.2 which we find ad-hoc to add hydrogens. Feel free to switch to any other version that meets your requirements. Preferably, a static version of babel is used.
+
+IMPORTANT NOTE ABOUT BABEL:
+MANY FEEDBACK ABOUT FROG2 MALFUNCTIONS ARE RELATED TO INCORRECT BABEL REFERENCING.
+PLEASE CHECK THE "babel" BINARY IN USE CORRESPONDS TO BABEL_PATH in Config.py
+AS WELL SINCE babel command line has changed depending on versions, please DO CHECK the BABEL_VERSION is correctly set in the Config.py, AND FOLLOW THE RECOMMENDATIONS.
+
+2. ==> Mac OSX additional notes:
+
+you may use gcc to compile AMMOS and frogc tools, but you may need not to use the -static compiler directive:
+
+export STATIC=
+make -e all
+
+You will have to download a copy of babel for mac OSX and adapt the BABEL_PATH in the Config.py
+
+3. ==> Tests:
+
+cd tests
+make tests
+
+# explicit invocation
+cd astex
+../../www_iMolecule.py -isdf 1jla.sdf -multi 50  -emax 50. -eini 500 -osmi 1jla-Frog.smi -omol2  1jla-Frog.mol2 -ounsolved 1jla-unsolved.data -logFile 1jla-Frog.log  -rmsd 0.8 -gnb -unambiguate
+../../www_iMolecule.py -isdf 1v4s.sdf -multi 50  -emax 50. -eini 500 -osmi 1v4s-Frog.smi -omol2  1v4s-Frog.mol2 -ounsolved 1v4s-unsolved.data -logFile 1v4s-Frog.log  -rmsd 0.8 -gnb -unambiguate
+
+4. ==> Basic information about command line arguments:
+./www_iMolecule.py -h

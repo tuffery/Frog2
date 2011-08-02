@@ -1,0 +1,26 @@
+10
+name gnd.c type c2
+name gnd.n1 type n3
+name gnd.h11 type h
+name gnd.h12 type h
+name gnd.n2 type n3
+name gnd.h21 type h
+name gnd.h22 type h
+name gnd.n3 type n3
+name gnd.h31 type h
+name gnd.h32 type h
+9
+gnd.c gnd.n1 1
+gnd.c gnd.n3 1
+gnd.c gnd.n2 1
+gnd.n1 gnd.h11 1
+gnd.n1 gnd.h12 1
+gnd.n2 gnd.h21 1
+gnd.n2 gnd.h22 1
+gnd.n3 gnd.h31 1
+gnd.n3 gnd.h32 1
+0
+0
+0
+ gndnidine +1 
+

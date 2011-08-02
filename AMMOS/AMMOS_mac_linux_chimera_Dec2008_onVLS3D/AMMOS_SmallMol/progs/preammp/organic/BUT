@@ -1,0 +1,34 @@
+14
+name but.c1 type C3  charge -.459
+name but.c2 type C3  charge -.306
+name but.c3 type C3  charge -.306
+name but.c4 type C3  charge -.459
+name but.h11 type H 
+name but.h12 type H 
+name but.h13 type H 
+name but.h21 type H 
+name but.h22 type H 
+name but.h31 type H 
+name but.h32 type H 
+name but.h41 type H 
+name but.h42 type H 
+name but.h43 type H 
+13
+but.c1 but.c2 1
+but.c2 but.c3 1
+but.c3 but.c4 1
+but.c1 but.h11 1
+but.c1 but.h12 1
+but.c1 but.h13 1
+but.c2 but.h21 1
+but.c2 but.h22 1
+but.c3 but.h31 1
+but.c3 but.h32 1
+but.c4 but.h41 1
+but.c4 but.h42 1
+but.c4 but.h43 1
+0
+0
+0
+0
+0

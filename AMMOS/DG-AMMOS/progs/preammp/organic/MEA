@@ -1,0 +1,18 @@
+7
+name mea.c1 type c3
+name mea.n2 type n3
+name mea.h1 type h
+name mea.h2 type h
+name mea.h3 type h
+name mea.h4 type h
+name mea.h5 type h
+6
+mea.c1 mea.n2 1
+mea.c1 mea.h1 1
+mea.c1 mea.h2 1
+mea.c1 mea.h3 1
+mea.n2 mea.h4 1
+mea.n2 mea.h5 1
+0 
+0 
+0

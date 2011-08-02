@@ -1,0 +1,26 @@
+10
+name cyx.n type n2 charge -0.463
+name cyx.hn type hd charge 0.252
+name cyx.ca type c3 charge 0.035
+name cyx.ha type h charge 0.048
+name cyx.c type c2 charge 0.616
+name cyx.o type o2 charge -0.504
+name cyx.cb type c3 charge -0.098
+name cyx.hb1 type h charge 0.0495
+name cyx.hb2 type h charge 0.0495
+name cyx.sg type s2 charge 0.824
+9
+cyx.n cyx.hn 1
+cyx.n cyx.ca 1
+cyx.ca cyx.c 1
+cyx.ca cyx.cb 1
+cyx.ca cyx.ha 1
+cyx.c cyx.o 1.75
+cyx.cb cyx.sg 1
+cyx.cb cyx.hb1 1
+cyx.cb cyx.hb2 1
+0
+2
+cyx.n cyx.cb cyx.c cyx.ca  4 .494427
+cyx.n cyx.cb cyx.c cyx.ha  4  1.606971
+0

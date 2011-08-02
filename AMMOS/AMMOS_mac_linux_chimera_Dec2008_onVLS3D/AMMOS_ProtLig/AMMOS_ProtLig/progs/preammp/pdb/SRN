@@ -1,0 +1,33 @@
+13
+name srn.n type np charge -0.463
+name srn.1h type hd charge 0.252
+name srn.2h type hd charge 0.252
+name srn.3h type hd charge 0.252
+name srn.ca type c3 charge 0.035
+name srn.ha type h charge 0.048
+name srn.c type c2 charge 0.616
+name srn.o type o2 charge -0.504
+name srn.cb type c3 charge 0.018
+name srn.1hb type h charge 0.119
+name srn.2hb type h charge 0.119
+name srn.og type o3 charge -0.550
+name srn.hg type hd charge 0.310
+12
+srn.n srn.1h 1
+srn.n srn.2h 1
+srn.n srn.3h 1
+srn.n srn.ca 1
+srn.ca srn.c 1
+srn.ca srn.cb 1
+srn.ca srn.ha 1
+srn.c srn.o 1.75
+srn.cb srn.og 1
+srn.cb srn.1hb 1
+srn.cb srn.2hb 1
+srn.og srn.hg 1
+0
+2
+srn.n srn.cb srn.c srn.ca  4 .494427
+srn.n srn.cb srn.c srn.ha  4  1.606971
+0
+

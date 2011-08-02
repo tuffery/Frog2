@@ -1,0 +1,105 @@
+45
+name cpr.n type np charge -0.463
+name cpr.hn type hd charge 0.252
+name cpr.ca type c3 charge 0.035
+name cpr.ha type h charge 0.048
+name cpr.c type c2 charge 0.616
+name cpr.o type o2 charge -0.504
+name cpr.cb type c3 charge -0.098
+name cpr.hb1 type h charge 0.0495
+name cpr.hb2 type h charge 0.0495
+name cpr.sg type s32 charge 0.015
+name cpr.c1 type ca
+name cpr.c2 type ca
+name cpr.c3 type ca
+name cpr.c4 type ca
+name cpr.c5 type ca
+name cpr.c6 type ca
+name cpr.c7 type ca
+name cpr.c8 type ca
+name cpr.c9 type ca
+name cpr.c10 type ca
+name cpr.c11 type ca
+name cpr.c12 type ca
+name cpr.c13 type ca
+name cpr.c14 type ca
+name cpr.c15 type ca
+name cpr.c16 type ca
+name cpr.h2 type h
+name cpr.h3 type h
+name cpr.h7 type h
+name cpr.h8 type h
+name cpr.h9 type h
+name cpr.h10 type h
+name cpr.h14 type h
+name cpr.h15 type h
+name cpr.h16 type h
+name cpr.nm type np
+name cpr.cm1 type c2
+name cpr.cm2 type c2
+name cpr.cm3 type c3
+name cpr.cm4 type c3
+name cpr.om1 type o2
+name cpr.om2 type o2
+name cpr.hm41 type h
+name cpr.hm42 type h
+name cpr.hm3 type h
+49
+cpr.n cpr.hn 1
+cpr.n cpr.ca 1
+cpr.ca cpr.c 1
+cpr.ca cpr.cb 1
+cpr.ca cpr.ha 1
+cpr.c cpr.o 1.75
+cpr.cb cpr.sg 1
+cpr.cb cpr.hb1 1
+cpr.cb cpr.hb2 1
+cpr.c1 cpr.c2 1.5
+cpr.c2 cpr.c3 1.5
+cpr.c3 cpr.c4 1.5
+cpr.c4 cpr.c5 1.5
+cpr.c5 cpr.c6 1.5
+cpr.c6 cpr.c1 1.5
+cpr.c4 cpr.c7 1.5
+cpr.c7 cpr.c8 1.5
+cpr.c6 cpr.c9 1.5
+cpr.c9 cpr.c10 1.5
+cpr.c5 cpr.c12 1.5
+cpr.c8 cpr.c13 1.5
+cpr.c10 cpr.c11 1.5
+cpr.c11 cpr.c12 1.5
+cpr.c12 cpr.c13 1.5
+cpr.c13 cpr.c14 1.5
+cpr.c14 cpr.c15 1.5
+cpr.c15 cpr.c16 1.5
+cpr.c16 cpr.c11 1.5
+cpr.c1 cpr.nm 1
+cpr.c2 cpr.h2 1
+cpr.c3 cpr.h3 1
+cpr.c7 cpr.h7 1
+cpr.c8 cpr.h8 1
+cpr.c9 cpr.h9 1
+cpr.c10 cpr.h10 1
+cpr.c14 cpr.h14 1
+cpr.c15 cpr.h15 1
+cpr.c16 cpr.h16 1
+cpr.nm cpr.cm1 1
+cpr.nm cpr.cm2 1
+cpr.cm1 cpr.om1 2
+cpr.cm2 cpr.om2 2
+cpr.cm1 cpr.cm3 1
+cpr.cm2 cpr.cm4 1
+cpr.cm3 cpr.cm4 1
+cpr.cm3 cpr.hm3 1
+cpr.cm4 cpr.hm41 1
+cpr.cm4 cpr.hm42 1
+cpr.cm3 cpr.sg 1
+0
+2
+cpr.n cpr.cb cpr.c cpr.ca  4 .494427
+cpr.n cpr.cb cpr.c cpr.ha  4  1.606971
+0
+0
+
+cys-s-1 pyrene  
+c1 is the connection for the cysteine P-28 probe

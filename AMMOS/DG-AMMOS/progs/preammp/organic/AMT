@@ -1,0 +1,61 @@
+26
+name amt.c1 type C3  charge -.153
+name amt.c2 type C3  charge -.306
+name amt.c3 type C3  charge -.306
+name amt.c4 type C3  charge -.306
+name amt.c5 type C3  charge -.153
+name amt.c6 type C3  charge -.153
+name amt.c7 type C3  charge -.153
+name amt.c8 type C3  charge -.306
+name amt.c9 type C3  charge -.306
+name amt.c10 type C3  charge -.306
+name amt.h11 type H 
+name amt.h21 type H 
+name amt.h22 type H 
+name amt.h31 type H 
+name amt.h32 type H 
+name amt.h41 type H 
+name amt.h42 type H 
+name amt.h51 type H 
+name amt.h61 type H 
+name amt.h71 type H 
+name amt.h81 type H 
+name amt.h82 type H 
+name amt.h91 type H 
+name amt.h92 type H 
+name amt.h101 type H 
+name amt.h102 type H 
+28
+amt.c1 amt.c2 1
+amt.c1 amt.h11 1
+amt.c1 amt.c3 1
+amt.c1 amt.c4 1
+amt.c2 amt.h21 1
+amt.c2 amt.h22 1
+amt.c2 amt.c5 1
+amt.c3 amt.c6 1
+amt.c3 amt.h31 1
+amt.c3 amt.h32 1
+amt.c4 amt.c7 1
+amt.c4 amt.h41 1
+amt.c4 amt.h42 1
+amt.c5 amt.h51 1
+amt.c6 amt.h61 1
+amt.c7 amt.h71 1
+amt.c5 amt.c10 1
+amt.c5 amt.c8 1
+amt.c6 amt.c8 1
+amt.c6 amt.c9 1
+amt.c7 amt.c9 1
+amt.c7 amt.c10 1
+amt.c8 amt.h81 1
+amt.c8 amt.h82 1
+amt.c9 amt.h91 1
+amt.c9 amt.h92 1
+amt.c10 amt.h101 1
+amt.c10 amt.h102 1
+0
+0
+0
+0
+0

@@ -1,0 +1,57 @@
+25
+name poa.c1 type C2  charge -.153
+name poa.c2 type C2  charge -.153
+name poa.c3 type C2  charge -.153
+name poa.c4 type C2  charge  -.153
+name poa.c5 type C2  charge -.153
+name poa.c6 type C2  charge -.153
+name poa.cp  type c3 charge -.306
+name poa.op1 type o3
+name poa.hop1 type h
+name poa.hp2 type h
+name poa.cq  type c3 charge -.306
+name poa.hq1 type h
+name poa.hq2 type h
+name poa.cr  type c3 charge -.306
+name poa.hr1 type h
+name poa.hr2 type h
+name poa.n1   type n3 charge  .22
+name poa.hn11 type h charge .311
+name poa.hn12 type h charge .311
+name poa.hn13 type h charge .311
+name poa.h1  type H  charge .153
+name poa.h2  type H  charge .153
+name poa.h3  type H 
+name poa.h5  type H 
+name poa.h6  type H  charge .153
+25
+poa.c1 poa.c2 1.5
+poa.c2 poa.c3 1.5
+poa.c3 poa.c4 1.5
+poa.c4 poa.c5 1.5
+poa.c5 poa.c6 1.5
+poa.c6 poa.c1 1.5
+poa.c1 poa.h1 1
+poa.c2 poa.h2 1
+poa.c3 poa.h3 1
+poa.c4 poa.cp 1
+poa.c5 poa.h5 1
+poa.c6 poa.h6 1
+poa.cp poa.cq 1
+poa.cq poa.cr 1
+poa.cp poa.op1 1
+poa.op1 poa.hop1 1
+poa.cp poa.hp2 1
+poa.cq poa.hq1 1
+poa.cq poa.hq2 1
+poa.cr poa.hr1 1
+poa.cr poa.hr2 1
+poa.cr poa.n1 1
+poa.n1 poa.hn11 1
+poa.n1 poa.hn12 1
+poa.n1 poa.hn13 1
+0
+0
+0
+0
+0

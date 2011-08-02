@@ -1,0 +1,8 @@
+disambiguation         : False
+energetic treshold     :   100,  bad energy threshold   :   300,  stage 2 Monte Carlo    : False
+minimize               : False
+
+Id 1: mol1
+      CC(C)(C)NC(C1CCCCN1CC(O)C1Cc2ccc(cc2)OCCCC(=O)NC(CC(N)=O)C(=O)N1)=O
+   1 conformation(s) calculated
+

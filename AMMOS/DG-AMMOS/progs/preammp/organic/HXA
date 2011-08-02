@@ -1,0 +1,50 @@
+21
+name hxa.c1 type C3  charge -.376
+name hxa.c2 type C3  charge -.306
+name hxa.c3 type C3  charge -.306
+name hxa.c4 type C3  charge -.306
+name hxa.c5 type C3  charge -.376
+name hxa.c6 type C3  charge -.466
+name hxa.h11 type H 
+name hxa.h12 type H 
+name hxa.h21 type H 
+name hxa.h22 type H 
+name hxa.h31 type H 
+name hxa.h32 type H 
+name hxa.h41 type H 
+name hxa.h42 type H 
+name hxa.h51 type H 
+name hxa.h52 type H 
+name hxa.h6 type h
+name hxa.n6 type  n3  charge .3
+name hxa.hn61 type h
+name hxa.hn62 type h
+name hxa.hn63 type h
+21
+hxa.c1 hxa.c2 1
+hxa.c2 hxa.c3 1
+hxa.c3 hxa.c4 1
+hxa.c4 hxa.c5 1
+hxa.c5 hxa.c6 1.
+hxa.c6 hxa.c1 1.
+hxa.c1 hxa.h11 1
+hxa.c1 hxa.h12 1
+hxa.c2 hxa.h21 1
+hxa.c2 hxa.h22 1
+hxa.c3 hxa.h31 1
+hxa.c3 hxa.h32 1
+hxa.c4 hxa.h41 1
+hxa.c4 hxa.h42 1
+hxa.c5 hxa.h51 1
+hxa.c5 hxa.h52 1
+hxa.c6 hxa.h6    1
+hxa.c6 hxa.n6    1
+hxa.n6 hxa.hn61 1
+hxa.n6 hxa.hn62 1
+hxa.n6 hxa.hn63 1
+0
+0
+0
+0
+0
+cyclohexylamine + 1

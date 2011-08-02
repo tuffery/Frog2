@@ -1,0 +1,40 @@
+16
+name ind.n1 type np
+name ind.h1 type h
+name ind.c2 type c2
+name ind.h2 type h
+name ind.c3 type c2
+name ind.h3 type h
+name ind.c4 type c2
+name ind.h4 type h
+name ind.c5 type c2
+name ind.h5 type h
+name ind.c6 type c2
+name ind.h6 type h
+name ind.c7 type c2
+name ind.h7 type h
+name ind.c8 type c2
+name ind.c9 type c2
+17
+ind.n1 ind.h1 1
+ind.n1 ind.c2 1
+ind.n1 ind.c8 1
+ind.c2 ind.c3 2
+ind.c2 ind.h2 1
+ind.c3 ind.c9 1
+ind.c3 ind.h3 1
+ind.c9 ind.c4 1.5
+ind.c4 ind.c5 1.5
+ind.c4 ind.h4 1
+ind.c5 ind.c6 1.5
+ind.c5 ind.h5 1
+ind.c6 ind.c7 1.5
+ind.c6 ind.h6 1
+ind.c7 ind.c8 1.5
+ind.c7 ind.h7 1
+ind.c8 ind.c9 1.5
+0
+0
+0
+
+indole

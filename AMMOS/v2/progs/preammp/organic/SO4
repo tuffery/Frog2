@@ -1,0 +1,16 @@
+5
+name so4.s type s36
+name so4.o1 type o3
+name so4.o2 type o3
+name so4.o3 type o3
+name so4.o4 type o3
+4
+so4.s so4.o1 1.5
+so4.s so4.o2 1.5
+so4.s so4.o3 1.5
+so4.s so4.o4 1.5
+0
+0
+0
+0
+SO4 -2

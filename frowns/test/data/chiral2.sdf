@@ -1,0 +1,114 @@
+
+  -ISIS-  05260006082D
+
+ 12 12  0  0  0  0  0  0  0  0999 V2000
+    1.4215   -0.9194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4215   -2.4194    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3760   -0.3657    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5455   -0.4153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5455    0.7335    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4380   -0.9897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4380    1.3079    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -1.4215   -0.4153    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.4380    2.4194    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4215    0.7335    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -2.3760   -0.9690    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3760    1.2831    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  2  0  0  0  0
+  5  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  7  9  1  6  0  0  0
+  7 10  1  0  0  0  0
+  8 10  1  0  0  0  0
+  8 11  1  1  0  0  0
+ 10 12  1  1  0  0  0
+M  END
+>  <96CONC> (289)
+4
+
+>  <96CONC_UNIT> (289)
+mg/mL
+
+>  <96INIT_VOL> (289)
+150
+
+>  <96VOL_UNIT> (289)
+ul
+
+>  <ALIAS> (289)
+ASDI-1-J-20
+
+>  <BARCODE96> (289)
+103012A004
+
+>  <CATNO> (289)
+S5375
+
+>  <COMP_REG_DATE> (289)
+01/29/2002
+
+>  <DATE_RECEIVED_96> (289)
+10/30/2001
+
+>  <DESCRIPTION> (289)
+Biosynthetic precursor of aromatic amino acids, as well as many alkaloids and other aromatic metabolites.
+
+>  <FDA> (289)
+no
+
+>  <FUNDING> (289)
+WHITEHEAD
+
+>  <MGWEIGHED> (289)
+0.002
+
+>  <MGWEIGHED_UNIT> (289)
+mg
+
+>  <NAME> (289)
+(-)Shikimic acid
+
+>  <ORIGINATOR> (289)
+KELLEY
+
+>  <PLATEID96> (289)
+ASDI_source-004
+
+>  <PLATE_REG_DATE> (289)
+01/29/2002
+
+>  <PLATE_STATUS> (289)
+UNLIMITED
+
+>  <PLATE_SUPPLIER> (289)
+ASDI
+
+>  <PRIMARYDESC> (289)
+amino acid metabolism
+
+>  <SECNAME> (289)
+N/A
+
+>  <SECONDARYDESC> (289)
+N/A
+
+>  <Supplier> (289)
+ASDI
+
+>  <WELL96> (289)
+E010
+
+>  <384PLATE> (289)
+ACL001
+
+>  <384ROW> (289)
+J
+
+>  <384COL> (289)
+20
+
+$$$$

@@ -1,0 +1,138 @@
+62
+name r35.c1 type ca
+name r35.c2 type ca
+name r35.c3 type ca
+name r35.c4 type ca
+name r35.c5 type ca
+name r35.c6 type ca
+name r35.c7 type ca
+name r35.c8 type ca
+name r35.c9 type ca
+name r35.c10 type ca
+name r35.c11 type c3
+name r35.c12 type ca
+name r35.c13 type ca
+name r35.c14 type ca
+name r35.c15 type ca
+name r35.c16 type ca
+name r35.c17 type ca
+name r35.c18 type c3
+name r35.c19 type ca
+name r35.c20 type ca
+name r35.c21 type ca
+name r35.c22 type ca
+name r35.c23 type ca
+name r35.c24 type ca
+name r35.c25 type ca
+name r35.c26 type ca
+name r35.c27 type ca
+name r35.c28 type ca
+name r35.n1 type n3
+name r35.n2 type n3
+name r35.o1 type o3
+name r35.o2 type o3
+name r35.o3 type o2
+name r35.o4 type o2
+name r35.o5 type o2
+name r35.o6 type o2
+name r35.o7 type o2
+name r35.o8 type o2
+name r35.s1 type s36
+name r35.s2 type s36
+name r35.h2 type h
+name r35.h5 type h
+name r35.h6 type h
+name r35.h9 type h
+name r35.h10 type h
+name r35.1h11 type h
+name r35.2h11 type h
+name r35.1h18 type h
+name r35.2h18 type h
+name r35.h13 type h
+name r35.h15 type h
+name r35.h16 type h
+name r35.h17 type h
+name r35.h20 type h
+name r35.h21 type h
+name r35.h24 type h
+name r35.h26 type h
+name r35.h27 type h
+name r35.ho1 type hd
+name r35.ho2 type hd
+name r35.hn1 type hd
+name r35.hn2 type hd
+66ÿ
+r35.c1 r35.c2 1.5
+r35.c1 r35.s1 1
+r35.c2 r35.c3 1.5
+r35.c2 r35.h2 1
+r35.c3 r35.c8 1.5
+r35.c3 r35.c4 1.5
+r35.c4 r35.o1 1
+r35.o1 r35.ho1 1
+r35.c4 r35.c5 1.5
+r35.c5 r35.h5 1
+r35.c5 r35.c6 1.5
+r35.c6 r35.h6 1
+r35.c6 r35.c7 1.5
+r35.c7 r35.n1 1
+r35.c7 r35.c8 1.5
+r35.c8 r35.c9 1.5
+r35.c9 r35.h9 1
+r35.c9 r35.c10 1.5
+r35.c10 r35.c1 1.5
+r35.c10 r35.h10 1
+r35.n1 r35.hn1 1
+r35.n1 r35.c11 1
+r35.c11 r35.1h11 1
+r35.c11 r35.2h11 1
+r35.c11 r35.c12 1
+r35.c12 r35.c13 1.5
+r35.c13 r35.h13 1
+r35.c13 r35.c14 1.5
+r35.c14 r35.c18 1
+r35.c14 r35.c15 1.5
+r35.c15 r35.h15 1
+r35.c15 r35.c16 1.5
+r35.c16 r35.h16 1
+r35.c16 r35.c17 1.5
+r35.c17 r35.h17 1
+r35.c17 r35.c12 1.5
+r35.c18 r35.1h18 1
+r35.c18 r35.2h18 1
+r35.c18 r35.n2 1
+r35.n2 r35.hn2 1
+r35.n2 r35.c19 1
+r35.c19 r35.c20 1.5
+r35.c20 r35.h20 1
+r35.c20 r35.c21 1.5
+r35.c21 r35.h21 1.
+r35.c21 r35.c22 1.5
+r35.c22 r35.o2 1
+r35.o2 r35.ho2 1
+r35.c22 r35.c23 1.5
+r35.c23 r35.c24 1.5
+r35.c24 r35.h24 1
+r35.c24 r35.c25 1.5
+r35.c25 r35.s2 1
+r35.c25 r35.c26 1.5
+r35.c26 r35.h26 1
+r35.c26 r35.c27 1.5
+r35.c27 r35.c28 1.5
+r35.c27 r35.h27 1
+r35.c28 r35.c23 1.5
+r35.c28 r35.c19 1.5
+r35.s1 r35.o3 1.5
+r35.s1 r35.o4 1.5
+r35.s1 r35.o5 1.5
+r35.s2 r35.o6 1.5
+r35.s2 r35.o7 1.5
+r35.s2 r35.o8 1.5
+0
+0
+0
+
+
+r3535
+
+the best integrase inhibitor (sofar) in our hands

@@ -1,0 +1,54 @@
+9
+name eta.c2 type C3  charge -.331505
+name eta.c1 type C3  charge -.331505
+name eta.o type o3 charge -.183484
+name eta.ho type h charge -.183484
+name eta.h11 type H  charge .172295
+name eta.h12 type H  charge .171347
+name eta.h13 type H  charge .171347
+name eta.h21 type H  charge .172295
+name eta.h22 type H  charge .171347
+8
+eta.c1 eta.c2 1
+eta.c2 eta.o 1
+eta.o eta.ho 1
+eta.c1 eta.h11 1 
+eta.c1 eta.h12 1 
+eta.c1 eta.h13 1 
+eta.c2 eta.h21 1 
+eta.c2 eta.h22 1 
+0
+0
+0
+0
+0
+above is neutral !!!
+11
+name eta.c2 type C3  charge -.331505
+name eta.c1 type C3  charge -.331505
+name eta.n type n3 charge -.183484
+name eta.hn1 type h charge -.183484
+name eta.hn2 type h charge -.183484
+name eta.hn3 type h charge -.183484
+name eta.h11 type H  charge .172295
+name eta.h12 type H  charge .171347
+name eta.h13 type H  charge .171347
+name eta.h21 type H  charge .172295
+name eta.h22 type H  charge .171347
+10
+eta.c1 eta.c2 1
+eta.c2 eta.n 1
+eta.n eta.hn1 1
+eta.n eta.hn2 1
+eta.n eta.hn3 1
+eta.c1 eta.h11 1 
+eta.c1 eta.h12 1 
+eta.c1 eta.h13 1 
+eta.c2 eta.h21 1 
+eta.c2 eta.h22 1 
+0
+0
+0
+0
+0
+

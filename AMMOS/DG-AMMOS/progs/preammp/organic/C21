@@ -1,0 +1,69 @@
+31
+name c21.n type n3
+name c21.hn1 type h
+name c21.hn2 type h
+name c21.hn3 type h
+name c21.ca type c3 charge 0.035
+name c21.ha1 type h charge 0.048
+name c21.ha2 type h charge 0.048
+name c21.cb type c3 charge -0.098
+name c21.hb1 type h charge 0.038
+name c21.hb2 type h charge 0.038
+name c21.cg type c2 charge -0.030
+name c21.cd1 type c2 charge -0.002
+name c21.cd2 type c2 charge -0.002
+name c21.hd1 type h charge 0.064
+name c21.hd2 type h charge 0.064
+name c21.ce1 type c2 charge -0.264
+name c21.ce2 type c2 charge -0.264
+name c21.he1 type h charge 0.102
+name c21.he2 type h charge 0.102
+name c21.cz type c2 charge 0.462
+name c21.oh type o2 charge -0.528
+name c21.co type c2
+name c21.oo type o2
+name c21.cq1 type c3
+name c21.hq1  type h
+name c21.cq2 type c3
+name c21.hq21 type h
+name c21.hq22 type h
+name c21.cq3 type c3
+name c21.hq31 type h
+name c21.hq32 type h
+32
+c21.n c21.hn1 1
+c21.n c21.hn2 1
+c21.n c21.hn3 1
+c21.n c21.ca 1
+c21.ca c21.cb 1
+c21.ca c21.ha1 1
+c21.ca c21.ha2 1
+c21.cb c21.cg 1
+c21.cb c21.hb1 1
+c21.cb c21.hb2 1
+c21.cg c21.cd1 1.5
+c21.cg c21.cd2 1.5
+c21.cd1 c21.ce1 1.5
+c21.cd2 c21.ce2 1.5
+c21.ce1 c21.cz 1.5
+c21.ce2 c21.cz 1.5
+c21.cd1 c21.hd1 1
+c21.cd2 c21.hd2 1
+c21.ce1 c21.he1 1
+c21.ce2 c21.he2 1
+c21.cz c21.oh 1
+c21.oh c21.co 1
+c21.co c21.oo 2
+c21.co c21.cq1 1
+c21.cq1 c21.cq3 1
+c21.cq1 c21.hq1 1
+c21.cq1 c21.cq2 1
+c21.cq2 c21.cq3 1
+c21.cq2 c21.hq21 1
+c21.cq2 c21.hq22 1
+c21.cq3 c21.hq31 1
+c21.cq3 c21.hq32 1
+0
+0
+0
+tyramine aryl ester to cyclopropane +1

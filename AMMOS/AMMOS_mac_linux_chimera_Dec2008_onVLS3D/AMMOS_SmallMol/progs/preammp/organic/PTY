@@ -1,0 +1,90 @@
+41
+name pty.c1 type c2
+name pty.h1 type h
+name pty.c2 type c2
+name pty.h2 type h
+name pty.c3 type c2
+name pty.h3 type h
+name pty.c4 type c2
+name pty.h4 type h
+name pty.c5 type c2
+name pty.c6 type c2
+name pty.c7 type c2
+name pty.h7 type h
+name pty.c8 type c2
+name pty.h8 type h
+name pty.c9 type c2
+name pty.c10 type c2
+name pty.c11 type c3
+name pty.h11 type h
+name pty.c12 type c2
+name pty.h12 type h
+name pty.c13 type c2
+name pty.h13 type h
+name pty.c14 type c2
+name pty.h14 type h
+name pty.c15 type c2
+name pty.h15 type h
+name pty.c16 type c3
+name pty.h161 type h
+name pty.h162 type h
+name pty.c17 type c3
+name pty.h171 type h
+name pty.h172 type h
+name pty.c18 type c3
+name pty.h181 type h
+name pty.h182 type h
+name pty.n19 type n3
+name pty.h19 type h
+name pty.c20 type c3
+name pty.h201 type h
+name pty.h202 type h
+name pty.h203 type h
+43
+pty.c1 pty.h1 1
+pty.c1 pty.c2 1.5
+pty.c1 pty.c6 1.5
+pty.c2 pty.h2 1
+pty.c2 pty.c3 1.5
+pty.c3 pty.h3 1
+pty.c3 pty.c4 1.5
+pty.c4 pty.h4 1
+pty.c4 pty.c5 1.5
+pty.c5 pty.c7 1
+pty.c5 pty.c6 1.5
+pty.c6 pty.c11 1
+pty.c7 pty.h7 1
+pty.c7 pty.c8 2
+pty.c8 pty.h8 1
+pty.c8 pty.c9 1
+pty.c9 pty.c10 1
+pty.c9 pty.c12 1.5
+pty.c12 pty.c13 1.5
+pty.c12 pty.h12 1
+pty.c13 pty.c14 1.5
+pty.c13 pty.h13 1
+pty.c14 pty.c15 1.5
+pty.c14 pty.h14 1
+pty.c15 pty.c10 1.5
+pty.c15 pty.h15 1
+pty.c10 pty.c11 1.0
+pty.c11 pty.c16 1
+pty.c11 pty.h11 1
+pty.c16 pty.h161 1
+pty.c16 pty.h162 1
+pty.c16 pty.c17
+pty.c17 pty.h171 1
+pty.c17 pty.h172 1
+pty.c17 pty.c18
+pty.c18 pty.h181 1
+pty.c18 pty.h182 1
+pty.c18 pty.n19
+pty.n19 pty.h19 1
+pty.n19 pty.c20
+pty.c20 pty.h201 1
+pty.c20 pty.h202 1
+pty.c20 pty.h203
+0
+0
+0
+# protyiptyline  a tri-cyclic antidepresent

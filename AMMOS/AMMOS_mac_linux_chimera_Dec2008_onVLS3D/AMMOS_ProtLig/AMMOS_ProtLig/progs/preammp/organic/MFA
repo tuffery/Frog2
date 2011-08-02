@@ -1,0 +1,41 @@
+18
+name mfa.n type n3
+name mfa.hn1 type h
+name mfa.hn2 type h
+name mfa.hn3 type h
+name mfa.ca type c3 charge 0.035
+name mfa.ha1 type h charge 0.048
+name mfa.ha2 type h charge 0.048
+name mfa.cg type c2 charge -0.030
+name mfa.cd1 type c2 charge -0.002
+name mfa.cd2 type c2 charge -0.002
+name mfa.hd1 type h charge 0.064
+name mfa.hd2 type h charge 0.064
+name mfa.ce1 type c2 charge -0.264
+name mfa.ce2 type c2 charge -0.264
+name mfa.he1 type h charge 0.102
+name mfa.he2 type h charge 0.102
+name mfa.cz type c2 charge 0.462
+name mfa.f type f charge -0.528
+18
+mfa.n mfa.hn1 1
+mfa.n mfa.hn2 1
+mfa.n mfa.hn3 1
+mfa.n mfa.ca 1
+mfa.ca mfa.cg 1
+mfa.ca mfa.ha1 1
+mfa.ca mfa.ha2 1
+mfa.cg mfa.cd1 1.5
+mfa.cg mfa.cd2 1.5
+mfa.cd1 mfa.ce1 1.5
+mfa.cd2 mfa.ce2 1.5
+mfa.ce1 mfa.cz 1.5
+mfa.ce2 mfa.cz 1.5
+mfa.cd1 mfa.hd1 1
+mfa.cd2 mfa.hd2 1
+mfa.ce1 mfa.he1 1
+mfa.ce2 mfa.he2 1
+mfa.cz mfa.f 1
+0
+0
+0

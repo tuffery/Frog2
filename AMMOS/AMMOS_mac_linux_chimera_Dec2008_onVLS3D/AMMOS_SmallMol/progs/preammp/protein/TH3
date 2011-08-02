@@ -1,0 +1,79 @@
+33
+name th3.h3t type hd charge .509
+name th3.p type p35 charge 1.385
+name th3.o1p type o2 charge -0.847
+name th3.o2p type o2 charge -0.847
+name th3.o3' type o3 charge -0.509
+name th3.o5' type o3 charge -0.509
+name th3.c5' type c3 charge 0.118
+name th3.h51' type h charge 0.021
+name th3.h52' type h charge 0.021
+name th3.c4' type c3 charge 0.036
+name th3.h4' type h charge 0.056
+name th3.c3' type c3 charge 0.233
+name th3.h3' type h charge 0.025
+name th3.c2' type c3 charge -0.307
+name th3.h21' type h charge 0.081
+name th3.h22' type h charge 0.081
+name th3.o4' type o3 charge -0.368
+name th3.c1' type c3 charge 0.376
+name th3.h1' type h charge 0.009
+name th3.n1 type nr charge -0.217
+name th3.c2 type c2 charge 0.849
+name th3.o2 type o2 charge -0.488
+name th3.n3 type nr charge -0.851
+name th3.h3 type hd charge 0.355
+name th3.c4 type c2 charge 0.809
+name th3.o4 type o1 charge -0.464
+name th3.c5 type c2 charge -0.176
+name th3.c5a type c3 charge -0.382
+name th3.h51 type h charge 0.114
+name th3.h52 type h charge 0.114
+name th3.h53 type h charge 0.114
+name th3.c6 type c2 charge 0.034
+name th3.h6 type h charge 0.134
+34 
+th3.h3t th3.o3' 1
+th3.p th3.o1p 1.5
+th3.p th3.o2p 1.5
+th3.p th3.o5' 1
+th3.o5' th3.c5' 1
+th3.c5' th3.c4' 1
+th3.c5' th3.h51' 1
+th3.c5' th3.h52' 1
+th3.c4' th3.o4' 1
+th3.c4' th3.c3' 1
+th3.c4' th3.h4' 1
+th3.c3' th3.o3' 1
+th3.c3' th3.c2' 1
+th3.c3' th3.h3' 1
+th3.c2' th3.c1' 1
+th3.c2' th3.h21' 1
+th3.c2' th3.h22' 1
+th3.o4' th3.c1' 1
+th3.c1' th3.h1' 1
+th3.c1' th3.n1 1
+th3.n1 th3.c2 1
+th3.n1 th3.c6 1
+th3.c2 th3.n3 1.5
+th3.c2 th3.o2 1.5
+th3.n3 th3.c4 1.5
+th3.n3 th3.h3 1
+th3.c4 th3.o4 1.5
+th3.c4 th3.c5 1.5
+th3.c5 th3.c5a 1
+th3.c5a th3.h51 1
+th3.c5a th3.h52 1
+th3.c5a th3.h53 1
+th3.c5 th3.c6 1.5
+th3.c6 th3.h6 1
+0
+6
+th3.c2' th3.c4' th3.o3' th3.c3' 6 .554654
+th3.c2' th3.c4' th3.o3' th3.H3' 6 1.669313
+th3.c3' th3.c5' th3.o4' th3.c4' 6 .554654
+th3.c3' th3.c5' th3.o4' th3.H4' 6 1.669313
+th3.o4' th3.c2' th3.h1' th3.n1  6 1.925983
+th3.o4' th3.c2' th3.h1' th3.c1' 6 .468722
+0
+

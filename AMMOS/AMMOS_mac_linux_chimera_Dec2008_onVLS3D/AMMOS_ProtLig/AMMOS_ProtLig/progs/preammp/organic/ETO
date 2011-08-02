@@ -1,0 +1,63 @@
+27
+name eto.cr1 type C2  
+name eto.or1 type o2 
+name eto.nr2 type n3  
+name eto.cr3 type C2  
+name eto.or3 type o2 
+name eto.cr4 type C3  
+name eto.hr4 type h
+name eto.nr5 type n3  
+name eto.hnr5 type H  
+name eto.cb1  type c2
+name eto.hb1 type h
+name eto.cb2  type c2
+name eto.hb2 type h
+name eto.cb3  type c2
+name eto.hb3 type h
+name eto.cb4  type c2
+name eto.cb5  type c2
+name eto.hb5 type h
+name eto.cb6  type c2
+name eto.hb6 type h
+name eto.cp4  type c3
+name eto.hp41 type H  
+name eto.hp42 type H  
+name eto.cp5  type c3
+name eto.hp51 type H  
+name eto.hp52 type H  
+name eto.hp53 type H  
+28
+eto.cr1 eto.or1 2
+eto.cr1 eto.nr2 1
+eto.nr2 eto.cp4 1
+eto.nr2 eto.cr3 1
+eto.cr3 eto.or3 2
+eto.cr3 eto.cr4 1
+eto.cr4 eto.nr5
+eto.cr4 eto.hr4
+eto.nr5 eto.cr1 1 
+eto.nr5 eto.hnr5 1 
+eto.cr4 eto.cb4 1
+eto.cp4 eto.hp41 1
+eto.cp4 eto.hp42 1
+eto.cp4 eto.cp5 1
+eto.cp5 eto.hp51 1
+eto.cp5 eto.hp52 1
+eto.cp5 eto.hp53 1
+eto.cb4 eto.cb5 1.5
+eto.cb5 eto.hb5 2
+eto.cb5 eto.cb6 1.5
+eto.cb6 eto.hb6 2
+eto.cb6 eto.cb1 1.5
+eto.cb1 eto.hb1 2
+eto.cb1 eto.cb2 1.5
+eto.cb2 eto.hb2 2
+eto.cb2 eto.cb3 1.5
+eto.cb3 eto.hb3 2
+eto.cb3 eto.cb4 1.5
+0
+0
+0
+0
+0
+# ethotoin- anti serizure ;

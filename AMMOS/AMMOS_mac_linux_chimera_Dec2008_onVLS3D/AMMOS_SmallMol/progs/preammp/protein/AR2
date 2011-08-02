@@ -1,0 +1,59 @@
+23
+name ar2.c1 type c3 charge 0.142925
+name ar2.o1 type o3 charge -.495714
+name ar2.hc1 type h charge 0.145646
+name ar2.c2 type c3 charge 0.065215
+name ar2.o2 type o3 charge -0.584933
+name ar2.hc2 type h charge  0.150596
+name ar2.ho2 type hd charge 0.346341
+name ar2.c3 type c3 charge 0.066183
+name ar2.o3 type o3 charge -0.584926
+name ar2.hc3 type h charge 0.157912
+name ar2.ho3 type hd charge 0.326480
+name ar2.c4 type c3 charge 0.061010
+name ar2.o4 type o3 charge -0.495774
+name ar2.hc4 type h charge 0.157409
+name ar2.c5 type c3 charge 0.023927
+name ar2.o5 type o3 charge -0.580306
+name ar2.h51 type h charge 0.151516
+name ar2.h52 type h charge 0.1513147
+name ar2.ho5 type hd charge 0.336583
+name ar2.c6 type c3 charge -0.015640
+name ar2.h61 type h charge 0.160875
+name ar2.h62 type h charge 0.156565
+name ar2.h63 type h charge 0.154974
+23
+ar2.c1 ar2.c2 1
+ar2.c1 ar2.o1 1
+ar2.c1 ar2.hc1 1
+ar2.c1 ar2.o4 1
+ar2.c2 ar2.c3 1
+ar2.c2 ar2.hc2 1
+ar2.c2 ar2.o2 1
+ar2.o2 ar2.ho2 1
+ar2.c3 ar2.c4 1
+ar2.c3 ar2.hc3 1
+ar2.c3 ar2.o3 1
+ar2.o3 ar2.ho3 1
+ar2.c4 ar2.c5 1
+ar2.c4 ar2.o4 1
+ar2.c4 ar2.hc4 1
+ar2.c5 ar2.h51 1
+ar2.c5 ar2.h52 1
+ar2.c5 ar2.o5 1
+ar2.o5 ar2.ho5 1
+ar2.o1 ar2.c6 1
+ar2.c6 ar2.h61 1
+ar2.c6 ar2.h62 1
+ar2.c6 ar2.h63 1
+0
+8
+ar2.c1 ar2.o4 ar2.c2 ar2.o1  4 -1.150431
+ar2.c1 ar2.o4 ar2.c2 ar2.hc1 4 .942750
+ar2.c2 ar2.c1 ar2.c3 ar2.o2  4 1.180753
+ar2.c2 ar2.c1 ar2.c3 ar2.hc2 4 -.912160
+ar2.c3 ar2.c2 ar2.c4 ar2.o3  4 -1.207525
+ar2.c3 ar2.c2 ar2.c4 ar2.hc3 4 0.891762 
+ar2.c4 ar2.c3 ar2.c5 ar2.o4 4 -1.185611
+ar2.c4 ar2.c3 ar2.c5 ar2.hc4 4 .915711
+0

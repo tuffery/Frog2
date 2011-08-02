@@ -1,0 +1,38 @@
+16
+name mps.s type s36
+name mps.c2 type c3
+name mps.c3 type c3
+name mps.n type n3
+name mps.c5 type c3
+name mps.c6 type c3
+name mps.h21 type h
+name mps.h22 type h
+name mps.h31 type h
+name mps.h32 type h
+name mps.hn1 type h
+name mps.hn2 type h
+name mps.h51 type h
+name mps.h52 type h
+name mps.h61 type h
+name mps.h62 type h
+16
+mps.s mps.c2 1
+mps.s mps.c6 1
+mps.c2 mps.c3 1
+mps.c2 mps.h21 1
+mps.c2 mps.h22 1
+mps.c3 mps.n 1
+mps.c3 mps.h31 1
+mps.c3 mps.h32 1
+mps.n mps.c5 1
+mps.n mps.hn1 1
+mps.n mps.hn2 1
+mps.c5 mps.c6 1
+mps.c5 mps.h51 1
+mps.c5 mps.h52 1
+mps.c6 mps.h61 1
+mps.c6 mps.h62 1
+0 
+0
+0
+# mopholino sulfide + 1

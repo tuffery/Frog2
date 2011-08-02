@@ -1,0 +1,32 @@
+13
+name aba.n type np charge -0.463
+name aba.hn type hd charge 0.252
+name aba.ca type c3 charge 0.035
+name aba.ha type h charge 0.048
+name aba.c type c2 charge 0.616
+name aba.o type o2 charge -0.504
+name aba.cb type c3 charge -0.092
+name aba.hb1 type h charge 0.036
+name aba.hb2 type h charge 0.036
+name aba.cg type C3 charge  -.108
+name aba.hg1 type h charge 0.036 
+name aba.hg2 type h charge 0.036
+name aba.hg3 type h charge 0.036
+12
+aba.n aba.hn 1
+aba.n aba.ca 1
+aba.ca aba.c 1
+aba.ca aba.cb 1
+aba.ca aba.ha 1
+aba.c aba.o 2
+aba.cb aba.hb1 1
+aba.cb aba.hb2 1
+aba.cb aba.cg 1
+aba.cg aba.hg1 1
+aba.cg aba.hg2 1
+aba.cg aba.hg3 1
+0
+2
+aba.n aba.cb aba.c aba.ca  4 .494427
+aba.n aba.cb aba.c aba.ha  4  1.606971
+0

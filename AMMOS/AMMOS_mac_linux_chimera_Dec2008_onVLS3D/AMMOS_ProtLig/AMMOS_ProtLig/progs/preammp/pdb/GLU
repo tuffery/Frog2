@@ -1,0 +1,36 @@
+15
+name glu.n type np charge -0.463
+name glu.h type hd charge 0.252
+name glu.ca type c3 charge 0.035
+name glu.ha type h charge 0.048
+name glu.c type c2 charge 0.616
+name glu.o type o2 charge -0.504
+name glu.cb type c3 charge -0.184
+name glu.hb2 type h charge 0.092
+name glu.hb3 type h charge 0.092
+name glu.cg type c3 charge -0.398
+name glu.hg2 type h charge 0.071
+name glu.hg3 type h charge 0.071
+name glu.cd type c2 charge 0.714
+name glu.oe1 type o2 charge -0.721
+name glu.oe2 type o2 charge -0.721
+14
+glu.n glu.h 1
+glu.n glu.ca 1
+glu.ca glu.c 1
+glu.ca glu.cb 1
+glu.ca glu.ha 1
+glu.c glu.o 1.75
+glu.cb glu.cg 1
+glu.cb glu.hb2 1
+glu.cb glu.hb3 1
+glu.cg glu.cd 1
+glu.cg glu.hg2 1
+glu.cg glu.hg3 1
+glu.cd glu.oe1 1.5
+glu.cd glu.oe2 1.5
+0
+2
+glu.n glu.cb glu.c glu.ca  4 .494427
+glu.n glu.cb glu.c glu.ha  4  1.606971
+0

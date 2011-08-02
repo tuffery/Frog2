@@ -1,0 +1,65 @@
+28
+name ama.c1 type C3  charge -.153
+name ama.c2 type C3  charge -.306
+name ama.c3 type C3  charge -.306
+name ama.c4 type C3  charge .1
+name ama.c5 type C3  charge -.153
+name ama.c6 type C3  charge -.153
+name ama.c7 type C3  charge -.153
+name ama.c8 type C3  charge -.306
+name ama.c9 type C3  charge -.306
+name ama.c10 type C3  charge -.306
+name ama.h11 type H 
+name ama.h21 type H 
+name ama.h22 type H 
+name ama.h31 type H 
+name ama.h32 type H 
+name ama.n4  type n2 charge -.1
+name ama.h41 type h 
+name ama.h42 type h 
+name ama.h43 type h 
+name ama.h51 type H 
+name ama.h61 type H 
+name ama.h71 type H 
+name ama.h81 type H 
+name ama.h82 type H 
+name ama.h91 type H 
+name ama.h92 type H 
+name ama.h101 type H 
+name ama.h102 type H 
+30
+ama.c1 ama.c2 1
+ama.c1 ama.h11 1
+ama.c1 ama.c3 1
+ama.c1 ama.c4 1
+ama.c2 ama.h21 1
+ama.c2 ama.h22 1
+ama.c2 ama.c5 1
+ama.c3 ama.c6 1
+ama.c3 ama.h31 1
+ama.c3 ama.h32 1
+ama.c4 ama.c7 1
+ama.c4 ama.n4 2
+ama.n4 ama.h41 1
+ama.n4 ama.h42 1
+ama.n4 ama.h43 1
+ama.c5 ama.h51 1
+ama.c6 ama.h61 1
+ama.c7 ama.h71 1
+ama.c5 ama.c10 1
+ama.c5 ama.c8 1
+ama.c6 ama.c8 1
+ama.c6 ama.c9 1
+ama.c7 ama.c9 1
+ama.c7 ama.c10 1
+ama.c8 ama.h81 1
+ama.c8 ama.h82 1
+ama.c9 ama.h91 1
+ama.c9 ama.h92 1
+ama.c10 ama.h101 1
+ama.c10 ama.h102 1
+0
+0
+0
+0
+0

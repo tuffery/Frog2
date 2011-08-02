@@ -1,0 +1,40 @@
+17
+name agm.c1 type c3
+name agm.h11 type h
+name agm.h12 type h
+name agm.c2 type c2
+name agm.o2 type o2
+name agm.n2  type n2
+name agm.hn21 type h
+name agm.hn22 type h
+name agm.n3 type n3
+name agm.hn3 type h
+name agm.c4 type c2
+name agm.n41 type n3
+name agm.n42 type n3
+name agm.h411 type h
+name agm.h412 type h
+name agm.h421 type h
+name agm.h422 type h
+16
+agm.c1 agm.h11 1
+agm.c1 agm.h12 1
+agm.c1 agm.c2 1 
+agm.c2 agm.o2 2
+agm.c2 agm.n2 1
+agm.n2 agm.hn21 1
+agm.n2 agm.hn22 1
+agm.c1 agm.n3 1
+agm.n3 agm.hn3 1
+agm.n3 agm.c4 1 
+agm.c4 agm.n41 1
+agm.c4 agm.n42 1
+agm.n41 agm.h411 1
+agm.n41 agm.h412 1
+agm.n42 agm.h421 1
+agm.n42 agm.h422 1
+0 
+0
+0
+0
+1-actyl guanidine + 1

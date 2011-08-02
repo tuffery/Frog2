@@ -1,0 +1,13 @@
+Aromaticity issues:
+
+ pyrole compounds and tautomers have some various aromaticity issues with the
+ BasicAromaticity module.
+
+ O=C1[NH]C=CC=C1
+
+ is not considered aromatic while the tautomer:
+
+ [O-]C1=[N+H]C=CC=C1
+
+ is. 
+

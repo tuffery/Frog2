@@ -1,0 +1,36 @@
+17
+name hie.n type np charge -0.463
+name hie.hn type hd charge 0.252
+name hie.ca type c3 charge 0.035
+name hie.ha type h charge 0.048
+name hie.c type c2 charge 0.616
+name hie.o type o2 charge -0.504
+name hie.cb type c3 charge -0.098
+name hie.hb1 type h charge 0.038
+name hie.hb2 type h charge 0.038
+name hie.cg type c2 charge 0.251
+name hie.nd1 type n1 charge -0.502
+name hie.cd2 type c2 charge -0.184
+name hie.ce1 type c2 charge 0.241
+name hie.ne2 type n2 charge -0.146
+name hie.hd2 type h charge 0.114
+name hie.he1 type h charge 0.036
+name hie.he2 type hd charge 0.228
+17
+hie.n hie.hn 1
+hie.n hie.ca 1
+hie.ca hie.c 1
+hie.ca hie.cb 1
+hie.ca hie.ha 1
+hie.c hie.o 1.75
+hie.cb hie.cg 1
+hie.cb hie.hb1 1
+hie.cb hie.hb2 1
+hie.cg hie.nd1 1
+hie.cg hie.cd2 2
+hie.nd1 hie.ce1 1
+hie.cd2 hie.ne2 1
+hie.ce1 hie.ne2 2
+hie.cd2 hie.hd2 1
+hie.ce1 hie.he1 1
+hie.ne2 hie.he2 1

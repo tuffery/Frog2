@@ -1,0 +1,215 @@
+89
+name cpx.c1 type c3
+name cpx.o1 type o3
+name cpx.ho1 type h
+name cpx.h1 type h
+name cpx.c2 type c3
+name cpx.h21 type h
+name cpx.h22 type h
+name cpx.c3 type c3
+name cpx.h3 type h
+name cpx.c4 type c3
+name cpx.h41 type h
+name cpx.h42 type h
+name cpx.c5 type c3
+name cpx.h5 type h
+name cpx.o5 type o3
+name cpx.ho5 type h
+name cpx.c6 type c3
+name cpx.h6 type h
+name cpx.c7 type c3
+name cpx.h7 type h
+name cpx.c8 type c3
+name cpx.h81 type h
+name cpx.h82 type h
+name cpx.c9 type c3
+name cpx.h91 type h
+name cpx.h92 type h
+name cpx.c10 type c3
+name cpx.h10 type h
+name cpx.c11 type c3
+name cpx.cm11 type c3
+name cpx.hm11 type h
+name cpx.hm12 type h
+name cpx.hm13 type h
+name cpx.c12 type c3
+name cpx.h12 type h
+name cpx.o12 type o3 
+name cpx.ho12 type h
+name cpx.c13 type c3
+name cpx.h131 type h
+name cpx.h132 type h
+name cpx.c14 type c3
+name cpx.h14 type h
+name cpx.c15 type c3
+name cpx.cn15 type c3
+name cpx.hn11 type h
+name cpx.hn12 type h
+name cpx.hn13 type h
+name cpx.c16 type c3
+name cpx.h161 type h
+name cpx.h162 type h
+name cpx.c17 type c3
+name cpx.h171 type h
+name cpx.h172 type h
+name cpx.cr1 type c3 
+name cpx.hr1 type h
+name cpx.crm1 type c3 
+name cpx.hrm1 type h
+name cpx.hrm2 type h
+name cpx.hrm3 type h
+name cpx.cr2 type c3 
+name cpx.hr21 type h
+name cpx.hr22 type h
+name cpx.cr3 type c3
+name cpx.hr31 type h
+name cpx.hr32 type h
+name cpx.cr4 type c2
+name cpx.or41 type o2
+name cpx.nr42 type np
+name cpx.cp1 type C2  charge -.153
+name cpx.cp2 type C2  charge -.153
+name cpx.cp3 type C2  charge -.153
+name cpx.cp4 type C2  charge -.153
+name cpx.cp5 type C2  charge -.153
+name cpx.cp6 type C2  charge -.153
+name cpx.cp11 type c3
+name cpx.hp111 type h
+name cpx.hp112 type h
+name cpx.hp123 type h
+name cpx.hp2  type H  charge .153
+name cpx.hp3  type H  charge .153
+name cpx.cp41 type c3
+name cpx.hp411 type h
+name cpx.hp412 type h
+name cpx.np42 type n3
+name cpx.hp421 type h
+name cpx.hp422 type h
+name cpx.hp423 type h
+name cpx.hp5  type H  charge .153
+name cpx.hp6  type H  charge .153
+93
+cpx.cp1 cpx.cp2 1.5
+cpx.cp2 cpx.cp3 1.5
+cpx.cp3 cpx.cp4 1.5
+cpx.cp4 cpx.cp5 1.5
+cpx.cp5 cpx.cp6 1.5
+cpx.cp6 cpx.cp1 1.5
+cpx.cp1 cpx.cp11 1
+cpx.cp11 cpx.hp111 1
+cpx.cp11 cpx.hp112 1
+cpx.cp11 cpx.nr42 1
+cpx.nr42 cpx.hp123 1
+cpx.cp2 cpx.hp2 1
+cpx.cp3 cpx.hp3 1
+cpx.cp4 cpx.cp41 1
+cpx.cp41 cpx.hp411 1
+cpx.cp41 cpx.hp412 1
+cpx.cp41 cpx.np42 1
+cpx.np42 cpx.hp421 1
+cpx.np42 cpx.hp422 1
+cpx.np42 cpx.hp423 1
+cpx.cp5 cpx.hp5 1
+cpx.cp6 cpx.hp6 1
+cpx.c1 cpx.h1 1
+cpx.c1 cpx.o1 1
+cpx.o1 cpx.ho1 1
+cpx.c1 cpx.c2 1
+cpx.c2 cpx.h21 1
+cpx.c2 cpx.h22 1
+cpx.c2 cpx.c3 1
+cpx.c3 cpx.h3 1
+cpx.c3 cpx.c15 1
+cpx.c3 cpx.c4 1
+cpx.c4 cpx.h41 1
+cpx.c4 cpx.h42 1
+cpx.c4 cpx.c5 1 
+cpx.c5 cpx.o5 1
+cpx.o5 cpx.ho5 1
+cpx.c5 cpx.h5 1
+cpx.c5 cpx.c6 1
+cpx.c6 cpx.c14 1
+cpx.c6 cpx.h6 1
+cpx.c6 cpx.c7 1
+cpx.c7 cpx.h7 1
+cpx.c7 cpx.c11 1 
+cpx.c7 cpx.c8 1
+cpx.c8 cpx.h81 1
+cpx.c8 cpx.h82 1
+cpx.c8 cpx.c9 1
+cpx.c9 cpx.h91 1
+cpx.c9 cpx.h92 1
+cpx.c9 cpx.c10 1
+cpx.c10 cpx.cr1 1
+cpx.c10 cpx.h10 1
+cpx.c10 cpx.c11 1
+cpx.c11 cpx.cm11 1
+cpx.cm11 cpx.hm11 1
+cpx.cm11 cpx.hm12 1
+cpx.cm11 cpx.hm13 1
+cpx.c11 cpx.c12 1
+cpx.c12 cpx.h12 1
+cpx.c12 cpx.o12 1
+cpx.o12 cpx.ho12 1
+cpx.c12 cpx.c13 1
+cpx.c13 cpx.h131 1
+cpx.c13 cpx.h132 1
+cpx.c13 cpx.c14 1
+cpx.c14 cpx.h14 1
+cpx.c14 cpx.c15 1
+cpx.c15 cpx.cn15
+cpx.cn15 cpx.hn11 1
+cpx.cn15 cpx.hn12 1
+cpx.cn15 cpx.hn13 1
+cpx.c15 cpx.c16 1
+cpx.c16 cpx.h161 1
+cpx.c16 cpx.h162 1
+cpx.c16 cpx.c17 1
+cpx.c17 cpx.h171 1
+cpx.c17 cpx.h172 1
+cpx.c17 cpx.c1 1
+cpx.cr1 cpx.crm1 1
+cpx.crm1 cpx.hrm1 1
+cpx.crm1 cpx.hrm2 1
+cpx.crm1 cpx.hrm3 1
+cpx.cr1 cpx.hr1 1
+cpx.cr1 cpx.cr2 1
+cpx.cr2 cpx.hr21 1
+cpx.cr2 cpx.hr22 1
+cpx.cr2 cpx.cr3 1
+cpx.cr3 cpx.hr31 1
+cpx.cr3 cpx.hr32 1
+cpx.cr3 cpx.cr4 1
+cpx.cr4 cpx.or41 1.5
+cpx.cr4 cpx.nr42 1.5
+0
+22
+cpx.c9 cpx.cr1 cpx.c11 cpx.c10  4 -.454948
+cpx.c9 cpx.cr1 cpx.c11 cpx.h10 4 -1.569965
+cpx.c10 cpx.crm1 cpx.cr2 cpx.cr1  4 -.428325
+cpx.c10 cpx.crm1 cpx.cr2 cpx.hr1  4 -1.542680
+cpx.c7 cpx.c10 cpx.c12 cpx.c11 4 .528651
+cpx.c7 cpx.c10 cpx.c12 cpx.cm11 4 2.088650
+cpx.c6 cpx.c8 cpx.c11 cpx.c7 4 -.419231
+cpx.c6 cpx.c8 cpx.c11 cpx.h7 4 -1.538937
+cpx.c5 cpx.c7 cpx.c14 cpx.c6 4  .432270
+cpx.c5 cpx.c7 cpx.c14 cpx.h6 4  1.535753
+cpx.c6 cpx.c13 cpx.c15 cpx.c14 4 -.369301
+cpx.c6 cpx.c13 cpx.c15 cpx.h14 4 -1.488753
+cpx.c2 cpx.c4 cpx.c15 cpx.c3 4 .446440
+cpx.c2 cpx.c4 cpx.c15 cpx.h3 4 1.562769
+cpx.c3 cpx.c14 cpx.c16 cpx.c15 4 .517579
+cpx.c3 cpx.c14 cpx.c16 cpx.cn15 4 2.069005
+cpx.c1 cpx.c2 cpx.c17 cpx.o1 4 -1.179919
+cpx.c1 cpx.c2 cpx.c17 cpx.h1 4 .923556
+cpx.c5 cpx.c6 cpx.c4 cpx.o5 4 -1.165854
+cpx.c5 cpx.c6 cpx.c4 cpx.h5 4 .913380
+cpx.c12 cpx.c14 cpx.c11 cpx.o12 4 -1.165854
+cpx.c12 cpx.c14 cpx.c11 cpx.h12 4 .913380
+0
+0
+
+
+# choleic acid -1 version
+# para diamino xylene adduct
+

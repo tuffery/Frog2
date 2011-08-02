@@ -1,0 +1,14 @@
+4
+name cho.h1 type H charge .41
+name cho.h2 type H charge .41
+name cho.c type c2
+name cho.o type  O2  charge -.82 
+3
+cho.c cho.h1 1
+cho.c cho.h2 1
+cho.c cho.o 2
+0
+0
+0
+0
+0

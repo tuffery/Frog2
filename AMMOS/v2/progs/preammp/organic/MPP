@@ -1,0 +1,30 @@
+12
+name mpp.c1 type C3  charge -.331505
+name mpp.h11 type H  charge .172295
+name mpp.h12 type H  charge .171347
+name mpp.h13 type H  charge .171347
+name mpp.p type p35 
+name mpp.op1 type o2
+name mpp.op2 type o2
+name mpp.op3 type o2
+name mpp.p2 type p35 
+name mpp.op21 type o2
+name mpp.op22 type o2
+name mpp.op23 type o2
+11
+mpp.c1 mpp.p 1
+mpp.p mpp.op1 1
+mpp.p mpp.op2 1
+mpp.p mpp.op3 1
+mpp.op2 mpp.p2 1
+mpp.p2 mpp.op21 1
+mpp.p2 mpp.op22 1
+mpp.p2 mpp.op23 1
+mpp.c1 mpp.h11 1 
+mpp.c1 mpp.h12 1 
+mpp.c1 mpp.h13 1 
+0
+0
+0
+0
+0

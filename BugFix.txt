@@ -1,0 +1,18 @@
+# 2011 28 01: 
+# Report from Jean Pierre Ebejer
+
+Cause: Failure in isRingChiralClass for neighboursPlaced == 1 (ring not there yet)
+
+BugFix:
+# In tools.py setCoord():
+
+    if ori.chiral_class:
+	    if ori.rings:
+	    # Bug fix: ADDED (len(neighboursPlaced) > 1) and 
+	    # To prevent isRingChiralSens call
+		    if (len(neighboursPlaced) > 1) and (not isRingChiralSens(ori, neighboursPlaced, neighboursToPlace, saveindex, verbose = verbose)):
+			    sens *= -1
+	    else:
+		    smilesorder, currentorder = getChiralNeighbours(ori, neighboursPlaced, neighboursToPlace, saveindex, verbose = verbose)
+		    if not issamesens(smilesorder, currentorder):
+			    sens *= -1

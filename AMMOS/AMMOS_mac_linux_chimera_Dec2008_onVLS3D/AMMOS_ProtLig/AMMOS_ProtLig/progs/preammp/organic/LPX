@@ -1,0 +1,94 @@
+41 
+name lpx.n type np charge -0.463
+name lpx.hn type hd charge 0.252
+name lpx.ca type c3 charge 0.035
+name lpx.ha type h charge 0.048
+name lpx.c type c2 charge 0.616
+name lpx.o type o1 charge -0.504
+name lpx.cb type c3 charge -0.061
+name lpx.hb1 type h charge 0.033
+name lpx.hb2 type h charge 0.033
+name lpx.cg type c3 charge -0.010
+name lpx.cd1 type c3 charge -0.107
+name lpx.cd2 type c3 charge -0.107
+name lpx.hg type h charge 0.031
+name lpx.hd11 type h charge 0.034
+name lpx.hd12 type h charge 0.034
+name lpx.hd13 type h charge 0.034
+name lpx.hd21 type h charge 0.034
+name lpx.hd22 type h charge 0.034
+name lpx.hd23 type h charge 0.034
+name lpx.c1 type C2  charge -.153
+name lpx.c2 type C2  charge -.153
+name lpx.c3 type C2  charge -.153
+name lpx.c4 type C2  charge -.153
+name lpx.c5 type C2  charge -.153
+name lpx.c6 type C2  charge -.153
+name lpx.c11 type c3
+name lpx.h111 type h
+name lpx.h112 type h
+name lpx.n12 type np
+name lpx.h121 type h
+name lpx.h2  type H  charge .153
+name lpx.h3  type H  charge .153
+name lpx.c41 type c3
+name lpx.h411 type h
+name lpx.h412 type h
+name lpx.n42 type n3
+name lpx.h421 type h
+name lpx.h422 type h
+name lpx.h423 type h
+name lpx.h5  type H  charge .153
+name lpx.h6  type H  charge .153
+41
+lpx.n lpx.hn 1
+lpx.n lpx.ca 1
+lpx.ca lpx.c 1
+lpx.ca lpx.cb 1
+lpx.ca lpx.ha 1
+lpx.c lpx.o 2
+lpx.cb lpx.cg 1
+lpx.cb lpx.hb1 1
+lpx.cb lpx.hb2 1
+lpx.cg lpx.cd1 1
+lpx.cg lpx.cd2 1
+lpx.cg lpx.hg 1
+lpx.cd1 lpx.hd11 1
+lpx.cd1 lpx.hd12 1
+lpx.cd1 lpx.hd13 1
+lpx.cd2 lpx.hd21 1 
+lpx.cd2 lpx.hd22 1
+lpx.cd2 lpx.hd23 1
+lpx.c lpx.n12 1
+lpx.c1 lpx.c2 1.5
+lpx.c2 lpx.c3 1.5
+lpx.c3 lpx.c4 1.5
+lpx.c4 lpx.c5 1.5
+lpx.c5 lpx.c6 1.5
+lpx.c6 lpx.c1 1.5
+lpx.c1 lpx.c11 1
+lpx.c11 lpx.h111 1
+lpx.c11 lpx.h112 1
+lpx.c11 lpx.n12 1
+lpx.n12 lpx.h121 1
+lpx.c2 lpx.h2 1
+lpx.c3 lpx.h3 1
+lpx.c4 lpx.c41 1
+lpx.c41 lpx.h411 1
+lpx.c41 lpx.h412 1
+lpx.c41 lpx.n42 1
+lpx.n42 lpx.h421 1
+lpx.n42 lpx.h422 1
+lpx.n42 lpx.h423 1
+lpx.c5 lpx.h5 1
+lpx.c6 lpx.h6 1
+0
+2
+lpx.n lpx.cb lpx.c lpx.ca  4 .494427
+lpx.n lpx.cb lpx.c lpx.ha  4  1.606971
+0
+0
+0
+0
+0
+0

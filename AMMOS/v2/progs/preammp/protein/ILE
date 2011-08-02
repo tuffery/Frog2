@@ -1,0 +1,46 @@
+19
+name ile.n type np charge -0.463
+name ile.hn type hd charge 0.252
+name ile.ca type c3 charge 0.035
+name ile.ha type h charge 0.048
+name ile.c type c2 charge 0.616
+name ile.o type o2 charge -0.504
+name ile.cb type c3 charge -0.012
+name ile.hb type h charge 0.022
+name ile.cg1 type c3 charge -0.049
+name ile.hg11 type h charge 0.027
+name ile.hg12 type h charge 0.027
+name ile.cg2 type c3 charge -0.085
+name ile.hg21 type h charge 0.029
+name ile.hg22 type h charge 0.029
+name ile.hg23 type h charge 0.029
+name ile.cd1 type c3 charge -0.085
+name ile.hd1 type h charge 0.028
+name ile.hd2 type h charge 0.028
+name ile.hd3 type h charge 0.028
+18
+ile.n ile.hn 1
+ile.n ile.ca 1
+ile.ca ile.c 1
+ile.ca ile.cb 1
+ile.ca ile.ha 1
+ile.c ile.o 1.75
+ile.cb ile.cg1 1
+ile.cb ile.cg2 1
+ile.cb ile.hb 1
+ile.cg1 ile.cd1 1
+ile.cg1 ile.hg11 1
+ile.cg1 ile.hg12 1
+ile.cg2 ile.hg21 1
+ile.cg2 ile.hg22 1
+ile.cg2 ile.hg23 1
+ile.cd1 ile.hd1 1
+ile.cd1 ile.hd2 1
+ile.cd1 ile.hd3 1
+0
+4
+ile.n ile.cb ile.c ile.ca  4 .494427
+ile.n ile.cb ile.c ile.ha  4  1.606971
+ile.ca ile.cg2 ile.cg1 ile.cb 4 .503417 
+ile.ca ile.cg2 ile.cg1 ile.hb 4 1.616029 
+0

@@ -1,0 +1,56 @@
+24
+name dmx.c1 type C2  charge -.153
+name dmx.c2 type C2  charge -.153
+name dmx.c3 type C2  charge -.153
+name dmx.c4 type C2  charge -.153
+name dmx.c5 type C2  charge -.153
+name dmx.c6 type C2  charge -.153
+name dmx.c11 type c3
+name dmx.h111 type h
+name dmx.h112 type h
+name dmx.n12 type n3
+name dmx.h121 type h
+name dmx.h122 type h
+name dmx.h123 type h
+name dmx.h2  type H  charge .153
+name dmx.h4  type H  charge .153
+name dmx.c31 type c3
+name dmx.h311 type h
+name dmx.h312 type h
+name dmx.n32 type n3
+name dmx.h321 type h
+name dmx.h322 type h
+name dmx.h323 type h
+name dmx.h5  type H  charge .153
+name dmx.h6  type H  charge .153
+24
+dmx.c1 dmx.c2 1.5
+dmx.c2 dmx.c3 1.5
+dmx.c3 dmx.c4 1.5
+dmx.c4 dmx.c5 1.5
+dmx.c5 dmx.c6 1.5
+dmx.c6 dmx.c1 1.5
+dmx.c1 dmx.c11 1
+dmx.c11 dmx.h111 1
+dmx.c11 dmx.h112 1
+dmx.c11 dmx.n12 1
+dmx.n12 dmx.h121 1
+dmx.n12 dmx.h122 1
+dmx.n12 dmx.h123 1
+dmx.c2 dmx.h2 1
+dmx.c3 dmx.c31 1
+dmx.c31 dmx.h311 1
+dmx.c31 dmx.h312 1
+dmx.c31 dmx.n32 1
+dmx.n32 dmx.h321 1
+dmx.n32 dmx.h322 1
+dmx.n32 dmx.h323 1
+dmx.c4 dmx.h4 1
+dmx.c5 dmx.h5 1
+dmx.c6 dmx.h6 1
+0
+0
+0
+0
+0
+meta diamino xylene +2

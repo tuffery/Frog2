@@ -1,0 +1,25 @@
+9
+name imd.c1 type c2
+name imd.n2 type nr
+name imd.c3 type c2
+name imd.c4 type c2
+name imd.n5 type nr
+name imd.h1 type h
+name imd.h2 type h
+name imd.h3 type h
+name imd.h4 type h
+9
+imd.c1 imd.n2 1.5
+imd.n2 imd.c3 1.5
+imd.c3 imd.c4 1.5
+imd.c4 imd.n5 1.5
+imd.n5 imd.c1 1.5
+imd.c1 imd.h1 1
+imd.n2 imd.h2 1
+imd.c4 imd.h4 1
+imd.c3 imd.h3 1
+0
+0
+0
+0
+imidazole 

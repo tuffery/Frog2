@@ -1,0 +1,108 @@
+49
+name csa.n type np charge -0.463
+name csa.hn type hd charge 0.252
+name csa.ca type c3 charge 0.035
+name csa.ha type h charge 0.048
+name csa.c type c2 charge 0.616
+name csa.o type o2 charge -0.504
+name csa.cb type c3 charge -0.098
+name csa.hb1 type h charge 0.0495
+name csa.hb2 type h charge 0.0495
+name csa.sg type s32 charge 0.015
+name csa.cm type c3
+name csa.hm1 type h
+name csa.hm2 type h
+name csa.caa type c2
+name csa.oa  type o2
+name csa.n1 type np
+name csa.hn1 type hd
+name csa.cr1 type ca
+name csa.cr2 type ca
+name csa.cr3 type ca
+name csa.cr4 type ca
+name csa.cr5 type ca
+name csa.cr6 type ca
+name csa.cr7 type ca
+name csa.cr8 type ca
+name csa.cr9 type ca
+name csa.cr10 type ca
+name csa.hr1 type h
+name csa.hr2 type h
+name csa.hr4 type h
+name csa.hr6 type h
+name csa.hr7 type h
+name csa.hr9 type h
+name csa.s2 type s36
+name csa.os1 type o2
+name csa.os2 type o2
+name csa.os3 type o2
+name csa.cx1 type ca
+name csa.cx2 type ca
+name csa.cx3 type ca
+name csa.cx4 type ca
+name csa.cx5 type ca
+name csa.cx6 type ca
+name csa.n2 type np
+name csa.hn2 type hd
+name csa.hx2 type h
+name csa.hx3 type h
+name csa.hx5 type h
+name csa.hx6 type h
+51
+csa.n csa.hn 1
+csa.n csa.ca 1
+csa.ca csa.c 1
+csa.ca csa.cb 1
+csa.ca csa.ha 1
+csa.c csa.o 1.75
+csa.cb csa.sg 1
+csa.cb csa.hb1 1
+csa.cb csa.hb2 1
+csa.sg csa.cm 1
+csa.cm csa.caa 1
+csa.cm csa.hm1 1
+csa.cm csa.hm2 1
+csa.caa csa.oa 1.75
+csa.caa csa.n2 1.25
+csa.n2 csa.hn2 1
+csa.n2 csa.cx1 1
+csa.cx1 csa.cx2 1.5
+csa.cx2 csa.cx3 1.5
+csa.cx3 csa.cx4 1.5
+csa.cx4 csa.cx5 1.5
+csa.cx5 csa.cx6 1.5
+csa.cx6 csa.cx1 1.5
+csa.cx2 csa.hx2 1
+csa.cx3 csa.hx3 1
+csa.cx5 csa.hx5 1
+csa.cx6 csa.hx6 1
+csa.cx4 csa.n1 1
+csa.n1 csa.hn1 1
+csa.n1 csa.cr3 2
+csa.cr1 csa.cr2 1.5
+csa.cr2 csa.cr3 1.5
+csa.cr3 csa.cr4 1.5
+csa.cr4 csa.cr5 1.5
+csa.cr5 csa.cr6 1.5
+csa.cr6 csa.cr7 1.5
+csa.cr7 csa.cr8 1.5
+csa.cr8 csa.cr9 1.5
+csa.cr9 csa.cr10 1.5
+csa.cr10 csa.cr1 1.5
+csa.cr5 csa.cr10 1.5
+csa.cr1 csa.hr1 1
+csa.cr2 csa.hr2 1
+csa.cr4 csa.hr4 1
+csa.cr6 csa.hr6 1
+csa.cr7 csa.hr7 1
+csa.cr8 csa.s2 1
+csa.cr9 csa.hr9  1
+csa.s2 csa.os1 1.5
+csa.s2 csa.os2 1.5
+csa.s2 csa.os3 1.5
+0
+2
+csa.n csa.cb csa.c csa.ca  4 .494427
+csa.n csa.cb csa.c csa.ha  4  1.606971
+0
+

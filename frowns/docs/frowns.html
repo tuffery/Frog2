@@ -1,0 +1,977 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Frowns Documentation</title>
+             
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head>
+  <body>
+   
+<div align="Center">Frowns Documentation<br>
+  Frowns Version 0.2<br>
+   
+<div align="Justify"><br>
+ Frowns is Copyright (c) 2001-2002 Brian Kelley<br>
+ 
+<hr width="100%" size="2"><br>
+  </div>
+  <big><b>Introduction</b></big><br>
+  Frowns is a chemoinformatics toolkit geared toward rapid development of 
+chemistry related algorithms.&nbsp; It is written almost 100% in Python with 
+a small portion written in C++.<br>
+  <br>
+  Frowns is loosely based on the PyDaylight API that Andrew Dalke wrote to
+ wrap the daylight C API.&nbsp; In some cases programs written using PyDaylight
+ will also work under Frowns with a few minor changes.&nbsp; A good overview
+ of PyDaylight is available at http://www.daylight.com/meetings/mug2000/Dalke/overview/<br>
+  <br>
+  A good place to look at what Smarts and Smiles are is at the daylight web
+ site located at http://www.daylight.com<br>
+  <br>
+  <big><b>Frowns Features</b></big><br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0" nowrap="true">Smiles parser<br>
+  Smarts substructure searching<br>
+  SD file parser with SD field manipulations<br>
+  Depiction for SD files with coordinates<br>
+  Molecule Fingerprint generation<br>
+  Several forms of Ring Detection available<br>
+  Simple aromaticity perception<br>
+  Full source code<br>
+Really bad depiction of arbitray molecules! (requires AT&amp;T's GraphViz)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  <br>
+  <big><b>Missing Features</b></big><br>
+   
+<table cellpadding="2" cellspacing="2" border="0" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">Recursive Smarts searches (coming
+ soon!)<br>
+   Stereochemistry (this actually exists but Frowns&#8217; can&#8217;t canonicalize stereochemistry
+ yet)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+   
+<hr width="100%" size="2"><big><b>Tutorial By Example</b></big><br>
+  All examples are also located in the frowns\examples directory. &nbsp;A 
+good place to browse is also the frowns\test directory that contains the regression
+test suite used to validate frowns.<br>
+  <br>
+  The first step is creating a molecule. &nbsp;In most cases this is accomplished
+ by loading a smiles string.<br>
+  <br>
+  <big><b>Example 1, Loading a smiles string</b></big><br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">from frowns import Smiles<br>
+  mol = Smiles.smilin("c1ccccc1")<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  The code in example 1 loads a benzene molecule. &nbsp;Of course we would
+ like to inspect the generated molecule to see if the atoms and bonds are
+correct.<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">print mol.cansmiles()<br>
+  print "atoms"<br>
+  for atom in mol.atoms:<br>
+  &nbsp; &nbsp; &nbsp;print atom.symbol, atom.hcount, atom.aromatic<br>
+        <br>
+  print "bonds"<br>
+  for bond in mol.bonds:<br>
+  &nbsp;&nbsp;&nbsp; print bond.bondorder, bond.bondtype<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  This generates the following output:<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">c1ccccc1<br>
+  atoms<br>
+  C 1 1<br>
+  C 1 1<br>
+  C 1 1<br>
+  C 1 1<br>
+  C 1 1<br>
+  C 1 1<br>
+  bonds<br>
+  2 4<br>
+  1 4<br>
+  2 4<br>
+  1 4<br>
+  2 4<br>
+  1 4<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+   
+<div align="Center"><big><b>Molecule properties</b></big><br>
+  </div>
+   
+<table cellpadding="2" cellspacing="2" border="2" width="100%">
+    <tbody>
+      <tr>
+        <th valign="Top">Name<br>
+        </th>
+        <th valign="Top">Property<br>
+        </th>
+      </tr>
+      <tr>
+        <td valign="Top">cansmiles()<br>
+        </td>
+        <td valign="Top">Canonical string representation of the molecule<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">arbsmiles()<br>
+        </td>
+        <td valign="Top">Arbitrary string representation of the molecule<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">atoms<br>
+        </td>
+        <td valign="Top">List of atoms in the molecule<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">bonds<br>
+        </td>
+        <td valign="Top">List of bonds in the molecule<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">handle<br>
+        </td>
+        <td valign="Top">Unique integer ID for each object created. &nbsp;Used
+ for consistency with PyDaylight<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+   
+<div align="Center"><big><b>Atom properties</b></big><br>
+  </div>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <th valign="Top">Name<br>
+        </th>
+        <th valign="Top">Property<br>
+        </th>
+      </tr>
+      <tr>
+        <td valign="Top">bonds<br>
+        </td>
+        <td valign="Top">list bonds to which this atom is connected <br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">oatoms<br>
+        </td>
+        <td valign="Top">list of atoms to which this atom is connected<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">hcount<br>
+        </td>
+        <td valign="Top">number of hydrogens attached to the atom<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">implicit_hcount<br>
+        </td>
+        <td valign="Top">number of implicitly placed hydrogens to balance 
+valence<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">mass<br>
+        </td>
+        <td valign="Top">mass of atom<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">charge<br>
+        </td>
+        <td valign="Top">charge of atom<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">symbol<br>
+        </td>
+        <td valign="Top">atomic symbol of atom<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">equiv_class<br>
+        </td>
+        <td valign="Top">Equivalence class of atom <i>(See canonicalization
+ section)</i><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">symclass<br>
+        </td>
+        <td valign="Top">Symmetry class of atom<i> (See canonicalization
+section)</i><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">symorder<br>
+        </td>
+        <td valign="Top">Symmetry order of atom<i> (See canonicalization
+section)</i><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">xatom(bond)<br>
+        </td>
+        <td valign="Top">Return the atom on the other end of bond or None 
+if one doesn't exist.<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">handle<br>
+        </td>
+        <td valign="Top">Unique integer ID for each object created. &nbsp;Used
+ for consistency with PyDaylight<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+   
+<div align="Center"><big><b>Bond Properties<br>
+  </b></big>  
+<div align="Left">  
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <th valign="Top">Name<br>
+        </th>
+        <th valign="Top">Property<br>
+        </th>
+      </tr>
+      <tr>
+        <td valign="Top">bondorder<br>
+        </td>
+        <td valign="Top">Bond order 1,2,3 (single, double, triple)<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">bondtype<br>
+        </td>
+        <td valign="Top">Bond type 1,2,3,4 (single, double, triple, aromatic)<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">symbol<br>
+        </td>
+        <td valign="Top">symbol of the bond<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">xatom(atom1)<br>
+        </td>
+        <td valign="Top">Return the atom on the other end of this bond and
+ atom1 or None if one doesn't exist.<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">handle<br>
+        </td>
+        <td valign="Top">Unique integer ID for each object created. &nbsp;Used
+ for consistency with PyDaylight<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <small><br>
+  <br>
+  </small></div>
+   
+<div align="Left"><big><b><small><big>Example 2, Finding duplicates</big><br>
+  </small></b><small>Now that canonicalization code exists, finding duplicate
+ smiles strings is trivial using Pythons dictionary:<br>
+  </small></big>  
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">from frowns import Smiles<br>
+        <br>
+  listOfSmiles = ["CCN", "NCC", "CCC"]<br>
+        <br>
+  duplicates = {}<br>
+  for smile in listOfSmiles:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mol = Smiles.smilin(smile)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; canonicalString = mol.cansmiles()<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if duplicates.has_key(canonicalString):<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "found duplicate 
+molecule", smile<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; duplicates[canonicalString]
+ = 1<br>
+        <br>
+  print len(duplicates), "unique molecules found"<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <big><b><br>
+  </b></big>(Currently stereo-chemistry is not canonicalized so this information
+ is lost.)<br>
+  <br>
+  <b><big>Example 3, Not trusting the frowns ring detection code or the aromaticity
+ perception code.</big><br>
+  </b>Frowns is designed to be relatively easy to modify. &nbsp;There are 
+a list of standard transormations that occur when reading a molecule that 
+compute the set of smallest rings and perceive aromaticity.<br>
+  <br>
+  These can be turned off or replaced by user defined functions. &nbsp;All
+ transformation functions must behave as following:<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">molecule = transform(molecule)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  <i>In practice, mainly for reasons of speed, the molecule is transformed
+ in place and a new molecule is not created. &nbsp;This really should become
+the more pythonic transform(molecule).<br>
+  <br>
+  <br>
+  </i>Each molecule reader has a parameter <i>transforms </i>that specify 
+what transforms are apply to the molecule after the parsing process.<br>
+  <i><br>
+  </i>  
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">from frowns import Smiles<br>
+        <br>
+  mol = Smiles.smilin("c1ccccc1")<br>
+  print mol.cansmiles()<br>
+        <br>
+  mol = Smiles.smilin("c1ccccc1", transforms=[])<br>
+  print mol.cansmiles()<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <i><br>
+  </i><br>
+  The output is the following:<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">c1ccccc1<br>
+  [c]1[c][c][c][c][c]1<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Notice that the molecule without transforms has atoms in braces [c]. &nbsp;This
+ indicates that the aromatic carbon doesn't have any hydrogens attached.
+&nbsp;Remember  that smiles strings can leave out implicity derived information
+such as the  hydrogen counts. &nbsp;Because we haven't transformed the molecule,
+these  hydrogens were never added. &nbsp;The bracket indicates that there
+is an atom that has a hydrogen count of zero and this doesn't match what
+should be the implicit hydrogen count to balance valence. &nbsp;<br>
+  Basically there should be a hydrogen but since there isn't smiles indicates
+ this using brackets.<br>
+  <br>
+  There are a bunch of perception routines available to play with, these
+are  located in the frowns.perceptions package.<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <th valign="Top">Perception Routine<br>
+        </th>
+        <th valign="Top">Description<br>
+        </th>
+      </tr>
+      <tr>
+        <td valign="Top">frowns.perception.sssr.sssr<br>
+        </td>
+        <td valign="Top">Fast ring detection code using Figueras' algorithsm<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">frowns.perception.RingDetection.sssr<br>
+        </td>
+        <td valign="Top">Slower ring detection code using spans, similar
+to  Babel's ring detection code. &nbsp;Much slower than Figueras but overcomes
+ some limitations of Figueras algorithm for complex molecules.<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="Top">frowns.perception.BasicAromaticity.aromatize<br>
+        </td>
+        <td valign="Top">Aromatize molecules using simple rules.<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Some of the intracacies of writing transforms is (<i>will be...) </i>detailed
+ in the advanced topics section at the end of the tutorial. &nbsp;Some of
+the problems include Smiles not specifying the difference between single
+bonds and aromatic bonds. &nbsp;If we look at the bond types of the molecule
+generate with no transforms:<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">print "benzene with no transforms"<br>
+  mol = Smiles.smilin("c1ccccc1", transforms=[])<br>
+  print mol.cansmiles()<br>
+        <br>
+  print "atoms"<br>
+  for atom in mol.atoms:<br>
+  &nbsp;&nbsp;&nbsp; print "\tsymbol %s hcount %s aromatic %s"%(<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; atom.symbol, atom.hcount, atom.aromatic)<br>
+        <br>
+  print "bonds"<br>
+  for bond in mol.bonds:<br>
+  &nbsp;&nbsp;&nbsp; print "\tbondorder %s, bondtype %s fixed %s"%(<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bond.bondorder, bond.bondtype,
+ bond.fixed)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  we notice that the bonds are all single! &nbsp;<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">benzene with no transforms<br>
+  [c]1[c][c][c][c][c]1<br>
+  atoms<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  bonds<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 0<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 0<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 0<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 0<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 0<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 0<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  For the purposes of writing transforms a bond has a special attribute "fixed" 
+ if fixed is zero then the bond came in unspecified. &nbsp;For example an
+ bond that is not fixed can have a bondtype of aromatic but a bondorder of
+ single or double. &nbsp;If a bond is fixed then the bondorder can't change.
+  &nbsp;This can be seen in the following example where the bonds in the
+benzene  ring are specified:<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">mol = Smiles.smilin("c1-c=c-c=c-c=1",
+ transforms=[])<br>
+  ...<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  The output is now:<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">benzene with no transforms but 
+bonds fully specified<br>
+  [c]1[c]=[c][c]=[c][c]=1<br>
+  atoms<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  &nbsp;&nbsp;&nbsp; symbol C hcount 0 aromatic 1<br>
+  bonds<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 1<br>
+  &nbsp;&nbsp;&nbsp; bondorder 2, bondtype 2 fixed 1<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 1<br>
+  &nbsp;&nbsp;&nbsp; bondorder 2, bondtype 2 fixed 1<br>
+  &nbsp;&nbsp;&nbsp; bondorder 1, bondtype 1 fixed 1<br>
+  &nbsp;&nbsp;&nbsp; bondorder 2, bondtype 2 fixed 1<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  So this basically means that the bondtype is free to become aromatic but
+ the bondorder's have been specified so don't change them. &nbsp;Of course,
+ your transform routines can do whatever you like!<br>
+  <br>
+  <b><big>Example 4, Reading an SD File</big><br>
+  </b> Frowns can also read in simple SD files. &nbsp;SD files are fairly 
+complex beasts in that the same attribute can be defined in multiple places. 
+&nbsp;For example, the charge on an atom can be defined in the atom line, 
+on a seperate "M &nbsp;CHG" line or on both! &nbsp;In general, don't expect 
+things beyond the MOL file standard to be parsed correctly.<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">from frowns import MDL<br>
+        <br>
+  reader = MDL.mdlin(open("../test/data/bad.sdf"))<br>
+        <br>
+  while 1:<br>
+  &nbsp;&nbsp;&nbsp; mol = reader.next()<br>
+  &nbsp;&nbsp;&nbsp; if not mol:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br>
+  &nbsp;&nbsp;&nbsp; print mol.cansmiles()<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Molecules read in from mol files also have additional attributes. &nbsp;Note
+ that these additional attributes are subject to change in future versions
+ of frowns as the API for them is better understood.<br>
+  <br>
+  Mol files also have fields that frowns keeps around in the molecule's fields
+ attribute.<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">&nbsp;&nbsp;&nbsp; for key, value
+ in mol.fields.items():<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "%s: %s"%(key, value)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Atoms have "x,y and z" attributes of the coordinate in the mol file<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">&nbsp;&nbsp;&nbsp; for atom in 
+mol.atoms:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print atom.x, atom.y, atom.z<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Atoms and bonds have a special attribute "_line" that holds a copy of line
+ of the file they were generated from. &nbsp;This is currently used as a
+hack  for doing things like extracting the smallest non-connected fragment
+from  a mol file. &nbsp;These attributes might&nbsp; dissappear when Frowns'
+stereochemistry  is up to snuff.<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">&nbsp;&nbsp;&nbsp; for atom in 
+mol.atoms:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print atom._line<br>
+        <br>
+  &nbsp;&nbsp;&nbsp; for bond in mol.bonds:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print bond._line<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  <big><b>Example 5, Depicting molecules in SD Files</b></big><br>
+  If a molecule read from an SD files has 2D coordinates it can be displayed.
+ &nbsp;Frowns currently uses Tkinter to make cross platform gui's. &nbsp;Tkinter
+ has plenty of problems but it runs on most platforms.<br>
+  <br>
+Aromatic rings are now displayed!<br>
+<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">from Tkinter import *<br>
+  from frowns.Depict.MoleculeDock import MoleculeDock<br>
+  from frowns import MDL<br>
+        <br>
+  # read in a molecule<br>
+  reader = MDL.mdlin(open("../test/data/bad.sdf"))<br>
+  mol = reader.next()<br>
+        <br>
+  # create the moleculedock widget and place it<br>
+  # into a tk window<br>
+  tk = top = Tk()<br>
+  m = MoleculeDock(top)<br>
+  m.pack(fill=BOTH, expand=1)<br>
+        <br>
+  # add some molecules<br>
+  m.addMolecule(mol)<br>
+  m.addMolecule(mol)<br>
+  m.addMolecule(mol)<br>
+  m.addMolecule(mol)<br>
+        <br>
+  mainloop()<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+<big><b>Example 5b, Depicting arbitrary molecules</b></big><br>
+If a molecule does not have coordinates specified then the depictor attempts
+to generate them. &nbsp;This currently requires AT&amp;T GraphViz graph rendering
+programs installed.<br>
+<br>
+While these renderings are not great, they are not awful either. &nbsp;Remember,
+you get what you pay for.<br>
+<br>
+<br>
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+  <tbody>
+    <tr>
+      <td valign="Top" bgcolor="#c0c0c0">from Tkinter import *<br>
+from frowns.Depict.MoleculeDock import MoleculeDock<br>
+from frowns import Smiles<br>
+      <br>
+# read in a molecule<br>
+smiles = ["c1ccccc1C=O", "c1ccc2cc1cccc2",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "CCN", "CCCC(=O)NNCC"]<br>
+      <br>
+      <br>
+# create the moleculedock widget and place it<br>
+# into a tk window<br>
+tk = top = Tk()<br>
+m = MoleculeDock(top)<br>
+m.pack(fill=BOTH, expand=1)<br>
+      <br>
+for smile in smiles:<br>
+&nbsp;&nbsp;&nbsp; mol = Smiles.smilin(smile)<br>
+&nbsp;&nbsp;&nbsp; m.addMolecule(mol)<br>
+      <br>
+mainloop()<br>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+  <big><b>Example 6, Smarts Searches<br>
+  </b></big>Frowns supports the smarts language for searching molecules (see
+ http://www.daylight.com/ for details of writing Smarts searches)<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">from frowns import Smiles<br>
+  from frowns import Smarts<br>
+        <br>
+  mol = Smiles.smilin("CCN")<br>
+  pattern = Smarts.compile("CCN")<br>
+        <br>
+  # simple match<br>
+  match = pattern.match(mol)<br>
+  assert match<br>
+  index = 1<br>
+  for path in match:<br>
+  &nbsp;&nbsp;&nbsp; print "match", index<br>
+  &nbsp;&nbsp;&nbsp; print "\tatoms", path.atoms<br>
+  &nbsp;&nbsp;&nbsp; print "\tbond", path.bonds<br>
+  &nbsp;&nbsp;&nbsp; index = index + 1<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Here match contains a list of all path's that match the query. &nbsp;A
+path  is a collection of atoms and bonds in the target molecule that satisfy
+the  match criteria. &nbsp;In this case there is only one possible matching
+path:<br>
+  <br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">match 1<br>
+  &nbsp;&nbsp;&nbsp; atoms (Atom(0), Atom(1), Atom(2))<br>
+  &nbsp;&nbsp;&nbsp; bond (Bond(3), Bond(5))<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Similar to the PyDaylight toolkit, when an atom is printed you will see 
+something like "Atom(0)" The 0 here is the handle of the atom object. &nbsp;This 
+is used to distinguish this particular atom from all other atoms in that there
+can only ever be one Atom(0). &nbsp;This might be a point of confusion in
+some cases but is really used just to be consistent with PyDaylight.<br>
+  <br>
+  We can create a more complicated expression, this one matches a carbon
+single  or aromatically bonded to any atom<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">pattern = Smarts.compile("C*")<br>
+  match = pattern.match(mol)<br>
+  assert match<br>
+  index = 1<br>
+  for path in match:<br>
+  &nbsp;&nbsp;&nbsp; print "match", index<br>
+  &nbsp;&nbsp;&nbsp; print "\tatoms", path.atoms<br>
+  &nbsp;&nbsp;&nbsp; print "\tbond", path.bonds<br>
+  &nbsp;&nbsp;&nbsp; index = index + 1<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  There are three possible matches in this case (CC), (CC) and (CN)<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">match 1<br>
+  &nbsp;&nbsp;&nbsp; atoms (Atom(0), Atom(1))<br>
+  &nbsp;&nbsp;&nbsp; bond (Bond(3),)<br>
+  match 2<br>
+  &nbsp;&nbsp;&nbsp; atoms (Atom(1), Atom(0))<br>
+  &nbsp;&nbsp;&nbsp; bond (Bond(3),)<br>
+  match 3<br>
+  &nbsp;&nbsp;&nbsp; atoms (Atom(1), Atom(2))<br>
+  &nbsp;&nbsp;&nbsp; bond (Bond(5),)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  Finally we can try some logic expressions such as "not a nitrogen atom
+single  bonded to not a carbon atom"<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">pattern = Smarts.compile("[!N]-[!C]")<br>
+  match = pattern.match(mol)<br>
+  assert match<br>
+  index = 1<br>
+  for path in match:<br>
+  &nbsp;&nbsp;&nbsp; print "match", index<br>
+  &nbsp;&nbsp;&nbsp; print "\tatoms", path.atoms<br>
+  &nbsp;&nbsp;&nbsp; print "\tbond", path.bonds<br>
+  &nbsp;&nbsp;&nbsp; index = index + 1<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  This only has one match in the molecule (CN)<br>
+   
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td valign="Top" bgcolor="#c0c0c0">match 1<br>
+  &nbsp;&nbsp;&nbsp; atoms (Atom(1), Atom(2))<br>
+  &nbsp;&nbsp;&nbsp; bond (Bond(5),)<br>
+        </td>
+      </tr>
+       
+  </tbody>  
+</table>
+  <br>
+  <b>Example 7, Fingerprint creation and use<br>
+ </b>Frowns can generate molecule fingerprints that are similar to Daylight 
+fingerprints. &nbsp;These fingerprints are really a hash function that is 
+applied to a molecule. &nbsp;The generated hashes are used to quickly through 
+away compounds that cannot match a particular query without actually having 
+to perform the query.<br>
+ <br>
+ A hash is a binary vector stored as a list of integers. &nbsp;For a given 
+target, if the binary vector is completely contained within the binary vector 
+of a molecule then the target might exist as a substructure of the molecule. 
+&nbsp;If it doesn't the target cannot be a substructure of the molecule.<br>
+ 
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+   <tbody>
+     <tr>
+       <td valign="Top" bgcolor="#c0c0c0">import frowns.Fingerprint<br>
+ from frowns import Smiles<br>
+       <br>
+ pattern = "CCN"<br>
+ targets = ["CCN", "CCNCC", "c1cccc1CCN", "CC"]<br>
+       <br>
+ pattern_molecule = Smiles.smilin(pattern)<br>
+ pfp = frowns.Fingerprint.generateFingerprint(pattern_molecule)<br>
+       <br>
+ for target in targets:<br>
+ &nbsp;&nbsp;&nbsp; mol = Smiles.smilin(target)<br>
+ &nbsp;&nbsp;&nbsp; molfp = \<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frowns.Fingerprint.generateFingerprint(mol)<br>
+ &nbsp;&nbsp;&nbsp; # pfp must be "in" molfp for test to pass<br>
+ &nbsp;&nbsp;&nbsp; if pfp in molfp:<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "%s hits target %s"%(pattern, 
+target)<br>
+ &nbsp;&nbsp;&nbsp; else:<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "%s does not hit target 
+%s"%(pattern, target)<br>
+       </td>
+     </tr>
+   
+  </tbody> 
+</table>
+ <br>
+ The output from this example is<br>
+ 
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+   <tbody>
+     <tr>
+       <td valign="Top" bgcolor="#c0c0c0">CCN hits target CCN<br>
+ CCN hits target CCNCC<br>
+ CCN hits target c1cccc1CCN<br>
+ CCN does not hit target CC<br>
+       </td>
+     </tr>
+   
+  </tbody> 
+</table>
+ <br>
+ <b>Example 8, Examining Molecule Cycles<br>
+ </b>The following example shows how to examine the smallest set of smallest 
+rings located in a molecule<br>
+ 
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+   <tbody>
+     <tr>
+       <td valign="Top" bgcolor="#c0c0c0">from frowns import Smiles<br>
+       <br>
+ mol = Smiles.smilin("c1ccccc1CCC2CC2")<br>
+       <br>
+ index = 0<br>
+ for cycle in mol.cycles:<br>
+ &nbsp;&nbsp;&nbsp; print "cycle", index<br>
+ &nbsp;&nbsp;&nbsp; print "\t", cycle.atoms<br>
+ &nbsp;&nbsp;&nbsp; print "\t", cycle.bonds<br>
+ &nbsp;&nbsp;&nbsp; index = index + 1<br>
+       </td>
+     </tr>
+   
+  </tbody> 
+</table>
+ <br>
+ In this case their are two cycles, a six membered ring and a three membered 
+ring.<br>
+ <br>
+ <br>
+ 
+<table cellpadding="2" cellspacing="2" border="1" width="100%">
+   <tbody>
+     <tr>
+       <td valign="Top" bgcolor="#c0c0c0">cycle 0<br>
+ &nbsp;&nbsp;&nbsp; [Atom(5), Atom(4), Atom(3), Atom(2), Atom(1), Atom(0)]<br>
+ &nbsp;&nbsp;&nbsp; [Bond(11), Bond(9), Bond(7), Bond(5), Bond(3), Bond(12)]<br>
+ cycle 1<br>
+ &nbsp;&nbsp;&nbsp; [Atom(10), Atom(9), Atom(8)]<br>
+ &nbsp;&nbsp;&nbsp; [Bond(22), Bond(20), Bond(23)]<br>
+       </td>
+     </tr>
+   
+  </tbody> 
+</table>
+ <br>
+ <br>
+ To Do<br>
+ <b>Using Fingerprints and the java clustering calculator<br>
+ Rolling your own molecule</b><br>
+ <b>Canonicalizing Any Subgraph<br>
+ Breadth First Walks<br>
+ The power of Canonical Lists<br>
+  <br>
+  </b><br>
+  <br>
+  </div>
+  </div>
+   
+</body>
+</html>

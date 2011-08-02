@@ -1,0 +1,170 @@
+82
+name hmn.fe type fe3 charge 3.
+name hmn.cl type cl
+name hmn.ca1 type c2
+name hmn.ca2 type c2
+name hmn.ca3 type c2
+name hmn.na4 type n2
+name hmn.ca5 type c2
+name hmn.car  type c2
+name hmn.har type h
+name hmn.cam type c3
+name hmn.ham1 type h
+name hmn.ham2 type h
+name hmn.ham3 type h
+name hmn.caa type c2
+name hmn.haa type h
+name hmn.cab type c2
+name hmn.hab1 type h
+name hmn.hab2 type h
+name hmn.cb1 type c2
+name hmn.cb2 type c2
+name hmn.cb3 type c2
+name hmn.nb4 type n2
+name hmn.cb5 type c2
+name hmn.cbr  type c2
+name hmn.hbr type h
+name hmn.cbm type c3
+name hmn.hbm1 type h
+name hmn.hbm2 type h
+name hmn.hbm3 type h
+name hmn.cba type c2
+name hmn.hba type h
+name hmn.cbb type c2
+name hmn.hbb1 type h
+name hmn.hbb2 type h
+name hmn.cc1 type c2
+name hmn.cc2 type c2
+name hmn.cc3 type c2
+name hmn.nc4 type n2
+name hmn.cc5 type c2
+name hmn.ccr  type c2
+name hmn.hcr type h
+name hmn.ccm type c3
+name hmn.hcm1 type h
+name hmn.hcm2 type h
+name hmn.hcm3 type h
+name hmn.ccm type c3
+name hmn.hcm1 type h
+name hmn.hcm2 type h
+name hmn.hcm3 type h
+name hmn.cca type c3
+name hmn.hca1 type h
+name hmn.hca2 type h
+name hmn.ccb type c3
+name hmn.hcb1 type h
+name hmn.hcb2 type h
+name hmn.ccc  type c2
+name hmn.oc1  type o2
+name hmn.oc2   type o2
+name hmn.cd1 type c2
+name hmn.cd2 type c2
+name hmn.cd3 type c2
+name hmn.nd4 type n2
+name hmn.cd5 type c2
+name hmn.cdr  type c2
+name hmn.hdr type h
+name hmn.cdm type c3
+name hmn.hdm1 type h
+name hmn.hdm2 type h
+name hmn.hdm3 type h
+name hmn.cdm type c3
+name hmn.hdm1 type h
+name hmn.hdm2 type h
+name hmn.hdm3 type h
+name hmn.cda type c3
+name hmn.hda1 type h
+name hmn.hda2 type h
+name hmn.cdb type c3
+name hmn.hdb1 type h
+name hmn.hdb2 type h
+name hmn.cdc  type c2
+name hmn.od1  type o2
+name hmn.od2   type o2
+81
+hmn.fe hmn.na4 1
+hmn.fe hmn.nb4 1
+hmn.fe hmn.nc4 1
+hmn.fe hmn.nd4 1
+hmn.fe hmn.cl 1
+hmn.cam hmn.ham1 1
+hmn.cam hmn.ham2 1
+hmn.cam hmn.ham3 1
+hmn.caa hmn.haa 1
+hmn.caa hmn.cab 2
+hmn.cab hmn.hab1 1
+hmn.cab hmn.hab2 1
+hmn.cbm hmn.hbm1 1
+hmn.cbm hmn.hbm2 1
+hmn.cbm hmn.hbm3 1
+hmn.cba hmn.hba 1
+hmn.cba hmn.cbb 2
+hmn.cbb hmn.hbb1 1
+hmn.cbb hmn.hbb2 1
+hmn.ccm hmn.hcm1 1
+hmn.ccm hmn.hcm2 1
+hmn.ccm hmn.hcm3 1
+hmn.cca hmn.hca1 1
+hmn.cca hmn.hca2 1
+hmn.cca hmn.ccb 1
+hmn.ccb hmn.hcb1 1
+hmn.ccb hmn.hcb2 1
+hmn.ccb hmn.ccc 1
+hmn.ccc hmn.oc1 1.5
+hmn.ccc hmn.oc2 1.5
+hmn.cdm hmn.hdm1 1
+hmn.cdm hmn.hdm2 1
+hmn.cdm hmn.hdm3 1
+hmn.cda hmn.hda1 1
+hmn.cda hmn.hda2 1
+hmn.cda hmn.cdb 1
+hmn.cdb hmn.hdb1 1
+hmn.cdb hmn.hdb2 1
+hmn.cdb hmn.cdc 1
+hmn.cdc hmn.od1 1.5
+hmn.cdc hmn.od2 1.5
+hmn.ca1 hmn.cam 1
+hmn.ca1 hmn.ca2 2
+hmn.ca2 hmn.caa 1
+hmn.ca2 hmn.ca3 1
+hmn.ca3 hmn.car 2
+hmn.ca3 hmn.na4 1
+hmn.na4 hmn.ca5 2
+hmn.ca5 hmn.ca1 1
+hmn.car hmn.har 1
+hmn.car hmn.cb5 1
+hmn.cb5 hmn.cb1 2
+hmn.cb1 hmn.cbm 1
+hmn.cb1 hmn.cb2 1
+hmn.cb2 hmn.cba 1
+hmn.cb2 hmn.cb3 2
+hmn.cb3 hmn.cbr 1
+hmn.cb3 hmn.nb4 1
+hmn.nb4 hmn.cb5 1
+hmn.cbr hmn.hbr 1
+hmn.cbr hmn.cc5 2
+hmn.cc5 hmn.cc1 1
+hmn.cc1 hmn.ccm 1
+hmn.cc1 hmn.cc2 2
+hmn.cc2 hmn.cca 1
+hmn.cc2 hmn.cc3 1
+hmn.cc3 hmn.ccr 1
+hmn.cc3 hmn.nc4 1
+hmn.nc4 hmn.cc5 1
+hmn.ccr hmn.hcr 1
+hmn.ccr hmn.cd5 2
+hmn.cd5 hmn.cd1 1
+hmn.cd1 hmn.cda 1
+hmn.cd1 hmn.cd2 2
+hmn.cd2 hmn.cdm 1
+hmn.cd2 hmn.cd3 1
+hmn.cd3 hmn.cdr 2
+hmn.cd3 hmn.nd4 1
+hmn.nd4 hmn.cd5 1
+hmn.cdr hmn.hdr 1
+hmn.cdr hmn.ca5 1
+0
+0
+0
+
+

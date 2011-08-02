@@ -1,0 +1,52 @@
+22
+name thq.c1 type c2 
+name thq.c2 type c2 
+name thq.c3 type c2 
+name thq.c4 type c2 
+name thq.c5 type c2 
+name thq.c6 type c2 
+name thq.c7 type c3 
+name thq.c8 type c3 
+name thq.c9 type c3 
+name thq.n10  type n2 
+name thq.h1 type h
+name thq.h2 type h
+name thq.h3 type h
+name thq.h4 type h
+name thq.h7a type h
+name thq.h7b type h
+name thq.h8a type h
+name thq.h8b type h
+name thq.h9a type h
+name thq.h9b type h
+name thq.h10a type h
+name thq.h10b type h
+23
+thq.c1 thq.c2 1.5
+thq.c1 thq.c6 1.5
+thq.c1 thq.h1 1.5
+thq.c2 thq.c3 1.5
+thq.c2 thq.h2 1
+thq.c3 thq.c4 1.5
+thq.c3 thq.h3 1
+thq.c4 thq.c5 1.5
+thq.c4 thq.h4 1
+thq.c5 thq.c6 1.5
+thq.c5 thq.n10 1
+thq.c6 thq.c7 1
+thq.c7 thq.c8 1
+thq.c7 thq.h7a 1
+thq.c7 thq.h7b 1
+thq.c8 thq.c9 1
+thq.c8 thq.h8a 1
+thq.c8 thq.h8b 1
+thq.c9 thq.n10 1
+thq.c9 thq.h9a 1
+thq.c9 thq.h9b 1
+thq.n10 thq.h10a 1
+thq.n10 thq.h10b 1
+0
+0 
+0
+# 1 2 3 4 tetra hydro quinoline
+(+1 form)

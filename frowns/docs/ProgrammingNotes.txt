@@ -1,0 +1,182 @@
+Welcome to frowns!
+
+There are some shortcuts that I have taken that might need to be fixed
+eventually.
+
+Parsing Flow annotated code from frowns.Smiles!
+
+ 1 def smilin(smiles, transforms=[sssr.sssr,
+ 2                                BasicAromaticity.aromatize]):
+ 3
+ 4    """(smiles)->molecule
+ 5    Convert a smiles string into a molecule representation"""
+ 6    builder = BuildMol.BuildMol()
+ 7    Smiles.tokenize(smiles, builder)
+ 8    mol = builder.mol
+ 9   
+10    for transform in transforms:
+11         mol = transform(mol)
+12
+13    return mol
+    
+
+6 Tokenize the smiles string -> errors throw FrownsExceptions
+7 Convert the tokens into a molecule -> errors will eventually
+                                        throw FrownsExceptions.
+                                        I haven't converted all
+					errors yet.
+
+10  Apply the various transforms to the molecule
+    The defaults are sssr (detect rings) and aromatize
+
+These transforms are what take the initial molecule and perform
+add do the chemical transforms.  At this stage this is mainly
+ring detection and aromaticity perception.
+
+The aromaticity perception is very constrained toward finding
+well known aromatic structures algorithmically.  Daylight allows
+a lot of structures to have aromaticity but they use maintain
+that their aromaticity perception should not necessarily 
+relate physical aromaticity.
+
+Once I figure out how they have their rules set up, I'll
+implement a daylight mode.
+
+Note that the error hierarchy and checking hasn't been finalized
+at this point, I'm just glad that the code appears to work :)
+
+=================================================================
+Various notes
+
+I bond._closure attribute
+ Smiles strings know where the closures bonds are during parsing.
+ This knowledge can dramatically speed up the ring detection code
+ by limiting the searches to starting at these bonds only.
+
+ For connection table forms the full search must be used which is
+ obviously slower.  (Although we can probably come up with a simple
+ rule to limit the number of bonds that can be used as starting
+ positions...)
+
+ the problem with these attributes is that they are not defined
+ for daylight molecules so that doing an apples and apples comparison
+ of our ring detection versus daylight's will be a little difficult
+ currently.  This should be fixed for better compatibility...
+
+II Bond ordering
+ Daylight adds closure bonds when they are first seen.  FROWNS
+ adds closure bonds when they are closed.  This means that while
+ our atoms are in the same order as daylights would be our bonds
+ are not. 
+
+ This is still true with Andrews mol builder.
+
+III Use of object.handle
+ FROWNS uses the object's handle to hash atom and bond objects as
+ opposed to using the objects themselves.  It has been noticed that
+ hashing object instances is about 10x slower than hashing integer
+ objects.  This is also true of the PyDaylight toolkit by the way.
+
+
+IV Trusted Smiles representation and how to use different
+  aromaticity representations.
+
+  from frowns.perception import RingDetection, TrustedSmiles
+  from frowns import Smilin
+
+  mol = Smilin(smiles, transforms=[RingDetection.sssr, TrustedSmiles.trusted_smiles])
+
+  This sets the smiles parser to assume that molecule's aromaticity
+  is correct.  transforms are the list of functions to apply to the
+  molecule.  Each function has the pattern
+   molecule = transform(molecule)
+
+  None of the transforms actually create a copy of the molecule
+  although at some point they might...
+
+  Trusted Smiles has one major issue (from the doc string):
+
+  This is a really stupid algorithm to accept standard smiles input
+  and basically trust it to be correct.
+
+  Essentially all non specified bonds are converted to either
+  aromatic or single bonds depending on two things
+
+  An aromatic bond must:
+   1 be between two aromatic atoms
+   2 must be in a ring with either unspecified
+     bonds or aromatic bonds.
+
+  Otherwise it is considered a single bond.
+
+  BUG
+  There is one class of degenerate cases for this stupid
+  algorithm for pre Daylight 4.71 output
+
+ 
+       ___
+      / o \       Imagine three aromatic rings surrounding
+      \___/        a non aromatic ring
+   ___/   \___    If the non aromatic ring doesn't have it's
+  / o \___/ o \    single bonds specified, then the single bonds
+  \___/   \___/    and hence the inner ring will be considered aromatic. 
+
+  This algorithm really is for testing purposes, so don't get your
+  knickers in a bunch :)
+  
+V atom.oatoms
+  Each atom has a list of oatoms (other atoms) to which the atom 
+  is connected.  Basically the only reason this exists is for speed 
+  issues which I have already completely forgotten.
+
+  I might get rid of this sense it increases molecule maintanence 
+  costs.
+
+VI Two Ring detection systems
+
+ I use Figueras ring detection chiefly mainly because it's soo fast.
+ Unfortunatly it has some problems.  Sometimes it can return two rings
+ when it really should return only one.  It also seems to have some
+ issues with certain bridged ring systems.  A lot of testing shows
+ that for aromaticity detection it works like a champ (500k nci
+ molecules tested)  However I can't say it returns the Smallest Set of
+ Smallest Rings at this point.  Use the perception.RingDetection code
+ if this is really necessary.  It is WAY slower though.
+
+VII Molecule before being transformed
+ Because of the nature of Smiles, after a molecule is built
+ from the tokenizer it cannot be used directly as a molecule.
+ Implicit hydrogens must be added and implicit bonds must be 
+ verified.
+
+ Both atoms and bonds have an attribute .fixed which indicates
+ their state after leaving the tokenizer.
+
+ For a given atom, if atom.fixed == 1 then hydrogens cannot
+ be added to the atom.  This happens, for instance, in a smiles
+ string like "[C]" which indicates that a carbon has zero 
+ hydrogens and you shouldn't add implicit hydrogens.
+
+ For a given bond, if bond.fixed == 1 then the bondorder cannot
+ be changed.  This is necessary because the implicit daylight
+ bond means a single bond or an aromatic bond (which can have
+ a bondorder of single or double)  bond.fixed means that the
+ bond was not implicitly declared and the bondorder should not
+ be changed.  For example the bonds in "c1ccccc1" are not fixed
+ and can be changed to single or double to conjugate the ring.
+ However the double bond bondorders in "C1=CC=CC=C1" cannot be 
+ changed (but the single can if neccesary)  and none of the
+ bondorders in "C1=C-C=C-C=C-1" can be changed.
+
+VIII Molecule Dirtyness
+ All atoms and bonds have references to their parents.
+ However, modified an atom property doesn't tell the
+ parent that it is dirty.  Once I figure out python 2.2
+ set_ proxies I'll work on this.  Consider this a TODO.
+ For now, if you fiddle with an atom property set
+ molecule.dirty=1 to rebuild.
+
+ Of course, I don't have a mechanism for redoing the
+ aromaticity or anything else once the molecue has been changed
+ yet so this is also a TODO.  You'll have to send the molecule
+ through the appropriate transforms.

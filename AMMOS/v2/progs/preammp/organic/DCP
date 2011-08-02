@@ -1,0 +1,36 @@
+15
+name dcp.op1 type o2 
+name dcp.op2 type o2
+name dcp.op3 type o2
+name dcp.p1 type  p35 
+name dcp.c2 type  c3 
+name dcp.h21 type h
+name dcp.c3 type  c2 
+name dcp.o1 type  O2 
+name dcp.o2 type  O2 
+name dcp.ca2 type  c3 
+name dcp.ha21 type h
+name dcp.ha22 type h
+name dcp.ca3 type  c2 
+name dcp.oa1 type  O2 
+name dcp.oa2 type  O2 
+14
+dcp.p1 dcp.op1 1
+dcp.p1 dcp.op2 1
+dcp.p1 dcp.op3 1
+dcp.p1 dcp.c2 1
+dcp.c2 dcp.c3 1
+dcp.c2 dcp.h21
+dcp.c2 dcp.ca2
+dcp.c3 dcp.o1 1.5
+dcp.c3 dcp.o2 1.5
+dcp.ca2 dcp.ca3 1
+dcp.ca2 dcp.ha21
+dcp.ca2 dcp.ha22
+dcp.ca3 dcp.oa1 1.5
+dcp.ca3 dcp.oa2 1.5
+0
+0
+0
+0
+0

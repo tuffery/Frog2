@@ -1,0 +1,9 @@
+def z(mol):
+	i=0
+	bloc=[]
+	while not mol.atoms[i].rings and i in x:
+		bloc.append(mol.atoms[i])
+		i=i+1
+	print bloc
+	bloc=[]
+	i=i+1

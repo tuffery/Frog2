@@ -1,0 +1,51 @@
+22
+name peb.c1 type C2  charge -.153
+name peb.c2 type C2  charge -.153
+name peb.c3 type C2  charge -.153
+name peb.c4 type C2  charge -.153
+name peb.c5 type C2  charge -.153
+name peb.c6 type C2  charge -.153
+name peb.cp  type c3 charge -.306
+name peb.hp1 type h
+name peb.hp2 type h
+name peb.cq  type c3 charge -.306
+name peb.hq1 type h
+name peb.hq2 type h
+name peb.n1   type n3 charge .22
+name peb.hn11 type h charge .311
+name peb.hn12 type h charge .311
+name peb.hn13 type h charge .311
+name peb.co  type c2  charge .153
+name peb.oo type o2
+name peb.h2  type H  charge .153
+name peb.h3  type H 
+name peb.h5  type H 
+name peb.h6  type H  charge .153
+22
+peb.c1 peb.c2 1.5
+peb.c2 peb.c3 1.5
+peb.c3 peb.c4 1.5
+peb.c4 peb.c5 1.5
+peb.c5 peb.c6 1.5
+peb.c6 peb.c1 1.5
+peb.c1 peb.co 1
+peb.co peb.oo 2
+peb.c2 peb.h2 1
+peb.c3 peb.h3 1
+peb.c4 peb.cp 1
+peb.c5 peb.h5 1
+peb.c6 peb.h6 1
+peb.cp peb.cq 1
+peb.cp peb.hp1 1
+peb.cp peb.hp2 1
+peb.cq peb.hq1 1
+peb.cq peb.hq2 1
+peb.cq peb.n1 1
+peb.n1 peb.hn11 1
+peb.n1 peb.hn12 1
+peb.n1 peb.hn13 1
+0
+0
+0
+0
+0

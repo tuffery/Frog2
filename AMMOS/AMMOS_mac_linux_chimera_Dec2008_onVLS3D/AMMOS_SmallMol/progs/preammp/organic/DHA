@@ -1,0 +1,95 @@
+43
+name dha.cb type c3
+name dha.hb1 type h
+name dha.hb2 type h
+name dha.c1 type C3  charge -.376
+name dha.c2 type C3  charge -.306
+name dha.c3 type C3  charge -.306
+name dha.c4 type C3  charge -.306
+name dha.c5 type C3  charge -.376
+name dha.c6 type C3  charge -.466
+name dha.h11 type H 
+name dha.h12 type H 
+name dha.h21 type H 
+name dha.h22 type H 
+name dha.h31 type H 
+name dha.h41 type H 
+name dha.h42 type H 
+name dha.h51 type H 
+name dha.h52 type H 
+name dha.h6 type h
+name dha.n6 type  n3  charge .3
+name dha.hn61 type h
+name dha.hn62 type h
+name dha.hn63 type h
+name dha.c11 type C3  charge -.376
+name dha.c12 type C3  charge -.306
+name dha.c13 type C3  charge -.306
+name dha.c14 type C3  charge -.306
+name dha.c15 type C3  charge -.376
+name dha.c16 type C3  charge -.466
+name dha.h111 type H 
+name dha.h112 type H 
+name dha.h121 type H 
+name dha.h122 type H 
+name dha.h131 type H 
+name dha.h141 type H 
+name dha.h142 type H 
+name dha.h151 type H 
+name dha.h152 type H 
+name dha.h16 type h
+name dha.n16 type  n3  charge .3
+name dha.h1n61 type h
+name dha.h1n62 type h
+name dha.h1n63 type h
+44
+dha.cb dha.hb1 1
+dha.cb dha.hb2 1
+dha.cb dha.c3 1
+dha.cb dha.c13 1
+dha.c1 dha.c2 1
+dha.c2 dha.c3 1
+dha.c3 dha.c4 1
+dha.c4 dha.c5 1
+dha.c5 dha.c6 1.
+dha.c6 dha.c1 1.
+dha.c1 dha.h11 1
+dha.c1 dha.h12 1
+dha.c2 dha.h21 1
+dha.c2 dha.h22 1
+dha.c3 dha.h31 1
+dha.c4 dha.h41 1
+dha.c4 dha.h42 1
+dha.c5 dha.h51 1
+dha.c5 dha.h52 1
+dha.c6 dha.h6    1
+dha.c6 dha.n6    1
+dha.n6 dha.hn61 1
+dha.n6 dha.hn62 1
+dha.n6 dha.hn63 1
+dha.c11 dha.c12 1
+dha.c12 dha.c13 1
+dha.c13 dha.c14 1
+dha.c14 dha.c15 1
+dha.c15 dha.c16 1.
+dha.c16 dha.c11 1.
+dha.c11 dha.h111 1
+dha.c11 dha.h112 1
+dha.c12 dha.h121 1
+dha.c12 dha.h122 1
+dha.c13 dha.h131 1
+dha.c14 dha.h141 1
+dha.c14 dha.h142 1
+dha.c15 dha.h151 1
+dha.c15 dha.h152 1
+dha.c16 dha.h16    1
+dha.c16 dha.n16    1
+dha.n16 dha.h1n61 1
+dha.n16 dha.h1n62 1
+dha.n16 dha.h1n63 1
+0
+0
+0
+0
+0
+dicyclohexylamine + 2

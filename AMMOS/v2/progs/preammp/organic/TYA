@@ -1,0 +1,49 @@
+22
+name tya.n type n3
+name tya.hn1 type h
+name tya.hn2 type h
+name tya.hn3 type h
+name tya.ca type c3 charge 0.035
+name tya.ha1 type h charge 0.048
+name tya.ha2 type h charge 0.048
+name tya.cb type c3 charge -0.098
+name tya.hb1 type h charge 0.038
+name tya.hb2 type h charge 0.038
+name tya.cg type c2 charge -0.030
+name tya.cd1 type c2 charge -0.002
+name tya.cd2 type c2 charge -0.002
+name tya.hd1 type h charge 0.064
+name tya.hd2 type h charge 0.064
+name tya.ce1 type c2 charge -0.264
+name tya.ce2 type c2 charge -0.264
+name tya.he1 type h charge 0.102
+name tya.he2 type h charge 0.102
+name tya.cz type c2 charge 0.462
+name tya.oh type o2 charge -0.528
+name tya.hh type hd charge 0.334
+22
+tya.n tya.hn1 1
+tya.n tya.hn2 1
+tya.n tya.hn3 1
+tya.n tya.ca 1
+tya.ca tya.cb 1
+tya.ca tya.ha1 1
+tya.ca tya.ha2 1
+tya.cb tya.cg 1
+tya.cb tya.hb1 1
+tya.cb tya.hb2 1
+tya.cg tya.cd1 1.5
+tya.cg tya.cd2 1.5
+tya.cd1 tya.ce1 1.5
+tya.cd2 tya.ce2 1.5
+tya.ce1 tya.cz 1.5
+tya.ce2 tya.cz 1.5
+tya.cd1 tya.hd1 1
+tya.cd2 tya.hd2 1
+tya.ce1 tya.he1 1
+tya.ce2 tya.he2 1
+tya.cz tya.oh 1
+tya.oh tya.hh 1
+0
+0
+0

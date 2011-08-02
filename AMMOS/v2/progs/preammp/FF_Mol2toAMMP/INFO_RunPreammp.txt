@@ -1,0 +1,19 @@
+============================================================
+ 
+ RUN PREAMMP: 
+ 
+  in /home/maria/AMMP/preammp/preammp
+>   ./presp4
+   
+  	 atom definition file:>  atoms.sp4
+   	 
+	 Residue dictionary directory:>  /home/maria/AMMP/preammp/preammp/organic  (HERE it is looking for "ONE" file, which is the template of the molecule)
+ 
+ 	 atom input coordinate file:>  /home/maria/AMMP/preammp/preammp/organic/one.pdb
+	 
+	  AMMP file:>  test_maria.ammp (OUTPUT ammp file name)
+ 
+ 
+ 
+ 
+==============================================================

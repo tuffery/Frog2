@@ -1,0 +1,12 @@
+3
+name h2s.h1 type Hd charge .41
+name h2s.h2 type Hd charge .41
+name h2s.2 type  s36  charge -.82 
+2
+h2s.2 h2s.h1 1
+h2s.2 h2s.h2 1
+0
+0
+0
+0
+0

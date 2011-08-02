@@ -1,0 +1,176 @@
+# this script automatically determines the upper limit or a chain and
+# links (oxtlink, peplink, and decis) the chain;
+
+mov k numatm; 
+index iupper k;
+div iupper 100; add iupper 1;
+
+mov ires 1;
+
+loopi end: ires iupper;
+mov jres ires; add jres 1;
+
+# 7/31/97  sp4 potential set ;
+# 7/12/95 sp3 potential set
+# 7 7 95  sp2 potential set 
+# peplink.ammp ;
+# generate a peptide link between ires and jres ;
+# assumes ires and jres defined as first and second residue;
+# generates a whole mess of variables;
+# equivalences  
+#  gly.ha2 cb gly.ha1 ha ; 
+#  pro.cd hn ;
+;
+serial ic ires c ;
+jl ic 0 notdef: ;
+serial ica ires ca ;
+jl ica 0 notdef: ;
+serial io ires o ;
+jl io 0 notdef: ;
+serial iha ires ha ;
+serial icb ires cb; 
+jnes io gly.o  notigly: ;
+serial iha ires 1ha ;
+serial icb ires 2ha ;
+jg icb 0 notigly: ;
+nop;  notigly: ;
+jnes io pca.o  notipca: ;
+serial iha ires 1ha ;
+serial icb ires 2ha ;
+jg icb 0 notipca: ;
+nop;  notipca: ;
+jnes io sng.o notisng: ;
+serial iha ires 1ha ;
+serial icb ires 2ha ;
+nop; notisng: ;
+serial in ires n ;
+jl in 0 notdef: ;
+jl icb 0 notdef: ;
+jl iha 0 notdef: ;
+
+serial jn jres n ;
+jl jn 0 notdef: ;
+serial jc jres c ;
+jl jc 0 notdef: ;
+serial jca jres ca ;
+jl jca 0 notdef: ;
+serial jhn jres h ;
+serial jcb jres cb;
+serial jha jres ha ;
+jnes jc gly.c  notjgly: ;
+serial jha jres 1ha ;
+serial jcb jres 2ha ;
+jg jcb 0 notjgly: ;
+nop ; notjgly: ;
+jnes jc pro.c notjpro: ;
+serial jhn jres cd ;
+jg jhn 0 notjpro: ;
+nop ; notjpro: ;
+jl jha 0 notdef: ;
+jl jhn 0 notdef: ;
+jl jcb 0 notdef: ;
+
+# sp3 9/17/95  c=o bond order 1.75, c-N bond order 1.25;
+# sp4 7/31/97 ;
+bond ic jn 1.327525 390.377502;
+angle ica ic jn  62.043457 120.;
+angle io ic jn 125.932732 120.;
+angle ic jn jhn 57.246033 118.;
+angle ic jn jca 67.805611 118.;
+hybrid ica io jn ic 150.000000 0.000000 ;
+# the following was added by hand (n hybrid) ;
+hybrid ic jhn jca jn 6.000000 0.000000 ;
+torsion in ica ic jn 0.166667 6 180.000000 ;
+torsion icb ica ic jn 0.166667 6 180.000000 ;
+torsion iha ica ic jn 0.166667 6 180.000000 ;
+torsion ica ic jn jhn 3.819912 2 180.000000 ;
+torsion ica ic jn jca 3.819912 2 180.000000 ;
+torsion io ic jn jhn 3.819912 2 180.000000 ;
+torsion io ic jn jca 3.819912 2 180.000000 ;
+torsion ic jn jca jc 0.166667 6 180.000000 ;
+torsion ic jn jca jcb 0.166667 6 180.000000 ;
+torsion ic jn jca jha 0.166667 6 180.000000 ;
+# is this the problem ? ;
+#torsion io ic jn jhn 2 1 0; # force trans peptide !! ;
+nop ; notdef: ;
+end: ;
+mov ires 1;
+
+loopi end: ires iupper;
+
+
+# oxtlink.ammp ;
+# generate the oxt patch ;
+# equivalences   ;
+#  gly.ha2 cb gly.ha1 ha ; 
+;
+serial ioxt ires oxt;
+jl ioxt 0 notdef: ;
+serial ic ires c ;
+jl ic 0 notdef: ;
+serial ica ires ca ;
+jl ica 0 notdef: ;
+serial io ires o ;
+jl io 0 notdef: ;
+serial iha ires ha ;
+serial icb ires cb; 
+jnes io gly.o  notigly: ;
+serial iha ires ha1 ;
+serial icb ires ha2 ;
+jg icb 0 notigly: ;
+nop;  notigly: ;
+serial in ires n ;
+jl in 0 notdef: ;
+jl icb 0 notdef: ;
+jl iha 0 notdef: ;
+
+
+mov ioxt.m io.m;
+mov ioxt.q io.q;
+mov ioxt.a io.a;
+mov ioxt.b io.b;
+mov ioxt.jaa io.jaa;
+mov ioxt.chi io.chi;
+ bond ic ioxt 1.308111 507.526174 ;
+ angle ica ic ioxt 75.282433 120.000000 ;
+ angle io ic ioxt 98.026901  120.000000 ;
+ hybrid ica io  ioxt ic 6.000000 0.000000;
+ torsion in ica ic ioxt 0.166667 6 180.000000 ;
+ torsion icb ica ic ioxt 0.166667 6 180.000000 ;
+ torsion iha ica ic ioxt 0.166667 6 180.000000 ;
+nop ; notdef: ;
+
+end: ;
+mov ires 1;
+
+loopi end: ires iupper;
+
+
+# decis. ammp;
+#
+# take the ires,jres peptide and ;
+# iff the atoms are not 0 0 0 ;
+# calculate the trans peptide hydrogen ;
+
+# just define the restraint and let ammp figure the rest out;
+
+serial ica ires ca;
+serial ic ires c;
+serial io ires o;
+serial jn jres n;
+serial jca jres ca;
+serial jhn jres h;
+
+jl ica 0 ret: ;
+jl  ic 0 ret: ;
+jl  i0 0 ret: ;
+jl  jn 0 ret: ;
+jl  jca 0 ret: ;
+jl  jhn 0 ret: ;
+
+# define the restraint to keep the distance right;
+restrain jhn io 3.148 500.;
+
+nop; ret: ;
+
+end: ;

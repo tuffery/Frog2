@@ -1,0 +1,94 @@
+42
+name oty.c1 type c2
+name oty.h1 type h
+name oty.c2 type c2
+name oty.h2 type h
+name oty.c3 type c2
+name oty.h3 type h
+name oty.c4 type c2
+name oty.h4 type h
+name oty.c5 type c2
+name oty.c6 type c2
+name oty.c7 type c3
+name oty.h71 type h
+name oty.h72 type h
+name oty.c8 type c3
+name oty.h81 type h
+name oty.o8 type o3
+name oty.ho8 type h
+name oty.c9 type c2
+name oty.c10 type c2
+name oty.c11 type c2
+name oty.c12 type c2
+name oty.h12 type h
+name oty.c13 type c2
+name oty.h13 type h
+name oty.c14 type c2
+name oty.h14 type h
+name oty.c15 type c2
+name oty.h15 type h
+name oty.c16 type c3
+name oty.h16 type h
+name oty.c17 type c3
+name oty.h171 type h
+name oty.h172 type h
+name oty.c18 type c3
+name oty.h181 type h
+name oty.h182 type h
+name oty.n19 type n3
+name oty.h19 type h
+name oty.c20 type c3
+name oty.h201 type h
+name oty.h202 type h
+name oty.h203 type h
+44
+oty.c1 oty.h1 1
+oty.c1 oty.c2 1.5
+oty.c1 oty.c6 1.5
+oty.c2 oty.h2 1
+oty.c2 oty.c3 1.5
+oty.c3 oty.h3 1
+oty.c3 oty.c4 1.5
+oty.c4 oty.h4 1
+oty.c4 oty.c5 1.5
+oty.c5 oty.c7 1
+oty.c5 oty.c6 1.5
+oty.c6 oty.c11 1
+oty.c7 oty.h71 1
+oty.c7 oty.h72 1
+oty.c7 oty.c8 1
+oty.c8 oty.h81 1
+oty.c8 oty.o8 1
+oty.o8 oty.ho8 1
+oty.c8 oty.c9 1
+oty.c9 oty.c10 1
+oty.c9 oty.c12 1.5
+oty.c12 oty.c13 1.5
+oty.c12 oty.h12 1
+oty.c13 oty.c14 1.5
+oty.c13 oty.h13 1
+oty.c14 oty.c15 1.5
+oty.c14 oty.h14 1
+oty.c15 oty.c10 1.5
+oty.c15 oty.h15 1
+oty.c10 oty.c11 1.0
+oty.c11 oty.c16 2
+oty.c16 oty.h16 1
+oty.c16 oty.c17
+oty.c17 oty.h171 1
+oty.c17 oty.h172 1
+oty.c17 oty.c18
+oty.c18 oty.h181 1
+oty.c18 oty.h182 1
+oty.c18 oty.n19
+oty.n19 oty.h19 1
+oty.n19 oty.c20
+oty.c20 oty.h201 1
+oty.c20 oty.h202 1
+oty.c20 oty.h203
+0
+0
+0
+# norytyiptyline  a tri-cyclic antidepresent
+#  10 -oh form - the active form after liver conversion
+# amitryptityline is converted to this form

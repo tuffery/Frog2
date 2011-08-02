@@ -1,0 +1,56 @@
+24
+name hpd.p type p35 
+name hpd.o1p type o2 
+name hpd.o2p type o2 
+name hpd.o3p type o2 
+name hpd.o5* type o3 
+name hpd.c5* type c3
+name hpd.c4* type c3
+name hpd.c3* type c3
+name hpd.c2* type c3
+name hpd.c1* type c3
+name hpd.o4* type o3
+name hpd.o3* type o3
+name hpd.o1* type o3
+name hpd.1hc5 type h
+name hpd.2hc5 type h
+name hpd.1hc4 type h
+name hpd.1hc3 type h
+name hpd.1hc2 type h
+name hpd.2hc2 type h
+name hpd.1hc1 type h
+name hpd.2hc1 type h
+name hpd.ho4 type hd
+name hpd.ho3 type hd
+name hpd.ho1 type hd
+23
+hpd.o1p hpd.p 1.3333
+hpd.o2p hpd.p 1.3333
+hpd.o3p hpd.p 1.3333
+hpd.o5* hpd.p 1.
+hpd.o5* hpd.c5* 1
+hpd.c5* hpd.1hc5 1
+hpd.c5* hpd.2hc5 1
+hpd.c5* hpd.c4* 1
+hpd.c4* hpd.1hc4 1
+hpd.c4* hpd.o4* 1
+hpd.c4* hpd.c3* 1
+hpd.c3* hpd.c2* 1
+hpd.c3* hpd.o3* 1
+hpd.c3* hpd.1hc3 1
+hpd.c2* hpd.c1* 1
+hpd.c2* hpd.1hc2 1
+hpd.c2* hpd.2hc2 1
+hpd.c1* hpd.o1* 1
+hpd.c1* hpd.1hc1 1
+hpd.c1* hpd.2hc1 1
+hpd.o4* hpd.ho4 1
+hpd.o3* hpd.ho3 1
+hpd.o1* hpd.ho1 1
+0
+0
+0
+0
+
+
+hpd   THere are chirals here, but we're working from real coords so its ok

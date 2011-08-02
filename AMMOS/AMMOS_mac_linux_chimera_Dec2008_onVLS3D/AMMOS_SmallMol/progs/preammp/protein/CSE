@@ -1,0 +1,100 @@
+45
+name cse.n type np charge -0.463
+name cse.hn type hd charge 0.252
+name cse.ca type c3 charge 0.035
+name cse.ha type h charge 0.048
+name cse.c type c2 charge 0.616
+name cse.o type o2 charge -0.504
+name cse.cb type c3 charge -0.060
+name cse.hb1 type h charge 0.038
+name cse.hb2 type h charge 0.038
+name cse.sg type s34 charge -0.135
+name cse.c1 type c3
+name cse.1h1 type h
+name cse.2h1 type h
+name cse.c2 type c2
+name cse.o2 type o2
+name cse.n3 type np
+name cse.hn3 type hd
+name cse.c4 type c3
+name cse.1h4 type h
+name cse.2h4 type h
+name cse.c5 type c3
+name cse.1h5 type h
+name cse.2h5 type h
+name cse.n6 type np
+name cse.hn6 type hd
+name cse.c7 type ca
+name cse.c8 type ca
+name cse.h8 type h
+name cse.c9 type ca
+name cse.h9 type h
+name cse.c10 type ca
+name cse.h10 type h
+name cse.c11 type ca
+name cse.c12 type ca
+name cse.c13 type ca
+name cse.h13 type h
+name cse.c14 type ca
+name cse.h14 type h
+name cse.c15 type ca
+name cse.h15 type h
+name cse.c16 type ca
+name cse.s17 type s36
+name cse.os1 type o2
+name cse.os2 type o2
+name cse.os3 type o2
+46
+cse.n cse.hn 1
+cse.n cse.ca 1
+cse.ca cse.c 1
+cse.ca cse.cb 1
+cse.ca cse.ha 1
+cse.c cse.o 1.75
+cse.cb cse.sg 1
+cse.cb cse.hb1 1
+cse.cb cse.hb2 1
+cse.sg cse.c1 1
+cse.c1 cse.1h1 1
+cse.c1 cse.2h1 1
+cse.c1 cse.c2 1
+cse.c2 cse.o2 1.75
+cse.c2 cse.n3 1.25
+cse.n3 cse.hn3 1
+cse.n3 cse.c4 1
+cse.c4 cse.1h4 1
+cse.c4 cse.2h4 1
+cse.c4 cse.c5 1
+cse.c5 cse.1h5 1
+cse.c5 cse.2h5 1
+cse.c5 cse.n6 1
+cse.n6 cse.hn6 1
+cse.n6 cse.c7 1
+cse.c7 cse.c8 1.5
+cse.c8 cse.h8 1
+cse.c8 cse.c9 1.5
+cse.c9 cse.h9 1
+cse.c9 cse.c10 1.5
+cse.c10 cse.h10 1
+cse.c10 cse.c11 1.5
+cse.c11 cse.c16 1.5
+cse.c11 cse.c12 1.5
+cse.c12 cse.s17 1
+cse.c12 cse.c13 1.5
+cse.c13 cse.h13 1
+cse.c13 cse.c14 1.5
+cse.c14 cse.h14 1
+cse.c14 cse.c15 1.5
+cse.c15 cse.h15 1
+cse.c15 cse.c16 1.5
+cse.c16 cse.c7 1.5
+cse.s17 cse.os1 2
+cse.s17 cse.os2 2
+cse.s17 cse.os3 2
+0
+2
+cse.n cse.cb cse.c cse.ca  4 .494427
+cse.n cse.cb cse.c cse.ha  4  1.606971
+0
+#
+# molec probes i 14 (iaedans) coupled to cse.

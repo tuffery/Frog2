@@ -1,0 +1,53 @@
+22
+name ai1.c1 type C2  charge -.153
+name ai1.c2 type C2  charge -.153
+name ai1.c3 type C2  charge -.153
+name ai1.c4 type C2  charge -.153
+name ai1.c5 type C2  charge -.153
+name ai1.c6 type C2  charge -.153
+name ai1.h1  type H  charge .133
+name ai1.h2  type H  charge .133
+name ai1.h3  type H 
+name ai1.cp  type c3 charge -.153
+name ai1.cq   type c3
+name ai1.h6  type H  charge .133
+name ai1.cr type c3
+name ai1.np type n3
+name ai1.hnp1 type h
+name ai1.hnp2 type h
+name ai1.hnp3 type h
+name ai1.hp2 type h
+name ai1.hq1 type h
+name ai1.hq2 type h
+name ai1.hr1 type h
+name ai1.hr2 type h
+23
+ai1.c1 ai1.c2 1.5
+ai1.c2 ai1.c3 1.5
+ai1.c3 ai1.c4 1.5
+ai1.c4 ai1.c5 1.5
+ai1.c5 ai1.c6 1.5
+ai1.c6 ai1.c1 1.5
+ai1.c1 ai1.h1 1
+ai1.c2 ai1.h2 1
+ai1.c3 ai1.h3 1
+ai1.c6 ai1.h6 1
+ai1.c5 ai1.cr 1
+ai1.c4 ai1.cp 1
+ai1.cp ai1.np 1
+ai1.np ai1.hnp1 1
+ai1.np ai1.hnp2 1
+ai1.np ai1.hnp3 1
+ai1.cp ai1.hp2 1
+ai1.cp ai1.cq 1
+ai1.cq ai1.hq1 1
+ai1.cq ai1.hq2 1
+ai1.cq ai1.cr 1
+ai1.cr ai1.hr1 1
+ai1.cr ai1.hr2 1
+0
+0
+0
+0
+0
+1 aminoindane +1

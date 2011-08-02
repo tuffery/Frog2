@@ -1,0 +1,37 @@
+15
+name cba.c1 type C3  charge -.306
+name cba.c2 type C3  charge -.306
+name cba.c3 type C3  charge -.306
+name cba.c4 type C3  charge -.306
+name cba.h1 type h
+name cba.n1 type n3
+name cba.hn11 type h
+name cba.hn12 type h
+name cba.hn13 type h
+name cba.h21 type H 
+name cba.h22 type H 
+name cba.h31 type H 
+name cba.h32 type H 
+name cba.h41 type H 
+name cba.h42 type H 
+15
+cba.c1 cba.c2 1
+cba.c2 cba.c3 1
+cba.c3 cba.c4 1
+cba.c4 cba.c1 1
+cba.c1 cba.n1 1
+cba.c1 cba.h1 1
+cba.n1 cba.hn11 1
+cba.n1 cba.hn12 1
+cba.n1 cba.hn13 1
+cba.c2 cba.h21 1
+cba.c2 cba.h22 1
+cba.c3 cba.h31 1
+cba.c3 cba.h32 1
+cba.c4 cba.h41 1
+cba.c4 cba.h42 1
+0
+0
+0
+0
+0

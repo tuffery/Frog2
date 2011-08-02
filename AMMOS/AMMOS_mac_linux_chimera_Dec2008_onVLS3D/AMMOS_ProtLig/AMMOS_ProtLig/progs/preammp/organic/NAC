@@ -1,0 +1,18 @@
+8
+name nac.n type np charge -0.463
+name nac.hn type hd charge 0.252
+name nac.hn2 type hd charge 0.252
+name nac.ca type c3 charge 0.035
+name nac.ha1 type h charge 0.032
+name nac.ha2 type h charge 0.032
+name nac.c type c2 charge 0.616
+name nac.o type o1 charge -0.504
+7
+nac.n nac.hn 1
+nac.n nac.hn2 1
+nac.n nac.ca 1
+nac.ca nac.ha1 1
+nac.ca nac.ha2 
+nac.ca nac.c 1
+nac.c nac.o 2
+

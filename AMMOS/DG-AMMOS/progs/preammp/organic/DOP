@@ -1,0 +1,52 @@
+23
+name dop.n type n3
+name dop.hn1 type h
+name dop.hn2 type h
+name dop.hn3 type h
+name dop.ca type c3 charge 0.035
+name dop.ha1 type h charge 0.048
+name dop.ha2 type h charge 0.048
+name dop.cb type c3 charge -0.098
+name dop.hb1 type h charge 0.038
+name dop.hb2 type h charge 0.038
+name dop.cg type c2 charge -0.030
+name dop.cd1 type c2 charge -0.002
+name dop.cd2 type c2 charge -0.002
+name dop.hd1 type h charge 0.064
+name dop.hd2 type h charge 0.064
+name dop.ce1 type c2 charge -0.264
+name dop.ce2 type c2 charge -0.264
+name dop.oe1 type o2 charge 0.102
+name dop.hoe1 type h charge 0.102
+name dop.he2 type h charge 0.102
+name dop.cz type c2 charge 0.462
+name dop.oh type o2 charge -0.528
+name dop.hh type hd charge 0.334
+23
+dop.n dop.hn1 1
+dop.n dop.hn2 1
+dop.n dop.hn3 1
+dop.n dop.ca 1
+dop.ca dop.cb 1
+dop.ca dop.ha1 1
+dop.ca dop.ha2 1
+dop.cb dop.cg 1
+dop.cb dop.hb1 1
+dop.cb dop.hb2 1
+dop.cg dop.cd1 1.5
+dop.cg dop.cd2 1.5
+dop.cd1 dop.ce1 1.5
+dop.cd2 dop.ce2 1.5
+dop.ce1 dop.cz 1.5
+dop.ce2 dop.cz 1.5
+dop.cd1 dop.hd1 1
+dop.cd2 dop.hd2 1
+dop.ce1 dop.oe1 1
+dop.oe1 dop.hoe1 1
+dop.ce2 dop.he2 1
+dop.cz dop.oh 1
+dop.oh dop.hh 1
+0
+0
+0
+#dopamine +1

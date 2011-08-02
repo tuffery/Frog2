@@ -1,0 +1,58 @@
+23
+name muc.c1 type c2
+name muc.c2 type c3
+name muc.c3 type c3
+name muc.c4 type c3
+name muc.c5 type c3
+name muc.c6 type c2
+name muc.o11 type o2
+name muc.o12 type o3
+name muc.ho12 type hd
+name muc.o61 type o2
+name muc.o62 type o2
+name muc.o2 type o3
+name muc.o3 type o3
+name muc.o4 type o3
+name muc.o5 type o3
+name muc.h2 type h
+name muc.ho2 type hd
+name muc.h3 type h
+name muc.ho3 type hd
+name muc.h4 type h
+name muc.ho4 type hd
+name muc.h5 type h
+name muc.ho5 type hd
+22
+muc.c1 muc.c2 1
+muc.c2 muc.c3 1
+muc.c3 muc.c4 1
+muc.c4 muc.c5 1
+muc.c5 muc.c6 1
+muc.c1 muc.o11 2
+muc.c1 muc.o12 1
+muc.o12 muc.ho12 1
+muc.c6 muc.o61 2
+muc.c6 muc.o62 2
+muc.c2 muc.h2 1
+muc.c2 muc.o2 1
+muc.o2 muc.ho2 1
+muc.c3 muc.h3 1
+muc.c3 muc.o3 1
+muc.o3 muc.ho3 1
+muc.c4 muc.h4 1
+muc.c4 muc.o4 1
+muc.o4 muc.ho4 1
+muc.c5 muc.h5 1
+muc.c5 muc.o5 1
+muc.o5 muc.ho5 1
+0
+8
+muc.c1 muc.c3 muc.o2 muc.c2 6 .452
+muc.c2 muc.c4 muc.o3 muc.c3 6 -.457
+muc.c3 muc.c5 muc.o4 muc.c4 6 -.457
+muc.c4 muc.c6 muc.o5 muc.c5 6 .452
+muc.c1 muc.c3 muc.o2 muc.h2 6 1.6
+muc.c2 muc.c4 muc.o3 muc.h3 6 -1.6
+muc.c3 muc.c5 muc.o4 muc.h4 6 -1.6
+muc.c4 muc.c6 muc.o5 muc.h5 6 1.6
+0

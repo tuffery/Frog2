@@ -1,0 +1,34 @@
+# these are patches for the peptide bond ;
+# hybrid on  o(-1)n o n(+1)  will stiffen it;
+# these are not planar;
+#  c=o c=o are and N-h n-H are as well;
+# morse H-bonds for  peptide backbone ;
+#;
+# both of these reflect the hybridization of the amide bond ;
+#;
+
+#  12/9/02 rwh ;
+
+# set irmin,irmax  to define a region;
+setf khyb 10.;
+
+mov i irmin;
+mov k irmax;
+
+add i 1;
+loopi end: i  k;
+mov j i; sub j 1;
+serial iom1 j o;
+serial icm1 j c;
+serial ic i c;
+serial io i o;
+hybrid iom1 icm1 ic io khyb 0;
+mov j i; add j 1;
+#serial in i n;
+#serial ihn i h;
+#serial jn j n;
+#serial jhn j h;
+#hybrid ihn in jn jhn khyb 0;
+end: ;
+
+

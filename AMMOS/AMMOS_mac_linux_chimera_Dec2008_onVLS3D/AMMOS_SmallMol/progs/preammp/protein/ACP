@@ -1,0 +1,108 @@
+45
+name acp.pg type p35 charge 1.075
+name acp.o1g type o2 charge -0.511
+name acp.o2g type o2 charge -0.506
+name acp.o3g type o3 charge -0.579
+name acp.pb type p35 charge 1.075
+name acp.o1b type o2 charge -0.519
+name acp.o2b type o2 charge -0.519
+name acp.c3b type c3 charge -0.181
+name acp.1h3b type h  charge 0.101
+name acp.2h3b type h  charge 0.101
+name acp.pa type p35 charge 1.141
+name acp.o1a type o2 charge -0.507
+name acp.o2a type o2 charge -0.507
+name acp.o3a type o3 charge -0.625
+name acp.o3* type o3 charge -0.632
+name acp.ho3* type hd charge  0.288
+name acp.o5* type o3 charge -0.583
+name acp.c5* type c3 charge -.028
+name acp.h51* type h charge 0.100
+name acp.h52* type h charge 0.100
+name acp.c4* type c3 charge 0.006
+name acp.h4* type h charge 0.097
+name acp.o4* type o3 charge -0.547
+name acp.o2* type o3 charge -0.624
+name acp.ho2* type hd charge  0.288
+name acp.c1* type c3 charge 0.038 
+name acp.h1* type h charge 0.102
+name acp.c2* type c3 charge  0.010
+name acp.h21* type h charge 0.101
+name acp.c3* type c3 charge 0.017
+name acp.h3* type h charge 0.099
+name acp.n9 type nr charge -0.309
+name acp.c4 type c2 charge 0.060
+name acp.c8 type c2 charge 0.025
+name acp.h8 type h charge 0.102
+name acp.n3 type nr charge -0.306
+name acp.c2 type c2 charge 0.032
+name acp.h2 type h charge  0.103
+name acp.n1 type nr charge -0.296
+name acp.c6 type c2 charge 0.106
+name acp.n6 type np charge -0.665
+name acp.hn61 type hd charge 0.278
+name acp.hn62 type hd charge 0.283
+name acp.c5 type c2 charge  0.007
+name acp.n7 type nb charge -0.296
+47
+acp.pg acp.o1g 1.75
+acp.pg acp.o2g 1.75
+acp.pg acp.o3g 1.75
+acp.c3b   acp.pg 1. 
+acp.c3b acp.1h3b 1
+acp.c3b acp.2h3b 1
+acp.pb acp.o1b 2.0
+acp.pb acp.o2b 2.0
+acp.pb acp.c3b 1. 
+acp.o3a   acp.pb 1.5
+acp.pa acp.o1a 1.5
+acp.pa acp.o2a 1.5
+acp.pa acp.o3a 1.5
+acp.pa acp.o5* 1
+acp.o5* acp.c5* 1
+acp.c5* acp.c4* 1
+acp.c5* acp.h51* 1
+acp.c5* acp.h52* 1
+acp.c4* acp.o4* 1
+acp.c4* acp.c3* 1
+acp.c4* acp.h4* 1
+acp.c3* acp.o3* 1
+acp.o3* acp.ho3* 1
+acp.c3* acp.c2* 1
+acp.c3* acp.h3* 1
+acp.c2* acp.c1* 1
+acp.c2* acp.h21* 1
+acp.c2* acp.o2* 1
+acp.o2* acp.ho2* 1
+acp.c1* acp.o4* 1
+acp.c1* acp.n9 1
+acp.c1* acp.h1* 1
+acp.n9 acp.c4 1
+acp.n9 acp.c8 1
+acp.c4 acp.n3 1.5
+acp.n3 acp.c2 1.5
+acp.c2 acp.n1 1.5
+acp.c2 acp.h2 1
+acp.n1 acp.c6 1.5
+acp.c6 acp.c5 1.5
+acp.c6 acp.n6 1
+acp.n6 acp.hn61 1
+acp.n6 acp.hn62 1
+acp.c5 acp.c4 1.5
+acp.c5 acp.n7 1
+acp.n7 acp.c8 2
+acp.c8 acp.h8 1
+0
+8
+acp.o2* acp.c2* acp.h1* acp.n9  6 1.925983
+acp.o2* acp.c2* acp.h1* acp.c1* 6 .468722
+acp.c1* acp.c3* acp.o2* acp.c2* 6 .554654
+acp.c1* acp.c3* acp.o2* acp.h21* 6 1.669313
+acp.c2* acp.c4* acp.o3* acp.c3* 6 .554654
+acp.c2* acp.c4* acp.o3* acp.h3* 6 1.669313
+acp.c3* acp.c5* acp.o2* acp.c4* 6 .554654
+acp.c3* acp.c5* acp.o2* acp.h4* 6 1.669313
+0
+
+the c1* terms may be negative (i.e. wrong or
+other enantiomer)

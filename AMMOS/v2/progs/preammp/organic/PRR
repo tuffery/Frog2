@@ -1,0 +1,58 @@
+22
+name prr.c1 type C2  charge -.153
+name prr.c2 type C2  charge -.153
+name prr.c3 type C2  charge -.153
+name prr.c4 type C2  charge -.153
+name prr.c5 type C2  charge -.153
+name prr.c6 type C2  charge -.153
+name prr.cp  type c3 charge -.153
+name prr.hp2 type h
+name prr.cq  type c3 charge -.306
+name prr.hq1 type h
+name prr.hq2 type h
+name prr.cr  type c3 charge -.153
+name prr.hr2 type h
+name prr.n1   type n3 charge  .22
+name prr.hn11 type h charge .311
+name prr.hn12 type h charge .311
+name prr.hn13 type h charge .311
+name prr.h1  type H  charge .153
+name prr.h2  type H  charge .153
+name prr.h3  type H 
+name prr.h5  type H 
+name prr.h6  type H  charge .153
+23
+prr.c1 prr.c2 1.5
+prr.c2 prr.c3 1.5
+prr.c3 prr.c4 1.5
+prr.c4 prr.c5 1.5
+prr.c5 prr.c6 1.5
+prr.c6 prr.c1 1.5
+prr.c1 prr.h1 1
+prr.c2 prr.h2 1
+prr.c3 prr.h3 1
+prr.c4 prr.cp 1
+prr.c5 prr.h5 1
+prr.c6 prr.h6 1
+prr.cp prr.cq 1
+prr.cq prr.cr 1
+prr.cp prr.cr 1
+prr.cp prr.hp2 1
+prr.cq prr.hq1 1
+prr.cq prr.hq2 1
+prr.cr prr.hr2 1
+prr.cr prr.n1 1
+prr.n1 prr.hn11 1
+prr.n1 prr.hn12 1
+prr.n1 prr.hn13 1
+0
+4
+prr.c4 prr.cq prr.cr prr.cp 4 .707873 
+prr.c4 prr.cq prr.cr prr.hp2 4  1.811868
+prr.n1 prr.cp prr.cq prr.cr 4 .696437
+prr.n1 prr.cp prr.cq prr.hr2 4 1.820384
+0
+0
+0
+
+#tranylcypromine rr or ss ;

@@ -1,0 +1,65 @@
+30
+name spr.n1 type n3
+name spr.h11 type h
+name spr.h13 type h
+name spr.h12 type h
+name spr.c2 type c3
+name spr.h21 type h
+name spr.h22 type h
+name spr.c3 type c3
+name spr.h31 type h
+name spr.h32 type h
+name spr.n4 type n3
+name spr.h41 type h
+name spr.c5 type c3
+name spr.h51 type h
+name spr.h52 type h
+name spr.c6 type c3
+name spr.h61 type h
+name spr.h62 type h
+name spr.n7 type n3
+name spr.h71 type h
+name spr.c8 type c3
+name spr.h81 type h
+name spr.h82 type h
+name spr.c9 type c3
+name spr.h91 type h
+name spr.h92 type h
+name spr.n10 type n3
+name spr.h101 type h
+name spr.h102 type h
+name spr.h103 type h
+29
+spr.n1 spr.h11 1
+spr.n1 spr.h12 1
+spr.n1 spr.h13 1
+spr.n1 spr.c2 1
+spr.c2 spr.c3 1
+spr.c2 spr.h21 1
+spr.c2 spr.h22 1
+spr.c3 spr.n4 1
+spr.c3 spr.h31 1
+spr.c3 spr.h32 1
+spr.n4 spr.h41 1
+spr.n4 spr.c5 1
+spr.c5 spr.c6 1
+spr.c5 spr.h51 1
+spr.c5 spr.h52 1
+spr.c6 spr.n7 1
+spr.c6 spr.h61 1
+spr.c6 spr.h62 1
+spr.n7 spr.h71 1
+spr.n7 spr.c8 1
+spr.c8 spr.c9 1
+spr.c8 spr.h81 1
+spr.c8 spr.h82 1
+spr.c9 spr.n10 1
+spr.c9 spr.h91 1
+spr.c9 spr.h92 1
+spr.n10 spr.h101 1
+spr.n10 spr.h102 1
+spr.n10 spr.h103 1
+0
+0
+0
+spermine + 2

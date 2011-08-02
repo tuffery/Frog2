@@ -1,0 +1,75 @@
+32 
+name ade.o5'  type o3 charge -.404
+name ade.ho5'  type h charge  .279
+name ade.c5'  type c3 charge  .180
+name ade.h51'  type h charge .008
+name ade.h52'  type h charge .008
+name ade.c4'  type c3  charge .100 
+name ade.h4'  type h  charge .061
+name ade.o4' type o3 charge -.343 
+name ade.c1' type c3  charge  .117
+name ade.h1' type h  charge  .054 
+name ade.n9    type nr charge -.073 
+name ade.c8   type c2 charge  .263
+name ade.h8    type h charge .062
+name ade.n7  type nb charge  -.543
+name ade.c5    type c2 charge  -.097
+name ade.c6   type c2 charge .769
+name ade.n6    type n3 charge  -.768
+name ade.h61  type hd charge  .324
+name ade.h62  type hd charge .335
+name ade.n1    type nr charge  -.774
+name ade.c2    type c2 charge .661 
+name ade.h2    type h charge -.032 
+name ade.n3    type nr charge  -.728
+name ade.c4    type c2 charge .546
+name ade.c2' type c3 charge  .101
+name ade.h2' type h charge  .008
+name ade.o2' type o3 charge -.546 
+name ade.ho2' type h charge   .324
+name ade.c3' type c3 charge .303 
+name ade.h3' type h charge .007 
+name ade.o3' type o3 charge -.508 
+name ade.ho3' type h charge .306 
+33
+ade.o5' ade.c5' 1
+ade.h51' ade.c5' 1
+ade.h52' ade.c5' 1
+ade.o5' ade.ho5' 1
+ade.c4' ade.c5' 1
+ade.c4' ade.o4' 1
+ade.c1' ade.o4' 1
+ade.c1' ade.n9 1
+ade.n9 ade.c8 1.
+ade.c8 ade.n7 1.
+ade.c8 ade.h8 1
+ade.n7 ade.c5 1.
+ade.c5 ade.c4 1.5
+ade.c5 ade.c6 1.5
+ade.c6 ade.n6 1.
+ade.n6 ade.h61 1.
+ade.n6 ade.h62 1.
+ade.c6 ade.n1 1.5
+ade.n1 ade.c2 1.5
+ade.c2 ade.h2 1.
+ade.c2 ade.n3 1.5
+ade.n3 ade.c4 1.5
+ade.c4 ade.n9 1.
+ade.c1' ade.h1' 1.
+ade.c1' ade.c2' 1.
+ade.c2' ade.h2' 1.
+ade.c2' ade.o2' 1.
+ade.o2' ade.ho2' 1.
+ade.c2' ade.c3' 1.
+ade.c3' ade.h3' 1.
+ade.c3' ade.o3' 1.
+ade.o3' ade.ho3' 1.
+ade.c3' ade.c4' 1.
+3
+ade.c8 ade.n9 ade.c4 188.97166 103.4
+ade.c1' ade.n9 ade.c8 132.520899 128.2
+ade.c1' ade.n9 ade.c4 132.520899 128.2
+2
+ade.c5 ade.c6 ade.c4 ade.c2 6 0   
+ade.c8 ade.c5 ade.c4 ade.c2 6 0   
+0

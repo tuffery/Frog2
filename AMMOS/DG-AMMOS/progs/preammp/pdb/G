@@ -1,0 +1,79 @@
+33
+name gua.p type p35 charge 1.385
+name gua.o1p type o2 charge -0.847
+name gua.o2p type o2 charge -0.847
+name gua.o3* type o3 charge -0.509
+name gua.o5* type o3 charge -0.509
+name gua.c5* type c3 charge 0.118
+name gua.1h5* type h charge 0.021
+name gua.2h5* type h charge 0.021
+name gua.c4* type c3 charge 0.036
+name gua.h4* type h charge 0.056
+name gua.c3* type c3 charge 0.233
+name gua.h3* type h charge 0.025
+name gua.c2* type c3 charge -0.307
+name gua.1h2* type h charge 0.081
+name gua.2h2* type h charge 0.081
+name gua.c1* type c3 charge 0.376
+name gua.h1* type h charge 0.009
+name gua.o4* type o3 charge -0.368
+name gua.n9 type nr charge -0.042
+name gua.c4 type c2 charge 0.391
+name gua.c8 type c2 charge 0.266
+name gua.h8 type h charge 0.046
+name gua.n3 type nr charge -0.728
+name gua.c2 type c2 charge 0.871
+name gua.n2 type np charge -0.778
+name gua.1h2 type hd charge 0.325
+name gua.2h2 type hd charge 0.325
+name gua.n1 type nr charge -0.729
+name gua.h1 type hd charge 0.336
+name gua.c6 type c2 charge 0.690
+name gua.o6 type o2 charge -0.458
+name gua.c5 type c2 charge -0.060
+name gua.n7 type nb charge -0.543
+35
+gua.p gua.o1p 1.5
+gua.p gua.o2p 1.5
+gua.p gua.o5* 1
+gua.o5* gua.c5* 1
+gua.c5* gua.c4* 1
+gua.c5* gua.1h5* 1
+gua.c5* gua.2h5* 1
+gua.c4* gua.c3* 1
+gua.c4* gua.o4* 1
+gua.c4* gua.h4* 1
+gua.c3* gua.c2* 1
+gua.c3* gua.o3* 1
+gua.c3* gua.h3* 1
+gua.c2* gua.c1* 1
+gua.c2* gua.1h2* 1
+gua.c2* gua.2h2* 1
+gua.c1* gua.o4* 1
+gua.c1* gua.n9 1
+gua.c1* gua.h1* 1
+gua.n9 gua.c4 1
+gua.n9 gua.c8 1
+gua.c4 gua.n3 1.5
+gua.n3 gua.c2 1.5
+gua.c2 gua.n2 1
+gua.n2 gua.1h2 1
+gua.n2 gua.2h2 1
+gua.c2 gua.n1 1.5
+gua.n1 gua.h1 1
+gua.n1 gua.c6 1.5
+gua.c6 gua.c5 1.5
+gua.c6 gua.o6 1.5
+gua.c5 gua.c4 1.5
+gua.c5 gua.n7 1
+gua.n7 gua.c8 2
+gua.c8 gua.h8 1
+0
+6
+gua.o4* gua.c2* gua.h1* gua.n9  6 1.925983
+gua.o4* gua.c2* gua.h1* gua.c1* 6 .468722
+gua.c2* gua.c4* gua.o3* gua.c3* 6 .554654
+gua.c2* gua.c4* gua.o3* gua.H3* 6 1.669313
+gua.c3* gua.c5* gua.o4* gua.c4* 6 .554654
+gua.c3* gua.c5* gua.o4* gua.H4* 6 1.669313
+0

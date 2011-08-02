@@ -1,0 +1,36 @@
+15
+name etp.c1 type C3  charge -.331505
+name etp.h11 type H  charge .172295
+name etp.h12 type H  charge .171347
+name etp.h13 type H  charge .171347
+name etp.c2 type c3
+name etp.h21 type h
+name etp.h22 type h
+name etp.p type p35 
+name etp.op1 type o2
+name etp.op2 type o2
+name etp.op3 type o2
+name etp.p2 type p35 
+name etp.op21 type o2
+name etp.op22 type o2
+name etp.op23 type o2
+14
+etp.c1 etp.c2 1
+etp.c2 etp.h21 1
+etp.c2 etp.h22 1
+etp.c2 etp.p 1
+etp.p etp.op1 1
+etp.p etp.op2 1
+etp.p etp.op3 1
+etp.op2 etp.p2 1
+etp.p2 etp.op21 1
+etp.p2 etp.op22 1
+etp.p2 etp.op23 1
+etp.c1 etp.h11 1 
+etp.c1 etp.h12 1 
+etp.c1 etp.h13 1 
+0
+0
+0
+0
+0

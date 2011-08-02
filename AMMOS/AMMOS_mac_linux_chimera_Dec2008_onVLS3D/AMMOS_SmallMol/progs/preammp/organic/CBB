@@ -1,0 +1,28 @@
+10
+name cbb.c1 type C3  charge -.306
+name cbb.c2 type C3  charge -.306
+name cbb.c3 type C3  charge -.306
+name cbb.c4 type C3  charge -.306
+name cbb.h11 type H 
+name cbb.h12 type H 
+name cbb.h21 type H 
+name cbb.h31 type H 
+name cbb.h32 type H 
+name cbb.h41 type H 
+11
+cbb.c1 cbb.c2 1
+cbb.c2 cbb.c3 1
+cbb.c3 cbb.c4 1
+cbb.c4 cbb.c1 1
+cbb.c1 cbb.h11 1
+cbb.c1 cbb.h12 1
+cbb.c2 cbb.h21 1
+cbb.c3 cbb.h31 1
+cbb.c3 cbb.h32 1
+cbb.c4 cbb.h41 1
+cbb.c4 cbb.c2 1
+0
+0
+0
+0
+0

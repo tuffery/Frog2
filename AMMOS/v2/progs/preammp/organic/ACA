@@ -1,0 +1,25 @@
+9
+name aca.h1 type H 
+name aca.h2 type H 
+name aca.h3 type H
+name aca.c1 type  c3 
+name aca.c2 type  c2 
+name aca.o1 type  O2 
+name aca.n2 type  np 
+name aca.hn1 type hd
+name aca.hn2 type hd
+8
+aca.c1 aca.h1 1
+aca.c1 aca.h2 1
+aca.c1 aca.h3 1
+aca.c1 aca.c2 1
+aca.c2 aca.o1 2.
+aca.c2 aca.n2 1
+aca.n2 aca.hn1 1
+aca.n2 aca.hn2 1
+0
+0
+0
+0
+0
+acetamide

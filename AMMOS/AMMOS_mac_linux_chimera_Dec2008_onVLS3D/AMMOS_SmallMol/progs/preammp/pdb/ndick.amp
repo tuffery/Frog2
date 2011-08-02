@@ -1,0 +1,44 @@
+# nnlink.ammp;
+# link jres and ires with a DNA bond
+# ires 5 po4 to jres o3
+#;
+serial io3p ires o3* ;
+jl io3p 0 notdef: ;
+serial ic3p ires c3* ;
+jl ic3p 0 notdef: ;
+serial ic4p ires c4* ;
+jl ic4p 0 notdef: ;
+serial ic2p ires c2* ;
+jl ic2p  0 notdef: ;
+serial ih3p ires h3* ;
+jl ih3p  0 notdef: ;
+
+serial jp jres p ;
+jl jp 0 notdef: ;
+serial jo1p jres o1p;
+jl jo1p 0 notdef: ;
+serial jo2p jres o2p;
+jl jo2p 0 notdef: ;
+serial jo5p jres o5*;
+jl jo5p 0 notdef: ;
+serial jc5p jres c5*;
+jl jc5p 0 notdef: ;
+
+
+# revised 3/22/95 ;
+# sp3 version 102495 (minor changes ) ;
+ bond io3p jp 1.607962 496.214996; 
+ angle ic3p io3p jp 89.907265 104.510002 ;
+ angle io3p jp jo1p 66.453278 109.470001 ;
+ angle io3p jp jo2p 66.453278 109.470001 ;
+ angle io3p jp jo5p 62.194546 109.470001 ;
+ torsion ic4p ic3p io3p jp 0.053154 3 0.000000 ;
+ torsion ic2p ic3p io3p jp 0.053154 3 0.000000 ;
+ torsion ih3p ic3p io3p jp 0.053154 3 0.000000 ;
+ torsion ic3p io3p jp jo1p 0.056569 3 0.000000 ;
+ torsion ic3p io3p jp jo2p 0.056569 3 0.000000 ;
+ torsion ic3p io3p jp jo5p 0.056569 3 0.000000 ;
+torsion io3p jp jo5p jc5p 0.056569 3 0.000000 ;
+
+
+nop; notdef: ;

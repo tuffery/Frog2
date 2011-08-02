@@ -1,0 +1,4 @@
+/home/tintin/tuffery/wrk/2009/AMMOS/v2/progs/preammp/atoms.sp4
+/home/tintin/tuffery/wrk/2009/AMMOS/v2/example
+input_ligand.pdb
+input_ligand.ammp

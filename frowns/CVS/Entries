@@ -1,0 +1,25 @@
+D/Canonicalization////
+D/Depict////
+D/Fingerprint////
+D/Objects////
+D/Smarts////
+D/Utils////
+D/docs////
+D/extensions////
+D/mdl_parsers////
+D/perception////
+D/smiles_parsers////
+D/test////
+/Cycle.py/1.1.1.1/Wed Dec  4 18:29:38 2002//
+/FrownsError.py/1.1.1.1/Wed Dec  4 18:29:38 2002//
+/IdGenerator.py/1.1.1.1/Wed Dec  4 18:29:38 2002//
+/MDL.py/1.5/Tue Jul 29 22:38:36 2003//
+/README/1.2/Mon Jun  9 16:53:12 2003//
+/LICENSE/1.1/Thu Nov 20 22:52:58 2003//
+/Smiles.py/1.3/Mon Feb  2 20:18:32 2004//
+/Atom.py/1.4/Mon Feb  2 20:55:20 2004//
+/Bond.py/1.4/Mon Sep 15 16:40:46 2003//
+/Molecule.py/1.4/Thu Nov  6 18:48:04 2003//
+/TetraHedralChirality.py/1.2/Wed Sep 10 19:31:12 2003//
+/__init__.py/1.3/Fri Oct 17 14:55:20 2003//
+/setup.py/1.7/Thu Oct 23 13:42:28 2003//

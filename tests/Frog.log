@@ -1,0 +1,9 @@
+energetic treshold = 25.0
+nb Monte Carlo steps = 100
+nb max of conformations = 50
+
+Id 1: mol1
+   1 isomer(s) found:
+      O1[C@@H]([C@H]([C@@H]([C@@H]([C@@H]1C)O)O)O)O
+   1 conformation(s) calculated. For some isomer(s) 0 have bad energies.
+

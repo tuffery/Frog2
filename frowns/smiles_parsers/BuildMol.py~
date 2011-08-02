@@ -1,0 +1,287 @@
+# Build a simple Molecule object given the events from the Smiles
+# tokenizer.
+
+import string
+import Handler
+import weakref
+try:
+    import vflib
+except:
+    vflib = None
+
+from frowns.Atom import Atom
+from frowns.Bond import Bond
+from frowns.Molecule import Molecule
+
+# bondlookup is of the form
+# textSymbol, bondsymbol, bondorder, bondtype, equiv class, stereo
+
+STEREO_NONE = None
+STEREO_UP = "UP"
+STEREO_DOWN = "DOWN"
+
+BONDLOOKUP = {'-': ('-', 1, 1, 1, STEREO_NONE),
+              '=': ('=', 2, 2, 2, STEREO_NONE),
+              '#': ('#', 3, 3, 3, STEREO_NONE),
+              '\\': ('\\',1, 1, 1, STEREO_DOWN),
+              '/': ('/' ,1, 1, 1, STEREO_UP),
+              ':':(':', 1.5, 4, 4, STEREO_NONE),              
+              }
+
+def get_symbol_aromatic(text):
+    if text[0] in "cnosp":
+        return string.upper(text), 1
+    return text, 0
+
+def normalize_closure(text):
+    if text[:1] == "%":
+        return int(text[1:])
+    return int(text)
+
+implicit_bond = -123
+
+class DummyVFGraph:
+    def __init__(self):
+        self.atoms = -1
+    def InsertNode(self, node):
+        self.atoms += 1
+        return self.atoms
+    def InsertEdge(self, index1, index2, bond):
+        pass
+    
+class BuildMol(Handler.TokenHandler):
+    def __init__(self, enable_vfgraph):
+        self.enable_vfgraph = enable_vfgraph
+        
+    def begin(self):
+        self.closures = {}
+        if vflib and self.enable_vfgraph:
+            self.vfgraph = vflib.ARGEdit()
+            self.insert_node = self.vfgraph.InsertNode
+            self.insert_edge = self.vfgraph.InsertEdge
+        else:
+            self.vfgraph = None
+
+        self.atoms = []
+        self.bonds = []
+        self._atom = None
+        self._prev_atoms = []
+
+        # None occurs after a '.'
+        # implicit_bond means implicit single bond
+        self._pending_bond = None
+
+    def end(self):
+        if len(self._prev_atoms) >= 2:
+            raise AssertionError("Missing ')'")
+        if self._pending_bond not in [implicit_bond, None]:
+            raise AssertionError("Missing an atom after the bond")
+        if self.closures:
+            raise AssertionError("Missing closures for %s" %
+                                 (self.closures.keys(),))
+        self.mol = Molecule(self.atoms, self.bonds)
+        if self.vfgraph:
+            self.mol.vfgraph = weakref.ref(self.vfgraph)
+    
+    def add_token(self, field, pos, text):
+	print field, "&&", text
+        getattr(self, "do_" + field)(text)
+
+    def add_atom(self, atom):
+        atoms = self.atoms
+        atom.index = len(atoms)
+        atoms.append(atom)
+        if self.vfgraph:
+            index = self.insert_node(atom)
+##            assert index == atom.index, "%s <--> %s"%(index, atom.index)
+        
+##        self.mol.add_atom(atom)
+        
+        if self._pending_bond == implicit_bond:
+            # Implicit single or aromatic bond
+            self._pending_bond = Bond()
+
+        if self._pending_bond is not None:
+            bond = self._pending_bond
+            prev_atom = self._prev_atoms[-1]
+            bond.atoms[:] = [prev_atom, atom]
+            ##self.mol.add_bond(bond, prev_atom, atom)
+            bond.atoms = [prev_atom, atom]
+            atom.bonds.append(bond)
+            prev_atom.bonds.append(bond)
+            atom.oatoms.append(prev_atom)
+            prev_atom.oatoms.append(atom)
+            self.bonds.append(bond)
+            if self.vfgraph:
+                index1, index2 = prev_atom.index, atom.index
+                insert_edge = self.insert_edge
+                insert_edge(index1, index2, bond)
+                insert_edge(index2, index1, bond)
+            
+        self._pending_bond = implicit_bond
+        if not self._prev_atoms:
+            self._prev_atoms.append(atom)
+        else:
+            self._prev_atoms[-1] = atom
+
+        #self.mol.atoms.append(atom)
+        
+    def do_raw_atom(self, text):
+        atom = Atom()
+        symbol, atom.aromatic = get_symbol_aromatic(text)
+        atom.set_symbol(symbol)
+        self.add_atom(atom)
+
+    def do_open_bracket(self, text):
+        self._atom = Atom()
+        self._atom.has_explicit_hcount = True
+
+    def do_weight(self, text):
+        self._atom.weight = int(text)
+
+    def do_element(self, text):
+        symbol, self._atom.aromatic = get_symbol_aromatic(text)
+        self._atom.set_symbol(symbol)
+        
+    def do_chiral_count(self, text):
+        print "setting chirality", self._atom, int(text[1:])
+        self._atom.chirality = int(text[1:])
+
+    def do_chiral_named(self, text):
+        self._atom.chiral_class = text[1:3]
+        self._atom.chirality = int(text[3:])
+
+    def do_chiral_symbols(self, text):
+        self._atom.chiral_class = len(text)
+
+    def do_hcount(self, text):
+        if text == "H":
+            self._atom.explicit_hcount = 1
+        else:
+            self._atom.explicit_hcount = int(text[1:])
+
+    def do_positive_count(self, text):
+        self._atom.charge = int(text[1:])
+
+    def do_positive_symbols(self, text):
+        self._atom.charge = len(text)
+
+    def do_negative_count(self, text):
+        self._atom.charge = -int(text[1:])
+
+    def do_negative_symbols(self, text):
+        self._atom.charge = -len(text)
+
+    def do_close_bracket(self, text):
+        self.add_atom(self._atom)
+        self._atom = None
+
+    def do_bond(self, text):
+        assert self._pending_bond in (implicit_bond, None)
+        symbol, bondorder, bondtype, equiv_class, stereo = BONDLOOKUP[text]
+        # if the bond came in as aromatic (which it
+        #  CAN'T!))
+        if bondtype == 4:
+            assert 0, "Bond's shouldn't come in as ':'"
+            fixed = 0
+        else:
+            fixed = 1
+        bond = Bond(text, bondorder, bondtype, fixed, stereo)
+        bond.equiv_class = equiv_class
+        self._pending_bond = bond
+
+    def do_dot(self, text):
+        assert self._pending_bond in (implicit_bond, None)
+        self._pending_bond = None
+
+    def do_closure(self, text):
+        num = normalize_closure(text)
+        if self.closures.has_key(num):
+            prev_atom, bond = self.closures[num]
+            del self.closures[num]
+
+            assert self._pending_bond is not None, "Can't happen"
+            
+            if self._pending_bond is not implicit_bond and \
+               bond is not implicit_bond and \
+               self._pending_bond.symbol != "-":  # according to toolkit
+
+                # need to verify they are compatible
+                prev_symbol = bond.symbol
+                symbol = self._pending_bond.symbol
+                if (prev_symbol == symbol) or \
+                   (prev_symbol == "/" and symbol == "\\") or \
+                   (prev_symbol == "\\" and symbol == "/"):
+                    pass
+                else:
+                    raise AssertionError("bond types don't match")
+            elif bond is implicit_bond and self._pending_bond is not implicit_bond:
+                # see if one of the bonds is not implicit and keep it
+                bond = self._pending_bond
+            elif bond is implicit_bond:
+                # both are implicit so make a new one
+                bond = Bond()
+
+            bond._closure = 1
+            atom = self._prev_atoms[-1]
+            if prev_atom is atom:
+                raise AssertionError("cannot close a ring with itself")
+            bond.atoms[:] = [prev_atom, atom]
+            prev_atom._closure = 1
+            atom._closure = 1
+            ##self.mol.add_bond(bond, prev_atom, atom)
+            
+            bond.atoms = [prev_atom, atom]
+            atom.bonds.append(bond)
+            prev_atom.bonds.append(bond)
+            atom.oatoms.append(prev_atom)
+            prev_atom.oatoms.append(atom)
+            self.bonds.append(bond)
+            if self.vfgraph:
+                index1, index2 = prev_atom.index, atom.index
+                insert_edge = self.insert_edge
+                insert_edge(index1, index2, bond)
+                insert_edge(index2, index1, bond)
+
+        else:
+            self.closures[num] = (self._prev_atoms[-1], self._pending_bond)
+        self._pending_bond = implicit_bond
+            
+
+    def do_open_branch(self, text):
+        self._prev_atoms.append(self._prev_atoms[-1])
+    
+    def do_close_branch(self, text):
+        self._prev_atoms.pop()
+
+def test():
+    import Smiles, time
+    h = BuildMol()
+    file = open("../test/data/NCI_aug00_SMI")
+    lines = file.readlines()
+    tests = []
+    for l in lines:
+        tests.append(l.split()[0])
+    tests = tests[:1]
+##    for smi in ["C1C([NH4+])(=O).C1.[235U].N[C@@H](C)C(=O)O",
+##                "c1cccc1"]:
+    t1 = time.time()
+    for smi in tests:
+        Smiles.tokenize(smi, h)        
+        #print smi
+        for bond in h.mol.bonds:
+            print bond.symbol, bond.bondorder, bond.bondtype, bond.fixed
+        print h.mol.cansmiles()#.dump()
+    t2 = time.time()
+
+    delta = (t2-t1) / len(tests)
+    print "Time per molecule with no transform", delta
+    print "molecules per second:",
+            
+    if delta:
+        print 1/delta
+    else:
+        print "very fast!"
+
+if __name__ == "__main__":
+    test()

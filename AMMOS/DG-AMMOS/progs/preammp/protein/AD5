@@ -1,0 +1,81 @@
+34
+name ad5.o5t type o3 charge -.509
+name ad5.h5p type hd charge .509
+name ad5.p type p35 charge 1.385
+name ad5.o1p type o2 charge -0.847
+name ad5.o2p type o2 charge -0.847
+name ad5.o3' type o3 charge -0.509
+name ad5.o5' type o3 charge -0.509
+name ad5.c5' type c3 charge 0.118
+name ad5.h51' type h charge 0.021
+name ad5.h52' type h charge 0.021
+name ad5.c4' type c3 charge 0.036
+name ad5.h4' type h charge 0.056
+name ad5.o4' type o2 charge -0.368
+name ad5.c1' type c3 charge 0.376
+name ad5.h1' type h charge 0.009
+name ad5.c2' type c3 charge -0.307
+name ad5.h21' type h charge 0.081
+name ad5.h22' type h charge 0.081
+name ad5.c3' type c3 charge 0.233
+name ad5.h3' type h charge 0.025
+name ad5.n9 type nr charge -0.073
+name ad5.c4 type c2 charge 0.546
+name ad5.c8 type c2 charge 0.263
+name ad5.h8 type h charge 0.062
+name ad5.n3 type nr charge -0.728
+name ad5.c2 type c2 charge 0.661
+name ad5.h2 type h charge -0.032
+name ad5.n1 type nr charge -0.774
+name ad5.c6 type c2 charge 0.769
+name ad5.n6 type np charge -0.768
+name ad5.hn61 type hd charge 0.324
+name ad5.hn62 type hd charge 0.335
+name ad5.c5 type c2 charge -0.097
+name ad5.n7 type nb charge -0.543
+36
+ad5.p ad5.o5t 1
+ad5.o5t ad5.h5p 1
+ad5.p ad5.o1p 1.5
+ad5.p ad5.o2p 1.5
+ad5.p ad5.o5' 1
+ad5.o5' ad5.c5' 1
+ad5.c5' ad5.c4' 1
+ad5.c5' ad5.h51' 1
+ad5.c5' ad5.h52' 1
+ad5.c4' ad5.o4' 1
+ad5.c4' ad5.c3' 1
+ad5.c4' ad5.h4' 1
+ad5.c3' ad5.o3' 1
+ad5.c3' ad5.c2' 1
+ad5.c3' ad5.h3' 1
+ad5.c2' ad5.c1' 1
+ad5.c2' ad5.h21' 1
+ad5.c2' ad5.h22' 1
+ad5.c1' ad5.o4' 1
+ad5.c1' ad5.n9 1
+ad5.c1' ad5.h1' 1
+ad5.n9 ad5.c4 1
+ad5.n9 ad5.c8 1
+ad5.c4 ad5.n3 1.5
+ad5.n3 ad5.c2 1.5
+ad5.c2 ad5.n1 1.5
+ad5.c2 ad5.h2 1
+ad5.n1 ad5.c6 1.5
+ad5.c6 ad5.c5 1.5
+ad5.c6 ad5.n6 1
+ad5.n6 ad5.hn61 1
+ad5.n6 ad5.hn62 1
+ad5.c5 ad5.c4 1.5
+ad5.c5 ad5.n7 1
+ad5.n7 ad5.c8 2
+ad5.c8 ad5.h8 1
+0
+6
+ad5.o4' ad5.c2' ad5.h1' ad5.n9  6 1.925983
+ad5.o4' ad5.c2' ad5.h1' ad5.c1' 6 .468722
+ad5.c2' ad5.c4' ad5.o3' ad5.c3' 6 .554654
+ad5.c2' ad5.c4' ad5.o3' ad5.H3' 6 1.669313
+ad5.c3' ad5.c5' ad5.o4' ad5.c4' 6 .554654
+ad5.c3' ad5.c5' ad5.o4' ad5.H4' 6 1.669313
+0

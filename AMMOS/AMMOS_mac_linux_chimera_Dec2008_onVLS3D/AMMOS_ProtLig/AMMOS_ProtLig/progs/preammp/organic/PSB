@@ -1,0 +1,61 @@
+27
+name psb.c1 type C2  charge -.153
+name psb.c2 type C2  charge -.153
+name psb.c3 type C2  charge -.153
+name psb.c4 type C2  charge  -.153
+name psb.c5 type C2  charge -.153
+name psb.c6 type C2  charge -.153
+name psb.cp  type c3 charge -.306
+name psb.hp1 type h
+name psb.hp2 type h
+name psb.cq  type c3 charge -.306
+name psb.hq1 type h
+name psb.hq2 type h
+name psb.cr  type c3 charge -.153
+name psb.hr1 type h
+name psb.cs  type c3 charge -.459
+name psb.hs1 type h
+name psb.hs2 type h
+name psb.hs3 type h
+name psb.n1   type n3 charge  .22
+name psb.hn11 type h charge .311
+name psb.hn12 type h charge .311
+name psb.hn13 type h charge .311
+name psb.h1  type H  charge .153
+name psb.h2  type H  charge .153
+name psb.h3  type H 
+name psb.h5  type H 
+name psb.h6  type H  charge .153
+27
+psb.c1 psb.c2 1.5
+psb.c2 psb.c3 1.5
+psb.c3 psb.c4 1.5
+psb.c4 psb.c5 1.5
+psb.c5 psb.c6 1.5
+psb.c6 psb.c1 1.5
+psb.c1 psb.h1 1
+psb.c2 psb.h2 1
+psb.c3 psb.h3 1
+psb.c4 psb.cp 1
+psb.c5 psb.h5 1
+psb.c6 psb.h6 1
+psb.cp psb.cq 1
+psb.cq psb.cr 1
+psb.cr psb.cs 1
+psb.cp psb.hp1 1
+psb.cp psb.hp2 1
+psb.cq psb.hq1 1
+psb.cq psb.hq2 1
+psb.cr psb.hr1 1
+psb.cr psb.n1 1
+psb.cs psb.hs1 1
+psb.cs psb.hs2 1
+psb.cs psb.hs3 1
+psb.n1 psb.hn11 1
+psb.n1 psb.hn12 1
+psb.n1 psb.hn13 1
+0
+0
+0
+0
+0

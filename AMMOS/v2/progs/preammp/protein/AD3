@@ -1,0 +1,79 @@
+33
+name ad3.p type p35 charge 1.385
+name ad3.o1p type o2 charge -0.847
+name ad3.o2p type o2 charge -0.847
+name ad3.o3' type o3 charge -0.509
+name ad3.o5' type o3 charge -0.509
+name ad3.c5' type c3 charge 0.118
+name ad3.h51' type h charge 0.021
+name ad3.h52' type h charge 0.021
+name ad3.c4' type c3 charge 0.036
+name ad3.h4' type h charge 0.056
+name ad3.o4' type o2 charge -0.368
+name ad3.c1' type c3 charge 0.376
+name ad3.h1' type h charge 0.009
+name ad3.c2' type c3 charge -0.307
+name ad3.h21' type h charge 0.081
+name ad3.h22' type h charge 0.081
+name ad3.c3' type c3 charge 0.233
+name ad3.h3' type h charge 0.025
+name ad3.n9 type nr charge -0.073
+name ad3.c4 type c2 charge 0.546
+name ad3.c8 type c2 charge 0.263
+name ad3.h8 type h charge 0.062
+name ad3.n3 type nr charge -0.728
+name ad3.c2 type c2 charge 0.661
+name ad3.h2 type h charge -0.032
+name ad3.n1 type nr charge -0.774
+name ad3.c6 type c2 charge 0.769
+name ad3.n6 type np charge -0.768
+name ad3.hn61 type hd charge 0.324
+name ad3.hn62 type hd charge 0.335
+name ad3.c5 type c2 charge -0.097
+name ad3.n7 type nb charge -0.543
+name ad3.h3t type hd charge .509
+35
+ad3.h3t ad3.o3' 1
+ad3.p ad3.o1p 1.5
+ad3.p ad3.o2p 1.5
+ad3.p ad3.o5' 1
+ad3.o5' ad3.c5' 1
+ad3.c5' ad3.c4' 1
+ad3.c5' ad3.h51' 1
+ad3.c5' ad3.h52' 1
+ad3.c4' ad3.o4' 1
+ad3.c4' ad3.c3' 1
+ad3.c4' ad3.h4' 1
+ad3.c3' ad3.o3' 1
+ad3.c3' ad3.c2' 1
+ad3.c3' ad3.h3' 1
+ad3.c2' ad3.c1' 1
+ad3.c2' ad3.h21' 1
+ad3.c2' ad3.h22' 1
+ad3.c1' ad3.o4' 1
+ad3.c1' ad3.n9 1
+ad3.c1' ad3.h1' 1
+ad3.n9 ad3.c4 1
+ad3.n9 ad3.c8 1
+ad3.c4 ad3.n3 1.5
+ad3.n3 ad3.c2 1.5
+ad3.c2 ad3.n1 1.5
+ad3.c2 ad3.h2 1
+ad3.n1 ad3.c6 1.5
+ad3.c6 ad3.c5 1.5
+ad3.c6 ad3.n6 1
+ad3.n6 ad3.hn61 1
+ad3.n6 ad3.hn62 1
+ad3.c5 ad3.c4 1.5
+ad3.c5 ad3.n7 1
+ad3.n7 ad3.c8 2
+ad3.c8 ad3.h8 1
+0
+6
+ad3.o4' ad3.c2' ad3.h1' ad3.n9  6 1.925983
+ad3.o4' ad3.c2' ad3.h1' ad3.c1' 6 .468722
+ad3.c2' ad3.c4' ad3.o3' ad3.c3' 6 .554654
+ad3.c2' ad3.c4' ad3.o3' ad3.H3' 6 1.669313
+ad3.c3' ad3.c5' ad3.o4' ad3.c4' 6 .554654
+ad3.c3' ad3.c5' ad3.o4' ad3.H4' 6 1.669313
+0

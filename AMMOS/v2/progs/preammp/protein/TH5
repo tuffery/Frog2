@@ -1,0 +1,81 @@
+34
+name th5.o5t type o3 charge -.509
+name th5.h5p type hd charge .509
+name th5.p type p35 charge 1.385
+name th5.o1p type o2 charge -0.847
+name th5.o2p type o2 charge -0.847
+name th5.o3' type o3 charge -0.509
+name th5.o5' type o3 charge -0.509
+name th5.c5' type c3 charge 0.118
+name th5.h51' type h charge 0.021
+name th5.h52' type h charge 0.021
+name th5.c4' type c3 charge 0.036
+name th5.h4' type h charge 0.056
+name th5.c3' type c3 charge 0.233
+name th5.h3' type h charge 0.025
+name th5.c2' type c3 charge -0.307
+name th5.h21' type h charge 0.081
+name th5.h22' type h charge 0.081
+name th5.o4' type o3 charge -0.368
+name th5.c1' type c3 charge 0.376
+name th5.h1' type h charge 0.009
+name th5.n1 type nr charge -0.217
+name th5.c2 type c2 charge 0.849
+name th5.o2 type o2 charge -0.488
+name th5.n3 type nr charge -0.851
+name th5.h3 type hd charge 0.355
+name th5.c4 type c2 charge 0.809
+name th5.o4 type o1 charge -0.464
+name th5.c5 type c2 charge -0.176
+name th5.c5a type c3 charge -0.382
+name th5.h51 type h charge 0.114
+name th5.h52 type h charge 0.114
+name th5.h53 type h charge 0.114
+name th5.c6 type c2 charge 0.034
+name th5.h6 type h charge 0.134
+35 
+th5.p th5.o5t 1
+th5.o5t th5.h5p 1
+th5.p th5.o1p 1.5
+th5.p th5.o2p 1.5
+th5.p th5.o5' 1
+th5.o5' th5.c5' 1
+th5.c5' th5.c4' 1
+th5.c5' th5.h51' 1
+th5.c5' th5.h52' 1
+th5.c4' th5.o4' 1
+th5.c4' th5.c3' 1
+th5.c4' th5.h4' 1
+th5.c3' th5.o3' 1
+th5.c3' th5.c2' 1
+th5.c3' th5.h3' 1
+th5.c2' th5.c1' 1
+th5.c2' th5.h21' 1
+th5.c2' th5.h22' 1
+th5.o4' th5.c1' 1
+th5.c1' th5.h1' 1
+th5.c1' th5.n1 1
+th5.n1 th5.c2 1
+th5.n1 th5.c6 1
+th5.c2 th5.n3 1.5
+th5.c2 th5.o2 1.5
+th5.n3 th5.c4 1.5
+th5.n3 th5.h3 1
+th5.c4 th5.o4 1.5
+th5.c4 th5.c5 1.5
+th5.c5 th5.c5a 1
+th5.c5a th5.h51 1
+th5.c5a th5.h52 1
+th5.c5a th5.h53 1
+th5.c5 th5.c6 1.5
+th5.c6 th5.h6 1
+0
+6
+th5.c2' th5.c4' th5.o3' th5.c3' 6 .554654
+th5.c2' th5.c4' th5.o3' th5.H3' 6 1.669313
+th5.c3' th5.c5' th5.o4' th5.c4' 6 .554654
+th5.c3' th5.c5' th5.o4' th5.H4' 6 1.669313
+th5.o4' th5.c2' th5.h1' th5.n1  6 1.925983
+th5.o4' th5.c2' th5.h1' th5.c1' 6 .468722
+0
+

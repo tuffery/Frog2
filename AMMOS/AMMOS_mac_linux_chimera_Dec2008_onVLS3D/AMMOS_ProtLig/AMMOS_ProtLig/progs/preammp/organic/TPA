@@ -1,0 +1,58 @@
+25
+name tpa.n type np charge -0.463
+name tpa.hn1 type hd charge 0.252
+name tpa.hn2 type hd charge 0.252
+name tpa.hn3 type hd charge 0.252
+name tpa.ca type c3 charge 0.035
+name tpa.ha2 type h charge 0.048
+name tpa.ha1 type h charge 0.048
+name tpa.cb type c3 charge -0.098
+name tpa.hb1 type h charge 0.038
+name tpa.hb2 type h charge 0.038
+name tpa.cg type c2 charge -0.135
+name tpa.cd1 type c2 charge 0.044
+name tpa.cd2 type c2 charge 0.146
+name tpa.ne1 type nr charge -0.352
+name tpa.ce2 type c2 charge 0.154
+name tpa.ce3 type c2 charge -0.173
+name tpa.cz2 type c2 charge -0.168
+name tpa.cz3 type c2 charge -0.066
+name tpa.ch2 type c2 charge -0.077
+name tpa.hd1 type h charge 0.093
+name tpa.he1 type hd charge 0.271
+name tpa.he3 type h charge 0.086
+name tpa.hz2 type h charge 0.084
+name tpa.hz3 type h charge 0.057
+name tpa.hh2 type h charge 0.074
+26
+tpa.n tpa.hn1 1
+tpa.n tpa.hn2 1
+tpa.n tpa.hn3 1
+tpa.n tpa.ca 1
+tpa.ca tpa.ha1 1
+tpa.ca tpa.cb 1
+tpa.ca tpa.ha2 1
+tpa.cb tpa.cg 1
+tpa.cb tpa.hb1 1
+tpa.cb tpa.hb2 1
+tpa.cg tpa.cd1 1.5
+tpa.cg tpa.cd2 1.5
+tpa.cd1 tpa.ne1 1.5
+tpa.ne1 tpa.ce2 1.5
+tpa.cd2 tpa.ce2 1.5
+tpa.cd2 tpa.ce3 1.5
+tpa.ce2 tpa.cz2 1.5
+tpa.ce3 tpa.cz3 1.5
+tpa.cz2 tpa.ch2 1.5
+tpa.cz3 tpa.ch2 1.5
+tpa.cd1 tpa.hd1 1
+tpa.ne1 tpa.he1 1
+tpa.ce3 tpa.he3 1
+tpa.cz2 tpa.hz2 1
+tpa.cz3 tpa.hz3 1
+tpa.ch2 tpa.hh2 1
+0
+0
+0
+0
+# tryptamine + 1

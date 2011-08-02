@@ -1,0 +1,57 @@
+22
+name pta.c1 type C2  charge -.153
+name pta.c2 type C2  charge -.153
+name pta.c3 type C2  charge -.153
+name pta.c4 type C2  charge -.153
+name pta.c5 type C2  charge -.153
+name pta.c6 type C2  charge -.153
+name pta.cp  type c3 charge -.153
+name pta.hp2 type h
+name pta.cq  type c3 charge -.306
+name pta.hq1 type h
+name pta.hq2 type h
+name pta.cr  type c3 charge -.153
+name pta.hr2 type h
+name pta.n1   type n3 charge  .22
+name pta.hn11 type h charge .311
+name pta.hn12 type h charge .311
+name pta.hn13 type h charge .311
+name pta.h1  type H  charge .153
+name pta.h2  type H  charge .153
+name pta.h3  type H 
+name pta.h5  type H 
+name pta.h6  type H  charge .153
+23
+pta.c1 pta.c2 1.5
+pta.c2 pta.c3 1.5
+pta.c3 pta.c4 1.5
+pta.c4 pta.c5 1.5
+pta.c5 pta.c6 1.5
+pta.c6 pta.c1 1.5
+pta.c1 pta.h1 1
+pta.c2 pta.h2 1
+pta.c3 pta.h3 1
+pta.c4 pta.cp 1
+pta.c5 pta.h5 1
+pta.c6 pta.h6 1
+pta.cp pta.cq 1
+pta.cq pta.cr 1
+pta.cp pta.cr 1
+pta.cp pta.hp2 1
+pta.cq pta.hq1 1
+pta.cq pta.hq2 1
+pta.cr pta.hr2 1
+pta.cr pta.n1 1
+pta.n1 pta.hn11 1
+pta.n1 pta.hn12 1
+pta.n1 pta.hn13 1
+0
+4
+pta.c4 pta.cq pta.cr pta.cp 4 .707873 
+pta.c4 pta.cq pta.cr pta.hp2 4  1.811868
+pta.n1 pta.cp pta.cq pta.cr 4 -.696437
+pta.n1 pta.cp pta.cq pta.hr2 4 -1.820384
+0
+0
+0
+# tranylcypromine rs or sr ;

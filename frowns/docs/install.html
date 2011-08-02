@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Frowns: Chemoinformatics System for Python</title>
+      
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head>
+  <body>
+ 
+<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=68592&amp;type=5" width="210" height="62" border="0" alt="SourceForge Logo"></A>
+
+<div align="Center">Frowns<br>
+ Current Version: Frowns Version 0.3c<br>
+ 
+<div align="Center"><A href="frowns.html">Frowns Tutorial</a><br>
+ 
+
+<hr width="100%" size="2"><br>
+ DISCLAIMER<br>
+ </div>
+ <br>
+ 
+<div align="Justify">This software reimplements some of the functionality 
+of the Daylight toolkits but it is not meant as a replacement.&nbsp; Daylight's 
+code has higher performance, commercial support, more users, more complete 
+testing, documentation, industry backing, and a cool set of people working 
+for them.&nbsp; Plus, you can run PyDaylight if you don't like the C API.<br>
+ <br>
+ Given that, you may want to use FROWNS if you;<br>
+ 
+<ul>
+   <li>are interested in the implementation details of chemical information 
+software</li>
+   <li>want to teach same</li>
+   <li>have ideas that can't be implemented in the Daylight toolkit (new
+types of ring or aromaticity perception, support for different operating
+systems and platforms, etc.)</li>
+   <li>don't have the financial resources for the Daylight tools</li>
+   <li>just plain can't stand the idea of non-free software</li>
+   <li>have nothing better to do in your free time.</li>
+ 
+</ul>
+ <br>
+ Frowns would not have been possible without the help of many people including 
+Andrew Dalke who single-handedly wrote the coolest Smiles and Smarts parser 
+out of regular expressions that I have ever seen and kindly let me steal it.<br>
+ <br>
+ Frowns also uses a python binding to the VFLIB subgraph isomorphism code. 
+&nbsp;The binding is available at<br>
+ <a href="http://staffa.wi.mit.edu/people/kelley/">http://staffa.wi.mit.edu/people/kelley/</a><br>
+ 
+<hr width="100%" size="2"><br>
+ <br>
+ 
+<div align="Center"><big><b><big>Installing Frowns</big></b></big><br>
+ </div>
+ </div>
+ 
+<div align="Center"> 
+<div align="Left"><b><br>
+ </b><br>
+ Installing frowns is relatively straightforward:<br>
+ <br>
+<b> Prerequisites</b><br>
+ 
+<ol>
+   <li>Python 2.2 or later</li>
+   <li>C++ compiler for building the VFLIB bindings (or you can download
+the binaries)</li>
+  <li>Depiction requires <a href="http://www.research.att.com/sw/tools/graphviz/">
+GraphViz</a> from AT&amp;T (the executables must be in the search path) <br>
+  </li>
+ 
+</ol>
+ <br>
+<b> Easy Install</b><br>
+ <br>
+Frowns and vflib have prebuilt windows installers that are downloadable from
+<a href="http://sourceforge.net/project/showfiles.php?group_id=68592">sourceforge</a> simply download and run. &nbsp; They
+have been tested using Python 2.2<br>
+<br>
+Linux RPM's are comming soon!<br>
+<br>
+<b>Hard Install</b><br>
+<br>
+Frowns is simply a python package that should be copied into your python
+path. &nbsp;You might have some trouble installing vflib because it requires
+the boost package. &nbsp;See www.boost.org for how to download and make boost.<br>
+<hr width="100%" size="2">Changes<br>
+0.2 to 0.3<br>
+<ul>
+<li> Added optional C++ python extension for ring detection.</li>
+<li> Fixed memory leak bug </li>
+<li> Fixed Fingerprinting bug where some molecules generated no fingerprint.</li>
+<li> Tweaked aromaticity detection (still needs work) </li>
+<li> Added some utilities, cLogP finder, stereocenter finder </li>
+</ul>
+<hr width="100%" size="2">Changes<br>
+0.1 to 0.2<br>
+<ul>
+  <li>Added GraphViz depiction for molecules (requires GraphViz)</li>
+  <li>Atoms .x .y .z attributes now default to None instead of a Numeric
+Value</li>
+  <li>MoleculeDrawer now attempts to generate coordinates if the first atom
+in the molecule has atom.x==None</li>
+  <li>MoleculeDrawer now depicts "UNABLE TO DEPICT" if the molecule can't
+be rendered.<br>
+  </li>
+  <li>fixed frowns.perception.BasicAromaticity.fixBonds where non ring bonds
+were sometimes changed to double bonds. &nbsp;This no longer happens.</li>
+  <li>Frowns now uses distutils to create packages.<br>
+  </li>
+</ul>
+<br>
+ </div>
+ </div>
+ 
+</body>
+</html>

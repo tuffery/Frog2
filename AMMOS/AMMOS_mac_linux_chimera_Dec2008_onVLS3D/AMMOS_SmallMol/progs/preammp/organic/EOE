@@ -1,0 +1,39 @@
+15
+name eoe.c1 type C3  charge -.331505
+name eoe.c2 type C3  charge -.331505
+name eoe.o type o3 charge -.183484
+name eoe.c3 type C3  charge -.331505
+name eoe.c4 type C3  charge -.331505
+name eoe.h11 type H  charge .172295
+name eoe.h12 type H  charge .171347
+name eoe.h13 type H  charge .171347
+name eoe.h21 type H  charge .172295
+name eoe.h22 type H  charge .171347
+name eoe.h41 type H  charge .172295
+name eoe.h42 type H  charge .171347
+name eoe.h43 type H  charge .171347
+name eoe.h31 type H  charge .172295
+name eoe.h32 type H  charge .171347
+14
+eoe.c1 eoe.c2 1
+eoe.c2 eoe.o 1
+eoe.o eoe.c3 1
+eoe.c3 eoe.c4 1
+eoe.c1 eoe.h11 1 
+eoe.c1 eoe.h12 1 
+eoe.c1 eoe.h13 1 
+eoe.c2 eoe.h21 1 
+eoe.c2 eoe.h22 1 
+eoe.c4 eoe.h41 1 
+eoe.c4 eoe.h42 1 
+eoe.c4 eoe.h43 1 
+eoe.c3 eoe.h31 1 
+eoe.c3 eoe.h32 1 
+0
+0
+0
+0
+0
+
+
+ethyl ether

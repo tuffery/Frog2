@@ -1,0 +1,77 @@
+32
+name thy.p type p35 charge 1.385
+name thy.o1p type o2 charge -0.847
+name thy.o2p type o2 charge -0.847
+name thy.o3* type o3 charge -0.509
+name thy.o5* type o3 charge -0.509
+name thy.c5* type c3 charge 0.118
+name thy.1h5* type h charge 0.021
+name thy.2h5* type h charge 0.021
+name thy.c4* type c3 charge 0.036
+name thy.h4* type h charge 0.056
+name thy.c3* type c3 charge 0.233
+name thy.h3* type h charge 0.025
+name thy.c2* type c3 charge -0.307
+name thy.1h2* type h charge 0.081
+name thy.2h2* type h charge 0.081
+name thy.o4* type o3 charge -0.368
+name thy.c1* type c3 charge 0.376
+name thy.h1* type h charge 0.009
+name thy.n1 type nr charge -0.217
+name thy.c2 type c2 charge 0.849
+name thy.o2 type o2 charge -0.488
+name thy.n3 type nr charge -0.851
+name thy.h3 type hd charge 0.355
+name thy.c4 type c2 charge 0.809
+name thy.o4 type o1 charge -0.464
+name thy.c5 type c2 charge -0.176
+name thy.c5m type c3 charge -0.382
+name thy.1h5m type h charge 0.114
+name thy.2h5m type h charge 0.114
+name thy.3h5m type h charge 0.114
+name thy.c6 type c2 charge 0.034
+name thy.h6 type h charge 0.134
+33 
+thy.p thy.o1p 1.5
+thy.p thy.o2p 1.5
+thy.p thy.o5* 1
+thy.o5* thy.c5* 1
+thy.c5* thy.c4* 1
+thy.c5* thy.1h5* 1
+thy.c5* thy.2h5* 1
+thy.c4* thy.o4* 1
+thy.c4* thy.c3* 1
+thy.c4* thy.h4* 1
+thy.c3* thy.o3* 1
+thy.c3* thy.c2* 1
+thy.c3* thy.h3* 1
+thy.c2* thy.c1* 1
+thy.c2* thy.1h2* 1
+thy.c2* thy.2h2* 1
+thy.o4* thy.c1* 1
+thy.c1* thy.h1* 1
+thy.c1* thy.n1 1
+thy.n1 thy.c2 1
+thy.n1 thy.c6 1
+thy.c2 thy.n3 1.5
+thy.c2 thy.o2 1.5
+thy.n3 thy.c4 1.5
+thy.n3 thy.h3 1
+thy.c4 thy.o4 1.5
+thy.c4 thy.c5 1.5
+thy.c5 thy.c5m 1
+thy.c5m thy.1h5m 1
+thy.c5m thy.2h5m 1
+thy.c5m thy.3h5m 1
+thy.c5 thy.c6 1.5
+thy.c6 thy.h6 1
+0
+6
+thy.c2* thy.c4* thy.o3* thy.c3* 6 .554654
+thy.c2* thy.c4* thy.o3* thy.H3* 6 1.669313
+thy.c3* thy.c5* thy.o4* thy.c4* 6 .554654
+thy.c3* thy.c5* thy.o4* thy.H4* 6 1.669313
+thy.o4* thy.c2* thy.h1* thy.n1  6 1.925983
+thy.o4* thy.c2* thy.h1* thy.c1* 6 .468722
+0
+

@@ -1,0 +1,28 @@
+PySomorph - Subgraph isomorphism python extension.
+
+INSTALLATION:
+
+You must have swig 1.3+ installed.  If you do not you
+can go to http://www.swig.org/ and download the correct
+version.  This package has been tested on 
+
+1) OSX 10.2 (darwin + jaguar)
+2) Linux (Redhat 7)
+3) Microsoft Windows
+
+To see examples of usage see 
+ test_vf.py 
+ test_vflib.py
+ test_matches.py
+
+A simple graph implementation that coexists with PySomorph is included
+in the NetworkGraph package.  I suggest reading the enclosed Readme
+file and examining the supplied source code.
+
+For the hard-core a graph based regular expression scheme for 
+chemistry that uses vflib can be found at 
+http://frowns.sourceforge.net/
+
+Introduction:
+
+...

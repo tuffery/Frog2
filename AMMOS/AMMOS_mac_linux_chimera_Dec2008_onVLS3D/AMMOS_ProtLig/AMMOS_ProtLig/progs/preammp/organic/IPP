@@ -1,0 +1,47 @@
+20
+name ipp.c3 type C3  charge -.331505
+name ipp.c2 type C3  charge -.331505
+name ipp.c1 type C3  charge -.331505
+name ipp.n type n3 charge -.183484
+name ipp.hn type h charge -.183484
+name ipp.h11 type H  charge .172295
+name ipp.h12 type H  charge .171347
+name ipp.h13 type H  charge .171347
+name ipp.h2 type H  charge .172295
+name ipp.h33 type H  charge .171347
+name ipp.h31 type H  charge .172295
+name ipp.h32 type H  charge .171347
+name ipp.p type p35 
+name ipp.op1 type o2
+name ipp.op2 type o2
+name ipp.op3 type o2
+name ipp.p2 type p35 
+name ipp.op21 type o2
+name ipp.op22 type o2
+name ipp.op23 type o2
+19
+ipp.c1 ipp.c2 1
+ipp.c2 ipp.c3 1
+ipp.c2 ipp.n 1
+ipp.n ipp.hn 1
+ipp.n ipp.p 1
+ipp.p ipp.op1 1
+ipp.p ipp.op2 1
+ipp.p ipp.op3 1
+ipp.op2 ipp.p2 1
+ipp.p2 ipp.op21 1
+ipp.p2 ipp.op22 1
+ipp.p2 ipp.op23 1
+ipp.c1 ipp.h11 1 
+ipp.c1 ipp.h12 1 
+ipp.c1 ipp.h13 1 
+ipp.c2 ipp.h2 1 
+ipp.c3 ipp.h31 1 
+ipp.c3 ipp.h32 1 
+ipp.c3 ipp.h33 1 
+0
+0
+0
+0
+0
+0

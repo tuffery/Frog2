@@ -1,0 +1,63 @@
+"""
+   iMolecule a chemo informatics class able to build
+   3D coordinates for small compounds. 
+
+    Copyright (C) 2006-2007 P. Tuffery, B.O. Villoutreix, Th. Bohme Leite, D. Gomes, M. Miteva, J. Chomilier
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+"""
+WARNING:
+Some of the examples below might be erroneous since version 2 of Frog.
+(not re-tested)
+"""
+
+iMolecule <dir>: the whole stuff
+iMolecule.py   : the iMolecule class
+
+a typical run:
+
+# unambigous smiles from possibly ambiguous smiles
+from iMolecule import *
+x = iMolecule(r"S(N(C1CCS(C1)(=O)=O)CCCC)(c1ccc(cc1)C)(=O)=O")
+x.toNsmiles(axialEquatorialPos=True) 
+
+Rem: no tests from sdf.
+
+from iMolecule import *
+x = iMolecule(r"S(N(C1CCS(C1)(=O)=O)CCCC)(c1ccc(cc1)C)(=O)=O")
+x = iMolecule(r"C(N1CC[NH+](CC1)CC=Cc1ccccc1)(c1ccc(cc1)OC)=O")
+# x = iMolecule(r"N1(C(Nc2c([C]1(C(N1[C@]CCCC1)=O)O)cccc2)=O)c1ccccc1")
+x = iMolecule(r"C1(c2c(cc(c1)=O)ccOc2)")
+
+# unambigous smiles from possibly ambiguous smiles
+# then generate 3D conformations
+#
+x = iMolecule(r"COCC(CC(O)CC)CC(=O)")
+#
+# AEs is the axial / equatorial positions, heavy atoms same order as smiles
+#
+smiles, AEs = x.toNsmiles(axialEquatorialPos=True) 
+i = 0
+for aSmile in smiles:
+    if AEs:
+        for aAE in AEs:
+	    y = iMolecule(aSmile, axialEquatorial=aAE)
+	    y.graph2molecule()
+	    y.writeToPdb("toto%d.pdb" %i)
+    else:
+	y = iMolecule(aSmile)
+	y.graph2molecule()
+	y.writeToPdb("toto%d.pdb" %i)
+    i += 1

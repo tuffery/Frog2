@@ -1,0 +1,23 @@
+9
+name dms.c1 type c3
+name dms.h11 type h
+name dms.h12 type h
+name dms.h13 type h
+name dms.s type s36
+name dms.c2 type c3
+name dms.h21 type h
+name dms.h22 type h
+name dms.h23 type h
+8
+dms.c1 dms.h11 1 
+dms.c1 dms.h12 1 
+dms.c1 dms.h13 1 
+dms.c1 dms.s 1 
+dms.c2 dms.h21 1 
+dms.c2 dms.h22 1 
+dms.c2 dms.h23 1 
+dms.c2 dms.s 1 
+0 
+0 
+0 
+di methyl sulfide

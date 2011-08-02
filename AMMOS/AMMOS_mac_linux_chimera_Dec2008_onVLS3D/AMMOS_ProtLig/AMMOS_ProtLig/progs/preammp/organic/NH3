@@ -1,0 +1,15 @@
+4
+name nh3.n type  n3 
+name nh3.h1 type hd
+name nh3.h2 type hd
+name nh3.h3 type hd
+3
+nh3.n nh3.h1 1
+nh3.n nh3.h2 1
+nh3.n nh3.h3 1
+0
+0
+0
+
+
+nh3

@@ -1,0 +1,8 @@
+disambiguation         : False,  nb max conformations   :     5,  per isomer             : False
+energetic treshold     :   100,  bad energy threshold   :   300,  stage 2 Monte Carlo    : False
+minimize               : False
+
+Id 1: XX5.pdb
+      [H]C([H])([H])C([H])(C([H])([H])[H])C([H])([H])C([H])(C(=O)O[H])N([H])C([H])(C([H])([H])c1[c]n[c][n]1C([H])([H])c2[c]c([c]c([c]2)Cl)Cl)C(=O)O[H]
+   5 conformation(s) calculated. For some isomer(s) 0 have bad energies.
+

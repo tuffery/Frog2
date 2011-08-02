@@ -1,0 +1,30 @@
+12
+name ipn.h11 type H 
+name ipn.h12 type H 
+name ipn.h13 type H
+name ipn.h21 type H 
+name ipn.ho2 type H 
+name ipn.h31 type H 
+name ipn.h32 type H 
+name ipn.h33 type H
+name ipn.c1 type  c3 
+name ipn.c2 type  c3 
+name ipn.c3 type  c3 
+name ipn.o2 type  O3 
+11
+ipn.c1 ipn.h11 1
+ipn.c1 ipn.h12 1
+ipn.c1 ipn.h13 1
+ipn.c2 ipn.h21 1
+ipn.c3 ipn.h31 1
+ipn.c3 ipn.h32 1
+ipn.c3 ipn.h33 1
+ipn.c1 ipn.c2 1
+ipn.c2 ipn.o2 1
+ipn.o2 ipn.ho2 1
+ipn.c2 ipn.c3 1
+0
+0
+0
+0
+0

@@ -1,0 +1,84 @@
+39
+name pca.n1 type n3
+name pca.hn11 type h
+name pca.hn12 type h
+name pca.cr1 type c2 
+name pca.cr2 type c2 
+name pca.cr3 type c2 
+name pca.cr4 type c2 
+name pca.cr5 type c2 
+name pca.cr6 type c2 
+name pca.hr2 type h 
+name pca.hr3 type h 
+name pca.hr5 type h 
+name pca.hr6 type h 
+name pca.co  type c2
+name pca.oo type o2
+name pca.np type np
+name pca.hnp type h
+name pca.cq type c3
+name pca.hq1 type h
+name pca.hq2 type h
+name pca.cs type c3
+name pca.hs1 type h
+name pca.hs2 type h
+name pca.nt type n3
+name pca.hnt type h
+name pca.ce1 type c3
+name pca.he11 type h
+name pca.he12 type h
+name pca.ce2 type c3
+name pca.he21 type h
+name pca.he22 type h
+name pca.he23 type h
+name pca.cf1 type c3
+name pca.hf11 type h
+name pca.hf12 type h
+name pca.cf2 type c3
+name pca.hf21 type h
+name pca.hf22 type h
+name pca.hf23 type h
+39
+pca.n1 pca.hn11 1
+pca.n1 pca.hn12 1
+pca.n1 pca.cr1 1
+pca.cr1 pca.cr6 1.5
+pca.cr1 pca.cr2 1.5
+pca.cr2 pca.cr3 1.5
+pca.cr3 pca.cr4 1.5
+pca.cr4 pca.cr5 1.5
+pca.cr5 pca.cr6 1.5
+pca.cr2 pca.hr2 1
+pca.cr3 pca.hr3 1
+pca.cr5 pca.hr5 1
+pca.cr6 pca.hr6 1
+pca.cr4 pca.co 1
+pca.co pca.oo 2
+pca.co pca.np 1
+pca.np pca.hnp 1
+pca.np pca.cq 1
+pca.cq pca.hq1 1
+pca.cq pca.hq2 1
+pca.cq pca.cs 1
+pca.cs pca.hs1 1
+pca.cs pca.hs2 1
+pca.cs pca.nt 1
+pca.nt pca.hnt 1
+pca.nt pca.ce1 1
+pca.ce1 pca.he11 1
+pca.ce1 pca.he12 1
+pca.ce1 pca.ce2 1
+pca.ce2 pca.he21 1
+pca.ce2 pca.he22 1
+pca.ce2 pca.he23 1
+pca.nt pca.cf1 1
+pca.cf1 pca.hf11 1
+pca.cf1 pca.hf12 1
+pca.cf1 pca.cf2 1
+pca.cf2 pca.hf21 1
+pca.cf2 pca.hf22 1
+pca.cf2 pca.hf23 1
+0 
+0
+0 
+# procainamide +1 (nominally hcl) 

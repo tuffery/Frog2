@@ -1,0 +1,26 @@
+9
+name prc.c1 type C3  charge -.459
+name prc.c2 type C3  charge -.306
+name prc.c3 type C3  charge -.459
+name prc.h11 type H 
+name prc.h12 type H  
+name prc.h21 type H  
+name prc.h22 type H  
+name prc.h31 type H  
+name prc.h32 type H  
+9
+PRc.c1 prc.c2 1
+prc.c2 Prc.c3 1
+prc.c1 Prc.c3 1
+prc.c1 Prc.h11 1
+prc.c1 Prc.h12 1
+prc.c2 Prc.h21 1
+prc.c2 prc.h22 1
+prc.c3 prc.h31 1
+prc.c3 prc.h32 1
+0
+0
+0
+0
+cyclopropane
+0

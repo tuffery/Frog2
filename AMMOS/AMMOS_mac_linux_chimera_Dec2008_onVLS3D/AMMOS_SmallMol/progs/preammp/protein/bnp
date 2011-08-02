@@ -1,0 +1,42 @@
+18
+name bnp.c1 type c2
+name bnp.c2 type c2
+name bnp.c3 type c2
+name bnp.c4 type c2
+name bnp.c5 type c2
+name bnp.c6 type c2
+name bnp.c7 type c2
+name bnp.n71 type n2
+name bnp.n72 type n2
+name bnp.h1 type h
+name bnp.h2 type h
+name bnp.h3 type h
+name bnp.h5 type h
+name bnp.h6 type h
+name bnp.h721 type hd
+name bnp.h722 type hd
+name bnp.h711 type hd
+name bnp.h712 type hd
+18
+bnp.c1 bnp.c2 1.5
+bnp.c2 bnp.c3 1.5
+bnp.c3 bnp.c4 1.5
+bnp.c4 bnp.c5 1.5
+bnp.c5 bnp.c6 1.5
+bnp.c6 bnp.c1 1.5
+bnp.c4 bnp.c7 1.
+bnp.c7 bnp.n71 1.
+bnp.c7 bnp.n72 1.
+bnp.c1 bnp.h1 1
+bnp.c2 bnp.h2 1
+bnp.c3 bnp.h3 1
+bnp.c5 bnp.h5 1
+bnp.c6 bnp.h6 1
+bnp.n71 bnp.h711 1
+bnp.n71 bnp.h712 1
+bnp.n72 bnp.h721 1
+bnp.n72 bnp.h722 1
+0
+0
+0
+# benzmidine + 1

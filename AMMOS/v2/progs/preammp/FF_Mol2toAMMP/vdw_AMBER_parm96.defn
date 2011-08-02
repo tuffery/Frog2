@@ -1,0 +1,346 @@
+___________________________________________________________________________
+
+
+ AMBER96-based Lennard-Jones parameters for van der Waals
+ energy potential.
+
+ (From http://www.amber.ucsf.edu/amber/ff94/parm96.dat)
+
+ The radius corresponds to half the equilibrium distance
+ (in Angstroms) between atoms.
+
+ The well depth corresponds to the energy (in kcal/mol)
+ at the equilibrium distance.
+
+ Lennard-Jones parameters are derived as follows:
+
+ sqrt(A) = sqrt [e * b/(a-b) * (2r)^a]
+ sqrt(B) = sqrt [e * a/(a-b) * (2r)^b]
+
+ where:
+        r = radius
+        e = well depth
+        a = repulsive exponent
+        b = attractive exponent
+
+
+ Keith Burdick (12/98)
+___________________________________________________________________________
+
+_____________________________________
+name            Carbon_sp/sp2
+atom_model      either
+radius          1.908
+well_depth      0.0860
+heavy_flag      1
+valence         4
+
+definition      C
+_____________________________________
+name            Carbon_All_sp3
+atom_model      all
+radius          1.908
+well_depth      0.1094
+heavy_flag      1
+valence         4
+
+definition      C.3
+_____________________________________
+name            Carbon_United_CH3
+atom_model      united
+radius          2.000
+well_depth      0.150
+heavy_flag      1
+valence         4
+
+definition      C. ( 3 H )
+_____________________________________
+name            Carbon_United_CH2
+atom_model      united
+radius          1.925
+well_depth      0.120
+heavy_flag      1
+valence         4
+
+definition      C. ( 2 H )
+_____________________________________
+name            Carbon_United_CH
+atom_model      united
+radius          1.850
+well_depth      0.090
+heavy_flag      1
+valence         4
+
+definition      C. ( 1 H )
+_____________________________________
+name            Hydrogen_Polar
+atom_model      either
+radius          0.600
+well_depth      0.0157
+heavy_flag      0
+valence         1
+
+definition      H
+_____________________________________
+name            Hydrogen_hydroxyl
+atom_model      either
+radius          0.1
+well_depth      0.001
+heavy_flag      0
+valence         1
+
+definition      H ( O )
+_____________________________________
+name            Hydrogen_Aliphatic
+atom_model      all
+radius          1.487
+well_depth      0.0157
+heavy_flag      0
+valence         1
+
+definition      H ( C.3 )
+_____________________________________
+name            Hydrogen_Semipolar
+atom_model      all
+radius          1.387
+well_depth      0.0157
+heavy_flag      0
+valence         1
+
+definition      H ( C.3 ( O ) )
+definition      H ( C.3 ( N ) )
+definition      H ( C.3 ( S ) )
+definition      H ( C.3 ( F ) )
+definition      H ( C.3 ( Cl ) )
+definition      H ( C.3 ( Br ) )
+_____________________________________
+name            Hydrogen_2_Semipolar
+atom_model      all
+radius          1.287
+well_depth      0.0157
+heavy_flag      0
+valence         1
+
+definition      H ( C.3 ( 2 O) )
+definition      H ( C.3 ( 2 N) )
+definition      H ( C.3 ( 2 S) )
+definition      H ( C.3 ( N ) ( O ) )
+definition      H ( C.3 ( S ) ( O ) )
+definition      H ( C.3 ( S ) ( N ) )
+definition      H ( C.3 ( 2 F ) )
+definition      H ( C.3 ( 2 Cl ) )
+definition      H ( C.3 ( 2 Br ) )
+_____________________________________
+name            Hydrogen_1-3_Charged
+atom_model      all
+radius          1.100
+well_depth      0.0157
+heavy_flag      0
+valence         1
+
+definition      H ( C.3 ( N.4 ) )
+_____________________________________
+name            Hydrogen_Aromatic
+atom_model      all
+radius          1.459
+well_depth      0.0150
+heavy_flag      0
+valence         1
+
+definition      H ( C.ar )
+definition      H ( C.2 )
+definition      H ( C.1 )
+_____________________________________
+name            Hydrogen_Ar_Sp
+atom_model      all
+radius          1.409
+well_depth      0.0150
+heavy_flag      0
+valence         1
+
+definition      H ( C.ar ( O ) )
+definition      H ( C.ar ( N ) )
+definition      H ( C.2 ( O ) )
+definition      H ( C.2 ( N ) )
+_____________________________________
+name            Hydrogen_Ar_2_Sp
+atom_model      all
+radius          1.359
+well_depth      0.0150
+heavy_flag      0
+valence         1
+
+definition      H ( C.ar ( 2 O ) )
+definition      H ( C.ar ( 2 N ) )
+definition      H ( C.ar ( N ) ( O ) )
+definition      H ( C.2 ( 2 O ) )
+definition      H ( C.2 ( 2 N ) )
+definition      H ( C.2 ( N ) ( O ) )
+_____________________________________
+name            Hydrogen_United
+atom_model      united
+radius          0.000
+well_depth      0.000
+heavy_flag      0
+valence         1
+
+definition      H ( C. )
+_____________________________________
+name            Nitrogen
+atom_model      either
+radius          1.824
+well_depth      0.170
+heavy_flag      1
+valence         4
+
+definition      N
+definition      N.3
+_____________________________________
+name            Nitrogen_quaternary
+atom_model      either
+radius          1.875
+well_depth      0.170
+heavy_flag      1
+valence         4
+
+definition      N.4
+_____________________________________
+name            Oxygen_Sp2
+atom_model      either
+radius          1.6612
+well_depth      0.210
+heavy_flag      1
+valence         2
+
+definition      O.2
+definition      O.co2
+_____________________________________
+name            Oxygen_ether
+atom_model      either
+radius          1.6837
+well_depth      0.170
+heavy_flag      1
+valence         2
+
+definition      O.3
+_____________________________________
+name            Oxygen_alcohol
+atom_model      either
+radius          1.721
+well_depth      0.2104
+heavy_flag      1
+valence         2
+
+definition      O.3 ( H )
+
+_____________________________________
+name            Sulfur
+atom_model      either
+radius          2.000
+well_depth      0.250
+heavy_flag      1
+valence         6
+
+definition      S
+_____________________________________
+name            Phosphorus
+atom_model      either
+radius          2.100
+well_depth      0.200
+heavy_flag      1
+valence         5
+
+definition      P
+_____________________________________
+name            Fluorine
+atom_model      either
+radius          1.750
+well_depth      0.061
+heavy_flag      1
+valence         1
+
+definition      F
+_____________________________________
+name            Chlorine
+atom_model      either
+radius          2.030
+well_depth      0.240
+heavy_flag      1
+valence         1
+
+definition      Cl
+_____________________________________
+name            Bromine/Silicon
+atom_model      either
+radius          2.180
+well_depth      0.320
+heavy_flag      1
+valence         4
+
+definition      Br
+definition      Si
+_____________________________________
+name            Iodine
+atom_model      either
+radius          2.350
+well_depth      0.400
+heavy_flag      1
+valence         1
+
+definition      I
+_____________________________________
+name            Potassium+
+atom_model      either
+radius          2.658
+well_depth      0.000328
+heavy_flag      1
+valence         0
+
+definition      K
+_____________________________________
+name            Sodium+
+atom_model      either
+radius          1.868
+well_depth      0.00277
+heavy_flag      1
+valence         0
+
+definition      Na
+_____________________________________
+name            Calcium++
+atom_model      either
+radius          1.600
+well_depth      0.100
+heavy_flag      1
+valence         0
+
+definition      Ca
+_____________________________________
+name            Mg++/Al+++
+atom_model      either
+radius          1.170
+well_depth      0.100
+heavy_flag      1
+valence         0
+
+definition      Mg
+definition      Al
+_____________________________________
+name            Li+
+atom_model      either
+radius          1.137
+well_depth      0.0183
+heavy_flag      1
+valence         0
+
+definition      Li
+_____________________________________
+name            Dummy
+atom_model      either
+radius          0.000
+well_depth      0.000
+heavy_flag      0
+valence         1
+
+definition      Du
+_____________________________________

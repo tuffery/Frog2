@@ -1,0 +1,30 @@
+12
+name asp.n type np charge -0.463
+name asp.h type hd charge 0.252
+name asp.ca type c3 charge 0.035
+name asp.ha type h charge 0.048
+name asp.c type c2 charge 0.616
+name asp.o type o2 charge -0.504
+name asp.cb type c3 charge -0.398
+name asp.hb2 type h charge 0.071
+name asp.hb3 type h charge 0.071
+name asp.cg type c2 charge 0.714
+name asp.od1 type o2 charge -0.721
+name asp.od2 type o2 charge -0.721
+11
+asp.n asp.h 1
+asp.n asp.ca 1
+asp.ca asp.c 1
+asp.ca asp.cb 1
+asp.ca asp.ha 1
+asp.c asp.o 1.75
+asp.cb asp.cg 1
+asp.cb asp.hb2 1
+asp.cb asp.hb3 1
+asp.cg asp.od1 1.5
+asp.cg asp.od2 1.5
+0
+2
+asp.n asp.cb asp.c asp.ca  4 .494427
+asp.n asp.cb asp.c asp.ha  4  1.606971
+0

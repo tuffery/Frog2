@@ -1,0 +1,64 @@
+28
+name dmh.c1 type C2  charge -.153
+name dmh.c2 type C2  charge -.153
+name dmh.c3 type C2  charge -.153
+name dmh.c4 type C2  charge -.153
+name dmh.c5 type C2  charge -.153
+name dmh.c6 type C2  charge -.153
+name dmh.c11 type c3
+name dmh.h111 type h
+name dmh.h112 type h
+name dmh.n12 type n3
+name dmh.h121 type h
+name dmh.h122 type h
+name dmh.h123 type h
+name dmh.h22  type H  charge .153
+name dmh.h21  type H  charge .153
+name dmh.h31  type H  charge .153
+name dmh.h32  type H  charge .153
+name dmh.c41 type c3
+name dmh.h411 type h
+name dmh.h412 type h
+name dmh.n42 type n3
+name dmh.h421 type h
+name dmh.h422 type h
+name dmh.h423 type h
+name dmh.h51  type H  charge .153
+name dmh.h52  type H  charge .153
+name dmh.h61  type H  charge .153
+name dmh.h62  type H  charge .153
+28
+dmh.c1 dmh.c2 1.5
+dmh.c2 dmh.c3 1.5
+dmh.c3 dmh.c4 1.5
+dmh.c4 dmh.c5 1.5
+dmh.c5 dmh.c6 1.5
+dmh.c6 dmh.c1 1.5
+dmh.c1 dmh.c11 1
+dmh.c11 dmh.h111 1
+dmh.c11 dmh.h112 1
+dmh.c11 dmh.n12 1
+dmh.n12 dmh.h121 1
+dmh.n12 dmh.h122 1
+dmh.n12 dmh.h123 1
+dmh.c2 dmh.h21 1
+dmh.c2 dmh.h22 1
+dmh.c3 dmh.h31 1
+dmh.c3 dmh.h32 1
+dmh.c4 dmh.c41 1
+dmh.c41 dmh.h411 1
+dmh.c41 dmh.h412 1
+dmh.c41 dmh.n42 1
+dmh.n42 dmh.h421 1
+dmh.n42 dmh.h422 1
+dmh.n42 dmh.h423 1
+dmh.c5 dmh.h52 1
+dmh.c5 dmh.h51 1
+dmh.c6 dmh.h62 1
+dmh.c6 dmh.h61 1
+0
+0
+0
+0
+0
+para di(aminomethyl) cyclohexane  +2

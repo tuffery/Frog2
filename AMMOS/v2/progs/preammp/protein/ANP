@@ -1,0 +1,102 @@
+44 43 1
+name anp.pg type p35 charge 1.385
+name anp.o1g type o2 charge -0.847
+name anp.o2g type o2 charge -0.847
+name anp.o3g type o3 charge -0.847
+name anp.pb type p35 charge 1.385
+name anp.o1b type o2 charge -0.847
+name anp.o2b type o2 charge -0.847
+name anp.n3b type n3 charge -0.847
+name anp.h3b type hd charge -0.847
+name anp.pa type p35 charge 1.385
+name anp.o1a type o2 charge -0.847
+name anp.o2a type o2 charge -0.847
+name anp.o3a type o3 charge -0.847
+name anp.o3* type o3 charge -0.509
+name anp.ho3* type hd charge -0.509
+name anp.o5* type o3 charge -0.509
+name anp.c5* type c3 charge 0.118
+name anp.h51* type h charge 0.021
+name anp.h52* type h charge 0.021
+name anp.c4* type c3 charge 0.036
+name anp.h4* type h charge 0.056
+name anp.o4* type o3 charge -0.368
+name anp.o2* type o3 charge -0.081
+name anp.ho2* type hd charge -0.081
+name anp.c1* type c3 charge 0.376
+name anp.h1* type h charge 0.009
+name anp.c2* type c3 charge -0.307
+name anp.h21* type h charge 0.081
+name anp.c3* type c3 charge 0.233
+name anp.h3* type h charge 0.025
+name anp.n9 type nr charge -0.073
+name anp.c4 type c2 charge 0.546
+name anp.c8 type c2 charge 0.263
+name anp.h8 type h charge 0.062
+name anp.n3 type nr charge -0.728
+name anp.c2 type c2 charge 0.661
+name anp.h2 type h charge -0.032
+name anp.n1 type nr charge -0.774
+name anp.c6 type c2 charge 0.769
+name anp.n6 type np charge -0.768
+name anp.hn61 type hd charge 0.324
+name anp.hn62 type hd charge 0.335
+name anp.c5 type c2 charge -0.097
+name anp.n7 type nb charge -0.543
+46 45 1
+anp.pg anp.o1g 1.5
+anp.pg anp.o2g 1.5
+anp.pg anp.o3g 1.5
+anp.n3b   anp.pg 1.
+anp.n3b anp.h3b 1
+anp.pb anp.o1b 1.5
+anp.pb anp.o2b 1.5
+anp.pb anp.n3b 1.
+anp.o3a   anp.pb 1.5
+anp.pa anp.o1a 1.5
+anp.pa anp.o2a 1.5
+anp.pa anp.o3a 1.5
+anp.pa anp.o5* 1
+anp.o5* anp.c5* 1
+anp.c5* anp.c4* 1
+anp.c5* anp.h51* 1
+anp.c5* anp.h52* 1
+anp.c4* anp.o4* 1
+anp.c4* anp.c3* 1
+anp.c4* anp.h4* 1
+anp.c3* anp.o3* 1
+anp.o3* anp.ho3* 1
+anp.c3* anp.c2* 1
+anp.c3* anp.h3* 1
+anp.c2* anp.c1* 1
+anp.c2* anp.h21* 1
+anp.c2* anp.o2* 1
+anp.o2* anp.ho2* 1
+anp.c1* anp.o4* 1
+anp.c1* anp.n9 1
+anp.c1* anp.h1* 1
+anp.n9 anp.c4 1
+anp.n9 anp.c8 1
+anp.c4 anp.n3 1.5
+anp.n3 anp.c2 1.5
+anp.c2 anp.n1 1.5
+anp.c2 anp.h2 1
+anp.n1 anp.c6 1.5
+anp.c6 anp.c5 1.5
+anp.c6 anp.n6 1
+anp.n6 anp.hn61 1
+anp.n6 anp.hn62 1
+anp.c5 anp.c4 1.5
+anp.c5 anp.n7 1
+anp.n7 anp.c8 2
+anp.c8 anp.h8 1
+0
+6
+anp.o2* anp.c2* anp.h1* anp.n9  6 1.925983
+anp.o2* anp.c2* anp.h1* anp.c1* 6 .468722
+anp.c2* anp.c4* anp.o3* anp.c3* 6 .554654
+anp.c2* anp.c4* anp.o3* anp.H3* 6 1.669313
+anp.c3* anp.c5* anp.o2* anp.c4* 6 .554654
+anp.c3* anp.c5* anp.o2* anp.H4* 6 1.669313
+0
+

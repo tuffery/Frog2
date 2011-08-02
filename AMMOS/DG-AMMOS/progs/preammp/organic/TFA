@@ -1,0 +1,47 @@
+21
+name tfa.n type n3
+name tfa.hn1 type h
+name tfa.hn2 type h
+name tfa.hn3 type h
+name tfa.ca type c3 charge 0.035
+name tfa.ha1 type h charge 0.048
+name tfa.ha2 type h charge 0.048
+name tfa.cb type c3 charge -0.098
+name tfa.hb1 type h charge 0.038
+name tfa.hb2 type h charge 0.038
+name tfa.cg type c2 charge -0.030
+name tfa.cd1 type c2 charge -0.002
+name tfa.cd2 type c2 charge -0.002
+name tfa.hd1 type h charge 0.064
+name tfa.hd2 type h charge 0.064
+name tfa.ce1 type c2 charge -0.264
+name tfa.ce2 type c2 charge -0.264
+name tfa.he1 type h charge 0.102
+name tfa.he2 type h charge 0.102
+name tfa.cz type c2 charge 0.462
+name tfa.f type f charge -0.528
+21
+tfa.n tfa.hn1 1
+tfa.n tfa.hn2 1
+tfa.n tfa.hn3 1
+tfa.n tfa.ca 1
+tfa.ca tfa.cb 1
+tfa.ca tfa.ha1 1
+tfa.ca tfa.ha2 1
+tfa.cb tfa.cg 1
+tfa.cb tfa.hb1 1
+tfa.cb tfa.hb2 1
+tfa.cg tfa.cd1 1.5
+tfa.cg tfa.cd2 1.5
+tfa.cd1 tfa.ce1 1.5
+tfa.cd2 tfa.ce2 1.5
+tfa.ce1 tfa.cz 1.5
+tfa.ce2 tfa.cz 1.5
+tfa.cd1 tfa.hd1 1
+tfa.cd2 tfa.hd2 1
+tfa.ce1 tfa.he1 1
+tfa.ce2 tfa.he2 1
+tfa.cz tfa.f 1
+0
+0
+0

@@ -1,0 +1,28 @@
+10
+name dma.c1 type c3
+name dma.c2 type c3
+name dma.n  type n3
+name dma.h11 type h
+name dma.h12 type h
+name dma.h13 type h
+name dma.h21 type h
+name dma.h22 type h
+name dma.h23 type h
+name dma.hn1 type h
+9
+dma.n dma.c1 1
+dma.n dma.c2 1
+dma.n dma.hn1 1
+dma.c1 dma.h11 1
+dma.c1 dma.h12 1
+dma.c1 dma.h13 1
+dma.c2 dma.h21 1
+dma.c2 dma.h22 1
+dma.c2 dma.h23 1
+0
+0
+0
+0
+
+dimethylamine 0
+

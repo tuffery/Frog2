@@ -1,0 +1,184 @@
+83
+name hem.fe type fe3 charge 3.
+name hem.c2b type c2
+name hem.c3b type c2
+name hem.c4b type c2
+name hem.nb type n2
+name hem.c1b type c2
+name hem.chc  type c2
+name hem.hhc type h
+name hem.cmb type c3
+name hem.hmb1 type h
+name hem.hmb2 type h
+name hem.hmb3 type h
+name hem.cab type c2
+name hem.hab type h
+name hem.cbb type c2
+name hem.hbb1 type h
+name hem.hbb2 type h
+name hem.c2c type c2
+name hem.c3c type c2
+name hem.c4c type c2
+name hem.nc type n2
+name hem.c1c type c2
+name hem.chd  type c2
+name hem.hhd type h
+name hem.cmc type c3
+name hem.hmc1 type h
+name hem.hmc2 type h
+name hem.hmc3 type h
+name hem.cac type c2
+name hem.hac type h
+name hem.cbc type c2
+name hem.hbc1 type h
+name hem.hbc2 type h
+name hem.c2d type c2
+name hem.c3d type c2
+name hem.c4d type c2
+name hem.nd type n2
+name hem.c1d type c2
+name hem.cha  type c2
+name hem.hha type h
+name hem.cmd type c3
+name hem.hmd1 type h
+name hem.hmd2 type h
+name hem.hmd3 type h
+name hem.cad type c3
+name hem.ha2d type h
+name hem.ha3d type h
+name hem.cbd type c3
+name hem.hb2d type h
+name hem.hb3d type h
+name hem.cgd  type c2
+name hem.o1d  type o2
+name hem.o2d   type o2
+name hem.c2a type c2
+name hem.c3a type c2
+name hem.c4a type c2
+name hem.na type n2
+name hem.c1a type c2
+name hem.chb  type c2
+name hem.hhb type h
+name hem.cma type c3
+name hem.hma1 type h
+name hem.hma2 type h
+name hem.hma3 type h
+name hem.caa type c3
+name hem.haa1 type h
+name hem.haa2 type h
+name hem.cba type c3
+name hem.hba1 type h
+name hem.hba2 type h
+name hem.cga  type c2
+name hem.o1a  type o2
+name hem.o2a   type o2
+name css.n type np charge -0.463
+name css.hn type hd charge 0.252
+name css.ca type c3 charge 0.035
+name css.ha type h charge 0.048
+name css.c type c2 charge 0.616
+name css.o type o2 charge -0.504
+name css.cb type c3 charge -0.098
+name css.hb1 type h charge 0.0495
+name css.hb2 type h charge 0.0495
+name css.sg type s32 charge 0.015
+ 90 89
+hem.fe css.sg 1
+hem.fe hem.nb 1
+hem.fe hem.nc 1
+hem.fe hem.nd 1
+hem.fe hem.na 1
+hem.cmb hem.hmb1 1
+hem.cmb hem.hmb2 1
+hem.cmb hem.hmb3 1
+hem.cab hem.hab 1
+hem.cab hem.cbb 2
+hem.cbb hem.hbb1 1
+hem.cbb hem.hbb2 1
+hem.cmc hem.hmc1 1
+hem.cmc hem.hmc2 1
+hem.cmc hem.hmc3 1
+hem.cac hem.hac 1
+hem.cac hem.cbc 2
+hem.cbc hem.hbc1 1
+hem.cbc hem.hbc2 1
+hem.cmd hem.hmd1 1
+hem.cmd hem.hmd2 1
+hem.cmd hem.hmd3 1
+hem.cad hem.ha2d 1
+hem.cad hem.ha3d 1
+hem.cad hem.cbd 1
+hem.cbd hem.hb2d 1
+hem.cbd hem.hb3d 1
+hem.cbd hem.cgd 1
+hem.cgd hem.o1d 1.5
+hem.cgd hem.o2d 1.5
+hem.cma hem.hma1 1
+hem.cma hem.hma2 1
+hem.cma hem.hma3 1
+hem.caa hem.haa1 1
+hem.caa hem.haa2 1
+hem.caa hem.cba 1
+hem.cba hem.hba1 1
+hem.cba hem.hba2 1
+hem.cba hem.cga 1
+hem.cga hem.o1a 1.5
+hem.cga hem.o2a 1.5
+hem.c2b hem.cmb 1
+hem.c2b hem.c3b 2
+hem.c3b hem.cab 1
+hem.c3b hem.c4b 1
+hem.c4b hem.chc 2
+hem.c4b hem.nb 1
+hem.nb hem.c1b 2
+hem.c1b hem.c2b 1
+hem.chc hem.hhc 1
+hem.chc hem.c1c 1
+hem.c1c hem.c2c 2
+hem.c2c hem.cmc 1
+hem.c2c hem.c3c 1
+hem.c3c hem.cac 1
+hem.c3c hem.c4c 2
+hem.c4c hem.chd 1
+hem.c4c hem.nc 1
+hem.nc hem.c1c 1
+hem.chd hem.hhd 1
+hem.chd hem.c1d 2
+hem.c1d hem.c2d 1
+hem.c2d hem.cmd 1
+hem.c2d hem.c3d 2
+hem.c3d hem.cad 1
+hem.c3d hem.c4d 1
+hem.c4d hem.cha 1
+hem.c4d hem.nd 1
+hem.nd hem.c1d 1
+hem.cha hem.hha 1
+hem.cha hem.c1a 2
+hem.c1a hem.c2a 1
+hem.c2a hem.caa 1
+hem.c2a hem.c3a 2
+hem.c3a hem.cma 1
+hem.c3a hem.c4a 1
+hem.c4a hem.chb 2
+hem.c4a hem.na 1
+hem.na hem.c1a 1
+hem.chb hem.hhb 1
+hem.chb hem.c1b 1
+css.n css.hn 1
+css.n css.ca 1
+css.ca css.c 1
+css.ca css.cb 1
+css.ca css.ha 1
+css.c css.o 2
+css.cb css.sg 1
+css.cb css.hb1 1
+css.cb css.hb2 1
+0
+0
+0
+
+
+10
+9
+0
+0

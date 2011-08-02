@@ -1,0 +1,55 @@
+24
+name hpo.c1 type c3
+name hpo.c2 type c3
+name hpo.c3 type c3
+name hpo.c4 type c3
+name hpo.c5 type c3
+name hpo.c6 type c3
+name hpo.c7 type c3
+name hpo.o1 type o3
+name hpo.h11 type h
+name hpo.h12 type h
+name hpo.h21 type h
+name hpo.h22 type h
+name hpo.h31 type h
+name hpo.h32 type h
+name hpo.h41 type h
+name hpo.h42 type h
+name hpo.h51 type h
+name hpo.h52 type h
+name hpo.h61 type h
+name hpo.h62 type h
+name hpo.h71 type h
+name hpo.h72 type h
+name hpo.h73 type h
+name hpo.ho type hd
+23
+hpo.ho hpo.o1 1
+hpo.o1 hpo.c1 1
+hpo.c1 hpo.h11 1
+hpo.c1 hpo.h12 1
+hpo.c1 hpo.c2 1
+hpo.c2 hpo.h21 1
+hpo.c2 hpo.h22 1
+hpo.c2 hpo.c3 1
+hpo.c3 hpo.h31 1
+hpo.c3 hpo.h32 1
+hpo.c3 hpo.c4 1
+hpo.c4 hpo.h41 1
+hpo.c4 hpo.h42 1
+hpo.c4 hpo.c5 1
+hpo.c5 hpo.h51 1
+hpo.c5 hpo.h52 1
+hpo.c5 hpo.c6 1
+hpo.c6 hpo.h61 1
+hpo.c6 hpo.h62 1
+hpo.c6 hpo.c7 1
+hpo.c7 hpo.h71 1
+hpo.c7 hpo.h72 1
+hpo.c7 hpo.h73 1
+0
+0
+0
+
+
+n heptanol

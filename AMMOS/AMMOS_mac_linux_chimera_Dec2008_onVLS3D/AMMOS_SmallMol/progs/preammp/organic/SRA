@@ -1,0 +1,63 @@
+27
+name sra.n type np charge -0.463
+name sra.hn1 type hd charge 0.252
+name sra.hn2 type hd charge 0.252
+name sra.hn3 type hd charge 0.252
+name sra.ca type c3 charge 0.035
+name sra.ha2 type h charge 0.048
+name sra.ha1 type h charge 0.048
+name sra.cb type c3 charge -0.098
+name sra.hb1 type h charge 0.038
+name sra.hb2 type h charge 0.038
+name sra.cg type c2 charge -0.135
+name sra.cd1 type c2 charge 0.044
+name sra.cd2 type c2 charge 0.146
+name sra.ne1 type nr charge -0.352
+name sra.ce2 type c2 charge 0.154
+name sra.ce3 type c2 charge -0.173
+name sra.cz2 type c2 charge -0.168
+name sra.cz3 type c2 charge -0.066
+name sra.ch2 type c2 charge -0.077
+name sra.hd1 type h charge 0.093
+name sra.he1 type hd charge 0.271
+name sra.he3 type h charge 0.086
+name sra.hz2 type h charge 0.084
+name sra.hz3 type h charge 0.057
+name sra.hh2 type h charge 0.074
+name sra.oz type o3
+name sra.hoz type h
+28
+sra.n sra.hn1 1
+sra.n sra.hn2 1
+sra.n sra.hn3 1
+sra.n sra.ca 1
+sra.ca sra.ha1 1
+sra.ca sra.cb 1
+sra.ca sra.ha2 1
+sra.cb sra.cg 1
+sra.cb sra.hb1 1
+sra.cb sra.hb2 1
+sra.cg sra.cd1 1.5
+sra.cg sra.cd2 1.5
+sra.cd1 sra.ne1 1.5
+sra.ne1 sra.ce2 1.5
+sra.cd2 sra.ce2 1.5
+sra.cd2 sra.ce3 1.5
+sra.ce2 sra.cz2 1.5
+sra.ce3 sra.cz3 1.5
+sra.cz2 sra.ch2 1.5
+sra.cz3 sra.ch2 1.5
+sra.cz3 sra.oz 1
+sra.oz sra.hoz 1
+sra.cd1 sra.hd1 1
+sra.ne1 sra.he1 1
+sra.ce3 sra.he3 1
+sra.cz2 sra.hz2 1
+sra.cz3 sra.hz3 1
+sra.ch2 sra.hh2 1
+0
+0
+0
+0
+# 5 oh tryptamine + 1
+#  serotonin

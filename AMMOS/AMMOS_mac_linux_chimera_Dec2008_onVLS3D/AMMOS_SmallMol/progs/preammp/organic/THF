@@ -1,0 +1,32 @@
+13
+name thf.c1 type c3
+name thf.c2 type c3
+name thf.c3 type c3
+name thf.c4 type c3
+name thf.o5 type o3
+name thf.hc11 type h
+name thf.hc21 type h
+name thf.hc31 type h
+name thf.hc41 type h
+name thf.hc42 type h
+name thf.hc32 type h
+name thf.hc22 type h
+name thf.hc12 type h
+13
+thf.c1 thf.c2 1
+thf.c2 thf.c3 1
+thf.c3 thf.c4 1
+thf.c4 thf.o5 1
+thf.o5 thf.c1 1
+thf.c1 thf.hc11 1
+thf.c1 thf.hc12 1
+thf.c2 thf.hc21 1
+thf.c2 thf.hc22 1
+thf.c3 thf.hc31 1
+thf.c3 thf.hc32 1
+thf.c4 thf.hc41 1
+thf.c4 thf.hc42 1
+0
+0
+0
+tetrahydrofuran

@@ -1,0 +1,61 @@
+24
+name dla.n type np charge -0.463
+name dla.hn type hd charge 0.252
+name dla.hn11 type hd charge 0.252
+name dla.hn12 type hd charge 0.252
+name dla.ca type c3 charge 0.035
+name dla.ha type h charge 0.048
+name dla.c type c2 charge 0.616
+name dla.o type o2 charge -0.504
+name dla.cb type c3 charge -0.098
+name dla.hb1 type h charge 0.036
+name dla.hb2 type h charge 0.036
+name dla.hb3 type h charge 0.036
+name dla.n1 type np charge -0.463
+name dla.hn1 type hd charge 0.252
+name dla.ca1 type c3 charge 0.035
+name dla.ha1 type h charge 0.048
+name dla.c1 type c2 charge 0.616
+name dla.o1 type o2 charge -0.504
+name dla.o12 type o2 charge -0.504
+name dla.ho12 type hd
+name dla.cb1 type c3 charge -0.098
+name dla.hb11 type h charge 0.036
+name dla.hb21 type h charge 0.036
+name dla.hb31 type h charge 0.036
+23
+dla.n dla.hn 1
+dla.n dla.hn11 1
+dla.n dla.hn12 1
+dla.n dla.ca 1
+dla.ca dla.c 1
+dla.ca dla.cb 1
+dla.ca dla.ha 1
+dla.c dla.o 1.75
+dla.cb dla.hb1 1
+dla.cb dla.hb2 1
+dla.cb dla.hb3 1
+dla.c dla.n1 1.25
+dla.n1 dla.hn1 1
+dla.n1 dla.ca1 1
+dla.ca1 dla.c1 1
+dla.ca1 dla.cb1 1
+dla.ca1 dla.ha1 1
+dla.c1 dla.o1 2
+dla.c1 dla.o12 1. 
+dla.o12 dla.ho12 1
+dla.cb1 dla.hb11 1
+dla.cb1 dla.hb21 1
+dla.cb1 dla.hb31 1
+0
+4
+dla.n dla.cb dla.c dla.ca  4 .494427  
+dla.n dla.cb dla.c dla.ha  4  1.606971 
+dla.n1 dla.cb1 dla.c1 dla.ca1  4 .494427  
+dla.n1 dla.cb1 dla.c1 dla.ha1  4 1.606971  
+4
+dla.ca dla.c dla.n1 dla.hn1 3 3 0
+dla.ca dla.c dla.n1 dla.ca1 3  1 180
+dla.o dla.c dla.n1 dla.hn1 3 3 180
+dla.o dla.c dla.n1 dla.ca1 3  1 0
+

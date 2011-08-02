@@ -1,0 +1,14 @@
+4
+name cfo.f1 type f charge .41
+name cfo.f2 type f charge .41
+name cfo.c type c2
+name cfo.o type  O2  charge -.82 
+3
+cfo.c cfo.f1 1
+cfo.c cfo.f2 1
+cfo.c cfo.o 2
+0
+0
+0
+0
+0

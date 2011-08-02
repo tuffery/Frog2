@@ -1,0 +1,23 @@
+9
+name eoh.c1 type c3
+name eoh.c2 type c3
+name eoh.o  type o3
+name eoh.h11 type h
+name eoh.h12 type h
+name eoh.h21 type h
+name eoh.h22 type h
+name eoh.h23 type h
+name eoh.ho  type hd
+8
+eoh.c1 eoh.c2 1.
+eoh.c1 eoh.o 1.
+eoh.c1 eoh.h11 1
+eoh.c1 eoh.h12 1
+eoh.c2 eoh.h21 1
+eoh.c2 eoh.h22 1
+eoh.c2 eoh.h23 1
+eoh.o eoh.ho 1
+0 
+0
+0
+ethanol

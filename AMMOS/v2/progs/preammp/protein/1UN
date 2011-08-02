@@ -1,0 +1,186 @@
+85
+name 1un.c1 type c3
+name 1un.h1 type h
+name 1un.c2 type c3
+name 1un.h2 type h
+name 1un.c3 type c3
+name 1un.1h3 type h
+name 1un.2h3 type h
+name 1un.c4 type c3
+name 1un.1h4 type h
+name 1un.2h4 type h
+name 1un.c5 type c3
+name 1un.1h5 type h
+name 1un.2h5 type h
+name 1un.c6 type c3
+name 1un.1h6 type h
+name 1un.2h6 type h
+name 1un.n7 type n3
+name 1un.c8 type c3
+name 1un.h8 type h
+name 1un.c9 type c3
+name 1un.1h9 type h
+name 1un.2h9 type h
+name 1un.c10 type c3
+name 1un.1h10 type h
+name 1un.2h10 type h
+name 1un.c11 type c2
+name 1un.n12 type np
+name 1un.hnc type hd
+name 1un.c13 type c3
+name 1un.c14 type c3
+name 1un.1h14 type h
+name 1un.2h14 type h
+name 1un.3h14 type h
+name 1un.c15 type c3
+name 1un.1h15 type h
+name 1un.2h15 type h
+name 1un.3h15 type h
+name 1un.c16 type c3
+name 1un.1h16 type h
+name 1un.2h16 type h
+name 1un.3h16 type h
+name 1un.o17 type o2
+name 1un.c18 type c3
+name 1un.1h18 type h
+name 1un.2h18 type h
+name 1un.c19 type c3
+name 1un.h19 type h
+name 1un.c20 type c3
+name 1un.h20 type h
+name 1un.o21 type o3
+name 1un.hol type hd
+name 1un.n22 type np
+name 1un.hnm type hd
+name 1un.c23 type c3
+name 1un.1h23 type h
+name 1un.2h23 type h
+name 1un.c24 type c2
+name 1un.o25 type o2
+name 1un.c29 type ca
+name 1un.c30 type ca
+name 1un.h30 type h
+name 1un.c31 type ca
+name 1un.h31 type h
+name 1un.c32 type ca
+name 1un.h32 type h
+name 1un.c33 type ca
+name 1un.c34 type ca
+name 1un.o38 type o3 
+name 1un.ho  type hd
+name 1un.c39 type c3
+name 1un.1h39 type h
+name 1un.2h39 type h
+name 1un.3h39 type h
+name 1un.s74 type s34 
+name 1un.c77 type ca
+name 1un.c78 type ca
+name 1un.h78 type h
+name 1un.c79 type ca
+name 1un.h79 type h
+name 1un.c80 type ca
+name 1un.h80 type h
+name 1un.c81 type ca
+name 1un.h81 type h
+name 1un.c82 type ca
+name 1un.h82 type h
+88
+1un.c1 1un.c2 1
+1un.c1 1un.c10 1
+1un.c1 1un.c6 1
+1un.c1 1un.h1 1
+1un.c2 1un.c3 1
+1un.c2 1un.c9 1
+1un.c2 1un.h2 1
+1un.c3 1un.c4 1
+1un.c3 1un.1h3 1
+1un.c3 1un.2h3 1
+1un.c4 1un.c5 1
+1un.c4 1un.1h4 1
+1un.c4 1un.2h4 1
+1un.c5 1un.c6 1
+1un.c5 1un.1h5 1
+1un.c5 1un.2h5 1
+1un.c6 1un.1h6 1
+1un.c6 1un.2h6 1
+1un.c9 1un.c8 1
+1un.c9 1un.1h9 1
+1un.c9 1un.2h9 1
+1un.c8 1un.c11 1
+1un.c8 1un.h8 1
+1un.c8 1un.n7 1
+1un.n7 1un.c10 1
+1un.n7 1un.c18 1
+1un.c10 1un.1h10 1
+1un.c10 1un.2h10 1
+1un.c11 1un.o17 1.75
+1un.c11 1un.n12 1.25
+1un.n12 1un.hnc 1
+1un.n12 1un.c13 1
+1un.c13 1un.c14 1
+1un.c13 1un.c15 1
+1un.c13 1un.c16 1
+1un.c14 1un.1h14 1
+1un.c14 1un.2h14 1
+1un.c14 1un.3h14 1
+1un.c15 1un.1h15 1
+1un.c15 1un.2h15 1
+1un.c15 1un.3h15 1
+1un.c16 1un.1h16 1
+1un.c16 1un.2h16 1
+1un.c16 1un.3h16 1
+1un.c18 1un.1h18 1
+1un.c18 1un.2h18 1
+1un.c18 1un.c19 1
+1un.c19 1un.c20 1
+1un.c19 1un.h19 1
+1un.c19 1un.o21 1
+1un.o21 1un.hol 1
+1un.c20 1un.n22 1
+1un.c20 1un.c23 1
+1un.c20 1un.h20 1
+1un.c23 1un.1h23 1
+1un.c23 1un.2h23 1
+1un.c23 1un.s74 1
+1un.s74 1un.c77 1
+1un.c77 1un.c78 1.5
+1un.c78 1un.c79 1.5
+1un.c79 1un.c80 1.5
+1un.c80 1un.c81 1.5
+1un.c81 1un.c82 1.5
+1un.c82 1un.c77 1.5
+1un.c78 1un.h78 1
+1un.c79 1un.h79 1
+1un.c80 1un.h80 1
+1un.c81 1un.h81 1
+1un.c82 1un.h82 1
+1un.n22 1un.hnm 1
+1un.n22 1un.c24 1.25
+1un.c24 1un.o25 1.75
+1un.c24 1un.c29 1
+1un.c29 1un.c30 1.5
+1un.c30 1un.c31 1.5
+1un.c31 1un.c32 1.5
+1un.c32 1un.c33 1.5
+1un.c33 1un.c34 1.5
+1un.c34 1un.c29 1.5
+1un.c30 1un.h30 1
+1un.c31 1un.h31 1
+1un.c32 1un.h32 1
+1un.c34 1un.c39 1
+1un.c39 1un.1h39 1
+1un.c39 1un.2h39 1
+1un.c39 1un.3h39 1
+1un.c33 1un.o38 1
+1un.o38 1un.ho 1
+0
+0
+0
+0
+
+
+neferapine   Note this has chirals which must come from the original coord
+
+
+
+

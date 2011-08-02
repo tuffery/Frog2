@@ -1,0 +1,30 @@
+12
+name icp.op1 type o2 
+name icp.op2 type o2
+name icp.op3 type o2
+name icp.p1 type  p35 
+name icp.c2 type  c3 
+name icp.h21 type h
+name icp.c3 type  c2 
+name icp.o1 type  O2 
+name icp.o2 type  O2 
+name icp.ca3 type  c2 
+name icp.oa1 type  O2 
+name icp.oa2 type  O2 
+11
+icp.p1 icp.op1 1
+icp.p1 icp.op2 1
+icp.p1 icp.op3 1
+icp.p1 icp.c2 1
+icp.c2 icp.c3 1
+icp.c2 icp.h21
+icp.c2 icp.ca3
+icp.c3 icp.o1 1.5
+icp.c3 icp.o2 1.5
+icp.ca3 icp.oa1 1.5
+icp.ca3 icp.oa2 1.5
+0
+0
+0
+0
+0

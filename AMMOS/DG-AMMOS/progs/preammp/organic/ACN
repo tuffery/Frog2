@@ -1,0 +1,96 @@
+44
+name acn.cl type cl
+name acn.cr1 type c2
+name acn.cr2 type c2
+name acn.hr2 type h
+name acn.cr3 type c2
+name acn.hr3 type h
+name acn.cr4 type c2
+name acn.hr4 type h
+name acn.cr5 type c2
+name acn.cr6 type c2
+name acn.cr7 type c2
+name acn.cr8 type c2
+name acn.hr8 type h
+name acn.cr9 type c2
+name acn.hr9 type h
+name acn.cr10 type c2
+name acn.hr10 type h
+name acn.s type s36
+name acn.os1 type o2
+name acn.os2 type o2
+name acn.nc1 type n3
+name acn.hnc1 type h
+name acn.cc2 type c3
+name acn.hc21 type h
+name acn.hc22 type h 
+name acn.cc3 type c3
+name acn.hc31 type h
+name acn.hc32 type h 
+name acn.cc4 type c3
+name acn.hc41 type h
+name acn.hc42 type h 
+name acn.cc5 type c3
+name acn.hc51 type h
+name acn.hc52 type h 
+name acn.cc6 type c3
+name acn.hc61 type h
+name acn.hc62 type h 
+name acn.cc7 type c3
+name acn.hc71 type h
+name acn.hc72 type h 
+name acn.nc8 type n3
+name acn.hn81 type h
+name acn.hn82 type h
+name acn.hn83 type h
+45
+acn.cl acn.cr1 1
+acn.cr1 acn.cr6 1.5
+acn.cr1 acn.cr2 1.5
+acn.cr2 acn.cr3 1.5
+acn.cr3 acn.cr4 1.5
+acn.cr4 acn.cr5 1.5
+acn.cr5 acn.cr6 1.5
+acn.cr5 acn.cr7 1.5
+acn.cr7 acn.cr8 1.5
+acn.cr8 acn.cr9 1.5
+acn.cr9 acn.cr10 1.5
+acn.cr10 acn.cr6 1.5
+acn.cr2 acn.hr2 1
+acn.cr3 acn.hr3 1
+acn.cr4 acn.hr4 1
+acn.cr8 acn.hr8 1
+acn.cr9 acn.hr9 1
+acn.cr10 acn.hr10 1
+acn.cr7 acn.s 1
+acn.s acn.os1 2
+acn.s acn.os2 2
+acn.s acn.nc1 1
+acn.nc1 acn.hnc1 1
+acn.nc1 acn.cc2 1
+acn.cc2 acn.hc21 1
+acn.cc2 acn.hc22 1
+acn.cc2 acn.cc3 1 
+acn.cc3 acn.hc31 1
+acn.cc3 acn.hc32 1
+acn.cc3 acn.cc4 1 
+acn.cc4 acn.hc41 1
+acn.cc4 acn.hc42 1
+acn.cc4 acn.cc5 1 
+acn.cc5 acn.hc51 1
+acn.cc5 acn.hc52 1
+acn.cc5 acn.cc6 1 
+acn.cc6 acn.hc61 1
+acn.cc6 acn.hc62 1
+acn.cc6 acn.cc7 1 
+acn.cc7 acn.hc71 1
+acn.cc7 acn.hc72 1
+acn.cc7 acn.nc8 1 
+acn.nc8 acn.hn81 1 
+acn.nc8 acn.hn82 1
+acn.nc8 acn.hn83 1
+0 
+0 
+0 
+0
+ # n (6aminohexyl) 5 chloronaphalene -1 sulfonamide +1 (?)

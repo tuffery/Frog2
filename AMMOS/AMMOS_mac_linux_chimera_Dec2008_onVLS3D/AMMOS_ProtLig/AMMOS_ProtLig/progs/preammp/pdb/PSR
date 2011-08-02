@@ -1,0 +1,34 @@
+14
+name psr.n type np charge -0.463
+name psr.h type hd charge 0.252
+name psr.ca type c3 charge 0.035
+name psr.ha type h charge 0.048
+name psr.c type c2 charge 0.616
+name psr.o type o2 charge -0.504
+name psr.cb type c3 charge 0.018
+name psr.1hb type h charge 0.119
+name psr.2hb type h charge 0.119
+name psr.og type o3 charge -0.550
+name psr.p type p35
+name psr.o1 type o2
+name psr.o2 type o2
+name psr.o3 type o2
+13
+psr.n psr.h 1
+psr.n psr.ca 1
+psr.ca psr.c 1
+psr.ca psr.cb 1
+psr.ca psr.ha 1
+psr.c psr.o 1.75
+psr.cb psr.og 1
+psr.cb psr.1hb 1
+psr.cb psr.2hb 1
+psr.og psr.p 1.5
+psr.p psr.o1 1.5
+psr.p psr.o2 1.5
+psr.p psr.o3 1.5
+0
+2
+psr.n psr.cb psr.c psr.ca  4 .494427
+psr.n psr.cb psr.c psr.ha  4  1.606971
+0

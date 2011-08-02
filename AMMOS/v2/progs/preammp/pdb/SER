@@ -1,0 +1,28 @@
+11
+name ser.n type np charge -0.463
+name ser.h type hd charge 0.252
+name ser.ca type c3 charge 0.035
+name ser.ha type h charge 0.048
+name ser.c type c2 charge 0.616
+name ser.o type o2 charge -0.504
+name ser.cb type c3 charge 0.018
+name ser.1hb type h charge 0.119
+name ser.2hb type h charge 0.119
+name ser.og type o3 charge -0.550
+name ser.hg type hd charge 0.310
+10
+ser.n ser.h 1
+ser.n ser.ca 1
+ser.ca ser.c 1
+ser.ca ser.cb 1
+ser.ca ser.ha 1
+ser.c ser.o 1.75
+ser.cb ser.og 1
+ser.cb ser.1hb 1
+ser.cb ser.2hb 1
+ser.og ser.hg 1
+0
+2
+ser.n ser.cb ser.c ser.ca  4 .494427
+ser.n ser.cb ser.c ser.ha  4  1.606971
+0

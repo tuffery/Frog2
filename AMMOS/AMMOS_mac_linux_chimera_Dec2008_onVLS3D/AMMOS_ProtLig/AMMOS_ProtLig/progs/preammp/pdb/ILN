@@ -1,0 +1,50 @@
+21
+name iln.n type np charge -0.463
+name iln.h1 type h charge 0.252
+name iln.h2 type h charge 0.252
+name iln.h3 type h charge 0.252
+name iln.ca type c3 charge 0.035
+name iln.ha type h charge 0.048
+name iln.c type c2 charge 0.616
+name iln.o type o2 charge -0.504
+name iln.cb type c3 charge -0.012
+name iln.hb type h charge 0.022
+name iln.cg1 type c3 charge -0.049
+name iln.hg12 type h charge 0.027
+name iln.hg13 type h charge 0.027
+name iln.cg2 type c3 charge -0.085
+name iln.hg21 type h charge 0.029
+name iln.hg22 type h charge 0.029
+name iln.hg23 type h charge 0.029
+name iln.cd1 type c3 charge -0.085
+name iln.hd11 type h charge 0.028
+name iln.hd12 type h charge 0.028
+name iln.hd13 type h charge 0.028
+20
+iln.n iln.h1 1
+iln.n iln.h2 1
+iln.n iln.h3 1
+iln.n iln.ca 1
+iln.ca iln.c 1
+iln.ca iln.cb 1
+iln.ca iln.ha 1
+iln.c iln.o 1.75
+iln.cb iln.cg1 1
+iln.cb iln.cg2 1
+iln.cb iln.hb 1
+iln.cg1 iln.cd1 1
+iln.cg1 iln.hg12 1
+iln.cg1 iln.hg13 1
+iln.cg2 iln.hg21 1
+iln.cg2 iln.hg22 1
+iln.cg2 iln.hg23 1
+iln.cd1 iln.hd11 1
+iln.cd1 iln.hd12 1
+iln.cd1 iln.hd13 1
+0
+4
+iln.n iln.cb iln.c iln.ca  4 .494427
+iln.n iln.cb iln.c iln.ha  4  1.606971
+iln.ca iln.cg2 iln.cg1 iln.cb 4 .503417 
+iln.ca iln.cg2 iln.cg1 iln.hb 4 1.616029 
+0

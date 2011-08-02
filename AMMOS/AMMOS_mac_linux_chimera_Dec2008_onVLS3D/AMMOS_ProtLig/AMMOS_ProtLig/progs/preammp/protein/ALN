@@ -1,0 +1,30 @@
+12
+name aln.n type np charge -0.463
+name aln.hn1 type hd charge 0.252
+name aln.hn2 type hd charge 0.252
+name aln.hn3 type hd charge 0.252
+name aln.ca type c3 charge 0.035
+name aln.ha type h charge 0.048
+name aln.c type c2 charge 0.616
+name aln.o type o2 charge -0.504
+name aln.cb type c3 charge -0.092
+name aln.hb1 type h charge 0.036
+name aln.hb2 type h charge 0.036
+name aln.hb3 type h charge 0.036
+11
+aln.n aln.hn1 1
+aln.n aln.hn2 1
+aln.n aln.hn3 1
+aln.n aln.ca 1
+aln.ca aln.c 1
+aln.ca aln.cb 1
+aln.ca aln.ha 1
+aln.c aln.o 1.75
+aln.cb aln.hb1 1
+aln.cb aln.hb2 1
+aln.cb aln.hb3 1
+0
+2
+aln.n aln.cb aln.c aln.ca  4 .494427
+aln.n aln.cb aln.c aln.ha  4  1.606971
+0

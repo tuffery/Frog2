@@ -1,0 +1,92 @@
+40 24 21 -4 -2 1
+name t10.c1 type CA  charge -.153
+name t10.c2 type CA  charge -.153
+name t10.c3 type CA  charge -.153
+name t10.c4 type CA  charge -.153
+name t10.c5 type CA  charge -.153
+name t10.c6 type CA  charge -.153
+name t10.c11 type c3
+name t10.h111 type h
+name t10.h112 type h
+name t10.n12 type n3
+name t10.h121 type h
+name t10.h122 type h
+name t10.h123 type h
+name t10.h2  type H  charge .153
+name t10.h3  type H  charge .153
+name t10.c41 type c3
+name t10.h411 type h
+name t10.h412 type h
+name t10.n42 type n3
+name t10.h421 type h
+name t10.h422 type h
+name t10.h5  type H  charge .153
+name t10.h6  type H  charge .153
+name t10.1c1 type CA  charge -.153
+name t10.1c2 type CA  charge -.153
+name t10.1c3 type CA  charge -.153
+name t10.1c4 type CA  charge -.153
+name t10.1c5 type CA  charge -.153
+name t10.1c6 type CA  charge -.153
+name t10.1cp  type c3 charge -.306
+name t10.1hp1 type h
+name t10.1hp2 type h
+name t10.1cq  type c3 charge -.306
+name t10.1hq1 type h
+name t10.1hq2 type h
+name t10.1h1  type H  charge .153
+name t10.1h2  type H  charge .153
+name t10.1h3  type H 
+name t10.1h5  type H 
+name t10.1h6  type H  charge .153
+41 24 21  -3 -1 1
+t10.c1 t10.c2 1.5
+t10.c2 t10.c3 1.5
+t10.c3 t10.c4 1.5
+t10.c4 t10.c5 1.5
+t10.c5 t10.c6 1.5
+t10.c6 t10.c1 1.5
+t10.c1 t10.c11 1
+t10.c11 t10.h111 1
+t10.c11 t10.h112 1
+t10.c11 t10.n12 1
+t10.n12 t10.h121 1
+t10.n12 t10.h122 1
+t10.n12 t10.h123 1
+t10.c2 t10.h2 1
+t10.c3 t10.h3 1
+t10.c4 t10.c41 1
+t10.c41 t10.h411 1
+t10.c41 t10.h412 1
+t10.c41 t10.n42 1
+t10.n42 t10.h421 1
+t10.n42 t10.h422 1
+t10.c5 t10.h5 1
+t10.c6 t10.h6 1
+t10.1c1 t10.1c2 1.5
+t10.1c2 t10.1c3 1.5
+t10.1c3 t10.1c4 1.5
+t10.1c4 t10.1c5 1.5
+t10.1c5 t10.1c6 1.5
+t10.1c6 t10.1c1 1.5
+t10.1c1 t10.1h1 1
+t10.1c2 t10.1h2 1
+t10.1c3 t10.1h3 1
+t10.1c4 t10.1cp 1
+t10.1c5 t10.1h5 1
+t10.1c6 t10.1h6 1
+t10.1cp t10.1cq 1
+t10.1cp t10.1hp1 1
+t10.1cp t10.1hp2 1
+t10.1cq t10.1hq1 1
+t10.1cq t10.1hq2 1
+t10.1cq t10.n42 1
+0
+0
+0
+0
+0
+
+
+t10  
+N (phenyl ethyl) diamino P metaxylene

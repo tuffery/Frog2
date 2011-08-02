@@ -1,0 +1,50 @@
+22
+name  pn3.c1 type c3
+name pn3.h11 type h
+name pn3.h12 type h
+name  pn3.c2 type c3
+name pn3.h21 type h
+name pn3.h22 type h
+name  pn3.c3 type c3
+name pn3.h31 type h
+name pn3.h32 type h
+name pn3.n type n3
+name pn3.op1 type o2 
+name pn3.op2 type o2
+name pn3.op3 type o2
+name pn3.p1 type  p35 
+name pn3.o2p1 type o2 
+name pn3.o2p2 type o2
+name pn3.o2p3 type o2
+name pn3.p2 type  p35 
+name pn3.o3p1 type o2 
+name pn3.o3p2 type o2
+name pn3.o3p3 type o2
+name pn3.p3 type  p35 
+21
+pn3.p1 pn3.op1 1
+pn3.p1 pn3.op2 1
+pn3.p1 pn3.op3 1
+pn3.p1 pn3.c1 1
+pn3.p2 pn3.o2p1 1
+pn3.p2 pn3.o2p2 1
+pn3.p2 pn3.o2p3 1
+pn3.p2 pn3.c2 1
+pn3.p3 pn3.o3p1 1
+pn3.p3 pn3.o3p2 1
+pn3.p3 pn3.o3p3 1
+pn3.p3 pn3.c3 1
+pn3.c1 pn3.h11 1
+pn3.c1 pn3.h12 1
+pn3.c2 pn3.h21 1
+pn3.c2 pn3.h22 1
+pn3.c3 pn3.h31 1
+pn3.c3 pn3.h32 1
+pn3.n pn3.c1 1
+pn3.n pn3.c2 1
+pn3.n pn3.c3 1
+0
+0
+0
+0
+0

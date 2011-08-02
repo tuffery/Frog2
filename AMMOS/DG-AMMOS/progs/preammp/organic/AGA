@@ -1,0 +1,36 @@
+15
+name aga.c1 type c3
+name aga.h11 type h
+name aga.h12 type h
+name aga.h13 type h
+name aga.c2 type c2
+name aga.o2 type o2
+name aga.n3 type n3
+name aga.hn3 type h
+name aga.c4 type c2
+name aga.n41 type n3
+name aga.n42 type n3
+name aga.h411 type h
+name aga.h412 type h
+name aga.h421 type h
+name aga.h422 type h
+14
+aga.c1 aga.h11 1
+aga.c1 aga.h12 1
+aga.c1 aga.h13 1
+aga.c1 aga.c2 1 
+aga.c2 aga.o2 2
+aga.c2 aga.n3 1
+aga.n3 aga.hn3 1
+aga.n3 aga.c4 1 
+aga.c4 aga.n41 1
+aga.c4 aga.n42 1
+aga.n41 aga.h411 1
+aga.n41 aga.h412 1
+aga.n42 aga.h421 1
+aga.n42 aga.h422 1
+0 
+0
+0
+0
+1-actyl guanidine + 1

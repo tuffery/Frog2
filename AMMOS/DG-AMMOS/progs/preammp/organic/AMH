@@ -1,0 +1,56 @@
+24
+name amh.c1 type C3  charge -.376
+name amh.c2 type C3  charge -.306
+name amh.c3 type C3  charge -.306
+name amh.c4 type C3  charge -.306
+name amh.c5 type C3  charge -.376
+name amh.c6 type C2  charge -.466
+name amh.h11 type H 
+name amh.h12 type H 
+name amh.h21 type H 
+name amh.h22 type H 
+name amh.h31 type H 
+name amh.h32 type H 
+name amh.h41 type H 
+name amh.h42 type H 
+name amh.h51 type H 
+name amh.h52 type H 
+name amh.h6 type h
+name amh.c7 type c3
+name amh.h71 type h
+name amh.h72 type h
+name amh.n6 type  n3  charge .3
+name amh.hn61 type h
+name amh.hn62 type h
+name amh.hn63 type h
+24
+amh.c1 amh.c2 1
+amh.c2 amh.c3 1
+amh.c3 amh.c4 1
+amh.c4 amh.c5 1
+amh.c5 amh.c6 1.
+amh.c6 amh.c1 1.
+amh.c1 amh.h11 1
+amh.c1 amh.h12 1
+amh.c2 amh.h21 1
+amh.c2 amh.h22 1
+amh.c3 amh.h31 1
+amh.c3 amh.h32 1
+amh.c4 amh.h41 1
+amh.c4 amh.h42 1
+amh.c5 amh.h51 1
+amh.c5 amh.h52 1
+amh.c6 amh.h6    1
+amh.c6 amh.c7 1
+amh.c7 amh.h71 1
+amh.c7 amh.h72 1
+amh.c7 amh.n6    1
+amh.n6 amh.hn61 1
+amh.n6 amh.hn62 1
+amh.n6 amh.hn63 1
+0
+0
+0
+0
+0
+aminomethyl cyclohexane +1

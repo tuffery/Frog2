@@ -1,0 +1,120 @@
+54 28 + 26
+name dim.o1 type o2
+name dim.o2 type o2
+name dim.o3 type o3
+name dim.o4 type o3
+name dim.n2 type np
+name dim.n3 type np
+name dim.n1 type n3
+name dim.c1 type ca
+name dim.c2 type ca
+name dim.c3 type ca
+name dim.c4 type ca
+name dim.c5 type ca
+name dim.c6 type ca
+name dim.c7 type c2
+name dim.c8 type ca
+name dim.c9 type ca
+name dim.c10 type ca
+name dim.c11 type ca
+name dim.c12 type ca
+name dim.c13 type ca
+name dim.c14 type c2
+name dim.c15 type c3
+name dim.c16 type c3
+name dim.c17 type c3
+name dim.c18 type c3
+name dim.c19 type c3
+name dim.c20 type c3
+name dim.c21 type c3
+name dim.c22 type c3
+name dim.hn1 type h
+name dim.hc3 type h
+name dim.hc4 type h
+name dim.hc5 type h
+name dim.hc6 type h
+name dim.hc10 type h
+name dim.hc11 type h
+name dim.hc12 type h
+name dim.hc13 type h
+name dim.h15a type h
+name dim.h15b type h
+name dim.h16a type h
+name dim.h16b type h
+name dim.h17a type h
+name dim.h17b type h
+name dim.h18a type h
+name dim.h18b type h
+name dim.h19a type h
+name dim.h19b type h
+name dim.h20a type h
+name dim.h20b type h
+name dim.h21a type h
+name dim.h21b type h
+name dim.h22a type h
+name dim.h22b type h
+57 29 + 28
+dim.o1 dim.c7  1.5
+dim.o2 dim.c14 1.5
+dim.c7 dim.c1 1
+dim.c1 dim.c2 1.5
+dim.c2 dim.c3 1.5
+dim.c3 dim.c4 1.5
+dim.c4 dim.c5 1.5
+dim.c5 dim.c6 1.5
+dim.c6 dim.c1 1.5
+dim.c2 dim.n1 1
+dim.c3 dim.hc3 1
+dim.c4 dim.hc4 1
+dim.c5 dim.hc5 1
+dim.c6 dim.hc6 1
+dim.n1 dim.c9 1
+dim.c9 dim.c8 1.5
+dim.c9 dim.c10 1.5
+dim.c10 dim.c11 1.5
+dim.c11 dim.c12 1.5
+dim.c12 dim.c13 1.5
+dim.c13 dim.c8 1.5
+dim.c8 dim.c14 1
+dim.c7 dim.n2 1.5
+dim.c14 dim.n3 1.5
+dim.c10 dim.hc10 1
+dim.c11 dim.hc11 1
+dim.c12 dim.hc12 1
+dim.c13 dim.hc13 1
+dim.n1  dim.hn1 1
+dim.n2 dim.c15 1
+dim.c15 dim.h15a 1
+dim.c15 dim.h15b 1
+dim.c15 dim.c16 1
+dim.c16 dim.h16a 1
+dim.c16 dim.h16b 1
+dim.c16 dim.o3 1
+dim.o3 dim.c17 1
+dim.c17 dim.h17a 1
+dim.c17 dim.h17b 1
+dim.c17 dim.c18 1
+dim.c18 dim.h18a 1
+dim.c18 dim.h18b 1
+dim.c18 dim.n2 1
+dim.n3 dim.c19 1
+dim.c19 dim.h19a 1
+dim.c19 dim.h19b 1
+dim.c19 dim.c20 1
+dim.c20 dim.h20a 1
+dim.c20 dim.h20b 1
+dim.c20 dim.o4 1
+dim.o4 dim.c21 1
+dim.c21 dim.h21a 1
+dim.c21 dim.h21b 1
+dim.c21 dim.c22 1
+dim.c22 dim.h22a 1
+dim.c22 dim.h22b 1
+dim.c22 dim.n3 1
+0
+0
+0
+
+
+2,2' diimino benzoic acid
+morpholino derivative

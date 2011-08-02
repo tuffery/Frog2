@@ -1,0 +1,79 @@
+33 
+name cmp.p   type p35 charge  1.385
+name cmp.o6  type o2 charge -.847
+name cmp.o7  type o2 charge  -.847
+name cmp.o5p  type o3 charge -.404
+name cmp.c5p  type c3 charge  .180
+name cmp.h51p  type h charge .008
+name cmp.h52p  type h charge .008
+name cmp.c4p  type c3  charge .100 
+name cmp.h4p  type h  charge .061
+name cmp.o4p type o3 charge -.343 
+name cmp.c1p type c3  charge  .117
+name cmp.h1p type h  charge  .054 
+name cmp.n9    type nr charge -.073 
+name cmp.c8   type c2 charge  .263
+name cmp.h8    type h charge .062
+name cmp.n7  type nb charge  -.543
+name cmp.c5    type c2 charge  -.097
+name cmp.c6   type c2 charge .769
+name cmp.n6    type n3 charge  -.768
+name cmp.h61  type hd charge  .324
+name cmp.h62  type hd charge .335
+name cmp.n1    type nr charge  -.774
+name cmp.c2    type c2 charge .661 
+name cmp.h2    type h charge -.032 
+name cmp.n3    type nr charge  -.728
+name cmp.c4    type c2 charge .546
+name cmp.c2p type c3 charge  .101
+name cmp.h2p type h charge  .008
+name cmp.o2p type o3 charge -.546 
+name cmp.ho2p type h charge   .324
+name cmp.c3p type c3 charge .303 
+name cmp.h3p type h charge .007 
+name cmp.o3p type o3 charge -.508 
+36
+cmp.p cmp.o5p 1
+cmp.p cmp.o6 1
+cmp.p cmp.o7 1
+cmp.p cmp.o3p 1
+cmp.o5p cmp.c5p 1
+cmp.h51p cmp.c5p 1
+cmp.h52p cmp.c5p 1
+cmp.c4p cmp.c5p 1
+cmp.c4p cmp.o4p 1
+cmp.c4p cmp.h4p 1
+cmp.c1p cmp.o4p 1
+cmp.c1p cmp.n9 1
+cmp.n9 cmp.c8 1.
+cmp.c8 cmp.n7 1.
+cmp.c8 cmp.h8 1
+cmp.n7 cmp.c5 1.
+cmp.c5 cmp.c4 1.5
+cmp.c5 cmp.c6 1.5
+cmp.c6 cmp.n6 1.
+cmp.n6 cmp.h61 1.
+cmp.n6 cmp.h62 1.
+cmp.c6 cmp.n1 1.5
+cmp.n1 cmp.c2 1.5
+cmp.c2 cmp.h2 1.
+cmp.c2 cmp.n3 1.5
+cmp.n3 cmp.c4 1.5
+cmp.c4 cmp.n9 1.
+cmp.c1p cmp.h1p 1.
+cmp.c1p cmp.c2p 1.
+cmp.c2p cmp.h2p 1.
+cmp.c2p cmp.o2p 1.
+cmp.o2p cmp.ho2p 1.
+cmp.c2p cmp.c3p 1.
+cmp.c3p cmp.h3p 1.
+cmp.c3p cmp.o3p 1.
+cmp.c3p cmp.c4p 1.
+3
+cmp.c8 cmp.n9 cmp.c4 188.97166 103.4
+cmp.c1p cmp.n9 cmp.c8 132.520899 128.2
+cmp.c1p cmp.n9 cmp.c4 132.520899 128.2
+2
+cmp.c5 cmp.c6 cmp.c4 cmp.c2 6 0   
+cmp.c8 cmp.c5 cmp.c4 cmp.c2 6 0   
+0

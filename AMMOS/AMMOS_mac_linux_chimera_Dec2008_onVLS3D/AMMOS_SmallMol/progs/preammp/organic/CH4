@@ -1,0 +1,15 @@
+5
+name ch4.c type c3 
+name ch4.h1 type h
+name ch4.h2 type h
+name ch4.h3 type h
+name ch4.h4 type h
+4
+ch4.c ch4.h1 1
+ch4.c ch4.h2 1
+ch4.c ch4.h3 1
+ch4.c ch4.h4 1
+0 
+0 
+0 
+methane

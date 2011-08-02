@@ -1,0 +1,41 @@
+17
+name hxn.c1 type C3  charge -.376
+name hxn.c2 type C3  charge -.306
+name hxn.c3 type C3  charge -.306
+name hxn.c4 type C3  charge -.306
+name hxn.c5 type C3  charge -.376
+name hxn.c6 type C2  charge -.466
+name hxn.h11 type H 
+name hxn.h12 type H 
+name hxn.h21 type H 
+name hxn.h22 type H 
+name hxn.h31 type H 
+name hxn.h32 type H 
+name hxn.h41 type H 
+name hxn.h42 type H 
+name hxn.h51 type H 
+name hxn.h52 type H 
+name hxn.o6 type  O2  charge .3
+17
+hxn.c1 hxn.c2 1
+hxn.c2 hxn.c3 1
+hxn.c3 hxn.c4 1
+hxn.c4 hxn.c5 1
+hxn.c5 hxn.c6 1.
+hxn.c6 hxn.c1 1.
+hxn.c1 hxn.h11 1
+hxn.c1 hxn.h12 1
+hxn.c2 hxn.h21 1
+hxn.c2 hxn.h22 1
+hxn.c3 hxn.h31 1
+hxn.c3 hxn.h32 1
+hxn.c4 hxn.h41 1
+hxn.c4 hxn.h42 1
+hxn.c5 hxn.h51 1
+hxn.c5 hxn.h52 1
+hxn.c6 hxn.o6    2
+0
+0
+0
+0
+0

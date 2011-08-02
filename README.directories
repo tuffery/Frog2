@@ -1,0 +1,8 @@
+Frog2 repository is organized as follows:
+
+AMMOS/        : a Frog specific implementation of AMMOS and DG-AMMOS
+bin/          : binaries (for babel)
+frowns/       : a slightly modified version of frowns
+iMolecule /   : Frog2 core library (contains the Config.py file)
+librairieNEW/ : the ring library
+tests/        : some tests to exemplify Frog2 use

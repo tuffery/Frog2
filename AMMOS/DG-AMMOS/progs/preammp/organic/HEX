@@ -1,0 +1,43 @@
+18
+name hex.c1 type C3  charge -.306
+name hex.c2 type C3  charge -.306
+name hex.c3 type C3  charge -.306
+name hex.c4 type C3  charge -.306
+name hex.c5 type C3  charge -.306
+name hex.c6 type C3  charge -.306
+name hex.h11 type H 
+name hex.h12 type H 
+name hex.h21 type H 
+name hex.h22 type H 
+name hex.h31 type H 
+name hex.h32 type H 
+name hex.h41 type H 
+name hex.h42 type H 
+name hex.h51 type H 
+name hex.h52 type H 
+name hex.h61 type H 
+name hex.h62 type H 
+18
+hex.c1 hex.c2 1
+hex.c2 hex.c3 1
+hex.c3 hex.c4 1
+hex.c4 hex.c5 1
+hex.c5 hex.c6 1
+hex.c6 hex.c1 1
+hex.c1 hex.h11 1
+hex.c1 hex.h12 1
+hex.c2 hex.h21 1
+hex.c2 hex.h22 1
+hex.c3 hex.h31 1
+hex.c3 hex.h32 1
+hex.c4 hex.h41 1
+hex.c4 hex.h42 1
+hex.c5 hex.h51 1
+hex.c5 hex.h52 1
+hex.c6 hex.h61 1
+hex.c6 hex.h62 1
+0
+0
+0
+0
+0

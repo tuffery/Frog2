@@ -1,0 +1,27 @@
+10
+name cbt.c1 type C2  charge -.306
+name cbt.c2 type C2  charge -.306
+name cbt.c3 type C3  charge -.306
+name cbt.c4 type C3  charge -.306
+name cbt.h1 type H 
+name cbt.h2 type H 
+name cbt.h31 type H 
+name cbt.h32 type H 
+name cbt.h41 type H 
+name cbt.h42 type H 
+10
+cbt.c1 cbt.c2 2
+cbt.c2 cbt.c3 1
+cbt.c3 cbt.c4 1
+cbt.c4 cbt.c1 1
+cbt.c1 cbt.h1  1
+cbt.c2 cbt.h2  1
+cbt.c3 cbt.h31 1
+cbt.c3 cbt.h32 1
+cbt.c4 cbt.h41 1
+cbt.c4 cbt.h42 1
+0
+0
+0
+0
+0

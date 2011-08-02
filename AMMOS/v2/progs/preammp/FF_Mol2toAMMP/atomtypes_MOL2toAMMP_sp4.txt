@@ -1,0 +1,38 @@
+		MOL2				AMMP
+		
+============================================================
+		H				h	
+		C.3				c3
+		C.2				c2
+		C.1				c1
+		C.ar				ca
+		C.cat				c2
+		N.4				n3
+		N.3				n3
+		N.2				n2
+		N.pl3				np	(beshe n2)
+		N.am				nm
+		N.ar				nr
+		N.1				n1
+		O.3				o3
+		0.2				o2
+		O.co2				o2
+		S.3				s32
+		S.2				s2
+		S.o2				s34
+		S.o				s34
+		? S.o3				s36	(ne e jasno kak idva ot mol2)
+		P.3				p35
+		F				f
+		Br				br
+		Cl				cl
+		I				i
+		K				k
+		Na				na
+		Mg				mg
+		Ca				calcium
+		Zn				zn
+		Fe				fe2
+
+		
+		

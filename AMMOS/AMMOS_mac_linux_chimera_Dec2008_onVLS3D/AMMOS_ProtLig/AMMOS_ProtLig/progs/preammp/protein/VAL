@@ -1,0 +1,39 @@
+16
+name val.n type np charge -0.463
+name val.hn type hd charge 0.252
+name val.ca type c3 charge 0.035
+name val.ha type h charge 0.048
+name val.c type c2 charge 0.616
+name val.o type o2 charge -0.504
+name val.cb type c3 charge -0.012
+name val.hb type h charge 0.024
+name val.cg1 type c3 charge -0.091
+name val.cg2 type c3 charge -0.091
+name val.hg11 type h charge 0.031
+name val.hg12 type h charge 0.031
+name val.hg13 type h charge 0.031
+name val.hg21 type h charge 0.031
+name val.hg22 type h charge 0.031
+name val.hg23 type h charge 0.031
+15
+val.n val.hn 1
+val.n val.ca 1
+val.ca val.c 1
+val.ca val.cb 1
+val.ca val.ha 1
+val.c val.o 1.75
+val.cb val.cg1 1
+val.cb val.cg2 1
+val.cb val.hb 1
+val.cg1 val.hg11 1
+val.cg1 val.hg12 1
+val.cg1 val.hg13 1
+val.cg2 val.hg21 1
+val.cg2 val.hg22 1
+val.cg2 val.hg23 1
+0
+2
+val.n val.cb val.c val.ca  4 .494427
+val.n val.cb val.c val.ha  4  1.606971
+0
+

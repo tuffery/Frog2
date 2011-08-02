@@ -1,0 +1,17 @@
+disambiguation         :  True,  nb max conformations   :    20,  per isomer             : False
+energetic treshold     :   100,  bad energy threshold   :   300,  stage 2 Monte Carlo    : False
+minimize               : False
+
+Id 1: mol1
+   128 isomer(s) found (see the smiles file)
+   [WARNING] number of isomers considered restrainted to 8 (random selection is performed):
+      CC[C@@H](C)[C@H](C(=O)N[C@@H](C(C)C)C(N)=O)NC([C@@H]1CCCN1C[C@H](O)[C@@H]1Cc2ccc(cc2)OCCCC(=O)N[C@@H](CC(N)=O)C(=O)N1)=O
+      CC[C@@H](C)[C@@H](C(=O)N[C@H](C(C)C)C(N)=O)NC([C@H]1CCCN1C[C@H](O)[C@H]1Cc2ccc(cc2)OCCCC(=O)N[C@@H](CC(N)=O)C(=O)N1)=O
+      CC[C@@H](C)[C@H](C(=O)N[C@H](C(C)C)C(N)=O)NC([C@H]1CCCN1C[C@@H](O)[C@@H]1Cc2ccc(cc2)OCCCC(=O)N[C@@H](CC(N)=O)C(=O)N1)=O
+      CC[C@@H](C)[C@@H](C(=O)N[C@H](C(C)C)C(N)=O)NC([C@H]1CCCN1C[C@H](O)[C@@H]1Cc2ccc(cc2)OCCCC(=O)N[C@@H](CC(N)=O)C(=O)N1)=O
+      CC[C@@H](C)[C@@H](C(=O)N[C@H](C(C)C)C(N)=O)NC([C@@H]1CCCN1C[C@@H](O)[C@H]1Cc2ccc(cc2)OCCCC(=O)N[C@@H](CC(N)=O)C(=O)N1)=O
+      CC[C@H](C)[C@H](C(=O)N[C@H](C(C)C)C(N)=O)NC([C@H]1CCCN1C[C@@H](O)[C@H]1Cc2ccc(cc2)OCCCC(=O)N[C@H](CC(N)=O)C(=O)N1)=O
+      CC[C@@H](C)[C@@H](C(=O)N[C@H](C(C)C)C(N)=O)NC([C@@H]1CCCN1C[C@H](O)[C@@H]1Cc2ccc(cc2)OCCCC(=O)N[C@H](CC(N)=O)C(=O)N1)=O
+      CC[C@H](C)[C@@H](C(=O)N[C@@H](C(C)C)C(N)=O)NC([C@@H]1CCCN1C[C@H](O)[C@H]1Cc2ccc(cc2)OCCCC(=O)N[C@H](CC(N)=O)C(=O)N1)=O
+   160 conformation(s) calculated. For some isomer(s) 0 have bad energies.
+

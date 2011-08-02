@@ -1,0 +1,15 @@
+ACN:name acn.s type s36
+DMS:name dms.s type s36
+EBS:name ebs.s type s36
+HSM:name css.sg type s32 charge 0.015
+MBS:name mbs.s type s36
+MES:name meo.s type s36 charge -.183484
+MPS:name mps.s type s36
+ONE:name one.s8 type s34
+ONE_maria.tmpl:name one.s8 type s34
+ONE_orig:name one.s8 type s34
+ONE_orig.TXT:name one.s8 type s34
+SO4:name so4.s type s36
+SUL:name sul.s type s36 charge .141068
+ZNS:name zns.sg type s32 charge 0.015
+ZNS:name zns.sg1 type s32 charge 0.015

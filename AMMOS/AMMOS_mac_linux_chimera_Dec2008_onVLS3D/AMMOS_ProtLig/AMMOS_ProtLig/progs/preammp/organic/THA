@@ -1,0 +1,36 @@
+15
+name tha.hn1 type h charge +0.217
+name tha.n1 type nr charge -0.217
+name tha.c2 type c2 charge 0.849
+name tha.o2 type o2 charge -0.488
+name tha.n3 type nr charge -0.851
+name tha.h3 type hd charge 0.355
+name tha.c4 type c2 charge 0.809
+name tha.o4 type o1 charge -0.464
+name tha.c5 type c2 charge -0.176
+name tha.c5a type c3 charge -0.382
+name tha.h51 type h charge 0.114
+name tha.h52 type h charge 0.114
+name tha.h53 type h charge 0.114
+name tha.c6 type c2 charge 0.034
+name tha.h6 type h charge 0.134
+15 
+tha.hn1 tha.n1 1
+tha.n1 tha.c2 1
+tha.n1 tha.c6 1
+tha.c2 tha.n3 1.5
+tha.c2 tha.o2 1.5
+tha.n3 tha.c4 1.5
+tha.n3 tha.h3 1
+tha.c4 tha.o4 1.5
+tha.c4 tha.c5 1.5
+tha.c5 tha.c5a 1
+tha.c5a tha.h51 1
+tha.c5a tha.h52 1
+tha.c5a tha.h53 1
+tha.c5 tha.c6 1.5
+tha.c6 tha.h6 1
+0
+0
+0
+

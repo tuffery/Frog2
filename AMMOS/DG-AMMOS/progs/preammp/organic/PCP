@@ -1,0 +1,32 @@
+13
+name pcp.op1 type o2 
+name pcp.op2 type o2
+name pcp.op3 type o2
+name pcp.p1 type  p35 
+name pcp.c2 type  c3 
+name pcp.h21 type h
+name pcp.h22 type h
+name pcp.c3 type  c3 
+name pcp.h31 type h
+name pcp.h32 type h
+name pcp.c4 type  c2 
+name pcp.o1 type  O2 
+name pcp.o2 type  O2 
+12
+pcp.p1 pcp.op1 1
+pcp.p1 pcp.op2 1
+pcp.p1 pcp.op3 1
+pcp.p1 pcp.c2 1
+pcp.c2 pcp.c3 1
+pcp.c2 pcp.h21
+pcp.c2 pcp.h22
+pcp.c3 pcp.c4 1
+pcp.c3 pcp.h31
+pcp.c3 pcp.h32
+pcp.c4 pcp.o1 1.5
+pcp.c4 pcp.o2 1.5
+0
+0
+0
+0
+0

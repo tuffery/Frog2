@@ -1,0 +1,50 @@
+22
+name lys.n type np charge -0.463
+name lys.hn type hd charge 0.252
+name lys.ca type c3 charge 0.035
+name lys.ha type h charge 0.048
+name lys.c type c2 charge 0.616
+name lys.o type o2 charge -0.504
+name lys.cb type c3 charge -0.098
+name lys.hb1 type h charge 0.038
+name lys.hb2 type h charge 0.038
+name lys.cg type c3 charge -0.160
+name lys.hg1 type h charge 0.116
+name lys.hg2 type h charge 0.116
+name lys.cd type c3 charge -0.180
+name lys.hd1 type h charge 0.122
+name lys.hd2 type h charge 0.122
+name lys.ce type c3 charge -0.038
+name lys.he1 type h charge 0.098
+name lys.he2 type h charge 0.098
+name lys.nz type n3 charge -0.138
+name lys.hz1 type hd charge 0.294
+name lys.hz2 type hd charge 0.294
+name lys.hz3 type hd charge 0.294
+21
+lys.n lys.hn 1
+lys.n lys.ca 1
+lys.ca lys.c 1
+lys.ca lys.cb 1
+lys.ca lys.ha 1
+lys.c lys.o 1.75
+lys.cb lys.cg 1
+lys.cb lys.hb1 1
+lys.cb lys.hb2 1
+lys.cg lys.cd 1
+lys.cg lys.hg1 1
+lys.cg lys.hg2 1
+lys.cd lys.ce 1
+lys.cd lys.hd1 1
+lys.cd lys.hd2 1
+lys.ce lys.nz 1
+lys.ce lys.he1 1
+lys.ce lys.he2 1
+lys.nz lys.hz1 1
+lys.nz lys.hz2 1
+lys.nz lys.hz3 1
+0
+2
+lys.n lys.cb lys.c lys.ca  4 .494427
+lys.n lys.cb lys.c lys.ha  4  1.606971
+0

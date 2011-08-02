@@ -1,0 +1,113 @@
+52
+name r23.c1 type ca
+name r23.c2 type ca
+name r23.c3 type ca
+name r23.c4 type ca
+name r23.c5 type ca
+name r23.c6 type ca
+name r23.c7 type c3
+name r23.c8 type c3
+name r23.c9 type c3
+name r23.c10 type c3
+name r23.c13 type ca
+name r23.c14 type ca
+name r23.c15 type ca
+name r23.c16 type ca
+name r23.c17 type ca
+name r23.c18 type ca
+name r23.c21 type ca
+name r23.c22 type ca
+name r23.o1 type o3
+name r23.o2 type o3
+name r23.n1 type np
+name r23.n2 type np
+name r23.n3 type np
+name r23.n4 type np
+name r23.n5 type n3
+name r23.n6 type n3
+name r23.h2 type h
+name r23.h3 type h
+name r23.h5 type h
+name r23.h6 type h
+name r23.1h7 type h
+name r23.1h10 type h
+name r23.2h7 type h
+name r23.2h10 type h
+name r23.h8 type h
+name r23.h9 type h
+name r23.ho1 type hd
+name r23.ho2 type hd
+name r23.h14 type h
+name r23.h15 type h
+name r23.h17 type h
+name r23.h18 type h
+name r23.1hn1 type hd
+name r23.2hn1 type hd
+name r23.1hn2 type hd
+name r23.2hn2 type hd
+name r23.1hn3 type hd
+name r23.2hn3 type hd
+name r23.1hn4 type hd
+name r23.2hn4 type hd
+name r23.hn5 type hd
+name r23.hn6 type hd
+53
+r23.c1 r23.c21 1
+r23.c1 r23.c2 1.5
+r23.c2 r23.h2 1
+r23.c2 r23.c3 1.5
+r23.c3 r23.h3 1
+r23.c3 r23.c4 1.5
+r23.c4 r23.n5 1
+r23.c4 r23.c5 1.5
+r23.c5 r23.h5 1
+r23.c5 r23.c6 1.5
+r23.c6 r23.h6 1
+r23.c6 r23.c1 1.5
+r23.n5 r23.c7 1
+r23.c7 r23.1h7 1
+r23.c7 r23.2h7 1
+r23.c7 r23.c8 1
+r23.c8 r23.c9 1
+r23.c9 r23.c10 1
+r23.c10 r23.n6 1
+r23.c8 r23.h8 1
+r23.c8 r23.o1 1
+r23.o1 r23.ho1 1
+r23.c9 r23.h9 1
+r23.c9 r23.o2 1
+r23.o2 r23.ho2 1
+r23.c10 r23.1h10 1
+r23.c10 r23.2h10 1
+r23.n6 r23.hn6 1
+r23.n5 r23.hn5 1
+r23.n6 r23.c13 1
+r23.c13 r23.c14 1.5
+r23.c13 r23.c18 1.5
+r23.c14 r23.h14 1
+r23.c14 r23.c15 1.5
+r23.c15 r23.h15 1
+r23.c15 r23.c16 1.5
+r23.c16 r23.c22 1
+r23.c16 r23.c17 1.5
+r23.c17 r23.h17 1
+r23.c17 r23.c18 1.5
+r23.c18 r23.h18 1
+r23.c21 r23.n1 1.5
+r23.c21 r23.n2 1.5
+r23.c22 r23.n3 1.5
+r23.c22 r23.n4 1.5
+r23.n1 r23.1hn1 1
+r23.n1 r23.2hn1 1
+r23.n2 r23.1hn2 1
+r23.n2 r23.2hn2 1
+r23.n3 r23.1hn3 1
+r23.n3 r23.2hn3 1
+r23.n4 r23.1hn4 1
+r23.n4 r23.2hn4 1
+0
+0
+0
+0
+
+RWH23

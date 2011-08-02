@@ -1,0 +1,48 @@
+20
+name phe.n type np charge -0.463
+name phe.h type hd charge 0.252
+name phe.ca type c3 charge 0.035
+name phe.ha type h charge 0.048
+name phe.c type c2 charge 0.616
+name phe.o type o2 charge -0.504
+name phe.cb type c3 charge -0.100
+name phe.hb2 type h charge 0.108
+name phe.hb3 type h charge 0.108
+name phe.cg type ca charge -0.100
+name phe.cd1 type ca charge -0.150
+name phe.cd2 type ca charge -0.150
+name phe.ce1 type ca charge -0.150
+name phe.ce2 type ca charge -0.150
+name phe.cz type ca charge -0.150
+name phe.hd1 type h charge 0.150
+name phe.hd2 type h charge 0.150
+name phe.he1 type h charge 0.150
+name phe.he2 type h charge 0.150
+name phe.hz type h charge 0.150
+20
+phe.n phe.h 1
+phe.n phe.ca 1
+phe.ca phe.c 1
+phe.ca phe.cb 1
+phe.ca phe.ha 1
+phe.c phe.o 1.75
+phe.cb phe.cg 1
+phe.cb phe.hb2 1
+phe.cb phe.hb3 1
+phe.cg phe.cd1 1.5
+phe.cg phe.cd2 1.5
+phe.cd1 phe.ce1 1.5
+phe.cd2 phe.ce2 1.5
+phe.ce1 phe.cz 1.5
+phe.ce2 phe.cz 1.5
+phe.cd1 phe.hd1 1
+phe.cd2 phe.hd2 1
+phe.ce1 phe.he1 1
+phe.ce2 phe.he2 1
+phe.cz phe.hz 1
+0
+2
+phe.n phe.cb phe.c phe.ca  4 .494427
+phe.n phe.cb phe.c phe.ha  4  1.606971
+0
+

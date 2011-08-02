@@ -1,0 +1,31 @@
+12
+name bnz.c1 type C2  charge -.153
+name bnz.c2 type C2  charge -.153
+name bnz.c3 type C2  charge -.153
+name bnz.c4 type C2  charge -.153
+name bnz.c5 type C2  charge -.153
+name bnz.c6 type C2  charge -.153
+name bnz.h1  type H  charge .153
+name bnz.h2  type H  charge .153
+name bnz.h3  type H  charge .153
+name bnz.h4  type H  charge .153
+name bnz.h5  type H  charge .153
+name bnz.h6  type H  charge .153
+12
+bnz.c1 bnz.c2  1.5
+bnz.c2 bnz.c3  1.5
+bnz.c3 bnz.c4  1.5
+bnz.c4 bnz.c5  1.5
+bnz.c5 bnz.c6  1.5
+bnz.c6 bnz.c1  1.5
+bnz.c1 bnz.h1 1
+bnz.c2 bnz.h2 1
+bnz.c3 bnz.h3 1
+bnz.c4 bnz.h4 1
+bnz.c5 bnz.h5 1
+bnz.c6 bnz.h6 1
+0
+0
+0
+0
+0

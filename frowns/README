@@ -1,0 +1,50 @@
+Installation notes.
+
+Most of frowns is written in python except for two components.
+
+1) vflib - extension for subgraph isomorphism.  Smarts
+   matching will not work without this.  A pure python 
+   version will be implemented at some point.
+
+2) pysssr - an extension which quickly finds the smallest
+   set of smallest rings.  Frowns will work quite happily
+   without this.
+
+3) Molecule depiction requires Numeric Python
+   http://numpy.sourceforge.net/
+
+QUICK INSTALL
+To install execute the following commands.  The two step 
+build and install process is required for installing the 
+correct SWIG generated python code.
+
+python setup.py build
+python setup.py install
+
+IF ABOVE FAILS
+==============
+pysssr requires a C++ compiler and is known to compile and work
+under windows and linux/macosx using gcc 3.0 or higher.
+
+vflib should compile out of the box on most platforms.  If it fails,
+go into the extensions/vflib directory and execute 
+ python setup_swig.py build install
+This requires swig version 1.3.0+  See http://www.swig.org/
+for information.
+
+If you see a message like
+======
+unable to execute swig: No such file or directory
+
+	**VFLIB extension did not build correctly.
+	   Make sure that SWIG version 1.3+ is in your path
+
+error: command 'swig' failed with exit status 1
+======
+
+Then the setup process cannot find swig.
+
+Share and enjoy!
+
+frowns is (C) 2003 Brian Kelley, Whitehead Institute for Biomedical
+Research

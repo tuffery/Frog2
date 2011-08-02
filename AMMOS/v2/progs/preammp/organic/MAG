@@ -1,0 +1,107 @@
+49 
+name mag.cp1 type c2
+name mag.cp2 type c2
+name mag.cp3 type c2
+name mag.cp4 type c2
+name mag.cp5 type c2
+name mag.cp6 type c2
+name mag.cr1 type c2
+name mag.cr2 type c2
+name mag.cr3 type c2
+name mag.cr4 type c2
+name mag.cr5 type c2
+name mag.cr6 type c2
+name mag.cs1 type c2
+name mag.cs2 type c2
+name mag.cs3 type c2
+name mag.cs4 type c2
+name mag.cs5 type c2
+name mag.cs6 type c2
+name mag.cc type c2
+name mag.c11 type c3
+name mag.c12 type c3
+name mag.c21 type c3
+name mag.c22 type c3
+name mag.n1 type n2
+name mag.n2 type n3
+name mag.hp2 type h
+name mag.hp3 type h
+name mag.hp5 type h
+name mag.hp6 type h
+name mag.hr2 type h
+name mag.hr3 type h
+name mag.hr5 type h
+name mag.hr6 type h
+name mag.hs2 type h
+name mag.hs3 type h
+name mag.hs5 type h
+name mag.hs6 type h
+name mag.h111 type h
+name mag.h112 type h
+name mag.h113 type h
+name mag.h121 type h
+name mag.h122 type h
+name mag.h123 type h
+name mag.h211 type h
+name mag.h212 type h
+name mag.h213 type h
+name mag.h221 type h
+name mag.h222 type h
+name mag.h223 type h
+51
+mag.cp1 mag.cc 2
+mag.cr1 mag.cc 1
+mag.cs1 mag.cc 1
+mag.cp1 mag.cp6 1 
+mag.cp1 mag.cp2 1
+mag.cp2 mag.cp3 2
+mag.cp3 mag.cp4 1
+mag.cp4 mag.cp5 1
+mag.cp4 mag.n1 2
+mag.n1 mag.c11 1
+mag.n1 mag.c12 1
+mag.cp5 mag.cp6 2
+mag.cr1 mag.cr2 2
+mag.cr2 mag.cr3 2
+mag.cr3 mag.cr4 2
+mag.cr4 mag.cr5 2
+mag.cr4 mag.n2 1
+mag.n2 mag.c21 1
+mag.n2 mag.c22 1
+mag.cr5 mag.cr6 2
+mag.cr6 mag.cr1 2
+mag.cs1 mag.cs2 2
+mag.cs2 mag.cs3 2
+mag.cs3 mag.cs4 2
+mag.cs4 mag.cs5 2
+mag.cs5 mag.cs6 2
+mag.cs6 mag.cs1 2
+mag.cp2 mag.hp2 1
+mag.cp3 mag.hp3 1
+mag.cp5 mag.hp5 1
+mag.cp6 mag.hp6 1
+mag.cr2 mag.hr2 1
+mag.cr3 mag.hr3 1
+mag.cr5 mag.hr5 1
+mag.cr6 mag.hr6 1
+mag.cs2 mag.hs2 1
+mag.cs3 mag.hs3 1
+mag.cs5 mag.hs5 1
+mag.cs6 mag.hs6 1
+mag.c11 mag.h111 1
+mag.c11 mag.h112 1
+mag.c11 mag.h113 1
+mag.c12 mag.h121 1
+mag.c12 mag.h122 1
+mag.c12 mag.h123 1
+mag.c21 mag.h211 1
+mag.c21 mag.h212 1
+mag.c21 mag.h213 1
+mag.c22 mag.h221 1
+mag.c22 mag.h222 1
+mag.c22 mag.h223 1
+0
+0
+0
+#malachite green + 1
+# not very likely but ?

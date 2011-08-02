@@ -1,0 +1,34 @@
+14
+name dnp.op1 type o2 
+name dnp.op2 type o2
+name dnp.op3 type o2
+name dnp.p1 type  p35 
+name dnp.c2 type  c3 
+name dnp.h21 type h
+name dnp.c3 type  c2 
+name dnp.o1 type  O2 
+name dnp.o2 type  O2 
+name dnp.na2 type  n3 
+name dnp.ha2 type h
+name dnp.ca3 type  c2 
+name dnp.oa1 type  O2 
+name dnp.oa2 type  O2 
+13
+dnp.p1 dnp.op1 1
+dnp.p1 dnp.op2 1
+dnp.p1 dnp.op3 1
+dnp.p1 dnp.c2 1
+dnp.c2 dnp.c3 1
+dnp.c2 dnp.h21
+dnp.c2 dnp.na2
+dnp.c3 dnp.o1 1.5
+dnp.c3 dnp.o2 1.5
+dnp.na2 dnp.ca3 1
+dnp.na2 dnp.ha2
+dnp.ca3 dnp.oa1 1.5
+dnp.ca3 dnp.oa2 1.5
+0
+0
+0
+0
+0

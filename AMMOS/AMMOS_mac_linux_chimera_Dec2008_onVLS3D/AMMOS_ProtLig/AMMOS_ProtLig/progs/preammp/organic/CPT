@@ -1,0 +1,37 @@
+15
+name cpt.c1 type C3  charge -.306
+name cpt.c2 type C3  charge -.306
+name cpt.c3 type C3  charge -.306
+name cpt.c4 type C3  charge -.306
+name cpt.c5 type C3  charge -.306
+name cpt.h11 type H 
+name cpt.h12 type H 
+name cpt.h21 type H 
+name cpt.h22 type H 
+name cpt.h31 type H 
+name cpt.h32 type H 
+name cpt.h41 type H 
+name cpt.h42 type H 
+name cpt.h51 type H 
+name cpt.h52 type H 
+15
+cpt.c1 cpt.c2 1
+cpt.c2 cpt.c3 1
+cpt.c3 cpt.c4 1
+cpt.c4 cpt.c5 1
+cpt.c5 cpt.c1  1
+cpt.c1 cpt.h11 1
+cpt.c1 cpt.h12 1
+cpt.c2 cpt.h21 1
+cpt.c2 cpt.h22 1
+cpt.c3 cpt.h31 1
+cpt.c3 cpt.h32 1
+cpt.c4 cpt.h41 1
+cpt.c4 cpt.h42 1
+cpt.c5 cpt.h51 1
+cpt.c5 cpt.h52 1
+0
+0
+0
+0
+0

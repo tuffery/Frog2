@@ -1,0 +1,13 @@
+#
+# To generate a conformation:
+#
+# Create and edit a file such as input.param
+#
+# Needs a .mol2 (void crds)
+#
+# Then: ../bin/BuildMolecules_sp4.py input.param
+#
+# will generate a: test_Built.mol2 (a funciton of the name in input.param file.
+#
+# One conf is generated. No energy consideration.
+#

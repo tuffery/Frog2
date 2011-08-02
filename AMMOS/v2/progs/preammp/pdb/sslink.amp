@@ -1,0 +1,38 @@
+# sslink.ammp ;
+# generate a ss link between ires and jres ;
+# assumes ires and jres defined as first and second residue;
+# generates a whole mess of variables;
+;
+serial isg ires sg ;
+jl isg 0 notdef: ;
+serial ica ires ca ;
+jl ica 0 notdef: ;
+serial i1hb ires 1hb ;
+serial i2hb ires 2hb ;
+serial icb ires cb; 
+jl icb 0 notdef: ;
+jl i1hb 0 notdef: ;
+jl i2hb 0 notdef: ;
+
+serial jsg jres sg ;
+jl jsg 0 notdef: ;
+serial jca jres ca ;
+jl jca 0 notdef: ;
+serial jcb jres cb;
+serial j1hb jres 1hb ;
+serial j2hb jres 2hb ;
+jl jcb 0 notdef: ;
+jl j1hb 0 notdef: ;
+jl j2hb 0 notdef: ;
+
+ bond isg jsg 2.128000 251.764084 ;
+ angle jsg isg icb 29.763855 92.099998 ;
+ angle isg jsg jcb 29.763855 92.099998 ;
+ torsion icb isg jsg jcb 0.484000 3 0.000000 ;
+ torsion ica icb isg jsg 0.337572 3 0.000000 ;
+ torsion i1hb icb isg jsg 0.337572 3 0.000000 ;
+ torsion i2hb icb isg jsg 0.337572 3 0.000000 ;
+ torsion jca jcb jsg isg  0.337572 3 0.000000 ;
+ torsion j1hb jcb jsg isg  0.337572 3 0.000000 ;
+ torsion j2hb jcb jsg isg  0.337572 3 0.000000 ;
+nop ; notdef: ;

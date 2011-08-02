@@ -1,0 +1,89 @@
+41
+name pel.c1 type C2  charge -.153
+name pel.c2 type C2  charge -.153
+name pel.c3 type C2  charge -.153
+name pel.c4 type C2  charge -.153
+name pel.c5 type C2  charge -.153
+name pel.c6 type C2  charge -.153
+name pel.cp  type c3 charge -.306
+name pel.hp1 type h
+name pel.hp2 type h
+name pel.cq  type c3 charge -.306
+name pel.hq1 type h
+name pel.hq2 type h
+name pel.n1   type n3 charge .22
+name pel.hn11 type h charge .311
+name pel.hn12 type h charge .311
+name pel.hn13 type h charge .311
+name pel.co  type c2  charge .153
+name pel.oo type o2
+name pel.h2  type H  charge .153
+name pel.h3  type H 
+name pel.h5  type H 
+name pel.h6  type H  charge .153
+name pel.n type np charge -0.463
+name pel.hn type hd charge 0.252
+name pel.ca type c3 charge 0.035
+name pel.ha type h charge 0.048
+name pel.c type c2 charge 0.616
+name pel.o type o1 charge -0.504
+name pel.cb type c3 charge -0.061
+name pel.hb1 type h charge 0.033
+name pel.hb2 type h charge 0.033
+name pel.cg type c3 charge -0.010
+name pel.cd1 type c3 charge -0.107
+name pel.cd2 type c3 charge -0.107
+name pel.hg type h charge 0.031
+name pel.hd11 type h charge 0.034
+name pel.hd12 type h charge 0.034
+name pel.hd13 type h charge 0.034
+name pel.hd21 type h charge 0.034
+name pel.hd22 type h charge 0.034
+name pel.hd23 type h charge 0.034
+41
+pel.c1 pel.c2 1.5
+pel.c2 pel.c3 1.5
+pel.c3 pel.c4 1.5
+pel.c4 pel.c5 1.5
+pel.c5 pel.c6 1.5
+pel.c6 pel.c1 1.5
+pel.c1 pel.co 1
+pel.co pel.oo 2
+pel.c2 pel.h2 1
+pel.c3 pel.h3 1
+pel.c4 pel.cp 1
+pel.c5 pel.h5 1
+pel.c6 pel.h6 1
+pel.cp pel.cq 1
+pel.cp pel.hp1 1
+pel.cp pel.hp2 1
+pel.cq pel.hq1 1
+pel.cq pel.hq2 1
+pel.cq pel.n1 1
+pel.n1 pel.hn11 1
+pel.n1 pel.hn12 1
+pel.n1 pel.hn13 1
+pel.co pel.n 1
+pel.n pel.hn 1
+pel.n pel.ca 1
+pel.ca pel.c 1
+pel.ca pel.cb 1
+pel.ca pel.ha 1
+pel.c pel.o 2
+pel.cb pel.cg 1
+pel.cb pel.hb1 1
+pel.cb pel.hb2 1
+pel.cg pel.cd1 1
+pel.cg pel.cd2 1
+pel.cg pel.hg 1
+pel.cd1 pel.hd11 1
+pel.cd1 pel.hd12 1
+pel.cd1 pel.hd13 1
+pel.cd2 pel.hd21 1 
+pel.cd2 pel.hd22 1
+pel.cd2 pel.hd23 1
+0
+2
+pel.n pel.cb pel.c pel.ca  4 -.494427
+pel.n pel.cb pel.c pel.ha  4  -1.606971
+0

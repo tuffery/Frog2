@@ -1,0 +1,52 @@
+22
+name tiq.c1 type c2 
+name tiq.c2 type c2 
+name tiq.c3 type c2 
+name tiq.c4 type c2 
+name tiq.c5 type c2 
+name tiq.c6 type c2 
+name tiq.c7 type c3 
+name tiq.c8 type c3 
+name tiq.n9 type n3 
+name tiq.c10  type c3 
+name tiq.h1 type h
+name tiq.h2 type h
+name tiq.h3 type h
+name tiq.h4 type h
+name tiq.h7a type h
+name tiq.h7b type h
+name tiq.h8a type h
+name tiq.h8b type h
+name tiq.h9a type h
+name tiq.h9b type h
+name tiq.h10a type h
+name tiq.h10b type h
+23
+tiq.c1 tiq.c2 1.5
+tiq.c1 tiq.c6 1.5
+tiq.c1 tiq.h1 1.5
+tiq.c2 tiq.c3 1.5
+tiq.c2 tiq.h2 1
+tiq.c3 tiq.c4 1.5
+tiq.c3 tiq.h3 1
+tiq.c4 tiq.c5 1.5
+tiq.c4 tiq.h4 1
+tiq.c5 tiq.c6 1.5
+tiq.c5 tiq.c10 1
+tiq.c6 tiq.c7 1
+tiq.c7 tiq.c8 1
+tiq.c7 tiq.h7a 1
+tiq.c7 tiq.h7b 1
+tiq.c8 tiq.n9 1
+tiq.c8 tiq.h8a 1
+tiq.c8 tiq.h8b 1
+tiq.n9 tiq.c10 1
+tiq.n9 tiq.h9a 1
+tiq.n9 tiq.h9b 1
+tiq.c10 tiq.h10a 1
+tiq.c10 tiq.h10b 1
+0
+0 
+0
+# 1 2 3 4 tetra hydro isoquinoline
+(+1 form)

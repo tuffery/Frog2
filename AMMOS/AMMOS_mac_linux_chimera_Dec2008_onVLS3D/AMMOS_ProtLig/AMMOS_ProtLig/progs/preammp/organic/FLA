@@ -1,0 +1,125 @@
+58
+name fla.n type np charge -0.463
+name fla.hn1 type hd charge 0.252
+name fla.ca type c3 charge 0.035
+name fla.ha1 type h charge 0.048
+name fla.ha2 type h charge 0.048
+name fla.cb type c3 charge -0.080
+name fla.hb1 type h charge 0.056
+name fla.hb2 type h charge 0.056
+name fla.cg type c3 charge -0.103
+name fla.hg1 type h charge 0.074
+name fla.hg2 type h charge 0.074
+name fla.cd type c3 charge -0.228
+name fla.hd1 type h charge 0.133
+name fla.hd2 type h charge 0.133
+name fla.ne type n2 charge -0.324
+name fla.he type hd charge 0.269
+name fla.cz type c2 charge 0.760
+name fla.nh1 type n2 charge -0.624
+name fla.nh2 type n2 charge -0.624
+name fla.hh11 type hd charge 0.361
+name fla.hh12 type hd charge 0.361
+name fla.hh21 type hd charge 0.361
+name fla.hh22 type hd charge 0.361
+name fla.cr1 type c2
+name fla.or1 type o3
+name fla.hor1 type h
+name fla.cr2 type c2
+name fla.hr2 type h
+name fla.cr3 type c2
+name fla.ob type o3
+name fla.cr4 type c2
+name fla.cbb type c2
+name fla.cr5 type c2
+name fla.hr5 type h
+name fla.cr6 type c2
+name fla.hr6 type h
+name fla.cs1 type c2
+name fla.os1 type o3
+name fla.cs2 type c2
+name fla.hs2 type h
+name fla.cs3 type c2
+name fla.cs4 type c2
+name fla.cs5 type c2
+name fla.hs5 type h
+name fla.cs6 type c2
+name fla.hs6 type h
+name fla.ct1 type c2
+name fla.ct2 type c2
+name fla.cct2 type c2
+name fla.oct1 type o2
+name fla.ct3 type c2
+name fla.ht3 type h
+name fla.ct4 type c2
+name fla.ht4 type h
+name fla.ct5 type c2
+name fla.ht5 type h
+name fla.ct6 type c2
+name fla.ht6 type h
+59
+fla.n fla.hn1 1
+fla.n fla.ca 1
+fla.ca fla.cb 1
+fla.ca fla.ha2 1
+fla.ca fla.ha1 1
+fla.cb fla.cg 1
+fla.cb fla.hb1 1
+fla.cb fla.hb2 1
+fla.cg fla.cd 1
+fla.cg fla.hg1 1
+fla.cg fla.hg2 1
+fla.cd fla.ne 1
+fla.cd fla.hd1 1
+fla.cd fla.hd2 1
+fla.ne fla.cz 1
+fla.ne fla.he 1
+fla.cz fla.nh1 1.5 
+fla.cz fla.nh2 1.5
+fla.nh1 fla.hh11 1
+fla.nh1 fla.hh12 1
+fla.nh2 fla.hh21 1
+fla.nh2 fla.hh22 1
+fla.cr1 fla.or1 1
+fla.or1 fla.hor1 1
+fla.cr1 fla.cr2 2
+fla.cr1 fla.cr6 2
+fla.cr2 fla.hr2 1
+fla.cr2 fla.cr3 2
+fla.cr3 fla.ob 1
+fla.cr3 fla.cr4 2
+fla.cr4 fla.cbb 1
+fla.cr4 fla.cr5 2
+fla.cr5 fla.cr6 2
+fla.cr5 fla.hr5 1
+fla.cs1 fla.os1 2
+fla.cs1 fla.cs2 1
+fla.cs1 fla.cs6 1
+fla.cs2 fla.hs2 1
+fla.cs2 fla.cs3 2
+fla.cs3 fla.ob 2
+fla.cs3 fla.cs4 1
+fla.cs4 fla.cbb 1
+fla.cs4 fla.cs5 1
+fla.cs5 fla.cs6 2
+fla.cs5 fla.hs5 1
+fla.cbb fla.ct1 1
+fla.ct1 fla.ct6 2
+fla.ct1 fla.ct2 2
+fla.ct2 fla.cct2 1
+fla.cct2 fla.oct1 2.
+fla.cct2 fla.n 1
+fla.ct2 fla.ct3 2
+fla.ct3 fla.ht3 1
+fla.ct3 fla.ct4 2
+fla.ct4 fla.ht4 1
+fla.ct4 fla.ct5 2
+fla.ct5 fla.ht5 1
+fla.ct5 fla.ct6 2
+fla.ct6 fla.ht6 1
+0
+0
+0
+0
+fluorescien -1
+0 

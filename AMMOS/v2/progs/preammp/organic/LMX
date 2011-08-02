@@ -1,0 +1,94 @@
+41 
+name lmx.n type np charge -0.463
+name lmx.hn type hd charge 0.252
+name lmx.ca type c3 charge 0.035
+name lmx.ha type h charge 0.048
+name lmx.c type c2 charge 0.616
+name lmx.o type o1 charge -0.504
+name lmx.cb type c3 charge -0.061
+name lmx.hb1 type h charge 0.033
+name lmx.hb2 type h charge 0.033
+name lmx.cg type c3 charge -0.010
+name lmx.cd1 type c3 charge -0.107
+name lmx.cd2 type c3 charge -0.107
+name lmx.hg type h charge 0.031
+name lmx.hd11 type h charge 0.034
+name lmx.hd12 type h charge 0.034
+name lmx.hd13 type h charge 0.034
+name lmx.hd21 type h charge 0.034
+name lmx.hd22 type h charge 0.034
+name lmx.hd23 type h charge 0.034
+name lmx.c1 type C2  charge -.153
+name lmx.c2 type C2  charge -.153
+name lmx.c3 type C2  charge -.153
+name lmx.c4 type C2  charge -.153
+name lmx.c5 type C2  charge -.153
+name lmx.c6 type C2  charge -.153
+name lmx.c11 type c3
+name lmx.h111 type h
+name lmx.h112 type h
+name lmx.n12 type np
+name lmx.h121 type h
+name lmx.h2  type H  charge .153
+name lmx.c31 type c3
+name lmx.h311 type h
+name lmx.h312 type h
+name lmx.n32 type n3
+name lmx.h321 type h
+name lmx.h322 type h
+name lmx.h323 type h
+name lmx.h4  type H  charge .153
+name lmx.h5  type H  charge .153
+name lmx.h6  type H  charge .153
+41
+lmx.n lmx.hn 1
+lmx.n lmx.ca 1
+lmx.ca lmx.c 1
+lmx.ca lmx.cb 1
+lmx.ca lmx.ha 1
+lmx.c lmx.o 2
+lmx.cb lmx.cg 1
+lmx.cb lmx.hb1 1
+lmx.cb lmx.hb2 1
+lmx.cg lmx.cd1 1
+lmx.cg lmx.cd2 1
+lmx.cg lmx.hg 1
+lmx.cd1 lmx.hd11 1
+lmx.cd1 lmx.hd12 1
+lmx.cd1 lmx.hd13 1
+lmx.cd2 lmx.hd21 1 
+lmx.cd2 lmx.hd22 1
+lmx.cd2 lmx.hd23 1
+lmx.c lmx.n12 1
+lmx.c1 lmx.c2 1.5
+lmx.c2 lmx.c3 1.5
+lmx.c3 lmx.c4 1.5
+lmx.c4 lmx.c5 1.5
+lmx.c5 lmx.c6 1.5
+lmx.c6 lmx.c1 1.5
+lmx.c1 lmx.c11 1
+lmx.c11 lmx.h111 1
+lmx.c11 lmx.h112 1
+lmx.c11 lmx.n12 1
+lmx.n12 lmx.h121 1
+lmx.c2 lmx.h2 1
+lmx.c3 lmx.c31 1
+lmx.c31 lmx.h311 1
+lmx.c31 lmx.h312 1
+lmx.c31 lmx.n32 1
+lmx.n32 lmx.h321 1
+lmx.n32 lmx.h322 1
+lmx.n32 lmx.h323 1
+lmx.c4 lmx.h4 1
+lmx.c5 lmx.h5 1
+lmx.c6 lmx.h6 1
+0
+2
+lmx.n lmx.cb lmx.c lmx.ca  4 .494427
+lmx.n lmx.cb lmx.c lmx.ha  4  1.606971
+0
+0
+0
+0
+0
+0

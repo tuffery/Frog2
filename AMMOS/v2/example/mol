@@ -1,0 +1,76 @@
+35
+name mol.c1 type ca charge 0.039
+name mol.n1 type n3 charge 0.246
+name mol.c2 type c3 charge -0.002
+name mol.n2 type n3 charge 0.235
+name mol.c3 type ca charge 0.128
+name mol.o1 type o3 charge -0.495
+name mol.c4 type c3 charge 0.010
+name mol.c5 type c3 charge 0.010
+name mol.c6 type ca charge -0.050
+name mol.c7 type c3 charge 0.008
+name mol.c8 type c3 charge 0.008
+name mol.c9 type ca charge -0.020
+name mol.c10 type c3 charge 0.079
+name mol.c11 type ca charge -0.061
+name mol.c12 type ca charge -0.058
+name mol.h1 type h charge 0.204
+name mol.h2 type h charge 0.087
+name mol.h3 type h charge 0.087
+name mol.h4 type h charge 0.202
+name mol.h5 type h charge 0.202
+name mol.h6 type h charge 0.087
+name mol.h7 type h charge 0.087
+name mol.h8 type h charge 0.087
+name mol.h9 type h charge 0.087
+name mol.h10 type h charge 0.062
+name mol.h11 type h charge 0.087
+name mol.h12 type h charge 0.087
+name mol.h13 type h charge 0.087
+name mol.h14 type h charge 0.087
+name mol.h15 type h charge 0.065
+name mol.h16 type h charge 0.066
+name mol.h17 type h charge 0.066
+name mol.h18 type h charge 0.066
+name mol.h19 type h charge 0.062
+name mol.h20 type h charge 0.062
+36
+mol.c2 mol.c1 1
+mol.c3 mol.c1 1.5
+mol.c6 mol.c1 1.5
+mol.n1 mol.c2 1
+mol.c4 mol.n1 1
+mol.c5 mol.n1 1
+mol.n1 mol.h1 1
+mol.c2 mol.h2 1
+mol.c2 mol.h3 1
+mol.n2 mol.c7 1
+mol.n2 mol.c8 1
+mol.n2 mol.h4 1
+mol.n2 mol.h5 1
+mol.o1 mol.c3 1
+mol.c9 mol.c3 1.5
+mol.c10 mol.o1 1
+mol.c8 mol.c4 1
+mol.c4 mol.h6 1
+mol.c4 mol.h7 1
+mol.c7 mol.c5 1
+mol.c5 mol.h8 1
+mol.c5 mol.h9 1
+mol.c11 mol.c6 1.5
+mol.c6 mol.h10 1
+mol.c7 mol.h11 1
+mol.c7 mol.h12 1
+mol.c8 mol.h13 1
+mol.c8 mol.h14 1
+mol.c12 mol.c9 1.5
+mol.c9 mol.h15 1
+mol.c10 mol.h16 1
+mol.c10 mol.h17 1
+mol.c10 mol.h18 1
+mol.c12 mol.c11 1.5
+mol.c11 mol.h19 1
+mol.c12 mol.h20 1
+0
+0
+0

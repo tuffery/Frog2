@@ -1,0 +1,12 @@
+3
+name h2o.h1 type H charge .41
+name h2o.h2 type H charge .41
+name h2o.o type  Ow  charge -.82 
+2
+h2o.o h2o.h1 1
+h2o.o h2o.h2 1
+0
+0
+0
+0
+0

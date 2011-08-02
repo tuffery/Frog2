@@ -1,0 +1,34 @@
+13
+name dht.c1 type c3
+name dht.h11 type h
+name dht.h12 type h
+name dht.n2 type n3
+name dht.h21 type h
+name dht.c3 type c2
+name dht.o3 type o2
+name dht.n4 type n3
+name dht.h41 type h
+name dht.c5 type c2
+name dht.o5 type o2
+name dht.n6 type n3
+name dht.h61 type h
+13
+dht.c1 dht.h11 1
+dht.c1 dht.h12 1
+dht.c1 dht.n2 1
+dht.n2 dht.c3 2
+dht.n2 dht.h21 1
+dht.c3 dht.o3 2
+dht.c3 dht.n4 2
+dht.n4 dht.c5 2
+dht.n4 dht.h41 1
+dht.c5 dht.o5 2
+dht.c5 dht.n6 2
+dht.n6 dht.c1 1
+dht.n6 dht.h61 1
+0 
+0 
+0 
+
+
+2,4 dioxonhexanhydro 1,3,5 triazine

@@ -1,0 +1,47 @@
+20
+name ppp.c3 type C3  charge -.331505
+name ppp.c2 type C3  charge -.331505
+name ppp.c1 type C3  charge -.331505
+name ppp.n type n3 charge -.183484
+name ppp.hn type h charge -.183484
+name ppp.h11 type H  charge .172295
+name ppp.h12 type H  charge .171347
+name ppp.h13 type H  charge .171347
+name ppp.h21 type H  charge .172295
+name ppp.h22 type H  charge .171347
+name ppp.h31 type H  charge .172295
+name ppp.h32 type H  charge .171347
+name ppp.p type p35 
+name ppp.op1 type o2
+name ppp.op2 type o2
+name ppp.op3 type o2
+name ppp.p2 type p35 
+name ppp.op21 type o2
+name ppp.op22 type o2
+name ppp.op23 type o2
+19
+ppp.c1 ppp.c2 1
+ppp.c2 ppp.c3 1
+ppp.c3 ppp.n 1
+ppp.n ppp.hn 1
+ppp.n ppp.p 1
+ppp.p ppp.op1 1
+ppp.p ppp.op2 1
+ppp.p ppp.op3 1
+ppp.op2 ppp.p2 1
+ppp.p2 ppp.op21 1
+ppp.p2 ppp.op22 1
+ppp.p2 ppp.op23 1
+ppp.c1 ppp.h11 1 
+ppp.c1 ppp.h12 1 
+ppp.c1 ppp.h13 1 
+ppp.c2 ppp.h21 1 
+ppp.c2 ppp.h22 1 
+ppp.c3 ppp.h31 1 
+ppp.c3 ppp.h32 1 
+0
+0
+0
+0
+0
+0

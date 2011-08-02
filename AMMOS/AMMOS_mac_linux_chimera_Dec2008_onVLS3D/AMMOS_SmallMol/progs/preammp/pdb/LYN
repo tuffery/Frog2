@@ -1,0 +1,54 @@
+24
+name lyn.n type np charge -0.463
+name lyn.h1 type hd charge 0.252
+name lyn.h2 type hd charge 0.252
+name lyn.h3 type hd charge 0.252
+name lyn.ca type c3 charge 0.035
+name lyn.ha type h charge 0.048
+name lyn.c type c2 charge 0.616
+name lyn.o type o2 charge -0.504
+name lyn.cb type c3 charge -0.098
+name lyn.hb2 type h charge 0.038
+name lyn.hb3 type h charge 0.038
+name lyn.cg type c3 charge -0.160
+name lyn.hg2 type h charge 0.116
+name lyn.hg3 type h charge 0.116
+name lyn.cd type c3 charge -0.180
+name lyn.hd2 type h charge 0.122
+name lyn.hd3 type h charge 0.122
+name lyn.ce type c3 charge -0.038
+name lyn.he2 type h charge 0.098
+name lyn.he3 type h charge 0.098
+name lyn.nz type n3 charge -0.138
+name lyn.hz1 type hd charge 0.294
+name lyn.hz2 type hd charge 0.294
+name lyn.hz3 type hd charge 0.294
+23
+lyn.n lyn.h1 1
+lyn.n lyn.h2 1
+lyn.n lyn.h3 1
+lyn.n lyn.ca 1
+lyn.ca lyn.c 1
+lyn.ca lyn.cb 1
+lyn.ca lyn.ha 1
+lyn.c lyn.o 1.75
+lyn.cb lyn.cg 1
+lyn.cb lyn.hb2 1
+lyn.cb lyn.hb3 1
+lyn.cg lyn.cd 1
+lyn.cg lyn.hg2 1
+lyn.cg lyn.hg3 1
+lyn.cd lyn.ce 1
+lyn.cd lyn.hd2 1
+lyn.cd lyn.hd3 1
+lyn.ce lyn.nz 1
+lyn.ce lyn.he2 1
+lyn.ce lyn.he3 1
+lyn.nz lyn.hz1 1
+lyn.nz lyn.hz2 1
+lyn.nz lyn.hz3 1
+0
+2
+lyn.n lyn.cb lyn.c lyn.ca  4 .494427
+lyn.n lyn.cb lyn.c lyn.ha  4  1.606971
+0

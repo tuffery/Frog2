@@ -1,0 +1,56 @@
+24
+name hda.c1 type C3  charge -.376
+name hda.c2 type C3  charge -.306
+name hda.c3 type C3  charge -.306
+name hda.c4 type C3  charge -.306
+name hda.c5 type C3  charge -.376
+name hda.c6 type C3  charge -.466
+name hda.h11 type H 
+name hda.h12 type H 
+name hda.h21 type H 
+name hda.h22 type H 
+name hda.h31 type H 
+name hda.h32 type H 
+name hda.h41 type H 
+name hda.h42 type H 
+name hda.h5 type H 
+name hda.n5 type  n3  charge .3
+name hda.hn51 type h
+name hda.hn52 type h
+name hda.hn53 type h
+name hda.h6 type h
+name hda.n6 type  n3  charge .3
+name hda.hn61 type h
+name hda.hn62 type h
+name hda.hn63 type h
+24
+hda.c1 hda.c2 1
+hda.c2 hda.c3 1
+hda.c3 hda.c4 1
+hda.c4 hda.c5 1
+hda.c5 hda.c6 1.
+hda.c6 hda.c1 1.
+hda.c1 hda.h11 1
+hda.c1 hda.h12 1
+hda.c2 hda.h21 1
+hda.c2 hda.h22 1
+hda.c3 hda.h31 1
+hda.c3 hda.h32 1
+hda.c4 hda.h41 1
+hda.c4 hda.h42 1
+hda.c5 hda.h5 1
+hda.c5 hda.n5    1
+hda.n5 hda.hn51 1
+hda.n5 hda.hn52 1
+hda.n5 hda.hn53 1
+hda.c6 hda.h6    1
+hda.c6 hda.n6    1
+hda.n6 hda.hn61 1
+hda.n6 hda.hn62 1
+hda.n6 hda.hn63 1
+0
+0
+0
+0
+0
+diamino cyclohexane 

@@ -1,0 +1,59 @@
+25
+name amn.c1 type C3  charge -.153
+name amn.c2 type C3  charge -.306
+name amn.c3 type C3  charge -.306
+name amn.c4 type C2  charge .1
+name amn.c5 type C3  charge -.153
+name amn.c6 type C3  charge -.153
+name amn.c7 type C3  charge -.153
+name amn.c8 type C3  charge -.306
+name amn.c9 type C3  charge -.306
+name amn.c10 type C3  charge -.306
+name amn.h11 type H 
+name amn.h21 type H 
+name amn.h22 type H 
+name amn.h31 type H 
+name amn.h32 type H 
+name amn.o4  type o2 charge -.1
+name amn.h51 type H 
+name amn.h61 type H 
+name amn.h71 type H 
+name amn.h81 type H 
+name amn.h82 type H 
+name amn.h91 type H 
+name amn.h92 type H 
+name amn.h101 type H 
+name amn.h102 type H 
+27
+amn.c1 amn.c2 1
+amn.c1 amn.h11 1
+amn.c1 amn.c3 1
+amn.c1 amn.c4 1
+amn.c2 amn.h21 1
+amn.c2 amn.h22 1
+amn.c2 amn.c5 1
+amn.c3 amn.c6 1
+amn.c3 amn.h31 1
+amn.c3 amn.h32 1
+amn.c4 amn.c7 1
+amn.c4 amn.o4 2
+amn.c5 amn.h51 1
+amn.c6 amn.h61 1
+amn.c7 amn.h71 1
+amn.c5 amn.c10 1
+amn.c5 amn.c8 1
+amn.c6 amn.c8 1
+amn.c6 amn.c9 1
+amn.c7 amn.c9 1
+amn.c7 amn.c10 1
+amn.c8 amn.h81 1
+amn.c8 amn.h82 1
+amn.c9 amn.h91 1
+amn.c9 amn.h92 1
+amn.c10 amn.h101 1
+amn.c10 amn.h102 1
+0
+0
+0
+0
+0

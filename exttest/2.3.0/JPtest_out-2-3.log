@@ -1,0 +1,8 @@
+disambiguation         : False,  nb max conformations   :    50,  per isomer             : False
+energetic treshold     :   100,  bad energy threshold   :   300,  stage 2 Monte Carlo    : False
+minimize               : False
+
+Id 1: jp
+      C(=O)(O)C(C)(C)Oc1ccc(cc1)CC(=O)Nc1cc(cc(c1)C)C
+   50 conformation(s) calculated. For some isomer(s) 0 have bad energies.
+

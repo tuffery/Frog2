@@ -1,0 +1,83 @@
+38
+name pml.c1 type C2  charge -.153
+name pml.c2 type C2  charge -.153
+name pml.c3 type C2  charge -.153
+name pml.c4 type C2  charge -.153
+name pml.c5 type C2  charge -.153
+name pml.c6 type C2  charge -.153
+name pml.cp  type c3 charge -.306
+name pml.hp1 type h
+name pml.hp2 type h
+name pml.n1   type n3 charge .22
+name pml.hn11 type h charge .311
+name pml.hn12 type h charge .311
+name pml.hn13 type h charge .311
+name pml.co  type c2  charge .153
+name pml.oo type o2
+name pml.h2  type H  charge .153
+name pml.h3  type H 
+name pml.h5  type H 
+name pml.h6  type H  charge .153
+name pml.n type np charge -0.463
+name pml.hn type hd charge 0.252
+name pml.ca type c3 charge 0.035
+name pml.ha type h charge 0.048
+name pml.c type c2 charge 0.616
+name pml.o type o1 charge -0.504
+name pml.cb type c3 charge -0.061
+name pml.hb1 type h charge 0.033
+name pml.hb2 type h charge 0.033
+name pml.cg type c3 charge -0.010
+name pml.cd1 type c3 charge -0.107
+name pml.cd2 type c3 charge -0.107
+name pml.hg type h charge 0.031
+name pml.hd11 type h charge 0.034
+name pml.hd12 type h charge 0.034
+name pml.hd13 type h charge 0.034
+name pml.hd21 type h charge 0.034
+name pml.hd22 type h charge 0.034
+name pml.hd23 type h charge 0.034
+38
+pml.c1 pml.c2 1.5
+pml.c2 pml.c3 1.5
+pml.c3 pml.c4 1.5
+pml.c4 pml.c5 1.5
+pml.c5 pml.c6 1.5
+pml.c6 pml.c1 1.5
+pml.c1 pml.co 1
+pml.co pml.oo 2
+pml.c2 pml.h2 1
+pml.c3 pml.h3 1
+pml.c4 pml.cp 1
+pml.c5 pml.h5 1
+pml.c6 pml.h6 1
+pml.cp pml.n1 1
+pml.cp pml.hp1 1
+pml.cp pml.hp2 1
+pml.n1 pml.hn11 1
+pml.n1 pml.hn12 1
+pml.n1 pml.hn13 1
+pml.co pml.n 1
+pml.n pml.hn 1
+pml.n pml.ca 1
+pml.ca pml.c 1
+pml.ca pml.cb 1
+pml.ca pml.ha 1
+pml.c pml.o 2
+pml.cb pml.cg 1
+pml.cb pml.hb1 1
+pml.cb pml.hb2 1
+pml.cg pml.cd1 1
+pml.cg pml.cd2 1
+pml.cg pml.hg 1
+pml.cd1 pml.hd11 1
+pml.cd1 pml.hd12 1
+pml.cd1 pml.hd13 1
+pml.cd2 pml.hd21 1 
+pml.cd2 pml.hd22 1
+pml.cd2 pml.hd23 1
+0
+2
+pml.n pml.cb pml.c pml.ca  4 .494427
+pml.n pml.cb pml.c pml.ha  4  1.606971
+0

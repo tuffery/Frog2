@@ -1,0 +1,59 @@
+26
+name ebs.c1 type C2  charge -.153
+name ebs.c2 type C2  charge -.153
+name ebs.c3 type C2  charge -.153
+name ebs.c4 type C2  charge -.153
+name ebs.c5 type C2  charge -.153
+name ebs.c6 type C2  charge -.153
+name ebs.s type s36
+name ebs.os1 type o2
+name ebs.os2 type o2
+name ebs.nc1 type n3
+name ebs.hnc1 type h
+name ebs.hnc2 type h
+name ebs.cp  type c3 charge -.306
+name ebs.hp1 type h
+name ebs.hp2 type h
+name ebs.cq  type c3 charge -.306
+name ebs.hq1 type h
+name ebs.hq2 type h
+name ebs.n1   type n3 charge .22
+name ebs.hn11 type h charge .311
+name ebs.hn12 type h charge .311
+name ebs.hn13 type h charge .311
+name ebs.h2  type H  charge .153
+name ebs.h3  type H 
+name ebs.h5  type H 
+name ebs.h6  type H  charge .153
+26
+ebs.c1 ebs.c2 1.5
+ebs.c2 ebs.c3 1.5
+ebs.c3 ebs.c4 1.5
+ebs.c4 ebs.c5 1.5
+ebs.c5 ebs.c6 1.5
+ebs.c6 ebs.c1 1.5
+ebs.c2 ebs.h2 1
+ebs.c3 ebs.h3 1
+ebs.c4 ebs.cp 1
+ebs.c5 ebs.h5 1
+ebs.c6 ebs.h6 1
+ebs.cp ebs.cq 1
+ebs.cp ebs.hp1 1
+ebs.cp ebs.hp2 1
+ebs.cq ebs.hq1 1
+ebs.cq ebs.hq2 1
+ebs.cq ebs.n1 1
+ebs.n1 ebs.hn11 1
+ebs.n1 ebs.hn12 1
+ebs.n1 ebs.hn13 1
+ebs.c1 ebs.s 1 
+ebs.s ebs.os1 2
+ebs.s ebs.os2 2
+ebs.s ebs.nc1 1
+ebs.nc1 ebs.hnc1 1
+ebs.nc1 ebs.hnc2 1
+0
+0
+0
+0
+0

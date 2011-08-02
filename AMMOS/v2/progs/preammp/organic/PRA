@@ -1,0 +1,49 @@
+21
+name pra.n type n3
+name pra.hn1 type h
+name pra.hn2 type h
+name pra.hn3 type h
+name pra.cb type c3 charge -0.098
+name pra.hb1 type h charge 0.038
+name pra.hb2 type h charge 0.038
+name pra.cg type c2 charge -0.030
+name pra.cd1 type c2 charge -0.002
+name pra.cd2 type c2 charge -0.002
+name pra.hd1 type h charge 0.064
+name pra.hd2 type h charge 0.064
+name pra.ce1 type c2 charge -0.264
+name pra.ce2 type c2 charge -0.264
+name pra.he1 type h charge 0.102
+name pra.oe type o3
+name pra.cr type c3
+name pra.hr1 type h
+name pra.hr2 type h
+name pra.cz type c2 charge 0.462
+name pra.oh type o3 charge -0.528
+22
+pra.n pra.hn1 1
+pra.n pra.hn2 1
+pra.n pra.hn3 1
+pra.n pra.cb 1
+pra.cb pra.cg 1
+pra.cb pra.hb1 1
+pra.cb pra.hb2 1
+pra.cg pra.cd1 1.5
+pra.cg pra.cd2 1.5
+pra.cd1 pra.ce1 1.5
+pra.cd2 pra.ce2 1.5
+pra.ce1 pra.cz 1.5
+pra.ce2 pra.cz 1.5
+pra.cd1 pra.hd1 1
+pra.cd2 pra.hd2 1
+pra.ce1 pra.he1 1
+pra.ce2 pra.oe 1
+pra.oe pra.cr 1
+pra.oh pra.cr 1
+pra.cr pra.hr1 1
+pra.cr pra.hr2 1
+pra.cz pra.oh 1
+0
+0
+0
+piperonylamine

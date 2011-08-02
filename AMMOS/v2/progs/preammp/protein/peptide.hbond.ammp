@@ -1,0 +1,35 @@
+
+# these are patches for the peptide bond ;
+# morse H-bonds for  peptide backbone ;
+#;
+# this reflects the hybridization of the amide bond ;
+# the h-bond should be "strong";
+#;
+
+#  12/9/02 rwh ;
+
+# set irmin,irmax  to define a region;
+
+mov i irmin;
+mov k irmax;
+
+#for pdb names h goes to hn;
+
+add i 3;
+loopi end: i k;
+serial io i o;  
+mov j i;
+sub j 2;
+mov l irmin;
+loopi i1: l j;
+serial jhn l h;
+morse io jhn 1.8 1 1;
+i1: ;
+
+mov j i; add j 2;
+loopi i2: j k;
+serial jhn j h;
+morse io jhn 1.8 1 1;
+i2: ;
+end: ;
+

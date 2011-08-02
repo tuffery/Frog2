@@ -1,0 +1,26 @@
+
+# set the secondary structure for residue ires-jres ;
+# variable ires is the residue ;
+# jres is assumed to be ires +1 ;
+#;
+
+mov jres ires; add jres 1;
+serial i0 ires ca;
+jl i0 0 done: ;
+serial im1 ires n;
+serial i1 ires c;
+serial i2 jres n;
+jl i2 0 done: ;
+serial i3 jres ca;
+serial i4 jres c;
+serial i5 jres o;
+
+tset i0 i1 i2 i3 180.;
+tset i1 i2 i3 i4 60;
+tset im1 i0 i1 i2  60;
+
+tmin im1 i0 i1 i2 3;
+tmin i1 i2 i3 i4 3;
+tmin im1 i0 i1 i2 3;
+tmin i1 i2 i3 i4 3;
+done: ;

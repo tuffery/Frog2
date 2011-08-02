@@ -1,0 +1,60 @@
+26
+name pee.c1 type c3  charge -.153
+name pee.c2 type C3  charge -.153
+name pee.c3 type C3  charge -.153
+name pee.n4 type n3  charge -.153
+name pee.c5 type C3  charge -.153
+name pee.c6 type C3  charge -.153
+name pee.cp  type c3 charge -.306
+name pee.hp1 type h
+name pee.hp2 type h
+name pee.cq  type c3 charge -.306
+name pee.hq1 type h
+name pee.hq2 type h
+name pee.n1   type n3 charge .22
+name pee.hn11 type h charge .311
+name pee.hn12 type h charge .311
+name pee.hn13 type h charge .311
+name pee.h11  type H  charge .153
+name pee.h12 type H  charge .153
+name pee.h21  type H  charge .153
+name pee.h22 type H  charge .153
+name pee.h31  type H 
+name pee.h32 type H 
+name pee.h51  type H 
+name pee.h52 type H 
+name pee.h61  type H 
+name pee.h62 type H 
+26
+pee.c1 pee.c2 1
+pee.c2 pee.c3 1
+pee.c3 pee.n4 1
+pee.n4 pee.c5 1
+pee.c5 pee.c6 1
+pee.c6 pee.c1 1
+pee.c1 pee.h11 1
+pee.c1 pee.h12 1
+pee.c2 pee.h21 1
+pee.c2 pee.h22 1
+pee.c3 pee.h31 1
+pee.c3 pee.h32 1
+pee.n4 pee.cp 1
+pee.c5 pee.h51 1
+pee.c5 pee.h52 1
+pee.c6 pee.h61 1
+pee.c6 pee.h62 1
+pee.cp pee.cq 1
+pee.cp pee.hp1 1
+pee.cp pee.hp2 1
+pee.cq pee.hq1 1
+pee.cq pee.hq2 1
+pee.cq pee.n1 1
+pee.n1 pee.hn11 1
+pee.n1 pee.hn12 1
+pee.n1 pee.hn13 1
+0
+0
+0
+0
+0
+2 piperidinoethylamine

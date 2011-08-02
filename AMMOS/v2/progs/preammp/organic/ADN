@@ -1,0 +1,36 @@
+15 
+name adn.hn9 type hd  charge  .055 
+name adn.n9    type nr charge -.073 
+name adn.c8   type c2 charge  .263
+name adn.h8    type h charge .062
+name adn.n7  type nb charge  -.543
+name adn.c5    type c2 charge  -.097
+name adn.c6   type c2 charge .769
+name adn.n6    type n3 charge  -.768
+name adn.h61  type hd charge  .324
+name adn.h62  type hd charge .335
+name adn.n1    type nr charge  -.774
+name adn.c2    type c2 charge .661 
+name adn.h2    type h charge -.032 
+name adn.n3    type nr charge  -.728
+name adn.c4    type c2 charge .546
+16
+adn.hn9 adn.n9 1
+adn.n9 adn.c8 1.
+adn.c8 adn.n7 1.
+adn.c8 adn.h8 1
+adn.n7 adn.c5 1.
+adn.c5 adn.c4 1.5
+adn.c5 adn.c6 1.5
+adn.c6 adn.n6 1.
+adn.n6 adn.h61 1.
+adn.n6 adn.h62 1.
+adn.c6 adn.n1 1.5
+adn.n1 adn.c2 1.5
+adn.c2 adn.h2 1.
+adn.c2 adn.n3 1.5
+adn.n3 adn.c4 1.5
+adn.c4 adn.n9 1.
+0
+0
+0

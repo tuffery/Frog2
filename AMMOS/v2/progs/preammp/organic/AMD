@@ -1,0 +1,65 @@
+28
+name amd.c1 type C3  charge -.153
+name amd.c2 type C3  charge -.306
+name amd.c3 type C3  charge -.306
+name amd.c4 type C3  charge -.306
+name amd.c5 type C3  charge -.153
+name amd.c6 type C3  charge -.153
+name amd.c7 type C3  charge -.153
+name amd.c8 type C3  charge -.306
+name amd.c9 type C3  charge -.306
+name amd.c10 type C3  charge -.306
+name amd.N1 type n3 
+name amd.hn11 type h
+name amd.hn12 type h
+name amd.h21 type H 
+name amd.h22 type H 
+name amd.h31 type H 
+name amd.h32 type H 
+name amd.h41 type H 
+name amd.h42 type H 
+name amd.h51 type H 
+name amd.h61 type H 
+name amd.h71 type H 
+name amd.h81 type H 
+name amd.h82 type H 
+name amd.h91 type H 
+name amd.h92 type H 
+name amd.h101 type H 
+name amd.h102 type H 
+30
+amd.c1 amd.c2 1
+amd.c1 amd.n1 1
+amd.n1 amd.hn11 1
+amd.n1 amd.hn12 1
+amd.c1 amd.c3 1
+amd.c1 amd.c4 1
+amd.c2 amd.h21 1
+amd.c2 amd.h22 1
+amd.c2 amd.c5 1
+amd.c3 amd.c6 1
+amd.c3 amd.h31 1
+amd.c3 amd.h32 1
+amd.c4 amd.c7 1
+amd.c4 amd.h41 1
+amd.c4 amd.h42 1
+amd.c5 amd.h51 1
+amd.c6 amd.h61 1
+amd.c7 amd.h71 1
+amd.c5 amd.c10 1
+amd.c5 amd.c8 1
+amd.c6 amd.c8 1
+amd.c6 amd.c9 1
+amd.c7 amd.c9 1
+amd.c7 amd.c10 1
+amd.c8 amd.h81 1
+amd.c8 amd.h82 1
+amd.c9 amd.h91 1
+amd.c9 amd.h92 1
+amd.c10 amd.h101 1
+amd.c10 amd.h102 1
+0
+0
+0
+0
+0

@@ -1,0 +1,61 @@
+27
+name pba.c1 type C2  charge -.153
+name pba.c2 type C2  charge -.153
+name pba.c3 type C2  charge -.153
+name pba.c4 type C2  charge  -.153
+name pba.c5 type C2  charge -.153
+name pba.c6 type C2  charge -.153
+name pba.cp  type c3 charge -.306
+name pba.hp1 type h
+name pba.hp2 type h
+name pba.cq  type c3 charge -.306
+name pba.hq1 type h
+name pba.hq2 type h
+name pba.cr  type c3 charge -.306
+name pba.hr1 type h
+name pba.hr2 type h
+name pba.cs  type c3 charge -.306
+name pba.hs1 type h
+name pba.hs2 type h
+name pba.n1   type n3 charge  .22
+name pba.hn11 type h charge .311
+name pba.hn12 type h charge .311
+name pba.hn13 type h charge .311
+name pba.h1  type H  charge .153
+name pba.h2  type H  charge .153
+name pba.h3  type H 
+name pba.h5  type H 
+name pba.h6  type H  charge .153
+27
+pba.c1 pba.c2 1.5
+pba.c2 pba.c3 1.5
+pba.c3 pba.c4 1.5
+pba.c4 pba.c5 1.5
+pba.c5 pba.c6 1.5
+pba.c6 pba.c1 1.5
+pba.c1 pba.h1 1
+pba.c2 pba.h2 1
+pba.c3 pba.h3 1
+pba.c4 pba.cp 1
+pba.c5 pba.h5 1
+pba.c6 pba.h6 1
+pba.cp pba.cq 1
+pba.cq pba.cr 1
+pba.cr pba.cs 1
+pba.cp pba.hp1 1
+pba.cp pba.hp2 1
+pba.cq pba.hq1 1
+pba.cq pba.hq2 1
+pba.cr pba.hr1 1
+pba.cr pba.hr2 1
+pba.cs pba.hs1 1
+pba.cs pba.hs2 1
+pba.cs pba.n1 1
+pba.n1 pba.hn11 1
+pba.n1 pba.hn12 1
+pba.n1 pba.hn13 1
+0
+0
+0
+0
+0

@@ -1,0 +1,27 @@
+# decis. ammp;
+#
+# take the ires,jres peptide and ;
+# iff the atoms are not 0 0 0 ;
+# calculate the trans peptide hydrogen ;
+
+# just define the restraint and let ammp figure the rest out;
+
+serial ica ires ca;
+serial ic ires c;
+serial io ires o;
+serial jn jres n;
+serial jca jres ca;
+serial jhn jres h;
+
+jl ica 0 ret: ;
+jl  ic 0 ret: ;
+jl  i0 0 ret: ;
+jl  jn 0 ret: ;
+jl  jca 0 ret: ;
+jl  jhn 0 ret: ;
+
+# define the restraint to keep the distance right;
+restrain jhn io 3.148 500.;
+
+nop; ret: ;
+

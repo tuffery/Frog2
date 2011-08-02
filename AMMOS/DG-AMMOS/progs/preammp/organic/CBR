@@ -1,0 +1,16 @@
+5
+name cbr.c type C3  charge -.533902
+name cbr.br type br charge -.155209
+name cbr.h1 type H  charge .229774
+name cbr.h2 type H   charge .229668
+name cbr.h3 type H   charge .229668
+4
+cbr.c cbr.br 1
+cbr.c cbr.h1 1 
+cbr.c cbr.h2 1 
+cbr.c cbr.h3 1 
+0
+0
+0
+0
+0

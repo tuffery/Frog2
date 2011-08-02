@@ -1,0 +1,68 @@
+30
+name npp.c1 type c2 
+name npp.c2 type c2 
+name npp.c3 type c2 
+name npp.c4 type c2 
+name npp.c5 type c2 
+name npp.c6 type c2 
+name npp.c7 type c2 
+name npp.c8 type c2 
+name npp.c9 type c2 
+name npp.c10  type c2 
+name npp.cm type c3
+name npp.n type n3 
+name npp.hn type h
+name npp.h2 type h
+name npp.h3 type h
+name npp.h4 type h
+name npp.h7 type h
+name npp.h8 type h
+name npp.h9 type h
+name npp.h10 type h
+name npp.hm1 type h
+name npp.hm2 type h
+name npp.p type p35 
+name npp.op1 type o2
+name npp.op2 type o2
+name npp.op3 type o2
+name npp.p2 type p35 
+name npp.op21 type o2
+name npp.op22 type o2
+name npp.op23 type o2
+30
+npp.c1 npp.c2 1.5
+npp.c1 npp.c6 1.5
+npp.c1 npp.cm 1
+npp.c2 npp.c3 1.5
+npp.c2 npp.h2 1
+npp.c3 npp.c4 1.5
+npp.c3 npp.h3 1
+npp.c4 npp.c5 1.5
+npp.c4 npp.h4 1
+npp.c5 npp.c6 1.5
+npp.c5 npp.c10 1
+npp.c6 npp.c7 1.5
+npp.c7 npp.c8 1.5
+npp.c7 npp.h7 1
+npp.c8 npp.c9 1.5
+npp.c8 npp.h8 1
+npp.c9 npp.c10 1.5
+npp.c9 npp.h9 1
+npp.c10 npp.h10 1
+npp.cm npp.hm1 1
+npp.cm npp.hm2 1
+npp.cm npp.n 1
+npp.n npp.hn 1
+npp.n npp.p 1
+npp.p npp.op1 1
+npp.p npp.op2 1
+npp.p npp.op3 1
+npp.op2 npp.p2 1
+npp.p2 npp.op21 1
+npp.p2 npp.op22 1
+npp.p2 npp.op23 1
+0
+0 
+0
+# 1-napthyl methyl amine + 1
+# pryophosphae

@@ -1,0 +1,104 @@
+43
+name gtp.pg type p35 charge 1.385
+name gtp.o1g type o2 charge -0.847
+name gtp.o2g type o2 charge -0.847
+name gtp.o3g type o3 charge -0.847
+name gtp.pb type p35 charge 1.385
+name gtp.o1b type o2 charge -0.847
+name gtp.o2b type o2 charge -0.847
+name gtp.o3b type o3 charge -0.847
+name gtp.pa type p35 charge 1.385
+name gtp.o1a type o2 charge -0.847
+name gtp.o2a type o2 charge -0.847
+name gtp.o3a type o3 charge -0.847
+name gtp.o3* type o3 charge -0.509
+name gtp.ho3* type hd charge -0.509
+name gtp.o5* type o3 charge -0.509
+name gtp.c5* type c3 charge 0.118
+name gtp.h51* type h charge 0.021
+name gtp.h52* type h charge 0.021
+name gtp.c4* type c3 charge 0.036
+name gtp.h4* type h charge 0.056
+name gtp.o4* type o3 charge -0.368
+name gtp.o2* type o3 charge -0.081
+name gtp.ho2* type hd charge -0.081
+name gtp.c1* type c3 charge 0.376
+name gtp.h1* type h charge 0.009
+name gtp.c2* type c3 charge -0.307
+name gtp.h21* type h charge 0.081
+name gtp.c3* type c3 charge 0.233
+name gtp.h3* type h charge 0.025
+name gtp.n9 type nr charge -0.073
+name gtp.c4 type c2 charge 0.546
+name gtp.c8 type c2 charge 0.263
+name gtp.h8 type h charge 0.062
+name gtp.n3 type nr charge -0.728
+name gtp.c2 type c2 charge 0.661
+name gtp.n2 type np charge 0.661
+name gtp.hn21 type hd charge 0.324
+name gtp.hn22 type hd charge 0.335
+name gtp.n1 type nr charge -0.774
+name gtp.c6 type c2 charge 0.769
+name gtp.o6 type o2 charge -0.768
+name gtp.c5 type c2 charge -0.097
+name gtp.n7 type nb charge -0.543
+45
+gtp.pg gtp.o1g 1.5
+gtp.pg gtp.o2g 1.5
+gtp.pg gtp.o3g 1.5
+gtp.o3b   gtp.pg 1.5
+gtp.pb gtp.o1b 1.5
+gtp.pb gtp.o2b 1.5
+gtp.pb gtp.o3b 1.5
+gtp.o3a   gtp.pb 1.5
+gtp.pa gtp.o1a 1.5
+gtp.pa gtp.o2a 1.5
+gtp.pa gtp.o3a 1.5
+gtp.pa gtp.o5* 1
+gtp.o5* gtp.c5* 1
+gtp.c5* gtp.c4* 1
+gtp.c5* gtp.h51* 1
+gtp.c5* gtp.h52* 1
+gtp.c4* gtp.o4* 1
+gtp.c4* gtp.c3* 1
+gtp.c4* gtp.h4* 1
+gtp.c3* gtp.o3* 1
+gtp.o3* gtp.ho3* 1
+gtp.c3* gtp.c2* 1
+gtp.c3* gtp.h3* 1
+gtp.c2* gtp.c1* 1
+gtp.c2* gtp.h21* 1
+gtp.c2* gtp.o2* 1
+gtp.o2* gtp.ho2* 1
+gtp.c1* gtp.o4* 1
+gtp.c1* gtp.n9 1
+gtp.c1* gtp.h1* 1
+gtp.n9 gtp.c4 1
+gtp.n9 gtp.c8 1
+gtp.c4 gtp.n3 1.5
+gtp.n3 gtp.c2 1.5
+gtp.c2 gtp.n1 1.5
+gtp.c2 gtp.n2 1.5
+gtp.n2 gtp.hn21 1
+gtp.n2 gtp.hn22 1
+gtp.n1 gtp.c6 1.5
+gtp.c6 gtp.c5 1.5
+gtp.c6 gtp.o6 2
+gtp.c5 gtp.c4 1.5
+gtp.c5 gtp.n7 1
+gtp.n7 gtp.c8 2
+gtp.c8 gtp.h8 1
+0
+8
+gtp.o2* gtp.c2* gtp.h1* gtp.n9  6 1.925983
+gtp.o2* gtp.c2* gtp.h1* gtp.c1* 6 .468722
+gtp.c1* gtp.c3* gtp.o2* gtp.c2* 6 .554654
+gtp.c1* gtp.c3* gtp.o2* gtp.h21* 6 1.669313
+gtp.c2* gtp.c4* gtp.o3* gtp.c3* 6 .554654
+gtp.c2* gtp.c4* gtp.o3* gtp.h3* 6 1.669313
+gtp.c3* gtp.c5* gtp.o2* gtp.c4* 6 .554654
+gtp.c3* gtp.c5* gtp.o2* gtp.h4* 6 1.669313
+0
+
+the c1* terms may be negative (i.e. wrong or
+other enantiomer)

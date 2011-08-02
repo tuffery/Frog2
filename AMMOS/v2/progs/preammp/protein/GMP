@@ -1,0 +1,79 @@
+33 
+name gmp.p   type p35 charge  1.385
+name gmp.o6p type o2 charge -.847
+name gmp.o7p type o2 charge  -.847
+name gmp.o5p  type o3 charge -.404
+name gmp.c5p  type c3 charge  .180
+name gmp.h51p  type h charge .008
+name gmp.h52p  type h charge .008
+name gmp.c4p  type c3  charge .100 
+name gmp.h4p  type h  charge .061
+name gmp.o4p type o3 charge -.343 
+name gmp.c1p type c3  charge  .117
+name gmp.h1p type h  charge  .054 
+name gmp.n9    type nr charge -.073 
+name gmp.c8   type c2 charge  .263
+name gmp.h8    type h charge .062
+name gmp.n7  type nb charge  -.543
+name gmp.c5    type c2 charge  -.097
+name gmp.c6   type c2 charge .769
+name gmp.o6    type o2 charge  -.768
+name gmp.n2    type np charge  -.768
+name gmp.h21  type hd charge  .324
+name gmp.h22  type hd charge .335
+name gmp.n1    type nr charge  -.774
+name gmp.c2    type c2 charge .661 
+name gmp.n3    type nr charge  -.728
+name gmp.c4    type c2 charge .546
+name gmp.c2p type c3 charge  .101
+name gmp.h2p type h charge  .008
+name gmp.o2p type o3 charge -.546 
+name gmp.ho2p type h charge   .324
+name gmp.c3p type c3 charge .303 
+name gmp.h3p type h charge .007 
+name gmp.o3p type o3 charge -.508 
+36
+gmp.p gmp.o5p 1
+gmp.p gmp.o6p 1
+gmp.p gmp.o7p 1
+gmp.p gmp.o3p 1
+gmp.o5p gmp.c5p 1
+gmp.h51p gmp.c5p 1
+gmp.h52p gmp.c5p 1
+gmp.c4p gmp.c5p 1
+gmp.c4p gmp.o4p 1
+gmp.c4p gmp.h4p 1
+gmp.c1p gmp.o4p 1
+gmp.c1p gmp.n9 1
+gmp.n9 gmp.c8 1.
+gmp.c8 gmp.n7 1.
+gmp.c8 gmp.h8 1
+gmp.n7 gmp.c5 1.
+gmp.c5 gmp.c4 1.5
+gmp.c5 gmp.c6 1.5
+gmp.c6 gmp.o6 2.
+gmp.c6 gmp.n1 1.5
+gmp.n1 gmp.c2 1.5
+gmp.c2 gmp.n2 1.
+gmp.n2 gmp.h21 1.
+gmp.n2 gmp.h22 1.
+gmp.c2 gmp.n3 1.5
+gmp.n3 gmp.c4 1.5
+gmp.c4 gmp.n9 1.
+gmp.c1p gmp.h1p 1.
+gmp.c1p gmp.c2p 1.
+gmp.c2p gmp.h2p 1.
+gmp.c2p gmp.o2p 1.
+gmp.o2p gmp.ho2p 1.
+gmp.c2p gmp.c3p 1.
+gmp.c3p gmp.h3p 1.
+gmp.c3p gmp.o3p 1.
+gmp.c3p gmp.c4p 1.
+3
+gmp.c8 gmp.n9 gmp.c4 188.97166 103.4
+gmp.c1p gmp.n9 gmp.c8 132.520899 128.2
+gmp.c1p gmp.n9 gmp.c4 132.520899 128.2
+2
+gmp.c5 gmp.c6 gmp.c4 gmp.c2 6 0   
+gmp.c8 gmp.c5 gmp.c4 gmp.c2 6 0   
+0

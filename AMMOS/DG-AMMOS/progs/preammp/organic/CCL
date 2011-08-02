@@ -1,0 +1,16 @@
+5
+name ccl.c type C3  charge -.331505
+name ccl.cl type clg charge -.183484
+name ccl.h1 type H  charge .172295
+name ccl.h2 type H  charge .171347
+name ccl.h3 type H  charge .171347
+4
+ccl.c ccl.cl 1
+ccl.c ccl.h1 1 
+ccl.c ccl.h2 1 
+ccl.c ccl.h3 1 
+0
+0
+0
+0
+0

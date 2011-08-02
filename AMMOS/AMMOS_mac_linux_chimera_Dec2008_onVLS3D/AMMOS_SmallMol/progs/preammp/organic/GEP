@@ -1,0 +1,83 @@
+37
+name gep.nr1 type n3
+name gep.cr2 type c3
+name gep.hr21 type h
+name gep.hr22 type h
+name gep.cr3 type c3
+name gep.hr31 type h
+name gep.hr32 type h
+name gep.cr4 type c3
+name gep.hr41 type h
+name gep.hr42 type h
+name gep.cr5 type c3
+name gep.hr51 type h
+name gep.hr52 type h
+name gep.cr6 type c3
+name gep.hr61 type h
+name gep.hr62 type h
+name gep.cr7 type c3
+name gep.hr71 type h
+name gep.hr72 type h
+name gep.cr8 type c3
+name gep.hr81 type h
+name gep.hr82 type h
+name  gep.c1 type c3
+name  gep.h11 type h
+name  gep.h12 type h
+name  gep.c2 type c3
+name  gep.h21 type h
+name  gep.h22 type h
+name gep.n3 type n2
+name gep.h3 type h
+name gep.c4 type c2
+name gep.n5 type n3
+name gep.h51  type h
+name gep.h52  type h
+name gep.n6 type n3
+name gep.h61 type h
+name gep.h62 type h
+37
+gep.nr1 gep.cr2 1
+gep.cr2 gep.cr3 1
+gep.cr2 gep.hr21 1
+gep.cr2 gep.hr22 1
+gep.cr3 gep.cr4 1
+gep.cr3 gep.hr31 1
+gep.cr3 gep.hr32 1
+gep.cr4 gep.cr5 1
+gep.cr4 gep.hr41 1
+gep.cr4 gep.hr42 1
+gep.cr5 gep.cr6 1
+gep.cr5 gep.hr51 1
+gep.cr5 gep.hr52 1
+gep.cr6 gep.cr7 1
+gep.cr6 gep.hr61 1
+gep.cr6 gep.hr62 1
+gep.cr7 gep.cr8 1
+gep.cr7 gep.hr71 1
+gep.cr7 gep.hr72 1
+gep.cr8 gep.nr1 1
+gep.cr8 gep.hr81 1
+gep.cr8 gep.hr82 1
+gep.nr1 gep.c1 1
+gep.c1 gep.h11 1
+gep.c1 gep.h12 1
+gep.c1 gep.c2 1
+gep.c2 gep.h21 1
+gep.c2 gep.h22 1
+gep.c2 gep.n3 1
+gep.n3 gep.h3 1
+gep.n3 gep.c4 1.5
+gep.c4 gep.n5 1.5
+gep.c4 gep.n6 1.5
+gep.n5 gep.h51 1
+gep.n5 gep.h52 1
+gep.n6 gep.h61 1
+gep.n6 gep.h62 1
+0
+0
+0
+0
+0
+guanethidine - a noephinepherine blocker
++1 chargep version

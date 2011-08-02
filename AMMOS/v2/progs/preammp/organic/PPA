@@ -1,0 +1,55 @@
+24
+name ppa.c1 type C2  charge -.153
+name ppa.c2 type C2  charge -.153
+name ppa.c3 type C2  charge -.153
+name ppa.c4 type C2  charge  -.153
+name ppa.c5 type C2  charge -.153
+name ppa.c6 type C2  charge -.153
+name ppa.cp  type c3 charge -.306
+name ppa.hp1 type h
+name ppa.hp2 type h
+name ppa.cq  type c3 charge -.306
+name ppa.hq1 type h
+name ppa.hq2 type h
+name ppa.cr  type c3 charge -.306
+name ppa.hr1 type h
+name ppa.hr2 type h
+name ppa.n1   type n3 charge  .22
+name ppa.hn11 type h charge .311
+name ppa.hn12 type h charge .311
+name ppa.hn13 type h charge .311
+name ppa.h1  type H  charge .153
+name ppa.h2  type H  charge .153
+name ppa.h3  type H 
+name ppa.h5  type H 
+name ppa.h6  type H  charge .153
+24
+ppa.c1 ppa.c2 1.5
+ppa.c2 ppa.c3 1.5
+ppa.c3 ppa.c4 1.5
+ppa.c4 ppa.c5 1.5
+ppa.c5 ppa.c6 1.5
+ppa.c6 ppa.c1 1.5
+ppa.c1 ppa.h1 1
+ppa.c2 ppa.h2 1
+ppa.c3 ppa.h3 1
+ppa.c4 ppa.cp 1
+ppa.c5 ppa.h5 1
+ppa.c6 ppa.h6 1
+ppa.cp ppa.cq 1
+ppa.cq ppa.cr 1
+ppa.cp ppa.hp1 1
+ppa.cp ppa.hp2 1
+ppa.cq ppa.hq1 1
+ppa.cq ppa.hq2 1
+ppa.cr ppa.hr1 1
+ppa.cr ppa.hr2 1
+ppa.cr ppa.n1 1
+ppa.n1 ppa.hn11 1
+ppa.n1 ppa.hn12 1
+ppa.n1 ppa.hn13 1
+0
+0
+0
+0
+0

@@ -1,0 +1,80 @@
+36
+name fls.cr1 type c2
+name fls.or1 type o3
+name fls.hor1 type h
+name fls.cr2 type c2
+name fls.hr2 type h
+name fls.cr3 type c2
+name fls.ob type o3
+name fls.cr4 type c2
+name fls.cb type c2
+name fls.cr5 type c2
+name fls.hr5 type h
+name fls.cr6 type c2
+name fls.hr6 type h
+name fls.cs1 type c2
+name fls.os1 type o3
+name fls.cs2 type c2
+name fls.hs2 type h
+name fls.cs3 type c2
+name fls.cs4 type c2
+name fls.cs5 type c2
+name fls.hs5 type h
+name fls.cs6 type c2
+name fls.hs6 type h
+name fls.ct1 type c2
+name fls.ct2 type c2
+name fls.cct2 type c2
+name fls.oct2 type o2
+name fls.oct1 type o2
+name fls.ct3 type c2
+name fls.ht3 type h
+name fls.ct4 type c2
+name fls.ht4 type h
+name fls.ct5 type c2
+name fls.ht5 type h
+name fls.ct6 type c2
+name fls.ht6 type h
+37
+fls.cr1 fls.or1 1
+fls.or1 fls.hor1 1
+fls.cr1 fls.cr2 2
+fls.cr1 fls.cr6 2
+fls.cr2 fls.hr2 1
+fls.cr2 fls.cr3 2
+fls.cr3 fls.ob 1
+fls.cr3 fls.cr4 2
+fls.cr4 fls.cb 1
+fls.cr4 fls.cr5 2
+fls.cr5 fls.cr6 2
+fls.cr5 fls.hr5 1
+fls.cs1 fls.os1 2
+fls.cs1 fls.cs2 1
+fls.cs1 fls.cs6 1
+fls.cs2 fls.hs2 1
+fls.cs2 fls.cs3 2
+fls.cs3 fls.ob 2
+fls.cs3 fls.cs4 1
+fls.cs4 fls.cb 1
+fls.cs4 fls.cs5 1
+fls.cs5 fls.cs6 2
+fls.cs5 fls.hs5 1
+fls.cb fls.ct1 1
+fls.ct1 fls.ct6 2
+fls.ct1 fls.ct2 2
+fls.ct2 fls.cct2 1
+fls.cct2 fls.oct1 1.5
+fls.cct2 fls.oct2 1.5
+fls.ct2 fls.ct3 2
+fls.ct3 fls.ht3 1
+fls.ct3 fls.ct4 2
+fls.ct4 fls.ht4 1
+fls.ct4 fls.ct5 2
+fls.ct5 fls.ht5 1
+fls.ct5 fls.ct6 2
+fls.ct6 fls.ht6 1
+0
+0
+0
+0
+fluorescien -1

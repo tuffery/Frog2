@@ -1,0 +1,80 @@
+36
+name ged.nr1 type n3
+name ged.cr2 type c3
+name ged.hr21 type h
+name ged.hr22 type h
+name ged.cr3 type c3
+name ged.hr31 type h
+name ged.hr32 type h
+name ged.cr4 type c3
+name ged.hr41 type h
+name ged.hr42 type h
+name ged.cr5 type c3
+name ged.hr51 type h
+name ged.hr52 type h
+name ged.cr6 type c3
+name ged.hr61 type h
+name ged.hr62 type h
+name ged.cr7 type c3
+name ged.hr71 type h
+name ged.hr72 type h
+name ged.cr8 type c3
+name ged.hr81 type h
+name ged.hr82 type h
+name  ged.c1 type c3
+name  ged.h11 type h
+name  ged.h12 type h
+name  ged.c2 type c3
+name  ged.h21 type h
+name  ged.h22 type h
+name ged.n3 type n3
+name ged.h3 type h
+name ged.c4 type c2
+name ged.n5 type n2
+name ged.h5   type h
+name ged.n6 type n3
+name ged.h61 type h
+name ged.h62 type h
+36
+ged.nr1 ged.cr2 1
+ged.cr2 ged.cr3 1
+ged.cr2 ged.hr21 1
+ged.cr2 ged.hr22 1
+ged.cr3 ged.cr4 1
+ged.cr3 ged.hr31 1
+ged.cr3 ged.hr32 1
+ged.cr4 ged.cr5 1
+ged.cr4 ged.hr41 1
+ged.cr4 ged.hr42 1
+ged.cr5 ged.cr6 1
+ged.cr5 ged.hr51 1
+ged.cr5 ged.hr52 1
+ged.cr6 ged.cr7 1
+ged.cr6 ged.hr61 1
+ged.cr6 ged.hr62 1
+ged.cr7 ged.cr8 1
+ged.cr7 ged.hr71 1
+ged.cr7 ged.hr72 1
+ged.cr8 ged.nr1 1
+ged.cr8 ged.hr81 1
+ged.cr8 ged.hr82 1
+ged.nr1 ged.c1 1
+ged.c1 ged.h11 1
+ged.c1 ged.h12 1
+ged.c1 ged.c2 1
+ged.c2 ged.h21 1
+ged.c2 ged.h22 1
+ged.c2 ged.n3 1
+ged.n3 ged.h3 1
+ged.n3 ged.c4 1.5
+ged.c4 ged.n5 1.5
+ged.c4 ged.n6 1.5
+ged.n5 ged.h5 1
+ged.n6 ged.h61 1
+ged.n6 ged.h62 1
+0
+0
+0
+0
+0
+guanethidine - a noephinepherine blocker

@@ -1,0 +1,26 @@
+10
+name css.n type np charge -0.463
+name css.h type hd charge 0.252
+name css.ca type c3 charge 0.035
+name css.ha type h charge 0.048
+name css.c type c2 charge 0.616
+name css.o type o2 charge -0.504
+name css.cb type c3 charge -0.098
+name css.1hb type h charge 0.0495
+name css.2hb type h charge 0.0495
+name css.sg type s32 charge 0.015
+9
+css.n css.h 1
+css.n css.ca 1
+css.ca css.c 1
+css.ca css.cb 1
+css.ca css.ha 1
+css.c css.o 1.75
+css.cb css.sg 1
+css.cb css.1hb 1
+css.cb css.2hb 1
+0
+2
+css.n css.cb css.c css.ca  4 .494427
+css.n css.cb css.c css.ha  4  1.606971
+0

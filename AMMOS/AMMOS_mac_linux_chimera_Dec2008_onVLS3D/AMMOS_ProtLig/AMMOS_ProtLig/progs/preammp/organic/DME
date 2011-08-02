@@ -1,0 +1,19 @@
+9
+name dme.c1 charge -.169  type c3
+name dme.h11 charge .153 type h
+name dme.h12 charge .153 type h
+name dme.h13 charge .153 type h
+name dme.o2 charge -.58 type o3
+name dme.c3 charge -.169 type c3
+name dme.h31 charge .153 type h
+name dme.h32 charge .153 type h
+name dme.h33 charge .153 type h
+8
+dme.c1 dme.h11 1
+dme.c1 dme.h12 1
+dme.c1 dme.h13 1
+dme.c3 dme.h31 1
+dme.c3 dme.h32 1
+dme.c3 dme.h33 1
+dme.c1 dme.o2 1
+dme.c3 dme.o2 1

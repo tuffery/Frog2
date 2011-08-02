@@ -1,0 +1,50 @@
+21
+name esx.cr1 type C2  
+name esx.or1 type o2 
+name esx.nr2 type n3  
+name esx.hnr2 type h
+name esx.cr3 type C2  
+name esx.or3 type o2 
+name esx.cr4 type C3  
+name esx.cr5 type C3  
+name esx.hr51 type H  
+name esx.hr52 type H  
+name esx.cm4  type c3
+name esx.hm41 type H  
+name esx.hm42 type H  
+name esx.hm43 type H  
+name esx.cp4  type c3
+name esx.hp41 type H  
+name esx.hp42 type H  
+name esx.cp5  type c3
+name esx.hp51 type H  
+name esx.hp52 type H  
+name esx.hp53 type H  
+21
+esx.cr1 esx.or1 2
+esx.cr1 esx.nr2 1
+esx.nr2 esx.hnr2 1
+esx.nr2 esx.cr3 1
+esx.cr3 esx.or3 2
+esx.cr3 esx.cr4 1
+esx.cr4 esx.cr5
+esx.cr5 esx.cr1 1 
+esx.cr5 esx.hr51 1 
+esx.cr5 esx.hr52 1 
+esx.cr4 esx.cm4 1
+esx.cm4 esx.hm41 1
+esx.cm4 esx.hm42 1
+esx.cm4 esx.hm43 1
+esx.cr4 esx.cp4 1
+esx.cp4 esx.hp41 1
+esx.cp4 esx.hp42 1
+esx.cp4 esx.cp5 1
+esx.cp5 esx.hp51 1
+esx.cp5 esx.hp52 1
+esx.cp5 esx.hp53 1
+0
+0
+0
+0
+0
+# ethosuximide  - anti serizure ;

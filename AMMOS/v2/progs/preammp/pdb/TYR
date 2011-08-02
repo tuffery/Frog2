@@ -1,0 +1,49 @@
+21
+name tyr.n type np charge -0.463
+name tyr.h type hd charge 0.252
+name tyr.ca type c3 charge 0.035
+name tyr.ha type h charge 0.048
+name tyr.c type c2 charge 0.616
+name tyr.o type o2 charge -0.504
+name tyr.cb type c3 charge -0.098
+name tyr.1hb type h charge 0.038
+name tyr.2hb type h charge 0.038
+name tyr.cg type ca charge -0.030
+name tyr.cd1 type ca charge -0.002
+name tyr.cd2 type ca charge -0.002
+name tyr.hd1 type h charge 0.064
+name tyr.hd2 type h charge 0.064
+name tyr.ce1 type ca charge -0.264
+name tyr.ce2 type ca charge -0.264
+name tyr.he1 type h charge 0.102
+name tyr.he2 type h charge 0.102
+name tyr.cz type ca charge 0.462
+name tyr.oh type o2 charge -0.528
+name tyr.hh type hd charge 0.334
+21
+tyr.n tyr.h 1
+tyr.n tyr.ca 1
+tyr.ca tyr.c 1
+tyr.ca tyr.cb 1
+tyr.ca tyr.ha 1
+tyr.c tyr.o 1.75
+tyr.cb tyr.cg 1
+tyr.cb tyr.1hb 1
+tyr.cb tyr.2hb 1
+tyr.cg tyr.cd1 1.5
+tyr.cg tyr.cd2 1.5
+tyr.cd1 tyr.ce1 1.5
+tyr.cd2 tyr.ce2 1.5
+tyr.ce1 tyr.cz 1.5
+tyr.ce2 tyr.cz 1.5
+tyr.cd1 tyr.hd1 1
+tyr.cd2 tyr.hd2 1
+tyr.ce1 tyr.he1 1
+tyr.ce2 tyr.he2 1
+tyr.cz tyr.oh 1
+tyr.oh tyr.hh 1
+0
+2
+tyr.n tyr.cb tyr.c tyr.ca  4 .494427
+tyr.n tyr.cb tyr.c tyr.ha  4  1.606971
+0

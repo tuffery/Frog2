@@ -1,0 +1,104 @@
+43
+name atp.pg type p35 charge 1.385
+name atp.o1g type o2 charge -0.847
+name atp.o2g type o2 charge -0.847
+name atp.o3g type o3 charge -0.847
+name atp.pb type p35 charge 1.385
+name atp.o1b type o2 charge -0.847
+name atp.o2b type o2 charge -0.847
+name atp.o3b type o3 charge -0.847
+name atp.pa type p35 charge 1.385
+name atp.o1a type o2 charge -0.847
+name atp.o2a type o2 charge -0.847
+name atp.o3a type o3 charge -0.847
+name atp.o3* type o3 charge -0.509
+name atp.ho3* type hd charge -0.509
+name atp.o5* type o3 charge -0.509
+name atp.c5* type c3 charge 0.118
+name atp.h51* type h charge 0.021
+name atp.h52* type h charge 0.021
+name atp.c4* type c3 charge 0.036
+name atp.h4* type h charge 0.056
+name atp.o4* type o3 charge -0.368
+name atp.o2* type o3 charge -0.081
+name atp.ho2* type hd charge -0.081
+name atp.c1* type c3 charge 0.376
+name atp.h1* type h charge 0.009
+name atp.c2* type c3 charge -0.307
+name atp.h21* type h charge 0.081
+name atp.c3* type c3 charge 0.233
+name atp.h3* type h charge 0.025
+name atp.n9 type nr charge -0.073
+name atp.c4 type c2 charge 0.546
+name atp.c8 type c2 charge 0.263
+name atp.h8 type h charge 0.062
+name atp.n3 type nr charge -0.728
+name atp.c2 type c2 charge 0.661
+name atp.h2 type h charge -0.032
+name atp.n1 type nr charge -0.774
+name atp.c6 type c2 charge 0.769
+name atp.n6 type np charge -0.768
+name atp.hn61 type hd charge 0.324
+name atp.hn62 type hd charge 0.335
+name atp.c5 type c2 charge -0.097
+name atp.n7 type nb charge -0.543
+45
+atp.pg atp.o1g 1.5
+atp.pg atp.o2g 1.5
+atp.pg atp.o3g 1.5
+atp.o3b   atp.pg 1.5
+atp.pb atp.o1b 1.5
+atp.pb atp.o2b 1.5
+atp.pb atp.o3b 1.5
+atp.o3a   atp.pb 1.5
+atp.pa atp.o1a 1.5
+atp.pa atp.o2a 1.5
+atp.pa atp.o3a 1.5
+atp.pa atp.o5* 1
+atp.o5* atp.c5* 1
+atp.c5* atp.c4* 1
+atp.c5* atp.h51* 1
+atp.c5* atp.h52* 1
+atp.c4* atp.o4* 1
+atp.c4* atp.c3* 1
+atp.c4* atp.h4* 1
+atp.c3* atp.o3* 1
+atp.o3* atp.ho3* 1
+atp.c3* atp.c2* 1
+atp.c3* atp.h3* 1
+atp.c2* atp.c1* 1
+atp.c2* atp.h21* 1
+atp.c2* atp.o2* 1
+atp.o2* atp.ho2* 1
+atp.c1* atp.o4* 1
+atp.c1* atp.n9 1
+atp.c1* atp.h1* 1
+atp.n9 atp.c4 1
+atp.n9 atp.c8 1
+atp.c4 atp.n3 1.5
+atp.n3 atp.c2 1.5
+atp.c2 atp.n1 1.5
+atp.c2 atp.h2 1
+atp.n1 atp.c6 1.5
+atp.c6 atp.c5 1.5
+atp.c6 atp.n6 1
+atp.n6 atp.hn61 1
+atp.n6 atp.hn62 1
+atp.c5 atp.c4 1.5
+atp.c5 atp.n7 1
+atp.n7 atp.c8 2
+atp.c8 atp.h8 1
+0
+8
+atp.o2* atp.c2* atp.h1* atp.n9  6 1.925983
+atp.o2* atp.c2* atp.h1* atp.c1* 6 .468722
+atp.c1* atp.c3* atp.o2* atp.c2* 6 .554654
+atp.c1* atp.c3* atp.o2* atp.h21* 6 1.669313
+atp.c2* atp.c4* atp.o3* atp.c3* 6 .554654
+atp.c2* atp.c4* atp.o3* atp.h3* 6 1.669313
+atp.c3* atp.c5* atp.o2* atp.c4* 6 .554654
+atp.c3* atp.c5* atp.o2* atp.h4* 6 1.669313
+0
+
+the c1* terms may be negative (i.e. wrong or
+other enantiomer)

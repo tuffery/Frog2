@@ -1,0 +1,57 @@
+# fix the hb, hg of val or leu;
+# this is prochiral so can't use hybrid ; 
+
+# ires is assumed to be the residue of interest;
+
+serial ica ires ca;
+jnes ica leu.ca  notleu: ;
+
+serial i ires cb;
+serial m ires cg;
+serial j ires cd1 ;
+serial k ires cd2 ;
+serial l ires hg;
+
+je 1 1   doit:;
+notleu: ;
+jnes ica val.ca  done: ;
+mov i ica;
+serial m ires cb;
+serial j ires cg1 ;
+serial k ires cg2 ;
+serial l ires hb;
+doit: ;
+#error checking ;
+jl  i 0 done: ;
+jl  j 0 done: ;
+jl  k 0 done: ;
+jl  l 0 done: ;
+jl  m 0 done: ;
+
+mov x j.x; sub x i.x;
+mov y j.y; sub y i.y;
+mov z j.z; sub z i.z;
+mov x1 k.x; sub x1 i.x;
+mov y1 k.y; sub y1 i.y;
+mov z1 k.z; sub z1 i.z;
+
+# the cross product ;
+
+mov t y; mul t z1; mov xc t; mov t y1; mul t z; sub xc t;
+mov t x; mul t z1; mov yc t; mov t x1; mul t z; sub yc t; mul yc -1;
+mov t x; mul t y1; mov zc t; mov t x1; mul t y; sub zc t;
+
+mov x xc; mul x x;
+mov y yc; mul y y; 
+mov z zc; mul z z;
+
+mov t x; add t y; add t z;
+jl t 0 done: ;
+sqrt t; div xc t; div yc t; div zc t;
+
+mov l.x m.x; add l.x xc;
+mov l.y m.y; add l.y yc;
+mov l.z m.z; add l.z zc;
+
+
+done: ;

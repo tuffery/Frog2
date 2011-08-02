@@ -1,0 +1,41 @@
+17
+name gln.n type np charge -0.463
+name gln.h type hd charge 0.252
+name gln.ca type c3 charge 0.035
+name gln.ha type h charge 0.048
+name gln.c type c2 charge 0.616
+name gln.o type o2 charge -0.504
+name gln.cb type c3 charge -0.098
+name gln.1hb type h charge 0.038
+name gln.2hb type h charge 0.038
+name gln.cg type c3 charge -0.102
+name gln.1hg type h charge 0.057
+name gln.2hg type h charge 0.057
+name gln.cd type c2 charge 0.675
+name gln.oe1 type o2 charge -0.470
+name gln.ne2 type np charge -0.867
+name gln.1he2 type hd charge 0.344
+name gln.2he2 type hd charge 0.344
+16
+gln.n gln.h 1
+gln.n gln.ca 1
+gln.ca gln.c 1
+gln.ca gln.cb 1
+gln.ca gln.ha 1
+gln.c gln.o 1.75
+gln.cb gln.cg 1
+gln.cb gln.1hb 1
+gln.cb gln.2hb 1
+gln.cg gln.cd 1
+gln.cg gln.1hg 1
+gln.cg gln.2hg 1
+gln.cd gln.oe1 1.75
+gln.cd gln.ne2 1.25
+gln.ne2 gln.1he2 1
+gln.ne2 gln.2he2 1
+0
+2
+gln.n gln.cb gln.c gln.ca  4 .494427
+gln.n gln.cb gln.c gln.ha  4  1.606971
+0
+

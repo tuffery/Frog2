@@ -1,0 +1,52 @@
+# build a s-zn-s bond for zinc fingers ;
+#  ires = first css;
+#  jres = second css;
+#  kres = the zinc;
+
+serial icb  ires cb;
+serial ihb1 ires hb1;
+serial ihb2 ires hb2;
+serial ica  ires ca ;
+serial isg  ires sg;
+serial jcb  jres cb;
+serial jhb1 jres hb1;
+serial jhb2 jres hb2;
+serial jca  jres ca ;
+serial jsg  jres sg;
+serial kzn  kres zn;
+
+
+
+# bond icb isg 1.828253 264.378693 ;
+# bond icb ihb1 1.112599 352.394226 ;
+# bond icb ihb2 1.112599 352.394226 ;
+# bond icb ica 1.112599 352.394226 ;
+# bond jcb jsg 1.828253 264.378693 ;
+# bond jcb jhb1 1.112599 352.394226 ;
+# bond jcb jhb2 1.112599 352.394226 ;
+# bond jcb jca 1.112599 352.394226 ;
+ bond kzn jsg 2.347883 168.515442 ;
+ bond kzn isg 2.347883 168.515442 ;
+# angle isg icb ihb1 39.430840 109.470001 ;
+# angle isg icb ihb2 39.430840 109.470001 ;
+# angle isg icb ica 39.430840 109.470001 ;
+# angle ihb1 icb ihb2 41.660091 109.470001 ;
+# angle ihb1 icb ica 41.660091 109.470001 ;
+# angle ihb2 icb ica 41.660091 109.470001 ;
+ angle icb isg kzn 64.007111 109.47 92.099998 ;
+# angle jsg jcb jhb1 39.430840 109.470001 ;
+# angle jsg jcb jhb2 39.430840 109.470001 ;
+# angle jsg jcb jca 39.430840 109.470001 ;
+# angle jhb1 jcb jhb2 41.660091 109.470001 ;
+# angle jhb1 jcb jca 41.660091 109.470001 ;
+# angle jhb2 jcb jca 41.660091 109.470001 ;
+ angle jcb jsg kzn 64.007111 109.47 92.099998 ;
+ angle jsg kzn isg 22.156933 109.470001 ;
+ torsion ihb1 icb isg kzn 0.337572 3 0.000000 ;
+ torsion ihb2 icb isg kzn 0.337572 3 0.000000 ;
+ torsion ica icb isg kzn 0.337572 3 0.000000 ;
+ torsion jhb1 jcb jsg kzn 0.337572 3 0.000000 ;
+ torsion jhb2 jcb jsg kzn 0.337572 3 0.000000 ;
+ torsion jca jcb jsg kzn 0.337572 3 0.000000 ;
+ torsion isg kzn jsg jcb 0.337572 3 0.000000 ;
+ torsion jsg kzn isg icb 0.337572 3 0.000000 ;

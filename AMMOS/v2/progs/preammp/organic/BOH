@@ -1,0 +1,38 @@
+15
+name boh.c1 type C3  charge -.459
+name boh.c2 type C3  charge -.306
+name boh.c3 type C3  charge -.306
+name boh.c4 type C3  charge -.459
+name boh.o5 type o3 
+name boh.h11 type H 
+name boh.h12 type H 
+name boh.h13 type H 
+name boh.h21 type H 
+name boh.h22 type H 
+name boh.h31 type H 
+name boh.h32 type H 
+name boh.h41 type H 
+name boh.h42 type H 
+name boh.h5 type  hd
+14
+boh.c1 boh.c2 1
+boh.c2 boh.c3 1
+boh.c3 boh.c4 1
+boh.c1 boh.h11 1
+boh.c1 boh.h12 1
+boh.c1 boh.h13 1
+boh.c2 boh.h21 1
+boh.c2 boh.h22 1
+boh.c3 boh.h31 1
+boh.c3 boh.h32 1
+boh.c4 boh.h41 1
+boh.c4 boh.h42 1
+boh.c4 boh.o5 1
+boh.o5 boh.h5 1
+0
+0
+0
+0
+0
+
+butanol

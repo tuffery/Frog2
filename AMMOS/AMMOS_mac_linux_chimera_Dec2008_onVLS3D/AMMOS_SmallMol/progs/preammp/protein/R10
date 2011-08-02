@@ -1,0 +1,118 @@
+54
+name r10.c1 type ca
+name r10.c2 type ca
+name r10.c3 type ca
+name r10.c4 type ca
+name r10.c5 type ca
+name r10.c6 type ca
+name r10.c7 type ca
+name r10.c8 type ca
+name r10.c9 type ca
+name r10.c10 type ca
+name r10.c11 type ca
+name r10.c12 type ca
+name r10.c13 type ca
+name r10.c14 type ca
+name r10.c15 type ca
+name r10.c16 type ca
+name r10.c17 type ca
+name r10.c18 type ca
+name r10.c19 type c3
+name r10.c20 type c3
+name r10.c21 type ca
+name r10.c22 type ca
+name r10.n1 type np
+name r10.n2 type np
+name r10.n3 type np
+name r10.n4 type np
+name r10.n5 type n3
+name r10.n6 type n3
+name r10.h2 type h
+name r10.h3 type h
+name r10.h5 type h
+name r10.h6 type h
+name r10.h8 type h
+name r10.h10 type h
+name r10.h11 type h
+name r10.h12 type h
+name r10.h14 type h
+name r10.h15 type h
+name r10.h17 type h
+name r10.h18 type h
+name r10.1h19 type h
+name r10.2h19 type h
+name r10.1h20 type h
+name r10.2h20 type h
+name r10.1hn1 type hd
+name r10.2hn1 type hd
+name r10.1hn2 type hd
+name r10.2hn2 type hd
+name r10.1hn3 type hd
+name r10.2hn3 type hd
+name r10.1hn4 type hd
+name r10.2hn4 type hd
+name r10.hn5 type hd
+name r10.hn6 type hd
+56
+r10.c1 r10.c21 1
+r10.c1 r10.c2 1.5
+r10.c2 r10.h2 1
+r10.c2 r10.c3 1.5
+r10.c3 r10.h3 1
+r10.c3 r10.c4 1.5
+r10.c4 r10.n5 1
+r10.c4 r10.c5 1.5
+r10.c5 r10.h5 1
+r10.c5 r10.c6 1.5
+r10.c6 r10.h6 1
+r10.c6 r10.c1 1.5
+r10.n5 r10.c19 1
+r10.c19 r10.1h19 1
+r10.c19 r10.2h19 1
+r10.c19 r10.c7 1
+r10.c7 r10.c8 1.5
+r10.c7 r10.c12 1.5
+r10.c8 r10.h8 1
+r10.c8 r10.c9 1.5
+r10.c9 r10.c20 1
+r10.c9 r10.c10 1.5
+r10.c10 r10.h10 1
+r10.c10 r10.c11 1.5
+r10.c11 r10.c12 1.5
+r10.c11 r10.h11 1
+r10.c12 r10.h12 1
+r10.c20 r10.1h20 1
+r10.c20 r10.2h20 1
+r10.c20 r10.n6 1
+r10.n6 r10.hn6 1
+r10.n5 r10.hn5 1
+r10.n6 r10.c13 1
+r10.c13 r10.c14 1.5
+r10.c13 r10.c18 1.5
+r10.c14 r10.h14 1
+r10.c14 r10.c15 1.5
+r10.c15 r10.h15 1
+r10.c15 r10.c16 1.5
+r10.c16 r10.c22 1
+r10.c16 r10.c17 1.5
+r10.c17 r10.h17 1
+r10.c17 r10.c18 1.5
+r10.c18 r10.h18 1
+r10.c21 r10.n1 1.5
+r10.c21 r10.n2 1.5
+r10.c22 r10.n3 1.5
+r10.c22 r10.n4 1.5
+r10.n1 r10.1hn1 1
+r10.n1 r10.2hn1 1
+r10.n2 r10.1hn2 1
+r10.n2 r10.2hn2 1
+r10.n3 r10.1hn3 1
+r10.n3 r10.2hn3 1
+r10.n4 r10.1hn4 1
+r10.n4 r10.2hn4 1
+0
+0
+0
+0
+
+RWH10

@@ -1,0 +1,64 @@
+30
+name uri.p type p3 charge 1.385
+name uri.o1p type o2 charge -0.847
+name uri.o2p type o2 charge -0.847
+name uri.o3' type o2 charge -0.509
+name uri.o5' type o2 charge -0.509
+name uri.c5' type c3 charge 0.180
+name uri.h51' type h charge 0.008
+name uri.h52' type h charge 0.008
+name uri.c4' type c3 charge 0.100
+name uri.h4' type h charge 0.061
+name uri.c3' type c3 charge 0.303
+name uri.h3' type h charge 0.007
+name uri.c2' type c3 charge 0.101
+name uri.h2' type h charge 0.008
+name uri.o2' type o3 charge -0.546
+name uri.ho2' type hd charge -0.324
+name uri.c1' type c3 charge 0.117
+name uri.h1' type h charge 0.054
+name uri.o4' type o3 charge -0.343
+name uri.n1 type n2 charge -0.159
+name uri.c2 type cr charge 0.775
+name uri.o2 type o2 charge -0.472
+name uri.n3 type nr charge -0.768
+name uri.h3 type hd charge 0.334
+name uri.c4 type cr charge 0.834
+name uri.o4 type o2 charge -0.474
+name uri.c5 type cr charge -0.529
+name uri.h5 type h charge 0.146
+name uri.c6 type cr charge 0.160
+name uri.h6 type h charge 0.098
+32
+uri.p uri.o1p 1.5
+uri.p uri.o2p 1.5 
+uri.p uri.o3' 1
+uri.p uri.o5' 1
+uri.o5' uri.c5' 1
+uri.c5' uri.c4' 1
+uri.c5' uri.h51' 1
+uri.c5' uri.h52' 1
+uri.c4' uri.o4' 1
+uri.c4' uri.c3' 1
+uri.c4' uri.h4' 1
+uri.c3' uri.o3' 1
+uri.c3' uri.c2' 1
+uri.c3' uri.h3' 1
+uri.c2' uri.o2' 1
+uri.c2' uri.c1' 1
+uri.c2' uri.h2' 1
+uri.o2' uri.ho2' 1
+uri.c1' uri.o4' 1
+uri.c1' uri.n1' 1
+uri.c1' uri.h1' 1
+uri.n1 uri.c2 1
+uri.n1 uri.c6 1
+uri.c2 uri.n3 1.5
+uri.c2 uri.o2 1.5
+uri.n3 uri.c4 1.5
+uri.n3 uri.h3 1
+uri.c4 uri.c5 1.5
+uri.c4 uri.o4 1.5
+uri.c5 uri.c6 1.5
+uri.c5 uri.h5 1
+uri.c6 uri.h6 1

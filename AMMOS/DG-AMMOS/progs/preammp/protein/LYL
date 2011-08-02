@@ -1,0 +1,48 @@
+21
+name lyl.n type np charge -0.463
+name lyl.hn type hd charge 0.252
+name lyl.ca type c3 charge 0.035
+name lyl.ha type h charge 0.048
+name lyl.c type c2 charge 0.616
+name lyl.o type o2 charge -0.504
+name lyl.oxt type o2 charge -0.504
+name lyl.cb type c3 charge -0.098
+name lyl.hb1 type h charge 0.038
+name lyl.hb2 type h charge 0.038
+name lyl.cg type c3 charge -0.160
+name lyl.hg1 type h charge 0.116
+name lyl.hg2 type h charge 0.116
+name lyl.cd type c3 charge -0.180
+name lyl.hd1 type h charge 0.122
+name lyl.hd2 type h charge 0.122
+name lyl.ce type c3 charge -0.038
+name lyl.he1 type h charge 0.098
+name lyl.he2 type h charge 0.098
+name lyl.nz type n3 charge -0.138
+name lyl.hnz type hd charge -0.138
+20
+lyl.n lyl.hn 1
+lyl.n lyl.ca 1
+lyl.ca lyl.c 1
+lyl.ca lyl.cb 1
+lyl.ca lyl.ha 1
+lyl.c lyl.o 1.5
+lyl.c lyl.oxt 1.5
+lyl.cb lyl.cg 1
+lyl.cb lyl.hb1 1
+lyl.cb lyl.hb2 1
+lyl.cg lyl.cd 1
+lyl.cg lyl.hg1 1
+lyl.cg lyl.hg2 1
+lyl.cd lyl.ce 1
+lyl.cd lyl.hd1 1
+lyl.cd lyl.hd2 1
+lyl.ce lyl.nz 1
+lyl.ce lyl.he1 1
+lyl.ce lyl.he2 1
+lyl.nz lyl.hnz 1
+0
+2
+lyl.n lyl.cb lyl.c lyl.ca  4 .494427
+lyl.n lyl.cb lyl.c lyl.ha  4  1.606971
+0

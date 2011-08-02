@@ -1,0 +1,44 @@
+19
+name men.n type np charge -0.463
+name men.h1 type hd charge 0.252
+name men.h2 type hd charge 0.252
+name men.h3 type hd charge 0.252
+name men.ca type c3 charge 0.035
+name men.ha type h charge 0.048
+name men.c type c2 charge 0.616
+name men.o type o2 charge -0.504
+name men.cb type c3 charge -0.151
+name men.hb2 type h charge 0.027
+name men.hb3 type h charge 0.027
+name men.cg type c3 charge -0.054
+name men.hg2 type h charge 0.0652
+name men.hg3 type h charge 0.0652
+name men.sd type s34 charge -0.025
+name men.ce type c3 charge -0.134
+name men.he1 type h charge 0.0652
+name men.he2 type h charge 0.0652
+name men.he3 type h charge 0.0652
+18
+men.n men.h1 1
+men.n men.h2 1
+men.n men.h3 1
+men.n men.ca 1
+men.ca men.c 1
+men.ca men.cb 1
+men.ca men.ha 1
+men.c men.o 1.75
+men.cb men.cg 1
+men.cb men.hb2 1
+men.cb men.hb3 1
+men.cg men.sd 1
+men.cg men.hg2 1
+men.cg men.hg3 1
+men.sd men.ce 1
+men.ce men.he1 1
+men.ce men.he2 1
+men.ce men.he3 1
+0
+2
+men.n men.cb men.c men.ca  4 .494427
+men.n men.cb men.c men.ha  4  1.606971
+0

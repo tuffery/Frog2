@@ -1,0 +1,65 @@
+24
+name glc.o1 type o3  charge -.604339
+name glc.c1 type C3  charge .170176
+name glc.c2 type C3  charge .078505
+name glc.c3 type C3  charge .081127
+name glc.c4 type C3 charge .078156
+name glc.c5 type C3  charge .077649
+name glc.c6 type C3  charge .032754
+name glc.o2 type o3  charge -.600273
+name glc.o3 type o3  charge -.601438
+name glc.o4 type o3  charge -.601623
+name glc.o5 type o3  charge -.495988
+name glc.o6 type o3  charge -.595672
+name glc.h11 type H   charge .158625
+name glc.ho1 type H   charge .366934
+name glc.h21 type H   charge .159266
+name glc.h31 type H   charge .167601
+name glc.ho2 type H   charge .358154
+name glc.ho3 type H   charge .369702
+name glc.h41 type H   charge .164746
+name glc.ho4 type H   charge .367830
+name glc.h51 type H   charge .168722
+name glc.h61 type H   charge .172017
+name glc.h62 type H   charge .161368
+name glc.ho6 type H   charge .366001
+24
+glc.o5 glc.c1 1
+glc.c1 glc.c2 1
+glc.c2 glc.c3 1
+glc.c3 glc.c4 1
+glc.c4 glc.c5 1
+glc.c5 glc.o5 1
+glc.c5 glc.c6 1
+glc.c1 glc.o1 1
+glc.c1 glc.h11 1
+glc.o1 glc.ho1 1
+glc.c2 glc.h21 1
+glc.c2 glc.o2 1
+glc.o2 glc.ho2 1
+glc.c3 glc.h31 1
+glc.c3 glc.o3 1
+glc.o3 glc.ho3 1
+glc.c4 glc.h41 1
+glc.c4 glc.o4 1
+glc.o4 glc.ho4 1
+glc.c5 glc.h51 1
+glc.c6 glc.o6 1
+glc.c6 glc.h61 1
+glc.c6 glc.h62 1
+glc.o6 glc.ho6 1
+0
+10
+glc.c2 glc.c1 glc.c3 glc.o2 4 -1.094596
+glc.c2 glc.c1 glc.c3 glc.h21 4  .957949
+glc.c3 glc.c2 glc.c4 glc.o3  4 1.174142
+glc.c3 glc.c2 glc.c4 glc.h31 4 -.932578 
+glc.c4 glc.c3 glc.c5 glc.o4 4 -1.158380
+glc.c4 glc.c3 glc.c5 glc.h41 4 .940345
+glc.c5 glc.c4 glc.o5 glc.c6 4 1.220105
+glc.c5 glc.c4 glc.o5 glc.h51 4 -.895929
+glc.c1 glc.o5 glc.c2 glc.o1 4 -1.141856
+glc.c1 glc.o5 glc.c2 glc.h11 4 .940104
+0
+0
+:%s/

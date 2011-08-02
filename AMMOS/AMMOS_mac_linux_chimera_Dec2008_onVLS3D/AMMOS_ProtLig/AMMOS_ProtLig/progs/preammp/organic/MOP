@@ -1,0 +1,110 @@
+50
+name mop.c1 type C2  charge -.153
+name mop.c2 type C2  charge -.153
+name mop.c3 type C2  charge -.153
+name mop.c4 type C2  charge -.153
+name mop.c5 type C2  charge -.153
+name mop.c6 type C2  charge -.153
+name mop.c11 type c3
+name mop.h111 type h
+name mop.h112 type h
+name mop.n12 type n3
+name mop.h121 type h
+name mop.h122 type h
+name mop.h123 type h
+name mop.h2  type H  charge .153
+name mop.h3  type H  charge .153
+name mop.c41 type c3
+name mop.h411 type h
+name mop.h412 type h
+name mop.n42 type np
+name mop.h421 type h
+name mop.h5  type H  charge .153
+name mop.h6  type H  charge .153
+name mop.cra type c2
+name mop.ora type o2
+name mop.cr1 type c2
+name mop.cr2 type c2
+name mop.or2 type o3
+name mop.hr2 type h
+name mop.cr3 type c2
+name mop.hr3 type h
+name mop.cr4 type c2
+name mop.hr4 type h
+name mop.cr5 type c2
+name mop.nr5 type n2
+name mop.cr6 type c2
+name mop.hr6 type h
+name mop.cp1 type c2
+name mop.hp1 type h
+name mop.cp2 type c2
+name mop.np2 type n2
+name mop.cp3 type c2
+name mop.hp3 type h
+name mop.cp4 type c2
+name mop.hp4 type h
+name mop.cp5 type c2
+name mop.np5 type n2
+name mop.op51 type o2
+name mop.op52 type o2
+name mop.cp6 type c2
+name mop.hp6 type h
+52
+mop.c1 mop.c2 1.5
+mop.c2 mop.c3 1.5
+mop.c3 mop.c4 1.5
+mop.c4 mop.c5 1.5
+mop.c5 mop.c6 1.5
+mop.c6 mop.c1 1.5
+mop.c1 mop.c11 1
+mop.c11 mop.h111 1
+mop.c11 mop.h112 1
+mop.c11 mop.n12 1
+mop.n12 mop.h121 1
+mop.n12 mop.h122 1
+mop.n12 mop.h123 1
+mop.c2 mop.h2 1
+mop.c3 mop.h3 1
+mop.c4 mop.c41 1
+mop.c41 mop.h411 1
+mop.c41 mop.h412 1
+mop.c41 mop.n42 1
+mop.n42 mop.h421 1
+mop.c5 mop.h5 1
+mop.c6 mop.h6 1
+mop.n42 mop.cra 1.5
+mop.cra mop.ora 1.5
+mop.cra mop.cr1 1
+mop.cr1 mop.cr2 1.5
+mop.cr2 mop.or2 1
+mop.or2 mop.hr2 1
+mop.cr2 mop.cr3 1.5
+mop.cr3 mop.hr3 1
+mop.cr3 mop.cr4 1.5
+mop.cr4 mop.hr4 1
+mop.cr4 mop.cr5 1.5
+mop.cr5 mop.nr5 1
+mop.cr5 mop.cr6 1.5
+mop.cr6 mop.cr1 1.5
+mop.cr6 mop.hr6 1
+mop.nr5 mop.np2 2
+mop.np2 mop.cp2 1
+mop.cp2 mop.cp1 1.5
+mop.cp1 mop.hp1 1
+mop.cp2 mop.cp3 1.5
+mop.cp3 mop.hp3 1
+mop.cp3 mop.cp4 1.5
+mop.cp4 mop.hp4 1
+mop.cp4 mop.cp5 1.5
+mop.cp5 mop.np5 1
+mop.np5 mop.op51 1.5
+mop.np5 mop.op52 1.5
+mop.cp5 mop.cp6 1.5
+mop.cp6 mop.hp6 1
+mop.cp6 mop.cp1 1.5
+0
+0
+0
+0
+Mordant orange 1 with 
+para diamino xylene 

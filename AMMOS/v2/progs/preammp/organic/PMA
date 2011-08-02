@@ -1,0 +1,101 @@
+46
+name pma.ca1 type C3  charge -.153
+name pma.ca2 type C3  charge -.306
+name pma.ca3 type C3  charge -.306
+name pma.ca4 type C3  charge .1
+name pma.ca5 type C3  charge -.153
+name pma.ca6 type C3  charge -.153
+name pma.ca7 type C3  charge -.153
+name pma.ca8 type C3  charge -.306
+name pma.ca9 type C3  charge -.306
+name pma.ca10 type C3  charge -.306
+name pma.h11 type H 
+name pma.h21 type H 
+name pma.h22 type H 
+name pma.h31 type H 
+name pma.h32 type H 
+name pma.n4  type n2 charge -.1
+name pma.hca4 type h 
+name pma.hn4 type h 
+name pma.h51 type H 
+name pma.h61 type H 
+name pma.h71 type H 
+name pma.h81 type H 
+name pma.h82 type H 
+name pma.h91 type H 
+name pma.h92 type H 
+name pma.h101 type H 
+name pma.h102 type H 
+name pma.c1 type C2  charge -.153
+name pma.c2 type C2  charge -.153
+name pma.c3 type C2  charge -.153
+name pma.c4 type C2  charge -.153
+name pma.c5 type C2  charge -.153
+name pma.c6 type C2  charge -.153
+name pma.cp  type c3 charge -.306
+name pma.hp1 type h
+name pma.hp2 type h
+name pma.n1   type n3 charge .22
+name pma.hn11 type h charge .311
+name pma.hn12 type h charge .311
+name pma.hn13 type h charge .311
+name pma.co  type c2  charge .153
+name pma.oo type o2
+name pma.h2  type H  charge .153
+name pma.h3  type H 
+name pma.h5  type H 
+name pma.h6  type H  charge .153
+49
+pma.ca1 pma.ca2 1
+pma.ca1 pma.h11 1
+pma.ca1 pma.ca3 1
+pma.ca1 pma.ca4 1
+pma.ca2 pma.h21 1
+pma.ca2 pma.h22 1
+pma.ca2 pma.ca5 1
+pma.ca3 pma.ca6 1
+pma.ca3 pma.h31 1
+pma.ca3 pma.h32 1
+pma.ca4 pma.ca7 1
+pma.ca4 pma.n4 1
+pma.ca4 pma.hca4 1
+pma.n4 pma.hn4 1
+pma.ca5 pma.h51 1
+pma.ca6 pma.h61 1
+pma.ca7 pma.h71 1
+pma.ca5 pma.ca10 1
+pma.ca5 pma.ca8 1
+pma.ca6 pma.ca8 1
+pma.ca6 pma.ca9 1
+pma.ca7 pma.ca9 1
+pma.ca7 pma.ca10 1
+pma.ca8 pma.h81 1
+pma.ca8 pma.h82 1
+pma.ca9 pma.h91 1
+pma.ca9 pma.h92 1
+pma.ca10 pma.h101 1
+pma.ca10 pma.h102 1
+pma.c1 pma.c2 1.5
+pma.c2 pma.c3 1.5
+pma.c3 pma.c4 1.5
+pma.c4 pma.c5 1.5
+pma.c5 pma.c6 1.5
+pma.c6 pma.c1 1.5
+pma.c1 pma.co 1
+pma.co pma.oo 2
+pma.c2 pma.h2 1
+pma.c3 pma.h3 1
+pma.c4 pma.cp 1
+pma.c5 pma.h5 1
+pma.c6 pma.h6 1
+pma.cp pma.n1 1
+pma.cp pma.hp1 1
+pma.cp pma.hp2 1
+pma.n1 pma.hn11 1
+pma.n1 pma.hn12 1
+pma.n1 pma.hn13 1
+pma.co pma.n4 1
+0
+0
+0
+# aminomethyl benzoic acid  2 amantamine 

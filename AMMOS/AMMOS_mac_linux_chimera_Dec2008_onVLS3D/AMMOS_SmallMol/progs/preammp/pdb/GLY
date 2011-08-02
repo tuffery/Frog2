@@ -1,0 +1,16 @@
+7
+name gly.n type np charge -0.463
+name gly.h type hd charge 0.252
+name gly.ca type c3 charge 0.035
+name gly.ha2 type h charge 0.032
+name gly.ha3 type h charge 0.032
+name gly.c type c2 charge 0.616
+name gly.o type o2 charge -0.504
+6
+gly.n gly.h 1
+gly.n gly.ca 1
+gly.ca gly.ha2 1
+gly.ca gly.ha3 
+gly.ca gly.c 1
+gly.c gly.o 1.75
+

@@ -1,0 +1,41 @@
+
+# oxtlink.ammp ;
+# generate the oxt patch ;
+# equivalences   ;
+#  gly.2ha cb gly.1ha ha ; 
+;
+serial ioxt ires oxt;
+jl ioxt 0 notdef: ;
+serial ic ires c ;
+jl ic 0 notdef: ;
+serial ica ires ca ;
+jl ica 0 notdef: ;
+serial io ires o ;
+jl io 0 notdef: ;
+serial iha ires ha ;
+serial icb ires cb; 
+jnes io gly.o  notigly: ;
+serial iha ires 1ha ;
+serial icb ires 2ha ;
+jg icb 0 notigly: ;
+nop;  notigly: ;
+serial in ires n ;
+jl in 0 notdef: ;
+jl icb 0 notdef: ;
+jl iha 0 notdef: ;
+
+
+mov ioxt.m io.m;
+mov ioxt.q io.q;
+mov ioxt.a io.a;
+mov ioxt.b io.b;
+mov ioxt.jaa io.jaa;
+mov ioxt.chi io.chi;
+ bond ic ioxt 1.308111 640.864687 ;
+ angle ica ic ioxt 100.032394 120.000000 ;
+ angle io ic ioxt 195.285553  120.000000 ;
+ hybrid ica io  ioxt ic 150.000000 0.000000;
+ torsion in ica ic ioxt 0.166667 6 180.000000 ;
+ torsion icb ica ic ioxt 0.166667 6 180.000000 ;
+ torsion iha ica ic ioxt 0.166667 6 180.000000 ;
+nop ; notdef: ;

@@ -1,0 +1,28 @@
+11
+name cys.n type np charge -0.463
+name cys.hn type hd charge 0.252
+name cys.ca type c3 charge 0.035
+name cys.ha type h charge 0.048
+name cys.c type c2 charge 0.616
+name cys.o type o2 charge -0.504
+name cys.cb type c3 charge -0.060
+name cys.hb1 type h charge 0.038
+name cys.hb2 type h charge 0.038
+name cys.sg type s34 charge -0.135
+name cys.hg type h charge 0.135
+10
+cys.n cys.hn 1
+cys.n cys.ca 1
+cys.ca cys.c 1
+cys.ca cys.cb 1
+cys.ca cys.ha 1
+cys.c cys.o 1.75
+cys.cb cys.sg 1
+cys.cb cys.hb1 1
+cys.cb cys.hb2 1
+cys.sg cys.hg 1
+0
+2
+cys.n cys.cb cys.c cys.ca  4 .494427
+cys.n cys.cb cys.c cys.ha  4  1.606971
+0

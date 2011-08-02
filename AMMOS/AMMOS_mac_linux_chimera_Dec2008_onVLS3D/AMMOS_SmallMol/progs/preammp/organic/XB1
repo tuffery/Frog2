@@ -1,0 +1,77 @@
+34
+name xyl.c1 type C2  charge -.153
+name xyl.c2 type C2  charge -.153
+name xyl.c3 type C2  charge -.153
+name xyl.c4 type C2  charge -.153
+name xyl.c5 type C2  charge -.153
+name xyl.c6 type C2  charge -.153
+name xyl.ca type c3
+name xyl.ha1 type h
+name xyl.ha2 type h
+name xyl.n type n3
+name xyl.hn type h
+name xyl.h2  type H  charge .153
+name xyl.h4  type H  charge .153
+name xyl.c31 type c3
+name xyl.h311 type h
+name xyl.h312 type h
+name xyl.n32 type n3
+name xyl.h32 type h
+name xyl.h5  type H  charge .153
+name xyl.h6  type H  charge .153
+name xxx.cb type c3 
+name xxx.hb1 type h
+name xxx.hb2 type h
+name xxx.cr1 type c2
+name xxx.cr2 type c2
+name xxx.cr3 type c2 
+name xxx.cr4 type c2
+name xxx.cr5 type c2
+name xxx.cr6 type c2
+name xxx.hr2 type h
+name xxx.hr3 type h 
+name xxx.hr4 type h
+name xxx.hr5 type h
+name xxx.hr6 type h
+35
+xxx.cb xyl.n32 1
+xxx.cb xxx.hb1 1
+xxx.cb xxx.hb2 1
+xxx.cb xxx.cr1 1
+xxx.cr1 xxx.cr2 1.5
+xxx.cr2 xxx.cr3 1.5
+xxx.cr3 xxx.cr4 1.5
+xxx.cr4 xxx.cr5 1.5
+xxx.cr5 xxx.cr6 1.5
+xxx.cr6 xxx.cr1 1.5
+xxx.cr2 xxx.hr2 1
+xxx.cr3 xxx.hr3 1
+xxx.cr4 xxx.hr4 1
+xxx.cr5 xxx.hr5 1
+xxx.cr6 xxx.hr6 1
+xyl.c1 xyl.c2 1.5
+xyl.c2 xyl.c3 1.5
+xyl.c3 xyl.c4 1.5
+xyl.c4 xyl.c5 1.5
+xyl.c5 xyl.c6 1.5
+xyl.c6 xyl.c1 1.5
+xyl.c1 xyl.ca 1
+xyl.ca xyl.ha1 1
+xyl.ca xyl.ha2 1
+xyl.ca xyl.n 1
+xyl.n xyl.hn 1
+xyl.c2 xyl.h2 1
+xyl.c3 xyl.c31 1
+xyl.c31 xyl.h311 1
+xyl.c31 xyl.h312 1
+xyl.c31 xyl.n32 1
+xyl.n32 xyl.h32 1
+xyl.c4 xyl.h4 1
+xyl.c5 xyl.h5 1
+xyl.c6 xyl.h6 1
+0
+0
+0
+0
+0
+meta diamino xylene +2

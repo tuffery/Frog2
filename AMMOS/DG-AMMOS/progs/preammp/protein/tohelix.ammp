@@ -1,0 +1,13 @@
+mov jres ires; add jres 1;
+serial i0 ires ca;
+serial i1 ires c;
+serial i2 jres n;
+serial i3 jres ca;
+serial i4 jres c;
+serial i5 jres o;
+
+tset i0 i1 i2 i3 180.;
+tset i2 i3 i4 i5 134;
+jes i3 pro.ca done: ;
+tset i1 i2 i3 i4 -55;
+done: ;

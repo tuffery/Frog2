@@ -1,0 +1,228 @@
+95
+name chc.c1 type c3
+name chc.o1 type o3
+name chc.ho1 type h
+name chc.h1 type h
+name chc.c2 type c3
+name chc.h21 type h
+name chc.h22 type h
+name chc.c3 type c3
+name chc.h3 type h
+name chc.c4 type c3
+name chc.h41 type h
+name chc.h42 type h
+name chc.c5 type c3
+name chc.h5 type h
+name chc.o5 type o3
+name chc.ho5 type h
+name chc.c6 type c3
+name chc.h6 type h
+name chc.c7 type c3
+name chc.h7 type h
+name chc.c8 type c3
+name chc.h81 type h
+name chc.h82 type h
+name chc.c9 type c3
+name chc.h91 type h
+name chc.h92 type h
+name chc.c10 type c3
+name chc.h10 type h
+name chc.c11 type c3
+name chc.cm11 type c3
+name chc.hm11 type h
+name chc.hm12 type h
+name chc.hm13 type h
+name chc.c12 type c3
+name chc.h12 type h
+name chc.o12 type o3 
+name chc.ho12 type h
+name chc.c13 type c3
+name chc.h131 type h
+name chc.h132 type h
+name chc.c14 type c3
+name chc.h14 type h
+name chc.c15 type c3
+name chc.cn15 type c3
+name chc.hn11 type h
+name chc.hn12 type h
+name chc.hn13 type h
+name chc.c16 type c3
+name chc.h161 type h
+name chc.h162 type h
+name chc.c17 type c3
+name chc.h171 type h
+name chc.h172 type h
+name chc.cr1 type c3 
+name chc.hr1 type h
+name chc.crm1 type c3 
+name chc.hrm1 type h
+name chc.hrm2 type h
+name chc.hrm3 type h
+name chc.cr2 type c3 
+name chc.hr21 type h
+name chc.hr22 type h
+name chc.cr3 type c3
+name chc.hr31 type h
+name chc.hr32 type h
+name chc.cr4 type c2
+name chc.or41 type o2
+name chc.nr type np
+name chc.hnr type hd
+name chc.cb type c3
+name chc.hb1 type h
+name chc.hb2 type h
+name chc.cp1 type c3
+name chc.hp1 type h
+name chc.cp2 type c3
+name chc.hp2 type h
+name chc.hp21 type h
+name chc.cp3 type c3
+name chc.hp31 type h
+name chc.cp4 type c3
+name chc.hp41 type h
+name chc.hp4 type h
+name chc.cp5 type c3
+name chc.hp51 type h
+name chc.hp5 type h
+name chc.cp6 type c3
+name chc.hp61 type h
+name chc.hp6 type h
+name chc.ca type c3
+name chc.ha1 type h
+name chc.ha2 type h
+name chc.na type n3
+name chc.hna1 type hd
+name chc.hna2 type hd
+name chc.hna3 type hd
+99 
+chc.nr chc.cb 1
+chc.nr chc.hnr 1
+chc.cb chc.hb1 1
+chc.cb chc.hb2 1
+chc.cb chc.cp1 1
+chc.cp1 chc.hp1 1
+chc.cp1 chc.cp2 1
+chc.cp1 chc.cp6 1
+chc.cp2 chc.hp2 1
+chc.cp2 chc.hp21 1
+chc.cp2 chc.cp3 1
+chc.cp3 chc.ca 1
+chc.cp3 chc.hp31 1
+chc.cp3 chc.cp4 1
+chc.cp4 chc.hp4 1
+chc.cp4 chc.hp41 1
+chc.cp4 chc.cp5 1
+chc.cp5 chc.hp5 1
+chc.cp5 chc.hp51 1
+chc.cp5 chc.cp6 1
+chc.cp6 chc.hp6 1
+chc.cp6 chc.hp61 1
+chc.ca chc.ha1 1
+chc.ca chc.ha2 1
+chc.ca chc.na 1
+chc.na chc.hna1 1
+chc.na chc.hna2 1
+chc.na chc.hna3 1
+chc.c1 chc.h1 1
+chc.c1 chc.o1 1
+chc.o1 chc.ho1 1
+chc.c1 chc.c2 1
+chc.c2 chc.h21 1
+chc.c2 chc.h22 1
+chc.c2 chc.c3 1
+chc.c3 chc.h3 1
+chc.c3 chc.c15 1
+chc.c3 chc.c4 1
+chc.c4 chc.h41 1
+chc.c4 chc.h42 1
+chc.c4 chc.c5 1 
+chc.c5 chc.o5 1
+chc.o5 chc.ho5 1
+chc.c5 chc.h5 1
+chc.c5 chc.c6 1
+chc.c6 chc.c14 1
+chc.c6 chc.h6 1
+chc.c6 chc.c7 1
+chc.c7 chc.h7 1
+chc.c7 chc.c11 1 
+chc.c7 chc.c8 1
+chc.c8 chc.h81 1
+chc.c8 chc.h82 1
+chc.c8 chc.c9 1
+chc.c9 chc.h91 1
+chc.c9 chc.h92 1
+chc.c9 chc.c10 1
+chc.c10 chc.cr1 1
+chc.c10 chc.h10 1
+chc.c10 chc.c11 1
+chc.c11 chc.cm11 1
+chc.cm11 chc.hm11 1
+chc.cm11 chc.hm12 1
+chc.cm11 chc.hm13 1
+chc.c11 chc.c12 1
+chc.c12 chc.h12 1
+chc.c12 chc.o12 1
+chc.o12 chc.ho12 1
+chc.c12 chc.c13 1
+chc.c13 chc.h131 1
+chc.c13 chc.h132 1
+chc.c13 chc.c14 1
+chc.c14 chc.h14 1
+chc.c14 chc.c15 1
+chc.c15 chc.cn15
+chc.cn15 chc.hn11 1
+chc.cn15 chc.hn12 1
+chc.cn15 chc.hn13 1
+chc.c15 chc.c16 1
+chc.c16 chc.h161 1
+chc.c16 chc.h162 1
+chc.c16 chc.c17 1
+chc.c17 chc.h171 1
+chc.c17 chc.h172 1
+chc.c17 chc.c1 1
+chc.cr1 chc.crm1 1
+chc.crm1 chc.hrm1 1
+chc.crm1 chc.hrm2 1
+chc.crm1 chc.hrm3 1
+chc.cr1 chc.hr1 1
+chc.cr1 chc.cr2 1
+chc.cr2 chc.hr21 1
+chc.cr2 chc.hr22 1
+chc.cr2 chc.cr3 1
+chc.cr3 chc.hr31 1
+chc.cr3 chc.hr32 1
+chc.cr3 chc.cr4 1
+chc.cr4 chc.or41 2
+chc.cr4 chc.nr 1.
+0
+22
+chc.c9 chc.cr1 chc.c11 chc.c10  4 -.454948
+chc.c9 chc.cr1 chc.c11 chc.h10 4 -1.569965
+chc.c10 chc.crm1 chc.cr2 chc.cr1  4 -.428325
+chc.c10 chc.crm1 chc.cr2 chc.hr1  4 -1.542680
+chc.c7 chc.c10 chc.c12 chc.c11 4 .528651
+chc.c7 chc.c10 chc.c12 chc.cm11 4 2.088650
+chc.c6 chc.c8 chc.c11 chc.c7 4 -.419231
+chc.c6 chc.c8 chc.c11 chc.h7 4 -1.538937
+chc.c5 chc.c7 chc.c14 chc.c6 4  .432270
+chc.c5 chc.c7 chc.c14 chc.h6 4  1.535753
+chc.c6 chc.c13 chc.c15 chc.c14 4 -.369301
+chc.c6 chc.c13 chc.c15 chc.h14 4 -1.488753
+chc.c2 chc.c4 chc.c15 chc.c3 4 .446440
+chc.c2 chc.c4 chc.c15 chc.h3 4 1.562769
+chc.c3 chc.c14 chc.c16 chc.c15 4 .517579
+chc.c3 chc.c14 chc.c16 chc.cn15 4 2.069005
+chc.c1 chc.c2 chc.c17 chc.o1 4 -1.179919
+chc.c1 chc.c2 chc.c17 chc.h1 4 .923556
+chc.c5 chc.c6 chc.c4 chc.o5 4 -1.165854
+chc.c5 chc.c6 chc.c4 chc.h5 4 .913380
+chc.c12 chc.c14 chc.c11 chc.o12 4 -1.165854
+chc.c12 chc.c14 chc.c11 chc.h12 4 .913380
+0
+0
+
+
+# choleic acid -1 version
+chc.c9 chc.c10 chc.c11 chc.h10  4 -.992142
+chc.c9 chc.c10 chc.c11 chc.cr1  4 1.03409
+

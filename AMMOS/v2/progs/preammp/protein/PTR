@@ -1,0 +1,55 @@
+24
+name ptr.n type np charge -0.543
+name ptr.hn type hd charge 0.264
+name ptr.ca type c3 charge 0.016
+name ptr.ha type h charge 0.111
+name ptr.c type c2 charge 0.079
+name ptr.o type o2 charge -0.461
+name ptr.cb type c3 charge -0.089
+name ptr.hb1 type h charge 0.113
+name ptr.hb2 type h charge 0.113
+name ptr.cg type ca charge -0.013
+name ptr.cd1 type ca charge -0.056
+name ptr.cd2 type ca charge -0.056
+name ptr.hd1 type h charge 0.111
+name ptr.hd2 type h charge 0.111
+name ptr.ce1 type ca charge -0.060
+name ptr.ce2 type ca charge -0.060
+name ptr.he1 type h charge 0.109
+name ptr.he2 type h charge 0.109
+name ptr.cz type ca charge 0.061
+name ptr.oh type o2 charge -0.501
+name ptr.p type p35 charge 1.137
+name ptr.o1p type o2 charge -0.501
+name ptr.o2p type o2  charge -0.501
+name ptr.o3p type o2  charge -0.501
+24
+ptr.n ptr.hn 1
+ptr.n ptr.ca 1
+ptr.ca ptr.c 1
+ptr.ca ptr.cb 1
+ptr.ca ptr.ha 1
+ptr.c ptr.o 1.75
+ptr.cb ptr.cg 1
+ptr.cb ptr.hb1 1
+ptr.cb ptr.hb2 1
+ptr.cg ptr.cd1 1.5
+ptr.cg ptr.cd2 1.5
+ptr.cd1 ptr.ce1 1.5
+ptr.cd2 ptr.ce2 1.5
+ptr.ce1 ptr.cz 1.5
+ptr.ce2 ptr.cz 1.5
+ptr.cd1 ptr.hd1 1
+ptr.cd2 ptr.hd2 1
+ptr.ce1 ptr.he1 1
+ptr.ce2 ptr.he2 1
+ptr.cz ptr.oh 1
+ptr.oh ptr.p 1
+ptr.p ptr.o1p 1.5
+ptr.p ptr.o2p 1.5
+ptr.p ptr.o3p 1.5
+0
+2
+ptr.n ptr.cb ptr.c ptr.ca  4 .494427
+ptr.n ptr.cb ptr.c ptr.ha  4  1.606971
+0

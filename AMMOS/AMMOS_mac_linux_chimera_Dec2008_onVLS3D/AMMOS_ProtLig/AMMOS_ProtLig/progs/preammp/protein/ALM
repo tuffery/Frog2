@@ -1,0 +1,41 @@
+16
+name alm.cm type c3 
+name alm.hm1 type h
+name alm.hm2 type h
+name alm.hm3 type h
+name alm.cf type c2
+name alm.of type o2
+name alm.n type np charge -0.463
+name alm.hn type hd charge 0.252
+name alm.ca type c3 charge 0.035
+name alm.ha type h charge 0.048
+name alm.c type c2 charge 0.616
+name alm.o type o2 charge -0.504
+name alm.cb type c3 charge -0.092
+name alm.hb1 type h charge 0.036
+name alm.hb2 type h charge 0.036
+name alm.hb3 type h charge 0.036
+15
+alm.cf alm.of 1.75
+alm.cf alm.cm 1
+alm.n alm.cf 1.25
+alm.cm alm.hm1 1
+alm.cm alm.hm2 1
+alm.cm alm.hm3 1
+alm.n alm.hn 1
+alm.n alm.ca 1
+alm.ca alm.c 1
+alm.ca alm.cb 1
+alm.ca alm.ha 1
+alm.c alm.o 1.75
+alm.cb alm.hb1 1
+alm.cb alm.hb2 1
+alm.cb alm.hb3 1
+0
+2
+alm.n alm.cb alm.c alm.ca  4 .494427
+alm.n alm.cb alm.c alm.ha  4  1.606971
+0
+
+
+n-acetyle alanine

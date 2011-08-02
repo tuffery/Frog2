@@ -1,0 +1,90 @@
+41
+name nty.c1 type c2
+name nty.h1 type h
+name nty.c2 type c2
+name nty.h2 type h
+name nty.c3 type c2
+name nty.h3 type h
+name nty.c4 type c2
+name nty.h4 type h
+name nty.c5 type c2
+name nty.c6 type c2
+name nty.c7 type c3
+name nty.h71 type h
+name nty.h72 type h
+name nty.c8 type c3
+name nty.h82 type h
+name nty.h81 type h
+name nty.c9 type c2
+name nty.c10 type c2
+name nty.c11 type c2
+name nty.c12 type c2
+name nty.h12 type h
+name nty.c13 type c2
+name nty.h13 type h
+name nty.c14 type c2
+name nty.h14 type h
+name nty.c15 type c2
+name nty.h15 type h
+name nty.c16 type c3
+name nty.h16 type h
+name nty.c17 type c3
+name nty.h171 type h
+name nty.h172 type h
+name nty.c18 type c3
+name nty.h181 type h
+name nty.h182 type h
+name nty.n19 type n3
+name nty.h19 type h
+name nty.c20 type c3
+name nty.h201 type h
+name nty.h202 type h
+name nty.h203 type h
+43
+nty.c1 nty.h1 1
+nty.c1 nty.c2 1.5
+nty.c1 nty.c6 1.5
+nty.c2 nty.h2 1
+nty.c2 nty.c3 1.5
+nty.c3 nty.h3 1
+nty.c3 nty.c4 1.5
+nty.c4 nty.h4 1
+nty.c4 nty.c5 1.5
+nty.c5 nty.c7 1
+nty.c5 nty.c6 1.5
+nty.c6 nty.c11 1
+nty.c7 nty.h71 1
+nty.c7 nty.h72 1
+nty.c7 nty.c8 1
+nty.c8 nty.h81 1
+nty.c8 nty.h82 1
+nty.c8 nty.c9 1
+nty.c9 nty.c10 1
+nty.c9 nty.c12 1.5
+nty.c12 nty.c13 1.5
+nty.c12 nty.h12 1
+nty.c13 nty.c14 1.5
+nty.c13 nty.h13 1
+nty.c14 nty.c15 1.5
+nty.c14 nty.h14 1
+nty.c15 nty.c10 1.5
+nty.c15 nty.h15 1
+nty.c10 nty.c11 1.0
+nty.c11 nty.c16 2
+nty.c16 nty.h16 1
+nty.c16 nty.c17
+nty.c17 nty.h171 1
+nty.c17 nty.h172 1
+nty.c17 nty.c18
+nty.c18 nty.h181 1
+nty.c18 nty.h182 1
+nty.c18 nty.n19
+nty.n19 nty.h19 1
+nty.n19 nty.c20
+nty.c20 nty.h201 1
+nty.c20 nty.h202 1
+nty.c20 nty.h203
+0
+0
+0
+# norytyiptyline  a tri-cyclic antidepresent
