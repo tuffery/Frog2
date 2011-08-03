@@ -1,6 +1,7 @@
 This repository contains the full source code of **Frog2**,
 a tool devoted to the **2D/3D generation of ensemble of conformations for small drug-like compounds**.
  
+**WARNING**: this software is free software. It is distributed on an "as is" basis under the GNU General Public License (see the copy coming with this package and <http://www.gnu.org/licenses/>). No warranty of any kind granted.
 
 =========================================================================
 
