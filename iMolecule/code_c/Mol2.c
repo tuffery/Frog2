@@ -52,8 +52,6 @@ void getMol2AtomTail(char *line, char*tail)
 {
   char buff[30];
   char anom[5];
-  /* Changed buffer size 5 -> 7 */
-  //  char snom[5];
   char snom[7];
   float f;
   int i;
