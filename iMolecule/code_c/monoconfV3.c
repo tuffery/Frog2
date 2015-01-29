@@ -1038,7 +1038,7 @@ void ammp_ene(DtStructConf *aConf,
   fclose(f);
 
   /* Launch energy calculation */
-  sprintf(cmd, "%s/%s %s >& /dev/null", ammosHome, ammosCmd, ammosFName);
+  sprintf(cmd, "%s/%s %s 1> /dev/null 2>&1", ammosHome, ammosCmd, ammosFName);
   if (verbose)
     fprintf(stderr, "%s\n", cmd);
 
